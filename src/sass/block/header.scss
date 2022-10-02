@@ -1,0 +1,87 @@
+.header {
+
+    &__container {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    &__wrap {
+        display: flex;
+        gap: 48px;
+    }
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-size: rem(28px);
+    font-weight: 700;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: flex-start;
+    gap: rem(24px);
+}
+
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    gap: rem(12px);
+}
+
+.contacts__link,
+.contacts__email {
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease;
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+
+    &::before {
+        margin-right: 10px;
+    }
+}
+
+.header__main {
+    background-color: var(--primary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+    gap: rem(32px);
+}
+
+.navigation__link {
+    display: inline-flex;
+    color: var(--white-color);
+    font-size: rem(18px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header__languages {
+    display: flex;
+    flex-direction: column;
+    gap: rem(12px);
+}
+
+.languages__link {
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}

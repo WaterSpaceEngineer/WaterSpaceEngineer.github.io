@@ -1,0 +1,131 @@
+.call {
+    background-color: rgba(#2196f3, 0.05);
+    background-image: url('../img/worlds.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.call__container {
+    display: flex;
+    gap: 24px;
+}
+
+.call__box {
+    width: 50%;
+}
+
+.problem-box {
+
+    &__title {
+        &.title {
+            flex-direction: column;
+            text-align: left;
+        }
+
+        .title-decor {
+            color: var(--primary-color);
+        }
+    }
+
+    &__list {
+        max-width: rem(500px);
+    }
+
+    &__text {
+        display: flex;
+        align-items:baseline;
+        font-size: rem(18px);
+
+        &::before {
+            margin-right: 12px;
+            color: var(--accent-color);
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 16px;
+        } 
+    }
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+
+    &__wrap {
+        display: flex;
+        gap: rem(24px);
+        margin-bottom: rem(24px);
+    }
+
+    &__item {
+        position: relative;
+        width: item-base(2, 24px);
+    }
+
+    &__input {
+        width: 100%;
+        height: rem(48px);
+        border-radius: 3px;
+        border: 1px solid var(--secondary-text);
+        padding: 5px rem(12px) 5px rem(40px);
+        transition: border-color 0.3s ease;
+
+        &:hover,
+        &:focus {
+            border-color: var(--accent-color);
+        }
+    }
+
+    &__textarea {
+        resize: none;
+        height: rem(90px);
+        padding: 12px;
+        transition: border-color 0.3s ease;
+        margin-bottom: rem(48px);
+
+        &:hover,
+        &:focus {
+            border-color: var(--accent-color);
+        }
+    }
+
+    &__input,
+    &__textarea {
+        font-family: var(--main-font);
+        font-size: rem(16px);
+        color: var(--secondary-text);
+        background-color: transparent;
+        outline: transparent;
+
+        &::placeholder {
+            font-family: var(--main-font);
+            font-size: rem(16px);
+            color: var(--secondary-text);
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        color: var(--secondary-text);
+        top: 50%;
+        transform: translateY(-50%);
+        left: 12px;
+        transition: color 0.3s ease;
+        pointer-events: none;
+
+        &:hover {
+            color: var(--accent-color);
+        }
+
+        .form-block__input:hover + &,
+        .form-block__input:focus + & {
+            color: var(--accent-color);
+        }
+    }
+
+    &__button {
+        max-width: rem(270px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

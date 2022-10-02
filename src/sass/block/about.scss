@@ -1,0 +1,42 @@
+.about {
+    &__container {
+        display: flex;
+        gap: rem(24px);
+    }
+
+    &__box {
+        width: item-base(2, rem(24px));
+    }
+
+    &__video {
+        background-color: var(--divider-color);
+    }
+
+    &__title {
+        align-items: baseline;
+
+        &::before {
+            background: var(--accent-color);
+            display: block;
+            content: "";
+            width: 2.5rem;
+            height: 6px;
+        }
+    }
+
+    &__text {
+        &:not(:last-child) {
+            margin-bottom: 12px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: rem(12px);
+
+        &::before {
+            color: var(--accent-color);
+        }
+    }
+}

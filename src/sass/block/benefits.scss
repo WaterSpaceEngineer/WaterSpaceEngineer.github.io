@@ -1,0 +1,124 @@
+.benefits__title {
+    align-items: baseline;
+    
+    &::before {
+        display: block;
+		content: '';
+		width: rem(40px);
+		height: 6px;
+        transform: rotate(215deg);
+        background-color: var(--accent-color);
+    }
+}
+
+.benefits__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(24px);
+}
+
+.benefits__item {
+    position: relative;
+    display: flex;
+    width: item-base(2,24px);
+
+    @include min768 {
+        flex-direction: column;
+        width: item-base(3,24px);
+    }
+
+    &::before {
+        @include min768 {
+            display: block;
+            content: '';
+            width: 100%;
+            max-width: rem(390px);
+            height: rem(190px);
+            background-color: var(--divider-color);
+            overflow: hidden;
+            border-top-right-radius: rem(24px) rem(24px);
+        }
+
+        @include min1200 {
+            border-top-right-radius: rem(32px) rem(32px);
+        }
+    }
+}
+
+@include min768 {
+    .benefits__item.benefits-quality::before {
+        background-image: url('../img/benefits/quality.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .benefits__item.benefits-value::before {
+        background-image: url('../img/benefits/value.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .benefits__item.benefits-cooperation::before {
+        background-image: url('../img/benefits/cooperation.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .benefits__item.benefits-laboratory::before {
+        background-image: url('../img/benefits/laboratory.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .benefits__item.benefits-consultation::before {
+        background-image: url('../img/benefits/consultation.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .benefits__item.benefits-support::before {
+        background-image: url('../img/benefits/support.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.benefits__text {
+    min-height: rem(75px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: rem(6px) rem(12px);
+    font-size: rem(16px);
+
+    @include max767 {
+        border-top-right-radius: rem(18px) rem(18px);
+        background-color: var(--light-primary-color);
+    }
+
+    @include min768-max1199 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    @include min768 {
+        
+        font-size: rem(18px);
+        background-color: var(--white-color);
+    }
+
+    @include min1200 {
+        border: 1px solid var(--divider-color);
+        border-top: none;
+    }
+}

@@ -1,0 +1,42 @@
+.certificates {
+
+    &__title {
+        align-items: flex-start;
+        &::after {
+            display: block;
+            content: '';
+            width: rem(40px);
+            height: 6px;
+            background-color: var(--accent-color);
+        }
+    }
+}
+
+.certificates__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: rem(24px);
+}
+
+.certificates__item {
+    width: 100%;
+
+    @include min768 {
+        width: item-base(2, 24px);
+    }
+
+    @include min1200 {
+        width: item-base(4, 24px);
+    }
+}
+
+.certificates__wrap {
+    background-color: var(--divider-color);
+    margin-bottom: rem(24px);
+}
+
+.certificates__name {
+    padding: rem(8px) rem(12px);
+    text-align: center;
+}

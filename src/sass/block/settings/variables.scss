@@ -1,19 +1,29 @@
-$white-color: #ffffff;
-$black-color: #000000;
-$grey-color: #aaaaaa;
+:root {
+    --main-text-color: #212121;
+    --secondary-text: #757575;
+
+    --accent-color: #2196f3;
+
+    --light-primary-color: #f0f9ff;
+    --primary-color: #0c84e4;
+    --dark-primary-color: #19588a;
+    --divider-color: #e8e8e8;
+    --light-divider-color: #fafafa;
+
+    --black-color: #000000;
+    --white-color: #ffffff;
+
+
+    --main-font: 'Oswald-Regular', sans-serif;
+}
 
 $light-font: 'Oswald-Light', sans-serif;
-$main-font: 'Oswald-Regular', sans-serif;
 $bold-font: 'Oswald-Bold', sans-serif;
 
-$base-size: 100%;
+$base-size: 16px;
 $baze-line: 1.5;
 
-$weight-light: 300;
-$weight-regular: 400;
-$weight-bold: 700;
-
 $minWidth: 320px;
-$maxWidth: 1200px;
+$maxWidth: 1920px;
 
 $maxWidthContainer: 1230px;

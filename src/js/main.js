@@ -1,3 +1,7 @@
-const sum = require('./module/sum.js');
-console.log(sum(2,10));
-console.log(sum(12,10));
+import './libs/sliders'
+
+import modals from './modules/modals';
+
+window.addEventListener('DOMContentLoaded', () => {
+    modals();
+});
