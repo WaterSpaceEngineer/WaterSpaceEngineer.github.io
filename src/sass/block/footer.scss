@@ -5,6 +5,8 @@
     padding-top: 64px;
     padding-bottom: 32px;
     background-image: url('../img/footer-bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
 
     &__container {
         display: flex;

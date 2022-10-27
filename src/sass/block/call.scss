@@ -7,17 +7,31 @@
 
 .call__container {
     display: flex;
+    flex-direction: column;
     gap: 24px;
+
+    @include min768 {
+        flex-direction: row;
+    }
 }
 
 .call__box {
-    width: 50%;
+    width: 100%;
+
+    @include min768 {
+        width: item-base(2, 24px);
+    }
 }
 
 .problem-box {
 
     &__title {
+        
         &.title {
+            @include max767 {
+                text-align: center;
+            }
+
             flex-direction: column;
             text-align: left;
         }
@@ -28,7 +42,10 @@
     }
 
     &__list {
-        max-width: rem(500px);
+
+        @include min768 {
+            max-width: rem(500px);
+        }
     }
 
     &__text {
