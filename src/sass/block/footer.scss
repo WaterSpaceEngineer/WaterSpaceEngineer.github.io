@@ -1,10 +1,7 @@
-.footer {
-}
-
 .footer-main {
     padding-top: 64px;
     padding-bottom: 32px;
-    background-image: url('../img/footer-bg.svg');
+    background-image: url('../img/backgrounds/oblique-lines-bg.svg');
     background-repeat: no-repeat;
     background-position: bottom center;
 
@@ -15,19 +12,22 @@
     }
 }
 
-.footer-main__basic {
-    max-width: rem(270px);
+.footer-menu__list {
+    display: block;
+
+    &:not(:last-child) {
+        margin-bottom: rem(12px);
+    }
+
+    .emphasis::before,
+    .link-active::before {
+        background-color: var(--main-text-color);
+    }
 }
 
-.footer__logo {
-    display: flex;
-    font-size: rem(28px);
-    font-weight: 700;
-    margin-bottom: rem(24px);
-}
-
-.footer-main__text:not(:last-child) {
-    margin-bottom: rem(12px);
+.footer-menu__link {
+    padding-bottom: 5px;
+    font-size: 16px;
 }
 
 .footer-main__address {

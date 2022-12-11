@@ -12,7 +12,8 @@ body {
 	background-color: var(--white-color);
 }
 
-ul, li {
+ul,
+li {
 	list-style: none;
 }
 
@@ -29,22 +30,22 @@ img {
 }
 
 .wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
 }
 
 .page {
-    flex: 1 1 auto;
+	flex: 1 1 auto;
 }
 
 .container {
-    max-width: $maxWidthContainer;
+	max-width: $maxWidthContainer;
 	margin-left: auto;
 	margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .section {
@@ -52,25 +53,58 @@ img {
 	padding-bottom: 64px;
 }
 
-.title {
-	position: relative;
+.main-title {
+	text-align: center;
 	margin-bottom: rem(24px);
+	font-size: 18px;
+
+	// @include min768 {
+	// 	margin-bottom: rem(64px);
+	// 	font-size: rem(48px);
+	// }
+}
+
+.section-title {
+	position: relative;
+	margin-bottom: rem(26px);
 	display: flex;
 	justify-content: center;
 	gap: 16px;
-	font-size: rem(28px);
+	font-size: rem(30px);
 	text-align: center;
+	align-items: center;
 	text-transform: uppercase;
 
 	@include min768 {
 		margin-bottom: rem(48px);
-		font-size: rem(32px);
+		font-size: rem(36px);
 	}
 }
 
 .title-block {
-	margin-bottom: rem(24px);
-	font-size: rem(28px);
+	text-transform: uppercase;
+	margin-bottom: rem(22px);
+	font-size: rem(24px);
+
+	@include min768 {
+		margin-bottom: rem(24px);
+		font-size: rem(26px);
+	}
+}
+
+.title-decoration {
+
+	&::before {
+		display: block;
+		content: "";
+		background-color: var(--accent-color);
+		width: rem(16px);
+		height: rem(16px);
+	}
+}
+
+.color-decoration {
+	color: var(--primary-color);
 }
 
 .button {
@@ -128,32 +162,87 @@ img {
 	}
 }
 
+.link-active {
+	position: relative;
+
+	&::before {
+		display: block;
+		position: absolute;
+		content: '';
+		background-color: var(--white-color);
+		width: 100%;
+		height: 2px;
+		bottom: 0;
+	}
+}
+
+.logo-box {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.waterspace-logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	&__img {
+		width: 100%;
+		max-width: rem(130px);
+	}
+
+	&__text {
+		font-size: 12px;
+	}
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	font-size: rem(28px);
+	font-weight: 700;
+	max-width: rem(280px);
+	text-transform: uppercase;
+
+	&__icon {
+		display: block;
+		transform: rotate(-90deg);
+		width: rem(28px);
+		height: rem(28px);
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+
 .fadeIn {
-    animation-name: fadeIn;
-    animation-duration: 0.8s;
-    animation-fill-mode: both;
+	animation-name: fadeIn;
+	animation-duration: 0.8s;
+	animation-fill-mode: both;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 .fadeOut {
-    animation-name: fadeOut;
-    animation-duration: 0.8s;
-    animation-fill-mode: both;
+	animation-name: fadeOut;
+	animation-duration: 0.8s;
+	animation-fill-mode: both;
 }
 
 @keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
 }

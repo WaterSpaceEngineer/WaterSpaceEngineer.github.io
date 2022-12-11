@@ -1,8 +1,8 @@
-const swiper = new Swiper('.hero-swiper', {
+const swiper = new Swiper('.actual-swiper', {
     loop: true,
 
     autoplay: {
-        delay: 5000,
+        delay: 7000,
         disableOnInteraction: false,
     },
 

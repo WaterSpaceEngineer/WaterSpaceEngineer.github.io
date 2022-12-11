@@ -1,31 +1,19 @@
-.activity {
-    background-color: var(--light-primary-color);
-    background-image: url('../img/activity-bg.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    &__title {
-        align-items: baseline;
-
-        &::before {
-            background: var(--accent-color);
-            display: block;
-            content: "";
-            height: 2.5rem;
-            width: 6px;
-        }
-    }
+.products {
+    // background-image: url('../img/backgrounds/circles-bg.svg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-color: var(--light-primary-color);
 }
 
-.activity__list {
+.products__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
 }
 
-.activity-item {
+.products-item {
     width: 100%;
     max-width: 282px;
     height: 282px;
@@ -38,7 +26,7 @@
     }
 }
 
-.activity-item__link {
+.products-item__link {
     position: relative;
     display: flex;
     background-color: var(--white-color);
@@ -51,21 +39,21 @@
     }
 }
 
-.activity-item__img {
+.products-item__img {
     filter: grayscale(100%);
     object-fit: cover;
     opacity: 0.25;
     transform: scale(1);
     transition: opacity 0.5s ease, transform 0.5s ease;
 
-    .activity-item__link:hover &,
-    .activity-item__link:focus & {
+    .products-item__link:hover &,
+    .products-item__link:focus & {
         opacity: 1;
         transform: scale(1.2);
     }
 }
 
-.activity-item__content {
+.products-item__content {
     position: absolute;
     top: 0;
     left: 0;
@@ -74,22 +62,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: rem(20px);
 }
 
-.activity-item__title {
+.products-item__title {
     color: var(--dark-primary-color);
     font-size: rem(24px);
     font-weight: 400;
     transition: color 0.3s ease;
 
-    .activity-item__link:hover &,
-    .activity-item__link:focus & {
+    .products-item__link:hover &,
+    .products-item__link:focus & {
         color: transparent;
     }
 }
 
-.activity-item__arrow {
+.products-item__arrow {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -108,8 +97,8 @@
                 color 0.3s ease;
     z-index: 1;
 
-    .activity-item__link:hover &,
-    .activity-item__link:focus & {
+    .products-item__link:hover &,
+    .products-item__link:focus & {
         background-color: var(--dark-primary-color);
         border-color: var(--white-color);
         color: var(--white-color);

@@ -1,6 +1,6 @@
 .call {
     background-color: rgba(#2196f3, 0.05);
-    background-image: url('../img/worlds.png');
+    background-image: url('../img/backgrounds/words-bg.png');
     background-size: cover;
     background-position: center;
 }
@@ -27,17 +27,13 @@
 
     &__title {
         
-        &.title {
+        &.section-title {
             @include max767 {
                 text-align: center;
             }
 
             flex-direction: column;
             text-align: left;
-        }
-
-        .title-decor {
-            color: var(--primary-color);
         }
     }
 

@@ -1,14 +1,9 @@
-.benefits__title {
-    align-items: baseline;
-    
-    &::before {
-        display: block;
-		content: '';
-		width: rem(40px);
-		height: 6px;
-        transform: rotate(215deg);
-        background-color: var(--accent-color);
-    }
+.benefits {
+    background-image: url('../img/backgrounds/circles-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--light-primary-color);
 }
 
 .benefits__list {
