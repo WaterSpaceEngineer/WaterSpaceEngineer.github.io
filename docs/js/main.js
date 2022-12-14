@@ -1,1 +1,80 @@
-!function(){var e={768:function(){new Swiper(".actual-swiper",{loop:!0,autoplay:{delay:7e3,disableOnInteraction:!1},pagination:{el:".swiper-pagination",clickable:!0},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}})},693:function(e,t,o){"use strict";o(768);var n=o(663);window.addEventListener("DOMContentLoaded",(()=>{(0,n.Z)()}))},663:function(e,t){"use strict";t.Z=()=>{!function(e,t,o,n=!0){const s=document.querySelectorAll(e),i=document.querySelector(t),a=document.querySelector(o),d=document.querySelectorAll("[data-modal]"),l=function(){let e=document.createElement("div");e.style.width="50px",e.style.height="50px",e.style.overflowY="scroll",e.style.visibility="hidden",document.body.appendChild(e);let t=e.offsetWidth-e.clientWidth;return e.remove(),t}();s.forEach((e=>{e.addEventListener("click",(e=>{e.target&&e.preventDefault(),d.forEach((e=>{e.style.display="none",e.classList.add("fadeIn")})),i.style.display="block",document.body.style.overflow="hidden",document.body.style.marginRight=`${l}px`}))})),a.addEventListener("click",(()=>{d.forEach((e=>{e.classList.remove("fadeIn"),e.classList.add("fadeOut"),setTimeout((()=>{e.classList.remove("fadeOut"),e.style.display="none"}),800)})),i.classList.remove("fadeIn"),i.classList.add("fadeOut"),setTimeout((()=>{i.classList.remove("fadeOut"),i.style.display="none"}),800),document.body.style.overflow="",document.body.style.marginRight="0px"})),i.addEventListener("click",(e=>{e.target===i&&n&&(d.forEach((e=>{e.classList.remove("fadeIn"),e.classList.add("fadeOut"),setTimeout((()=>{e.classList.remove("fadeOut"),e.style.display="none"}),800)})),i.classList.remove("fadeIn"),i.classList.add("fadeOut"),setTimeout((()=>{i.classList.remove("fadeOut"),i.style.display="none"}),800),document.body.style.overflow="",document.body.style.marginRight="0px")}))}(".phone__link",".popup",".popup .popup__close")}}},t={};function o(n){var s=t[n];if(void 0!==s)return s.exports;var i=t[n]={exports:{}};return e[n](i,i.exports,o),i.exports}o.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return o.d(t,{a:t}),t},o.d=function(e,t){for(var n in t)o.o(t,n)&&!o.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},o.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},o(693),o(768),o(663)}();
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (function() { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/js/main.js":
+/*!************************!*\
+  !*** ./src/js/main.js ***!
+  \************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_modals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/modals */ \"./src/js/modules/modals.js\");\n\n\nwindow.addEventListener('DOMContentLoaded', () => {\n    (0,_modules_modals__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n});\n\n//# sourceURL=webpack://gulp-codequest/./src/js/main.js?");
+
+/***/ }),
+
+/***/ "./src/js/modules/modals.js":
+/*!**********************************!*\
+  !*** ./src/js/modules/modals.js ***!
+  \**********************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\nconst modals = () => {\n    function bindModal(triggerSelector, modalSelector, closeSelector, closeClickOverlay = true) {\n        const trigger = document.querySelectorAll(triggerSelector);\n        const modal = document.querySelector(modalSelector);\n        const close = document.querySelector(closeSelector);\n        const windows = document.querySelectorAll('[data-modal]'); // необходим для работы со всеми модальными окнами\n        const scroll = calcScroll();\n\n        trigger.forEach(item => {\n            item.addEventListener('click', (e) => {\n                if (e.target) {\n                    e.preventDefault();\n                }\n\n                windows.forEach(item => {\n                    item.style.display = 'none';\n                    item.classList.add('fadeIn');\n                });\n    \n                modal.style.display = \"block\";\n                document.body.style.overflow = \"hidden\";\n                document.body.style.marginRight = `${scroll}px`;\n            });\n        });\n\n        close.addEventListener('click', () => {\n            windows.forEach(item => {\n                item.classList.remove('fadeIn');\n                item.classList.add('fadeOut');\n    \n                setTimeout(() => {\n                    item.classList.remove('fadeOut')\n                    item.style.display = \"none\";\n                }, 800)\n\n            });\n\n            modal.classList.remove('fadeIn');\n            modal.classList.add('fadeOut');\n\n            setTimeout(() => {\n                modal.classList.remove('fadeOut');\n                modal.style.display = \"none\";\n            }, 800)\n\n\n            document.body.style.overflow = \"\";\n            document.body.style.marginRight = `0px`;\n        });\n\n        modal.addEventListener('click', (e) => {\n            if (e.target === modal && closeClickOverlay) {\n                windows.forEach(item => {\n                    item.classList.remove('fadeIn')\n                    item.classList.add('fadeOut')\n        \n                    setTimeout(() => {\n                        item.classList.remove('fadeOut')\n                        item.style.display = \"none\";\n                    }, 800)\n                });\n\n                \n                modal.classList.remove('fadeIn')\n                modal.classList.add('fadeOut')\n    \n                setTimeout(() => {\n                    modal.classList.remove('fadeOut')\n                    modal.style.display = \"none\";\n                }, 800)\n\n                document.body.style.overflow = \"\"; \n                document.body.style.marginRight = `0px`;\n            }\n        });\n    }\n\n     // Popup который вызывается через время\n     function showModalByTime(selector, time) {\n        setTimeout(function() {\n            let display;\n\n            document.querySelectorAll('[data-modal]').forEach(item => {\n                if (getComputedStyle(item).display !== 'none') {\n                    display = 'block';\n                }\n            });\n\n            if(!display) {\n                document.querySelector(selector).style.display = 'block';\n                document.body.style.overflow = \"hidden\";\n\n                const scroll = calcScroll();\n                document.body.style.marginRight = `${scroll}px`;\n            }\n        }, time);\n    }\n\n    function calcScroll() {\n        let div = document.createElement('div');\n\n        div.style.width = '50px';\n        div.style.height = '50px';\n        div.style.overflowY = 'scroll';\n        div.style.visibility = 'hidden';\n\n        document.body.appendChild(div);\n        let scrollWidth = div.offsetWidth - div.clientWidth;\n        div.remove();\n\n        return scrollWidth;\n    }\n\n    bindModal('.phone__link', '.popup', '.popup .popup__close');\n    // showModalByTime('.popup', 60000);\n   \n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (modals);\n\n//# sourceURL=webpack://gulp-codequest/./src/js/modules/modals.js?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	!function() {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = function(exports) {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	__webpack_require__("./src/js/main.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/js/modules/modals.js");
+/******/ 	
+/******/ })()
+;

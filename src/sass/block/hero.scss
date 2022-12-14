@@ -5,3 +5,44 @@
   background-position: center;
   background-color: var(--light-divider-color);
 }
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero__content {
+  max-width: rem(750px);
+  margin: 0 auto;
+}
+
+.hero__title {
+  text-align: center;
+  margin-bottom: rem(24px);
+  font-size: rem(18px);
+
+  @include min768 {
+    margin-bottom: rem(48px);
+    font-size: rem(42px);
+  }
+}
+
+.hero__undertitle {
+  max-width: rem(600px);
+  margin: 0 auto;
+  text-align: center;
+  font-size: rem(24px);
+}
+
+.hero__images {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    object-fit: cover;
+  }
+}

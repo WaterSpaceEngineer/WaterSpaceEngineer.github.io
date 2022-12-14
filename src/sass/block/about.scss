@@ -20,10 +20,8 @@
 
         @include min768 {
             width: item-base(2, rem(24px));
-        }    
+        }
     }
-
-    
 
     &__title {
         align-items: baseline;

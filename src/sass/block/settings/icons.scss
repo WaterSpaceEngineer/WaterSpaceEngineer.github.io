@@ -30,38 +30,27 @@
 	}
 }
 
-._icon-email:before {
-	content: "\e901";
-}
-
-._icon-arrow-right:before {
-	content: "\e902";
-}
-
-._icon-checkmark:before {
-	content: "\e903";
-}
-
 ._icon-arrow-down:before {
-	content: "\e900";
+  content: "\e900";
 }
-
-._icon-close:before {
-	content: "\e904";
+._icon-arrow-right:before {
+  content: "\e901";
 }
-
-._icon-phone:before {
-	content: "\e942";
+._icon-checkmark:before {
+  content: "\e902";
 }
-
+._icon-email:before {
+  content: "\e903";
+}
 ._icon-location:before {
-	content: "\e947";
+  content: "\e904";
 }
-
 ._icon-mobile:before {
-	content: "\e958";
+  content: "\e905";
 }
-
+._icon-phone:before {
+  content: "\e906";
+}
 ._icon-user:before {
-	content: "\e971";
+  content: "\e907";
 }

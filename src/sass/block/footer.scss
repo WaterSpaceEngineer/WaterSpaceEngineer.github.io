@@ -67,3 +67,11 @@
         color: var(--white-color);
     }
 }
+
+.footer {
+    .logo-box {
+        display: flex;
+        flex-direction: column;
+        row-gap: rem(12px);
+    }
+}

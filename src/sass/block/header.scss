@@ -4,17 +4,13 @@
         padding-top: 16px;
         padding-bottom: 16px;
     }
-
-    &__wrap {
-        display: flex;
-        gap: 48px;
-    }
 }
 
 .header__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: rem(24px);
 }
 
 .header__contacts {
@@ -59,10 +55,22 @@
 
 .navigation__link {
     display: inline-flex;
+    align-items: baseline;
+    gap: 5px;
+    flex-direction: row-reverse;
     color: var(--white-color);
     font-size: rem(18px);
     padding-top: 10px;
     padding-bottom: 10px;
+
+    &::before {
+        font-size: 12px;
+        transition: transform 0.3s ease;
+    }
+
+    &:hover::before {
+        transform: rotate(180deg);
+    }
 }
 
 .header__languages {
