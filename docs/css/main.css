@@ -233,9 +233,6 @@ img {
 
 .logo__icon {
   display: block;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 3px;
