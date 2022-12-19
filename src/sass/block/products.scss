@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--light-primary-color);
+    background-color: var(--light-divider-color);
 }
 
 .products__list {
@@ -31,6 +31,7 @@
     display: flex;
     background-color: var(--white-color);
     transition: background-color 0.5s ease;
+    height: 100%;
     cursor: pointer;
 
     &:hover,

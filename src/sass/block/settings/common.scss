@@ -72,11 +72,11 @@ img {
 
 .title-block {
 	margin-bottom: rem(16px);
-	font-size: rem(24px);
+	font-size: rem(22px);
 
 	@include min768 {
 		margin-bottom: rem(18px);
-		font-size: rem(26px);
+		font-size: rem(24px);
 	}
 }
 
@@ -164,19 +164,23 @@ img {
 	}
 }
 
-.waterspace-logo {
-	display: flex;
-	flex-direction: column;
-	gap: 5px;
-	font-size: rem(16px);
+.waterspace {
+	width: 100%;
+	display: inline-flex;
+	align-items: baseline;
+	justify-content: center;
+	width: 100%;
+	gap: 3px;
 
-	&__wrap {
-		display: flex;
-		gap: 3px;
+	&__logo {
+		display: inline-flex;
+		max-width: rem(150px);
 	}
-	
-	&__img {
-		max-width: rem(170px);
+
+	&__text {
+		display: inline-flex;
+		font-size: rem(30px);
+		font-weight: 700;
 	}
 }
 

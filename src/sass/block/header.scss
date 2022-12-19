@@ -17,6 +17,8 @@
     display: flex;
     align-items: flex-start;
     gap: rem(24px);
+    flex: 1 1 auto;
+    justify-content: flex-end;
 }
 
 .contacts__list {
@@ -60,8 +62,8 @@
     flex-direction: row-reverse;
     color: var(--white-color);
     font-size: rem(18px);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 
     &::before {
         font-size: 12px;

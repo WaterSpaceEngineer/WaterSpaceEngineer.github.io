@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="ru"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width,initial-scale=1">    <title>ЭКОТЕХ-Инжиниринг</title>    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">    <link rel="manifest" href="./img/favicons/site.webmanifest">    <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#5bbad5">    <meta name="msapplication-TileColor" content="#da532c">    <meta name="theme-color" content="#ffffff">    <link rel="stylesheet" href="css/main.min.css"></head><body>    <div class="wrapper">        <header class="header">
+<!DOCTYPE html><html lang="ru"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width,initial-scale=1">    <title>ЭКОТЕХ-Инжиниринг</title>    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">    <link rel="manifest" href="./img/favicons/site.webmanifest" crossorigin="use-credentials">    <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#5bbad5">    <meta name="msapplication-TileColor" content="#da532c">    <meta name="theme-color" content="#ffffff">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">    <link rel="stylesheet" href="css/main.min.css"></head><body>    <div class="wrapper">        <header class="header">
     <div class="header__container container">
         <div class="header__top">
             <a class="logo" href="./index.html">
@@ -8,13 +8,6 @@
                 </span>
                 Инжиниринг
             </a>
-            <p class="waterspace-logo">
-                <span class="waterspace-logo__wrap">
-                    <img class="waterspace-logo__img" src="./img/logos/water-space-logo.png" alt="Логотип торговой марки waterspace">
-                    &ndash; наша торговая
-                </span>
-                <span>марка оборудования для водоподготовки</span>
-            </p>
             <div class="header__contacts contacts">
                 <ul class="contacts__list">
                     <li class="contacts__item">
@@ -44,7 +37,7 @@
             <nav class="navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        <a class="navigation__link link-active _icon-arrow-down" href="/index.html">Продукция</a>
+                        <a class="navigation__link link-active _icon-arrow-down" href="./index.html">Продукция</a>
                     </li>
                     <li class="navigation__item">
                         <a class="navigation__link emphasis" href="#">Бизнес на воде</a>
@@ -53,7 +46,7 @@
                         <a class="navigation__link emphasis" href="#">Спросите - ответим</a>
                     </li>
                     <li class="navigation__item">
-                        <a class="navigation__link emphasis" href="#">Контакти и о нас</a>
+                        <a class="navigation__link emphasis" href="#">Контакты и о нас</a>
                     </li>
                 </ul>
             </nav>
@@ -62,11 +55,32 @@
 </header>        <main class="page">            <section class="hero section">
   <div class="hero__container container">
     <div class="hero__content">
-      <h1 class="hero__title"><span class="color-decoration">Копания ЭКОТЕХ-Инжиниринг</span> - изготовление оборудования серийно и под заказ</h1>
+      <h1 class="hero__title"><span class="color-decoration">Компания ЭКОТЕХ-Инжиниринг</span> &ndash; изготовление
+        оборудования серийно и под заказ</h1>
+      <div class="hero__waterspace waterspace">
+        <img class="waterspace__logo" src="./img/logos/water-space-logo.png" alt="Логотип торговой марки waterspace" title="Water Space">
+        <p class="waterspace__text"><span class="visually-hidden">Water space</span> &ndash; наша торговая марка
+          оборудования для водоподготовки</p>
+      </div>
       <p class="hero__undertitle">Система качества предприятия сертифицирована по евростандарту ISO 9001:2015</p>
     </div>
-    <div class="hero__images">
-      <img src="./img/hero/membrane.png" alt="membrane">
+    <div class="hero__images images-hero">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="images-hero__item swiper-slide">
+            <img src="./img/hero/equipment-1.png" alt="Оборудования для бизнеса по продаже питьевой воды">
+          </div>
+          <div class="images-hero__item swiper-slide">
+            <img src="./img/hero/equipment-2.png" alt="Бактерицидное оборудование для очистки воды">
+          </div>
+          <div class="images-hero__item swiper-slide">
+            <img src="./img/hero/equipment-3.png" alt="Бытовое и офисное оборудование для водоподготовки">
+          </div>
+          <div class="images-hero__item swiper-slide">
+            <img src="./img/hero/equipment-4.png" alt="Установки для стерилизации пищевого оборудования">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>            <section class="actual section">
@@ -75,26 +89,24 @@
         <div class="actual-wrap">
             <div class="actual__item">
                 <div class="actual__img">
-                    <img src="./img/actual/mufflers.png" alt="Глушители-пламегасители">
+                    <img src="./img/actual/mufflers.png" alt="Глушители-пламегасители для АК">
                 </div>
                 <div class="actual-item__content">
-                    <h3 class="title-block">Глушители-пламегасители</h3>
+                    <h3 class="actual-item__title title-block">Глушители-пламегасители для АК всех модификаций</h3>
                     <div class="actual-item__description">
-                        <p class="actual-item__text">Глушители-пламегасители (саундмодераторы, супрессоры) для АК-74 5,45 всех модификаций, АК-47 7,62 всех модификаций, РПК-74 5,45, ПК, ПКС, ПКМ 7,62.</p>
-                        <p class="actual-item__text">Приборы уменьшения громкости и тональности выстрела, а также пламягашения для стрелкового оружия.</p>
-                        <p class="actual-item__text">Приборы предназначены для маскировки стрелковой позиции путем уменьшения и искажения звука выстрела и гашения пламени.</p>
+                        <p class="actual-item__text">Глушители-пламегасители (саундмодераторы, супрессоры) для АК-74, 5,45; АК-47, 7,62; РПК-74, 5,45; ПК, ПКС, ПКМ 7,62. Приборы уменьшения громкости и тональности выстрела, а также пламегашения для стрелкового оружия.</p>
                     </div>
                     <a class="actual-item__btn button" href="#">Узнать больше</a>
                 </div>
             </div>
             <div class="actual__item">
                 <div class="actual__img">
-                    <img src="./img/actual/filter.png" alt="Походный фильтр для ВСУ">
+                    <img src="./img/actual/filter.png" alt="Походный фильтр для ВСУ и туристических отрядов">
                 </div>
                 <div class="actual-item__content">
-                    <h2 class="title-block">Походный фильтр для ВСУ</h2>
+                    <h3 class="actual-item__title title-block">Походный фильтр для ВСУ и туристических отрядов</h3>
                     <div class="actual-item__description">
-                        <p class="actual-item__text">Фильтр осуществляет комплексную очистку воды и благодаря высокой производительности может обеспечивать питьевой водой подразделение военнослужащих (вплоть до роты) или туристический отряд в течение продолжительного периода времени (зависит от степени загрязненности источников воды).</p>
+                        <p class="actual-item__text">Фильтр осуществляет комплексную очистку воды и благодаря высокой производительности может обеспечивать питьевой водой подразделение военнослужащих (вплоть до роты) или туристический отряд в течение долгого времени.</p>
                     </div>
                         <a class="actual-item__btn button" href="#">Узнать больше</a>
                 </div>
@@ -104,9 +116,9 @@
                     <img src="./img/actual/irradiators.png" alt="Бактерицидные облучатели и рециркуляторы">
                 </div>
                 <div class="actual-item__content">
-                    <h2 class="title-block">Бактерицидные облучатели и рециркуляторы</h2>
+                    <h3 class="actual-item__title title-block">Бактерицидные облучатели и рециркуляторы</h3>
                     <div class="actual-item__description">
-                        <p class="actual-item__text">Ус­та­нов­ки для унич­то­же­ния ви­ру­сов, бак­те­рий и др. опас­ных мик­ро­ор­га­низ­мов с по­мо­щью же­ст­ко­го ульт­ра­фио­ле­то­во­го из­лу­че­ния в по­ме­ще­ни­ях: от до­маш­них квар­тир, офис­ных, ме­ди­цин­ских и учеб­ных за­ве­де­ний до про­из­вод­ст­вен­ных пло­ща­дей и са­ло­нов об­ще­ст­вен­но­го транс­пор­та.</p>
+                        <p class="actual-item__text">Ус­та­нов­ки для унич­то­же­ния ви­ру­сов, бак­те­рий и др. опас­ных мик­ро­ор­га­низ­мов с по­мо­щью ульт­ра­фио­ле­то­во­го из­лу­че­ния в по­ме­ще­ни­ях: от до­маш­них квар­тир, офис­ных, ме­ди­цин­ских и учеб­ных за­ве­де­ний до больших про­из­вод­ст­вен­ных пло­ща­дей.</p>
                     </div>
                     <a class="actual-item__btn button" href="#">Узнать больше</a>
                 </div>
@@ -119,7 +131,7 @@
         <ul class="products__list">
             <li class="products__item products-item">
                 <a class="products-item__link">
-                    <img class="products-item__img" src="./img/products/membrane.png" alt="Оборудование для бизнеса по продаже воды">
+                    <img class="products-item__img" src="./img/products/business-on-the-water.png" alt="Оборудование для бизнеса по продаже воды">
                     <div class="products-item__content">
                         <h3 class="products-item__title">Оборудование для бизнеса по продаже воды</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -137,7 +149,7 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/filter.png" alt="Походный фильтер для ВСУ и туризма">
+                    <img class="products-item__img" src="./img/products/travel-filter.png" alt="Походный фильтер для ВСУ и туризма">
                     <div class="products-item__content">
                         <h3 class="products-item__title">Походный фильтр для ВСУ и туризма</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -155,7 +167,7 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/solutions.png" alt="Питьевые фонтанчики">
+                    <img class="products-item__img" src="./img/products/fountains.png" alt="Питьевые фонтанчики">
                     <div class="products-item__content">
                         <h3 class="products-item__title">Питьевые фонтанчики</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -164,7 +176,7 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/solutions.png" alt="Ультрафиолетовые очистители воды">
+                    <img class="products-item__img" src="./img/products/germicidal-UV-lamps-for-water.png" alt="Ультрафиолетовые очистители воды">
                     <div class="products-item__content">
                         <h3 class="products-item__title">Ультрафиолетовые очистители воды</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -173,7 +185,7 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/solutions.png" alt="Станции комплексной очистки воды">
+                    <img class="products-item__img" src="./img/products/water-purification-station.png" alt="Станции комплексной очистки воды">
                     <div class="products-item__content">
                         <h3 class="products-item__title">Станции комплексной очистки воды</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -182,9 +194,27 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/solutions.png" alt="Раздатчики питьевой воды">
+                    <img class="products-item__img" src="./img/products/drinking-water-dispenser.png" alt="Раздатчики питьевой воды">
                     <div class="products-item__content">
                         <h3 class="products-item__title">Раздатчики питьевой воды</h3>
+                        <span class="products-item__arrow _icon-arrow-right"></span>
+                    </div>
+                </a>
+            </li>
+            <li class="products__item products-item">
+                <a class="products-item__link" href="#">
+                    <img class="products-item__img" src="./img/products/solutions.png" alt="Бытовые фильтры">
+                    <div class="products-item__content">
+                        <h3 class="products-item__title">Бытовые фильтры</h3>
+                        <span class="products-item__arrow _icon-arrow-right"></span>
+                    </div>
+                </a>
+            </li>
+            <li class="products__item products-item">
+                <a class="products-item__link" href="#">
+                    <img class="products-item__img" src="./img/products/solutions.png" alt="Раздатчики питьевой воды">
+                    <div class="products-item__content">
+                        <h3 class="products-item__title">Разное</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
                     </div>
                 </a>
@@ -261,14 +291,14 @@
                 <p class="waterspace-logo">
                     <span class="waterspace-logo__wrap">
                         <img class="waterspace-logo__img" src="./img/logos/water-space-logo.png" alt="Логотип торговой марки waterspace">
-                        &ndash; наша торговая
+                        <span class="visually-hidden">Water space</span> &ndash; наша торговая
                     </span>
                     <span>марка оборудования для водоподготовки</span>
                 </p>
             </div>
             <ul class="footer-menu__list">
                 <li class="footer-menu__list">
-                    <a class="footer-menu__link link-active" href="">Продукция</a>
+                    <a class="footer-menu__link link-active" href="./index.html">Продукция</a>
                 </li>
                 <li class="footer-menu__list">
                     <a class="footer-menu__link emphasis" href="#">Бизнес на воде</a>
@@ -277,7 +307,7 @@
                     <a class="footer-menu__link emphasis" href="#">Спросите - ответим</a>
                 </li>
                 <li class="footer-menu__list">
-                    <a class="footer-menu__link emphasis" href="#">Контакти и о нас</a>
+                    <a class="footer-menu__link emphasis" href="#">Контакты и о нас</a>
                 </li>
             </ul>
             <address class="footer-main__address address">
@@ -319,4 +349,4 @@
             </div>
         </div>
     </div>
-</div>                    </div>    <script src="js/main.js"></script></body></html>
+</div>                    </div>    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>    <script src="js/main.js"></script></body></html>

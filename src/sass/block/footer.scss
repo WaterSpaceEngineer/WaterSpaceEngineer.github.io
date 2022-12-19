@@ -19,8 +19,8 @@
         margin-bottom: rem(12px);
     }
 
-    .emphasis::before,
-    .link-active::before {
+    .emphasis::after,
+    .link-active::after {
         background-color: var(--main-text-color);
     }
 }
@@ -73,5 +73,21 @@
         display: flex;
         flex-direction: column;
         row-gap: rem(12px);
+    }
+
+    .waterspace-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: rem(16px);
+    
+        &__wrap {
+            display: flex;
+            gap: 3px;
+        }
+        
+        &__img {
+            max-width: rem(170px);
+        }
     }
 }
