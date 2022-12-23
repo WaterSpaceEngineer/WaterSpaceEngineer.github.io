@@ -114,8 +114,8 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst modals = () => {\n    f
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	__webpack_require__("./src/js/main.js");
-/******/ 	__webpack_require__("./src/js/modules/modals.js");
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/js/libs/sliders.js");
+/******/ 	__webpack_require__("./src/js/libs/sliders.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/js/modules/modals.js");
 /******/ 	
 /******/ })()
 ;

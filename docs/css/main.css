@@ -198,32 +198,66 @@ img {
 
 .waterspace {
   width: 100%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  display: inline-block;
+  text-align: center;
   width: 100%;
   gap: 3px;
 }
 
-.waterspace__logo {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  max-width: 9.375rem;
-}
-
 .waterspace__text {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
   font-size: 1.875rem;
   font-weight: 700;
+}
+
+.waterspace-logo {
+  font: 1.875rem "dynarshadow-bold";
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #0051ba;
+  padding-right: 0.7em;
+}
+
+.waterspace-logo__star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: inherit;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 0.8em;
+  height: 0.8em;
+}
+
+.waterspace-logo::after {
+  font: 0.3em var(--main-font);
+  position: absolute;
+  content: "R";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 0;
+  right: 0.3em;
+  width: 1.6em;
+  height: 1.6em;
+  border: 1px solid #0051ba;
+  border-radius: 50%;
 }
 
 .logo {
@@ -326,6 +360,13 @@ img {
 }
 
 @font-face {
+  font-family: "dynarshadow-bold";
+  font-display: swap;
+  font-style: normal;
+  src: url(../font/dynarshadow-bold.ttf) format("truetype"), url(../font/dynarshadow-bold.eot) format("eot"), url(../font/dynarshadow-bold.woff) format("woff"), url(../font/dynarshadow-bold.woff2) format("woff2");
+}
+
+@font-face {
   font-family: "icons";
   font-display: swap;
   src: url("../font/icons.ttf") format("truetype"), url("../font/icons.eot") format("eot"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.woff2") format("woff2");
@@ -349,6 +390,10 @@ img {
 [class^=_icon-]:before,
 [class*=" _icon-"]:before {
   display: block;
+}
+
+._icon-star:before {
+  content: "\e908";
 }
 
 ._icon-arrow-down:before {

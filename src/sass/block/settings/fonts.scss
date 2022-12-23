@@ -27,3 +27,13 @@
 		url(../font/Oswald-Bold.woff) format('woff'),
 		url(../font/Oswald-Bold.woff2) format('woff2');
 }
+
+@font-face {
+	font-family: 'dynarshadow-bold';
+	font-display: swap;
+	font-style: normal;
+	src: url(../font/dynarshadow-bold.ttf) format('truetype'),
+		url(../font/dynarshadow-bold.eot) format('eot'),
+		url(../font/dynarshadow-bold.woff) format('woff'),
+		url(../font/dynarshadow-bold.woff2) format('woff2');
+}
