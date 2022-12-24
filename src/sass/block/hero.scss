@@ -29,14 +29,19 @@
 }
 
 .hero__waterspace {
+  text-align: center;
+  font-size: rem(28px);
+
   &:not(:last-child) {
-    margin-bottom: rem(12px);
+    margin-bottom: rem(18px);
 
     @include min768 {
-      // max-width: rem(650px);
-      margin: 0 auto;
-      margin-bottom: rem(16px);
+      margin-bottom: rem(20px);
     }
+  }
+
+  .waterspace__text {
+    font-weight: 700;
   }
 }
 

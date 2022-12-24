@@ -164,29 +164,12 @@ img {
 	}
 }
 
-.waterspace {
-	width: 100%;
-	display: inline-block;
-	// align-items: baseline;
-	// justify-content: center;
-	text-align: center;
-	width: 100%;
-	gap: 3px;
-
-	&__text {
-		// display: inline-flex;
-		font-size: rem(30px);
-		font-weight: 700;
-	}
-}
-
 .waterspace-logo {
 	position: relative;
 	display: inline-flex;
 	align-items: center;
 	color: #0051ba;
 	font-family: 'dynarshadow-bold';
-	font-size: rem(30px);
 	padding-right: 0.7em;
 
 	&__star {

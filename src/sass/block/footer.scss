@@ -68,26 +68,15 @@
     }
 }
 
+.footer__waterspace {
+    font-size: rem(20px);
+}
+
 .footer {
     .logo-box {
+        max-width: 350px;
         display: flex;
         flex-direction: column;
         row-gap: rem(12px);
-    }
-
-    .waterspace-logo {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        font-size: rem(16px);
-    
-        &__wrap {
-            display: flex;
-            gap: 3px;
-        }
-        
-        &__img {
-            max-width: rem(170px);
-        }
     }
 }
