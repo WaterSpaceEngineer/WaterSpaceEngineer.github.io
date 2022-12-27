@@ -89,10 +89,15 @@
 .languages__link {
     text-transform: uppercase;
     transition: color 0.3s ease;
-
-    &:hover,
+    
     &:focus {
         color: var(--accent-color);
+    }
+
+    @include any-hover {
+        &:hover {
+            color: var(--accent-color);
+        }
     }
 }
 
@@ -143,10 +148,15 @@
         padding: 5px;
         background-color: transparent;
         transition: background-color .3s ease;
-
-        &:hover,
+        
         &:focus {
             background-color: rgba(255,255,255,0.2);
+        }
+
+        @include any-hover {
+            &:hover {
+                background-color: rgba(255,255,255,0.2);
+            }
         }
 
         &::before {
@@ -158,14 +168,19 @@
 
 .submenu-list__item {
     position: relative;
-
-    &:hover .submenu-list__link::before,
+    
     &:focus .submenu-list__link::before{
         transform: rotate(180deg);
     }
+
+    @include any-hover {
+        &:hover .submenu-list__link::before {
+            transform: rotate(180deg);
+        }
+    }
 }
 
-.submenu:hover .submenu-list,
+
 .submenu:focus .submenu-list {
     // @include min768 {
     //     display: block;
@@ -180,6 +195,16 @@
     pointer-events: auto;
     opacity: 1;
     transform: translate(0,0);
+}
+
+@include any-hover {
+    .submenu:hover .submenu-list {
+        display: block;
+        visibility: visible;
+        pointer-events: auto;
+        opacity: 1;
+        transform: translate(0,0);
+    }
 }
 
 .sub-submenu-list {
@@ -223,14 +248,19 @@
         background-color: transparent;
         transition: background-color .3s ease;
 
-        &:hover,
         &:focus {
             background-color: rgba(255,255,255,0.2);
+        }
+
+        @include any-hover {
+            &:hover {
+                background-color: rgba(255,255,255,0.2);
+            }
         }
     }
 }
 
-.sub-submenu:hover .sub-submenu-list,
+
 .sub-submenu:focus .sub-submenu-list {
     // @include min768 {
     //     visibility: visible;
@@ -243,4 +273,13 @@
     pointer-events: auto;
     opacity: 1;
     transform: translate(0,0);
+}
+
+@include any-hover {
+    .sub-submenu:hover .sub-submenu-list {
+        visibility: visible;
+        pointer-events: auto;
+        opacity: 1;
+        transform: translate(0,0);
+    }
 }

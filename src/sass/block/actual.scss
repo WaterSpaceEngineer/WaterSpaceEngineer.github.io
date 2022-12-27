@@ -1,6 +1,7 @@
 .actual-wrap {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 .actual__item {
@@ -8,9 +9,17 @@
     flex-direction: column;
     border-radius: rem(8px);
     overflow: hidden;
-    width: item-base(3, 24px);
+    width: 100%;
     border: 1px solid var(--divider-color);
     box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.05);
+
+    @include min576 {
+        width: item-base(2, 24px);
+    }
+
+    @include min992 {
+        width: item-base(3, 24px);
+    }
 }
 
 .actual__img {

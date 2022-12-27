@@ -34,7 +34,12 @@
     height: 100%;
     cursor: pointer;
 
-    &:hover,
+    @include any-hover {
+        &:hover {
+            background-color: var(--dark-primary-color);
+        }
+    }
+
     &:focus {
         background-color: var(--dark-primary-color);
     }

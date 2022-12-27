@@ -46,6 +46,12 @@
 	}
 }
 
+@mixin min576-max1199 {
+	@media screen and (min-width: 576px) and (max-width: 1199px) {
+		@content;
+	}
+}
+
 @mixin min576 {
 	@media all and (min-width: 576px) {
 		@content;
@@ -54,6 +60,12 @@
 
 @mixin max575 {
 	@media all and (max-width: 575px) {
+		@content;
+	}
+}
+
+@mixin any-hover {
+	@media (any-hover: hover) {
 		@content;
 	}
 }
