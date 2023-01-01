@@ -23,8 +23,8 @@ module.exports = {
     },
 
     img: {
-        src: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg,ico}",
-        watch: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg,ico}",
+        src: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg,ico,webmanifest}",
+        watch: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg,ico,webmanifest}",
         dest: pathDest + "/img"
     },
 
