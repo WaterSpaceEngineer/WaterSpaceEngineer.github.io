@@ -30,6 +30,12 @@ img {
 	height: auto;
 }
 
+button {
+	background-color: inherit;
+	border: none;
+	cursor: pointer;
+}
+
 .wrapper {
 	min-height: 100vh;
 	display: flex;
@@ -101,7 +107,6 @@ img {
 }
 
 .button {
-	border: none;
 	position: relative;
 	background-color: var(--accent-color);
 	color: var(--white-color);
@@ -317,9 +322,19 @@ img {
 .logo {
 	display: flex;
 	align-items: center;
-	font-size: rem(32px);
+	align-self: flex-start;
+	font-size: 26px;
 	font-weight: 700;
 	text-transform: uppercase;
+
+	@include min576 {
+		font-size: 28px;
+	}
+
+	@include min768 {
+		font-size: rem(32px);
+		align-self: center;
+	}
 
 	&__icon {
 		display: block;
