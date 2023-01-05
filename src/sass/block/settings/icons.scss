@@ -30,6 +30,12 @@
 	}
 }
 
+._icon-close:before {
+  content: "\e909";
+}
+._icon-menu:before {
+  content: "\e90a";
+}
 ._icon-star:before {
   content: "\e908";
 }

@@ -9,12 +9,14 @@
                     </span>
                     Инжиниринг
                 </a>
-                <button class="menu-button__open" type="button">
-                    
+                <button id="menu-button" class="menu-button" type="button">
+                    <div class="stick stick-1"></div>
+                    <div class="stick stick-2"></div>
+                    <div class="stick stick-3"></div>
                 </button>
             </div>
-            <div class="header__top-box">
-                <div class="header__contacts contacts">
+            <div class="header__actions actions-header">
+                <div class="actions-header__contacts contacts">
                     <ul class="contacts__list">
                         <li class="contacts__item">
                             <a class="contacts__link _icon-mobile" href="tel:+380502248957">
@@ -31,7 +33,7 @@
                         uv@waterspace.pl.ua
                     </a>
                 </div>
-                <ul class="header__languages languages">
+                <ul class="actions-header__languages languages">
                     <li><a class="languages__link" href="#">eng</a></li>
                     <li><a class="languages__link" href="#">ukr</a></li>
                 </ul>
@@ -42,66 +44,67 @@
     <div class="header__main header-main">
         <div class="header-main__container container">
             <nav class="navigation">
-                <button class="menu-button__close" type="button">
-                    
-                </button>
                 <ul class="navigation__list">
-                    <li class="navigation__item menu-item submenu">
+                    <li class="navigation__item submenu-item">
                         <a class="navigation__link link-active" href="./index.html">Продукция</a>
-                        <button class="menu-arrow _icon-arrow-down" tabindex="-1" type="button"></button>
-                        <ul class="submenu-list">
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Водоочистители</a>
-                            </li>
-                            <li class="submenu-list__item menu-item sub-submenu">
-                                <a class="submenu-list__link" href="#">УФ обеззараживатели</a>
-                                <button class="menu-arrow _icon-arrow-down" tabindex="-1" type="button"></button>
-                                <ul class="sub-submenu-list">
-                                    <li class="sub-submenu-list__item">
-                                        <a class="sub-submenu-list__link" href="#">Сменные элементы</a>
-                                    </li>
-                                    <li class="sub-submenu-list__item">
-                                        <a class="sub-submenu-list__link" href="#">Опционные индикаторы</a>
-                                    </li>
-                                    <li class="sub-submenu-list__item">
-                                        <a class="sub-submenu-list__link" href="#">Блоки управления</a>
-                                    </li>
-                                    <li class="sub-submenu-list__item">
-                                        <a class="sub-submenu-list__link" href="#">Запасные части</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Рециркуляторы/Облучатели</a>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Раздатчики воды</a>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Питьевые фонтанчики</a>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Глушители-пламегасители</a>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Раздатчики воды#</a>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Питьевые фонтанчики#</a>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Глушители-пламегасители#</a>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Раздатчики воды#</a>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Питьевые фонтанчики#</a>
-                            </li>
-                            <li class="submenu-list__item">
-                                <a class="submenu-list__link" href="#">Глушители-пламегасители#</a>
-                            </li>
-                        </ul>
+                        <button data-spoller-btn class="submenu-button _icon-arrow-down" tabindex="-1" type="button"></button>
+                        <div data-spoller-content class="submenu__wrap">
+                            <ul class="submenu-list inside">
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Водоочистители</a>
+                                </li>
+                                <li class="submenu-list__item submenu-item sub-submenu">
+                                    <a class="submenu-list__link emphasis" href="#">УФ обеззараживатели</a>
+                                    <button data-spoller-btn class="submenu-button _icon-arrow-down" type="button"></button>
+                                    <div data-spoller-content class="submenu__wrap">
+                                        <ul class="sub-submenu-list inside">
+                                            <li class="sub-submenu-list__item">
+                                                <a class="sub-submenu-list__link emphasis" href="#">Сменные элементы</a>
+                                            </li>
+                                            <li class="sub-submenu-list__item">
+                                                <a class="sub-submenu-list__link emphasis" href="#">Опционные индикаторы</a>
+                                            </li>
+                                            <li class="sub-submenu-list__item">
+                                                <a class="sub-submenu-list__link emphasis" href="#">Блоки управления</a>
+                                            </li>
+                                            <li class="sub-submenu-list__item">
+                                                <a class="sub-submenu-list__link emphasis" href="#">Запасные части</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Рециркуляторы/Облучатели</a>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Раздатчики воды</a>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Питьевые фонтанчики</a>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Глушители-пламегасители</a>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Раздатчики воды#</a>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Питьевые фонтанчики#</a>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Глушители-пламегасители#</a>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Раздатчики воды#</a>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Питьевые фонтанчики#</a>
+                                </li>
+                                <li class="submenu-list__item">
+                                    <a class="submenu-list__link emphasis" href="#">Глушители-пламегасители#</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="navigation__item">
                         <a class="navigation__link emphasis" href="#">Бизнес на воде</a>

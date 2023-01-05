@@ -1,9 +1,15 @@
 import './libs/sliders';
 
 import modals from './modules/modals';
-import navigationFixation from "./modules/navigationFixation";
+import headerTopFixation from "./modules/headerTopFixation";
+import touchSubMenu from './modules/touchSubMenu';
+import spollers from './modules/spollers';
+import mobileMenu from './modules/mobileMenu';
 
 window.addEventListener('DOMContentLoaded', () => {
     modals();
-    navigationFixation('.header', '.header__container');
+    headerTopFixation('.header', '.header__container', '.header-main', '.page');
+    touchSubMenu();
+    spollers();
+    mobileMenu('menu-button', '.navigation');
 });
