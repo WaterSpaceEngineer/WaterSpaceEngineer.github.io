@@ -26,23 +26,6 @@
   }
 }
 
-.hero__title {
-  text-align: center;
-  margin-bottom: rem(18px);
-  font-size: rem(24px);
-  line-height: 1.2;
-
-  @include min768 {
-    margin-bottom: rem(20px);
-    font-size: rem(30px);
-  }
-
-  @include min992 {
-    margin-bottom: rem(26px);
-    font-size: rem(38px);
-  }
-}
-
 .hero__waterspace {
   text-align: center;
   font-size: rem(18px);

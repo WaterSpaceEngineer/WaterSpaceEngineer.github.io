@@ -69,11 +69,16 @@
         display: flex;
         gap: rem(24px);
         margin-bottom: rem(24px);
+        flex-wrap: wrap;
     }
 
     &__item {
         position: relative;
-        width: item-base(2, 24px);
+        width: 100%;
+
+        @include min576 {
+            width: item-base(2, 24px);
+        }
     }
 
     &__input {

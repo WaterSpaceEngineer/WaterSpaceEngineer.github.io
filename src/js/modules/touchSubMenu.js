@@ -1,4 +1,4 @@
-const touchSubMenu = () => {
+const touchSubMenu = (buttonSelector, itemSelector, itemHoverSelector) => {
   let isMobile = {
     Android: function () {
       return navigator.userAgent.match(/Android/i);
@@ -32,13 +32,13 @@ const touchSubMenu = () => {
   function documentActions (e) {
     const targetElement = e.target;
 
-    if(window.matchMedia('(min-width: 768px)').matches && isMobile.any()) {
-      if(targetElement.classList.contains('submenu-button')) {
-        targetElement.closest('.submenu-item').classList.toggle('_hover');
+    if(window.innerWidth > 768 && isMobile.any()) {
+      if(targetElement.classList.contains(buttonSelector)) {
+        targetElement.closest(itemSelector).classList.toggle('_hover');
       }
 
-      if(!targetElement.closest('.submenu-item') && document.querySelectorAll('.submenu-item._hover').length > 0) {
-        document.querySelectorAll('.submenu-item._hover').forEach(item => {
+      if(!targetElement.closest(itemSelector) && document.querySelectorAll(itemHoverSelector).length > 0) {
+        document.querySelectorAll(itemHoverSelector).forEach(item => {
           item.classList.remove('_hover');
         })
       }

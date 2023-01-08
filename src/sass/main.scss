@@ -1,9 +1,3 @@
-@import 'block/settings/variables.scss';
-@import 'block/settings/mixins.scss';
-@import './block/settings/function.scss';
-@import 'block/settings/common.scss';
-@import 'block/settings/fonts.scss';
-@import 'block/settings/icons.scss';
-
-
-@import 'block/*.scss';
+@import './utils/utils.scss';
+@import './componets/componets.scss';
+@import './sections/*.scss';

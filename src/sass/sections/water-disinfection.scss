@@ -1,0 +1,50 @@
+.water-disinfection {
+  background: url('../img/backgrounds/hexagons-bg.svg') no-repeat center/cover var(--light-divider-color);
+}
+
+.water-disinfection__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.water-disinfection__box {
+  width: item-base(2, 0px);
+}
+
+.water-disinfection__video {
+  display: flex;
+  align-items: center;
+}
+
+.water-disinfection__stages {
+  padding: rem(20px);
+}
+
+.water-disinfection__title.section-title {
+  margin-bottom: rem(16px);
+
+  @include min768 {
+    margin-bottom: rem(24px);
+  }
+}
+
+.water-disinfection__subtitle {
+  font-size: rem(20px);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: rem(16px);
+}
+
+.water-disinfection__list-head {
+  font-size: rem(18px);
+
+  &:not(:last-child) {
+    margin-bottom: rem(10px);
+  }
+}
+
+.water-disinfection__item {
+  &:not(:last-child) {
+    margin-bottom: rem(16px);
+  }
+}

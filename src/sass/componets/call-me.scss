@@ -1,0 +1,48 @@
+.call-me {
+	position: fixed;
+	right: 3.5%;
+	bottom: rem(75px);
+	width: rem(50px);
+	height: rem(50px);
+	z-index: 2;
+}
+
+.call-me__phone {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	background-color: var(--dark-primary-color);
+	color: var(--white-color);
+	font-size: 20px;
+	transition: opacity 0.3s ease, background-color 0.3s ease;
+	z-index: 3;
+
+	&:hover,
+	&:focus {
+		background-color: lighten(#19588a, 10%);
+	}
+}
+
+.call-me__pulse {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background-color: var(--dark-primary-color);
+	border-radius: 50%;
+	opacity: 0.5;
+	z-index: 1;
+	animation: pulseAnimate 3s ease-out infinite;
+	animation-duration: calc(1s * var(--i));
+}
+
+@keyframes pulseAnimate {
+	100% {
+		opacity: 0;
+		transform: scale(1.5);
+	}
+}

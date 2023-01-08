@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: var(--main-font);
+	color: var(--main-text-color);
+	background-color: var(--white-color);
+	line-height: 1.5;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+button {
+	background-color: inherit;
+	border: none;
+	cursor: pointer;
+}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.page {
+	flex: 1 1 auto;
+
+	@include max767 {
+		padding-top: 150px;
+	}
+}
+
+.container {
+	max-width: $maxWidthContainer;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.section {
+	padding-top: 26px;
+	padding-bottom: 26px;
+
+	@include min576 {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	@include min768 {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+}
+
+.hero-actions__section {
+	padding-top: rem(20px);
+	padding-bottom: rem(34px);
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}

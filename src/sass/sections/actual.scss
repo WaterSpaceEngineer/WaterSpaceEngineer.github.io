@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-height: 250px;
+    max-height: 230px;
     padding: 15px;
     background-image: url(../img/backgrounds/circuit-board-cart-bg.svg);
     background-color: var(--light-divider-color);
@@ -36,6 +36,10 @@
     img {
         width: auto;
         height: 100%;
+    }
+
+    @include min768 {
+        max-height: 250px;
     }
 }
 
