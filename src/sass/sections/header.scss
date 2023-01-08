@@ -26,6 +26,10 @@
             width: 100%;
             z-index: 5;
         }
+
+        .header__top {
+            transform: scale(0);
+        }
     }
 }
 
@@ -44,6 +48,8 @@
     @include min768 {
         gap: rem(24px);
         flex-direction: row;
+        transform: scale(1);
+        transition: transform 0.3s ease;
     }
 }
 
