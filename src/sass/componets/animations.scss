@@ -1,23 +1,3 @@
-// .animated {
-//   animation-duration: 1s;
-//   animation-fill-mode: both
-// }
-
-// .animated.infinite {
-//   animation-iteration-count: infinite
-// }
-
-// .animated.hinge {
-//   animation-duration: 2s
-// }
-
-// .animated.flipOutX,
-// .animated.flipOutY,
-// .animated.bounceIn,
-// .animated.bounceOut {
-//   animation-duration: .75s
-// }
-
 .fadeIn {
 	animation-name: fadeIn;
 	animation-duration: 0.8s;
@@ -81,6 +61,48 @@
   }
 }
 
-.pulse {
-  animation-name: pulse;
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+@keyframes backInLeft {
+  0% {
+    transform: translateX(-2000px) scale(.7);
+    opacity: .7;
+  }
+  80% {
+    transform: translateX(0) scale(.7);
+    opacity: .7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.backInLeft.show {
+  animation-name: backInLeft;
+}
+
+@keyframes backInRight {
+  0% {
+    transform: translateX(2000px) scale(.7);
+    opacity: .7;
+  }
+
+  80% {
+    transform: translateX(0) scale(.7);
+    opacity: .7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.backInRight.show {
+  animation-name: backInRight;
 }
