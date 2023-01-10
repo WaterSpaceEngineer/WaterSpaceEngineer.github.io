@@ -10,6 +10,9 @@
   --black-color: #000000;
   --white-color: #ffffff;
   --main-font: "Oswald-Regular", sans-serif;
+  --light-font: "Oswald-Light", sans-serif;
+  --bold-font: "Oswald-Bold", sans-serif;
+  --medium-font: "Oswald-Medium", sans-serif;
 }
 
 *,
@@ -112,6 +115,7 @@ button {
   gap: 1rem;
   font-size: 1.5rem;
   margin-bottom: 1.25rem;
+  font-weight: normal;
   text-align: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -132,10 +136,11 @@ button {
   margin-bottom: 1.125rem;
   font-size: 1.5rem;
   line-height: 1.2;
+  font-weight: 400;
 }
 
 .title-block {
-  margin-bottom: 0.875rem;
+  font-weight: normal;
   font-size: 1.125rem;
 }
 
@@ -267,7 +272,14 @@ button {
   font-family: "Oswald-Light";
   font-display: swap;
   font-style: normal;
-  src: url(../font/Oswald-Light.woff) format("woff"), url(../font/Oswald-Light.woff2) format("woff" 2), url(../font/Oswald-Light.ttf) format("truetype"), url(../font/Oswald-Light.eot) format("eot");
+  src: url(../font/Oswald-Light.woff) format("woff"), url(../font/Oswald-Light.woff2) format("woff2"), url(../font/Oswald-Light.ttf) format("truetype"), url(../font/Oswald-Light.eot) format("eot");
+}
+
+@font-face {
+  font-family: "Oswald-Medium";
+  font-display: swap;
+  font-style: normal;
+  src: url(../font/Oswald-Medium.woff) format("woff"), url(../font/Oswald-Medium.woff2) format("woff2"), url(../font/Oswald-Medium.ttf) format("truetype"), url(../font/Oswald-Medium.eot) format("eot");
 }
 
 @font-face {
@@ -415,8 +427,8 @@ button {
   }
 
   2% {
-    -webkit-transform: scale3d(1.02, 1.02, 1.02);
-    transform: scale3d(1.02, 1.02, 1.02);
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
     -webkit-box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.25);
     box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.25);
   }
@@ -429,8 +441,8 @@ button {
   }
 
   6% {
-    -webkit-transform: scale3d(1.02, 1.02, 1.02);
-    transform: scale3d(1.02, 1.02, 1.02);
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
     -webkit-box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.25);
     box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.25);
   }
@@ -457,8 +469,8 @@ button {
   }
 
   2% {
-    -webkit-transform: scale3d(1.02, 1.02, 1.02);
-    transform: scale3d(1.02, 1.02, 1.02);
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
     -webkit-box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.25);
     box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.25);
   }
@@ -471,8 +483,8 @@ button {
   }
 
   6% {
-    -webkit-transform: scale3d(1.02, 1.02, 1.02);
-    transform: scale3d(1.02, 1.02, 1.02);
+    -webkit-transform: scale3d(1.01, 1.01, 1.01);
+    transform: scale3d(1.01, 1.01, 1.01);
     -webkit-box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.25);
     box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.25);
   }
@@ -1171,6 +1183,10 @@ button {
 
 .actual-item__title {
   text-align: center;
+}
+
+.actual-item__title:not(:last-child) {
+  margin-bottom: 0.875rem;
 }
 
 .actual-item__description {
@@ -2141,10 +2157,6 @@ button {
   margin-bottom: 1rem;
 }
 
-.hero__waterspace .waterspace__text {
-  font-weight: 700;
-}
-
 .hero__undertitle {
   margin: 0 auto;
   text-align: center;
@@ -2388,8 +2400,6 @@ button {
 
 .products-item__title {
   color: var(--dark-primary-color);
-  font-size: 1.5rem;
-  font-weight: 400;
   -webkit-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
@@ -2518,7 +2528,7 @@ button {
   }
 
   .section-title {
-    font-size: 1.75rem;
+    font-size: 1.625rem;
     margin-bottom: 1.5rem;
   }
 
@@ -2673,8 +2683,7 @@ button {
   }
 
   .section-title {
-    margin-bottom: 3rem;
-    font-size: 1.875rem;
+    margin-bottom: 2.25rem;
   }
 
   .title-decoration::before {
@@ -2688,8 +2697,7 @@ button {
   }
 
   .title-block {
-    margin-bottom: 1.125rem;
-    font-size: 1.5rem;
+    font-size: 1.375rem;
   }
 
   .logo {
@@ -2735,6 +2743,10 @@ button {
 
   .actual__img {
     max-height: 250px;
+  }
+
+  .actual-item__title:not(:last-child) {
+    margin-bottom: 1.125rem;
   }
 
   .benefits__item {

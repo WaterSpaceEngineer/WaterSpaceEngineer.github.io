@@ -55,6 +55,14 @@
 
 .actual-item__title {
     text-align: center;
+    
+    &:not(:last-child) {
+		margin-bottom: rem(14px);
+
+		@include min768 {
+			margin-bottom: rem(18px);
+		}
+	}
 }
 
 .actual-item__description {

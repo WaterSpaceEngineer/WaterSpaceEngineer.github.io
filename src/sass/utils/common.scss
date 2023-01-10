@@ -5,18 +5,18 @@
 	gap: rem(16px);
 	font-size: rem(24px);
 	margin-bottom: rem(20px);
+	font-weight: normal;
 	text-align: center;
 	align-items: center;
 	text-transform: uppercase;
 
 	@include min576 {
-		font-size: rem(28px);
+		font-size: rem(26px);
 		margin-bottom: rem(24px);
 	}
 
 	@include min768 {
-		margin-bottom: rem(48px);
-		font-size: rem(30px);
+		margin-bottom: rem(36px);
 	}
 }
 
@@ -41,6 +41,7 @@
   margin-bottom: rem(18px);
   font-size: rem(24px);
   line-height: 1.2;
+	font-weight: 400;
 
   @include min768 {
     margin-bottom: rem(20px);
@@ -54,12 +55,11 @@
 }
 
 .title-block {
-	margin-bottom: rem(14px);
+	font-weight: normal;
 	font-size: rem(18px);
 
 	@include min768 {
-		margin-bottom: rem(18px);
-		font-size: rem(24px);
+		font-size: rem(22px);
 	}
 }
 
