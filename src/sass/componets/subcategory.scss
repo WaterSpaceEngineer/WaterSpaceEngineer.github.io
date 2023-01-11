@@ -50,8 +50,12 @@
 }
 
 .item-subcategory__dropdown-list {
+  min-width: rem(148px);
+  max-height: rem(240px);
+  overflow-y: auto;
+
   @include min768 {
-    min-width: 148px;
+    min-width: rem(164px);
   }
 }
 

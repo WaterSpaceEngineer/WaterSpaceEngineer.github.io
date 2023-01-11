@@ -12,11 +12,11 @@
     width: 100%;
     border: 1px solid var(--divider-color);
     box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.05);
-    animation: double-pulse 6s linear infinite;
-    animation-delay: calc(2s * var(--i));
 
     @include min576 {
         width: item-base(2, 24px);
+        animation: double-pulse 6s linear infinite;
+        animation-delay: calc(2s * var(--i));
     }
 
     @include min992 {

@@ -30,21 +30,23 @@
 
 .water-disinfection__subtitle {
   font-size: rem(20px);
-  font-weight: bold;
   text-align: center;
-  margin-bottom: rem(16px);
+  margin-bottom: rem(14px);
+  font-weight: 500;
 }
 
 .water-disinfection__list-head {
-  font-size: rem(18px);
+  font-size: rem(16px);
+  font-weight: 500;
+  color: var(--dark-primary-color);
 
   &:not(:last-child) {
-    margin-bottom: rem(10px);
+    margin-bottom: 5px;
   }
 }
 
 .water-disinfection__item {
   &:not(:last-child) {
-    margin-bottom: rem(16px);
+    margin-bottom: rem(10px);
   }
 }

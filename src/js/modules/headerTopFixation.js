@@ -7,7 +7,7 @@ const headerTopFixation = () => {
   if (document.documentElement.scrollTop > getParametersHeader.height && window.matchMedia('(min-width: 768px)').matches) {
     header.classList.add('nav-fix');
     mainPage.style.paddingTop = `${getParametersHeaderMain.height}px`;
-  } else {
+  } else if (document.documentElement.scrollTop <= getParametersHeader.height && window.matchMedia('(min-width: 768px)').matches) {
     header.classList.remove('nav-fix');
     mainPage.style.paddingTop = ``;
   }

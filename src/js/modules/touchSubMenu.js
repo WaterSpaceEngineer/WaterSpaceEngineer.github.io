@@ -32,7 +32,7 @@ const touchSubMenu = (buttonSelector, itemSelector, itemHoverSelector) => {
   function documentActions (e) {
     const targetElement = e.target;
 
-    if(window.innerWidth > 768 && isMobile.any()) {
+    if(window.innerWidth > 767 && isMobile.any()) {
       if(targetElement.classList.contains(buttonSelector)) {
         targetElement.closest(itemSelector).classList.toggle('_hover');
       }

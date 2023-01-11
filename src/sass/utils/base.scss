@@ -45,10 +45,6 @@ button {
 
 .page {
 	flex: 1 1 auto;
-
-	@include max767 {
-		padding-top: 150px;
-	}
 }
 
 .container {

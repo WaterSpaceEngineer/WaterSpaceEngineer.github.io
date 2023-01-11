@@ -29,6 +29,7 @@
 .hero__waterspace {
   text-align: center;
   font-size: rem(18px);
+  line-height: 1.2;
 
   @include min768 {
     font-size: rem(20px);

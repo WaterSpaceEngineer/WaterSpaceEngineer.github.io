@@ -1,9 +1,42 @@
-.hero-actions__breadcrumb {
-  margin-bottom: rem(20px);
+.hero-actions__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(20px);
 
   @include min768 {
-    margin-bottom: rem(26px);
+    row-gap: rem(26px);
   }
+}
+
+.hero-actions__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-actions__condition {
+  display: flex;
+  align-items: center;
+  column-gap: rem(24px);
+}
+
+.condition__button {
+  padding: 5px 0;
+  font-size: 12px;
+  font-family: var(--main-font);
+
+  @include min768 {
+    font-size: 14px;
+  }
+}
+
+.informational__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: rem(10px);
+  row-gap: rem(12px);
 }
 
 .page__title {

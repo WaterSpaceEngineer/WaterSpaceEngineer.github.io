@@ -14,8 +14,28 @@
         color: var(--white-color);
       }
 
-      .dropdown__btn {
-        color: currentColor;
+      & > .dropdown__btn::before {
+        color: var(--white-color);
+        transform: rotate(-180deg);
+      }
+    }
+  }
+
+  @include min768 {
+    &._hover {
+      color: var(--white-color);
+      background-color: var(--accent-color);
+  
+      .dropdown__list {
+        transform: translate(0,0);
+        visibility: visible;
+        pointer-events: auto;
+        opacity: 1;
+        color: var(--white-color);
+      }
+  
+      & > .dropdown__btn::before {
+        color: var(--white-color);
         transform: rotate(-180deg);
       }
     }
@@ -43,8 +63,8 @@
   }
 }
 
-.dropdown__btn {
-  transition: transform 0.3s ease;
+.dropdown__btn::before {
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .dropdown__item {

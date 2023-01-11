@@ -3,12 +3,13 @@
 	display: flex;
 	justify-content: center;
 	gap: rem(16px);
-	font-size: rem(24px);
+	font-size: rem(22px);
 	margin-bottom: rem(20px);
 	font-weight: normal;
 	text-align: center;
 	align-items: center;
 	text-transform: uppercase;
+	font-weight: 500;
 
 	@include min576 {
 		font-size: rem(26px);
@@ -145,12 +146,12 @@
 .logo {
 	display: flex;
 	align-items: center;
-	font-size: 22px;
-	font-weight: 700;
+	font-size: rem(22px);
+	font-weight: 500;
 	text-transform: uppercase;
 
 	@include min576 {
-		font-size: 26px;
+		font-size: rem(26px);
 	}
 
 	@include min768 {

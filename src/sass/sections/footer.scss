@@ -107,13 +107,21 @@
 
 .footer__waterspace {
     font-size: rem(20px);
+
+    @include min576-max767 {
+        text-align: center;
+    }
 }
 
 .footer {
     .logo-box {
-        max-width: rem(310px);
+        max-width: rem(350px);
         display: flex;
         flex-direction: column;
         row-gap: rem(12px);
+
+        @include min576-max767 {
+            align-items: center;
+        }
     }
 }
