@@ -13,7 +13,7 @@
 
 .water-disinfection__video {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .water-disinfection__stages {
@@ -50,3 +50,12 @@
     margin-bottom: rem(10px);
   }
 }
+
+.water-disinfection__img {
+  background-color: var(--light-divider-color);
+  border: 1px solid var(--divider-color);
+
+  img{
+    mix-blend-mode: darken;
+  }
+} 

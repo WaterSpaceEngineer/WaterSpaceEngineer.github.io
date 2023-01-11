@@ -255,10 +255,10 @@
 
 .navigation__link {
     display: inline-flex;
-    font-size: rem(26px);
+    font-size: rem(20px);
     padding-top: 7px;
     padding-bottom: 7px;
-    font-weight: 700;
+    font-weight: 500;
 
     @include min768 {
         font-weight: normal;
@@ -302,7 +302,7 @@
 
     @include max767 {
         padding-left: rem(20px);
-        padding-top: rem(15px);
+        // padding-top: rem(15px);
     }
 
     @include min768 {
@@ -403,13 +403,13 @@
 
 .submenu-list__link {
     @include max767 {
-        font-size: rem(22px);
+        font-size: rem(18px);
     }
 }
 
 .sub-submenu-list__link {
     @include max767 {
-        font-size: rem(20px);
+        font-size: rem(18px);
     }
 }
 
@@ -448,6 +448,10 @@
 
 .submenu__wrap.content-open {
     grid-template-rows: 1fr;
+
+    @include max767 {
+        padding-top: rem(15px);
+    }
 }
 
 .menu-button {
