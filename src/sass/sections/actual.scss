@@ -24,25 +24,28 @@
     }
 }
 
-.actual__img {
-    padding: 15px;
+.actual__wrap {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-height: 230px;
-    padding: 15px;
+    padding-top: 60%;
     background-image: url(../img/backgrounds/circuit-board-cart-bg.svg);
     background-color: var(--light-divider-color);
 
-    img {
-        width: auto;
-        height: 100%;
-    }
-
     @include min768 {
-        max-height: 250px;
+        padding-top: 65%;
     }
+}
+
+.actual__img {
+    width: auto;
+    height: 87%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .actual-item__content {
@@ -54,6 +57,7 @@
 }
 
 .actual-item__title {
+    color: var(--dark-primary-color);
     text-align: center;
     
     &:not(:last-child) {

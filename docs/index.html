@@ -156,22 +156,46 @@
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="images-hero__item swiper-slide">
-            <img class="images-hero__item-img" src="./img/hero/01.jpg" width="420" height="270" title="Цех компании ЭКОТЕХ-Инжиниринг" alt="Цех компании ЭКОТЕХ-Инжиниринг">
+            <picture>
+              <source class="images-hero__item-img" srcset="./img/hero/shop-01@1x.webp" type="image/webp">
+              <source srcset="./img/hero/shop-01@1x.jpg" type="image/jpeg">
+              <img class="images-hero__item-img" src="./img/hero/shop-01@1x.jpg" width="420" height="270" title="Цех компании ЭКОТЕХ-Инжиниринг" alt="Цех компании ЭКОТЕХ-Инжиниринг" loading="lazy">
+            </picture>
           </div>
           <div class="images-hero__item swiper-slide">
-            <img class="images-hero__item-img" src="./img/hero/02.jpg" width="420" height="270" title="Цех компании ЭКОТЕХ-Инжиниринг" alt="Цех компании ЭКОТЕХ-Инжиниринг">
+            <picture>
+              <source srcset="./img/hero/shop-02@1x.webp" type="image/webp">
+              <source srcset="./img/hero/shop-02@1x.jpg" type="image/jpeg">
+              <img class="images-hero__item-img" src="./img/hero/shop-02@1x.jpg" width="420" height="270" title="Цех компании ЭКОТЕХ-Инжиниринг" alt="Цех компании ЭКОТЕХ-Инжиниринг" loading="lazy">
+            </picture>
           </div>
           <div class="images-hero__item swiper-slide">
-            <img class="images-hero__item-img" src="./img/hero/03.jpg" width="420" height="270" title="Цех компании ЭКОТЕХ-Инжиниринг" alt="Цех компании ЭКОТЕХ-Инжиниринг">
+            <picture>
+              <source srcset="./img/hero/shop-03@1x.webp" type="image/webp">
+              <source srcset="./img/hero/shop-03@1x.jpg" type="image/jpeg">
+              <img class="images-hero__item-img" src="./img/hero/shop-03@1x.jpg" width="420" height="270" title="Цех компании ЭКОТЕХ-Инжиниринг" alt="Цех компании ЭКОТЕХ-Инжиниринг" loading="lazy">
+            </picture>
           </div>
           <div class="images-hero__item swiper-slide">
-            <img class="images-hero__item-img" src="./img/hero/04.jpg" width="420" height="270" title="Механический цех компании ЭКОТЕХ-Инжиниринг" alt="Механический цех компании ЭКОТЕХ-Инжиниринг">
+            <picture>
+              <source srcset="./img/hero/shop-04@1x.webp" type="image/webp">
+              <source srcset="./img/hero/shop-04@1x.jpg" type="image/jpeg">
+              <img class="images-hero__item-img" src="./img/hero/shop-04@1x.jpg" width="420" height="270" title="Механический цех компании ЭКОТЕХ-Инжиниринг" alt="Механический цех компании ЭКОТЕХ-Инжиниринг" loading="lazy">
+            </picture>
           </div>
           <div class="images-hero__item swiper-slide">
-            <img class="images-hero__item-img" src="./img/hero/05.jpg" width="420" height="270" title="Механический цех компании ЭКОТЕХ-Инжиниринг" alt="Механический цех компании ЭКОТЕХ-Инжиниринг">
+            <picture>
+              <source srcset="./img/hero/shop-05@1x.webp" type="image/webp">
+              <source srcset="./img/hero/shop-05@1x.jpg" type="image/jpeg">
+              <img class="images-hero__item-img" src="./img/hero/shop-05@1x.jpg" width="420" height="270" title="Механический цех компании ЭКОТЕХ-Инжиниринг" alt="Механический цех компании ЭКОТЕХ-Инжиниринг" loading="lazy">
+            </picture>
           </div>
           <div class="images-hero__item swiper-slide">
-            <img class="images-hero__item-img" src="./img/hero/06.jpg" width="420" height="270" title="Сборочный цех компании ЭКОТЕХ-Инжиниринг" alt="Сборочный цех компании ЭКОТЕХ-Инжиниринг">
+            <picture>
+              <source srcset="./img/hero/shop-06@1x.webp" type="image/webp">
+              <source srcset="./img/hero/shop-06@1x.jpg" type="image/jpeg">
+              <img class="images-hero__item-img" src="./img/hero/shop-06@1x.jpg" width="420" height="270" title="Сборочный цех компании ЭКОТЕХ-Инжиниринг" alt="Сборочный цех компании ЭКОТЕХ-Инжиниринг" loading="lazy">
+            </picture>
           </div>
         </div>
       </div>
@@ -182,8 +206,12 @@
         <h2 class="section-title title-decoration">Актуальные позиции</h2>
         <div class="actual-wrap">
             <div class="actual__item" style="--i:1;">
-                <div class="actual__img">
-                    <img src="./img/actual/mufflers.png" width="153" header="220" title="Глушители-пламегасители для АК" alt="Глушители-пламегасители для АК">
+                <div class="actual__wrap">
+                    <picture>
+                        <source srcset="./img/actual/mufflers@1x.webp" type="image/webp">
+                        <source srcset="./img/actual/mufflers@1x.png" type="image/jpeg">
+                        <img class="actual__img" src="./img/actual/mufflers@1x.png" width="153" height="220" title="Глушители-пламегасители для АК" alt="Глушители-пламегасители для АК" loading="lazy">
+                    </picture>
                 </div>
                 <div class="actual-item__content">
                     <h3 class="actual-item__title title-block">Глушители-пламегасители для АК всех модификаций</h3>
@@ -196,8 +224,12 @@
                 </div>
             </div>
             <div class="actual__item" style="--i:3;">
-                <div class="actual__img">
-                    <img src="./img/actual/filter.png" width="153" header="220" title="Походный фильтр для ВСУ и туристических отрядов" alt="Походный фильтр для ВСУ и туристических отрядов">
+                <div class="actual__wrap">
+                    <picture>
+                        <source srcset="./img/actual/filter@1x.webp" type="image/webp">
+                        <source srcset="./img/actual/filter@1x.png" type="image/jpeg">
+                        <img class="actual__img" src="./img/actual/filter@1x.png" width="153" height="220" title="Походный фильтр для ВСУ и туристических отрядов" alt="Походный фильтр для ВСУ и туристических отрядов" loading="lazy">
+                    </picture>
                 </div>
                 <div class="actual-item__content">
                     <h3 class="actual-item__title title-block">Походный фильтр для ВСУ и туристических отрядов</h3>
@@ -210,8 +242,12 @@
                 </div>
             </div>
             <div class="actual__item" style="--i:2;">
-                <div class="actual__img">
-                    <img src="./img/actual/irradiators.png" width="153" header="220" title="Бактерицидные облучатели и рециркуляторы" alt="Бактерицидные облучатели и рециркуляторы">
+                <div class="actual__wrap">
+                    <picture>
+                        <source srcset="./img/actual/irradiators@1x.webp" type="image/webp">
+                        <source srcset="./img/actual/irradiators@1x.png" type="image/jpeg">
+                        <img class="actual__img" src="./img/actual/irradiators@1x.png" width="153" height="220" title="Бактерицидные облучатели и рециркуляторы" alt="Бактерицидные облучатели и рециркуляторы" loading="lazy">
+                    </picture>
                 </div>
                 <div class="actual-item__content">
                     <h3 class="actual-item__title title-block">Бактерицидные облучатели и рециркуляторы</h3>
@@ -231,7 +267,11 @@
         <ul class="products__list">
             <li class="products__item products-item">
                 <a href="#" class="products-item__link">
-                    <img class="products-item__img" src="./img/products/business-on-the-water.png" width="282" height="282" title="Оборудование для бизнеса по продаже воды" alt="Оборудование для бизнеса по продаже воды" loading="lazy">
+                    <picture>
+                        <source srcset="./img/products/business-on-the-water@1x.webp" type="image/webp">
+                        <source srcset="./img/products/business-on-the-water@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/business-on-the-water@1x.png" width="282" height="282" title="Оборудование для бизнеса по продаже воды" alt="Оборудование для бизнеса по продаже воды" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Оборудование для бизнеса по продаже воды</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -240,7 +280,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/mufflers.png" width="282" height="282" title="Глушители-пламегасители для стрелкового оружия" alt="Глушители-пламегасители для стрелкового оружия" loading="lazy">
+                    <picture>
+                        <source srcset="./img/products/mufflers@1x.webp" type="image/webp">
+                        <source srcset="./img/products/mufflers@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/mufflers@1x.png" width="282" height="282" title="Глушители-пламегасители для стрелкового оружия" alt="Глушители-пламегасители для стрелкового оружия" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Глушители-пламегасители для стрелкового оружия</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -249,7 +293,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/travel-filter.png" width="282" height="282" title="Походный фильтер для ВСУ и туризма" alt="Походный фильтер для ВСУ и туризма" loading="lazy">
+                    <picture>
+                        <source srcset="../img/products/travel-filter@1x.webp" type="image/webp">
+                        <source srcset="./img/products/travel-filter@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/travel-filter@1x.png" width="282" height="282" title="Походный фильтер для ВСУ и туризма" alt="Походный фильтер для ВСУ и туризма" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Походный фильтр для ВСУ и туризма</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -258,7 +306,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/irradiators.png" width="282" height="282" title="Бактерицидные облучатели и рециркуляторы" alt="Бактерицидные облучатели и рециркуляторы" loading="lazy">
+                    <picture>
+                        <source srcset="../img/products/irradiators@1x.webp" type="image/webp">
+                        <source srcset="./img/products/irradiators@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/irradiators@1x.png" width="282" height="282" title="Бактерицидные облучатели и рециркуляторы" alt="Бактерицидные облучатели и рециркуляторы" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Бактерицидные облучатели и рециркуляторы</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -267,7 +319,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/fountains.png" width="282" height="282" title="Питьевые фонтанчики" alt="Питьевые фонтанчики" loading="lazy">
+                    <picture>
+                        <source srcset="../img/products/fountains@1x.webp" type="image/webp">
+                        <source srcset="./img/products/fountains@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/fountains@1x.png" width="282" height="282" title="Питьевые фонтанчики" alt="Питьевые фонтанчики" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Питьевые фонтанчики</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -275,8 +331,12 @@
                 </a>
             </li>
             <li class="products__item products-item">
-                <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/germicidal-UV-lamps-for-water.png" width="282" height="282" title="Ультрафиолетовые очистители воды" alt="Ультрафиолетовые очистители воды" loading="lazy">
+                <a class="products-item__link" href="./sterilizer.html">
+                    <picture>
+                        <source srcset="../img/products/germicidal-UV-lamps-for-water@1x.webp" type="image/webp">
+                        <source srcset="./img/products/germicidal-UV-lamps-for-water@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/germicidal-UV-lamps-for-water@1x.png" width="282" height="282" title="Ультрафиолетовые очистители воды" alt="Ультрафиолетовые очистители воды" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Ультрафиолетовые очистители воды</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -285,7 +345,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/water-purification-station.png" width="282" height="282" title="Станции комплексной очистки воды" alt="Станции комплексной очистки воды" loading="lazy">
+                    <picture>
+                        <source srcset="../img/products/water-purification-station@1x.webp" type="image/webp">
+                        <source srcset="./img/products/water-purification-station@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/water-purification-station@1x.png" width="282" height="282" title="Станции комплексной очистки воды" alt="Станции комплексной очистки воды" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Станции комплексной очистки воды</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -294,7 +358,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/drinking-water-dispenser.png" width="282" height="282" title="Раздатчики питьевой воды" alt="Раздатчики питьевой воды" loading="lazy">
+                    <picture>
+                        <source srcset="../img/products/drinking-water-dispenser@1x.webp" type="image/webp">
+                        <source srcset="./img/products/drinking-water-dispenser@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/drinking-water-dispenser@1x.png" width="282" height="282" title="Раздатчики питьевой воды" alt="Раздатчики питьевой воды" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Раздатчики питьевой воды</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -303,7 +371,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/filters.png" width="282" height="282" title="Бытовые фильтры" alt="Бытовые фильтры" loading="lazy">
+                    <picture>
+                        <source srcset="../img/products/filters@1x.webp" type="image/webp">
+                        <source srcset="./img/products/filters@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/filters@1x.png" width="282" height="282" title="Бытовые фильтры" alt="Бытовые фильтры" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Бытовые фильтры для кухни</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -312,7 +384,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/corners.png" width="282" height="282" title="Раздатчики питьевой воды" alt="Раздатчики питьевой воды" loading="lazy">
+                    <picture>
+                        <source srcset="../img/products/corners@1x.webp" type="image/webp">
+                        <source srcset="./img/products/corners@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/corners@1x.png" width="282" height="282" title="Раздатчики питьевой воды" alt="Раздатчики питьевой воды" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Профили</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -321,7 +397,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/beverage-bottling-equipment.png" width="282" height="282" title="Комплект оборудования для цеха розлива напитков" alt="Комплект оборудования для цеха розлива напитков" loading="lazy">
+                    <picture>
+                        <source srcset="../img/products/beverage-bottling-equipment@1x.webp" type="image/webp">
+                        <source srcset="./img/products/beverage-bottling-equipment@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/beverage-bottling-equipment@1x.png" width="282" height="282" title="Комплект оборудования для цеха розлива напитков" alt="Комплект оборудования для цеха розлива напитков" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Комплектация и установка систем водоподготовки</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -330,7 +410,11 @@
             </li>
             <li class="products__item products-item">
                 <a class="products-item__link" href="#">
-                    <img class="products-item__img" src="./img/products/printer.png" alt="Изготовление различного оборудования под заказ" loading="lazy">
+                    <picture>
+                        <source srcset="../img/products/printer@1x.webp" type="image/webp">
+                        <source srcset="./img/products/printer@1x.png" type="image/jpeg">
+                        <img class="products-item__img" src="./img/products/printer@1x.png" alt="Изготовление различного оборудования под заказ" loading="lazy">
+                    </picture>
                     <div class="products-item__content">
                         <h3 class="products-item__title title-block">Изготовление различного оборудования под заказ</h3>
                         <span class="products-item__arrow _icon-arrow-right"></span>
@@ -480,4 +564,4 @@
   <span style="--i:1;" class="call-me__pulse"></span>
   <span style="--i:2;" class="call-me__pulse"></span>
   <span style="--i:3;" class="call-me__pulse"></span>
-</div>            </div>    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>    <script src="js/main.js"></script></body></html>
+</div>    </div>    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>    <script src="js/main.js"></script></body></html>

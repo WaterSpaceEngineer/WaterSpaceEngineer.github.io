@@ -1071,53 +1071,6 @@ button {
   padding: 5px 0;
 }
 
-.about__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.about__box {
-  width: 100%;
-}
-
-.about__title {
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-}
-
-.about__title::before {
-  background: var(--accent-color);
-  display: block;
-  content: "";
-  width: 2.5rem;
-  height: 6px;
-}
-
-.about__text:not(:last-child) {
-  margin-bottom: 12px;
-}
-
-.about__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.about__item::before {
-  color: var(--accent-color);
-}
-
 .actual-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1143,9 +1096,9 @@ button {
   box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.05);
 }
 
-.actual__img {
+.actual__wrap {
   background: url(../img/backgrounds/circuit-board-cart-bg.svg) var(--light-divider-color);
-  padding: 15px;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1156,13 +1109,18 @@ button {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  max-height: 230px;
-  padding: 15px;
+  padding-top: 60%;
 }
 
-.actual__img img {
+.actual__img {
   width: auto;
-  height: 100%;
+  height: 87%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .actual-item__content {
@@ -1181,6 +1139,7 @@ button {
 }
 
 .actual-item__title {
+  color: var(--dark-primary-color);
   text-align: center;
 }
 
@@ -2221,19 +2180,15 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   border: 1px solid var(--accent-color);
+  max-width: 280px;
+  width: 100%;
+  height: 190px;
 }
 
 .images-hero__item {
   background: var(--light-divider-color);
   position: relative;
-  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2247,23 +2202,20 @@ button {
   height: 186px;
 }
 
-.images-hero__item::before {
-  display: block;
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-}
-
 .images-hero__item-img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
 }
 
 .swiper {
   max-width: 280px;
+  width: 100%;
   height: 186px;
 }
 
@@ -2647,7 +2599,7 @@ button {
 }
 
 .water-disinfection__box {
-  width: calc((100% - 0px) / 2);
+  width: 100%;
 }
 
 .water-disinfection__video {
@@ -2657,10 +2609,6 @@ button {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-}
-
-.water-disinfection__stages {
-  padding: 1.25rem;
 }
 
 .water-disinfection__title.section-title {
@@ -2690,6 +2638,12 @@ button {
 
 .water-disinfection__img {
   background: var(--light-divider-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid var(--divider-color);
 }
 
@@ -2698,7 +2652,7 @@ button {
 }
 
 @supports (-webkit-appearance:none) {
-  .actual__img {
+  .actual__wrap {
     background-image: url(../img/backgrounds/circuit-board-cart-bg.svg);
   }
 
@@ -2835,13 +2789,20 @@ button {
     margin-right: 10px;
   }
 
+  .hero__images {
+    max-width: 420px;
+    width: 100%;
+    height: 274px;
+  }
+
   .images-hero__item {
     max-width: 420px;
-    height: 270px;
+    height: 272px;
   }
 
   .swiper {
     max-width: 420px;
+    width: 100%;
     height: 270px;
   }
 
@@ -2958,19 +2919,8 @@ button {
     z-index: 1;
   }
 
-  .about__container {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .about__box {
-    width: calc((100% - 1.5rem) / 2);
-  }
-
-  .actual__img {
-    max-height: 250px;
+  .actual__wrap {
+    padding-top: 65%;
   }
 
   .actual-item__title:not(:last-child) {
@@ -3219,6 +3169,14 @@ button {
     font-size: 1.25rem;
   }
 
+  .water-disinfection__box {
+    width: calc((100% - 0px) / 2);
+  }
+
+  .water-disinfection__stages {
+    padding: 1.25rem;
+  }
+
   .water-disinfection__title.section-title {
     margin-bottom: 1.5rem;
   }
@@ -3253,85 +3211,18 @@ button {
     font-size: 1.375rem;
   }
 
+  .water-disinfection__video {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
 @supports (-webkit-appearance:none) {
 
 }
 }
 
 @media all and (min-width: 1200px) {
-  .diamond-gallery {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-color: var(--divider-color);
-    -webkit-clip-path: polygon(190px 0%, calc(100% - 190px) 0%, 100% 190px, 100% calc(100% - 190px), calc(100% - 190px) 100%, 190px 100%, 0% calc(100% - 190px), 0% 190px);
-    clip-path: polygon(190px 0%, calc(100% - 190px) 0%, 100% 190px, 100% calc(100% - 190px), calc(100% - 190px) 100%, 190px 100%, 0% calc(100% - 190px), 0% 190px);
-  }
-
-  .diamond-gallery::before {
-    position: absolute;
-    content: "";
-    inset: 0;
-    background-color: var(--white-color);
-    -webkit-clip-path: polygon(191px 2px, calc(100% - 191px) 2px, calc(100% - 2px) 191px, calc(100% - 2px) calc(100% - 191px), calc(100% - 191px) calc(100% - 2px), 191px calc(100% - 2px), 2px calc(100% - 191px), 2px 191px);
-    clip-path: polygon(191px 2px, calc(100% - 191px) 2px, calc(100% - 2px) 191px, calc(100% - 2px) calc(100% - 191px), calc(100% - 191px) calc(100% - 2px), 191px calc(100% - 2px), 2px calc(100% - 191px), 2px 191px);
-    z-index: -1;
-  }
-
-  .diamond-gallery__list {
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    width: 390px;
-    height: 390px;
-  }
-
-  .diamond-gallery__item {
-    width: 190px;
-    height: 190px;
-    background-color: var(--divider-color);
-    background-image: -o-radial-gradient(transparent, rgb(18, 18, 20));
-    background-image: radial-gradient(transparent, rgb(18, 18, 20));
-    opacity: 0.5;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
-    transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
-    -o-transition: transform 0.5s ease, opacity 0.5s ease;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-    transition: transform 0.5s ease, opacity 0.5s ease, -webkit-transform 0.5s ease;
-  }
-
-  .diamond-gallery__item:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    opacity: 1;
-  }
-
-  .diamond-gallery__img {
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-
   .benefits__text {
     border: 1px solid var(--divider-color);
     border-top: none;
@@ -3347,10 +3238,6 @@ button {
 }
 
 @media all and (max-width: 767px) {
-  .about.section {
-    padding-bottom: 0;
-  }
-
   .benefits__text {
     background-color: var(--light-primary-color);
   }
@@ -3457,6 +3344,10 @@ button {
 
   .submenu__wrap.content-open {
     padding-top: 0.9375rem;
+  }
+
+  .water-disinfection__stages {
+    margin-bottom: 0.625rem;
   }
 
 @supports (-webkit-appearance:none) {

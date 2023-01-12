@@ -8,16 +8,36 @@
 }
 
 .water-disinfection__box {
-  width: item-base(2, 0px);
+  width: 100%;
+
+  @include min768 {
+    width: item-base(2, 0px);
+  }
 }
 
 .water-disinfection__video {
   display: flex;
   align-items: flex-end;
+
+  @include max767 {
+    // display: none;
+  }
+
+  @include min992 {
+    order: -1;
+  }
 }
 
 .water-disinfection__stages {
-  padding: rem(20px);
+  
+  
+  @include max767 {
+    margin-bottom: rem(10px);
+  }
+
+  @include min768 {
+    padding: rem(20px);
+  }
 }
 
 .water-disinfection__title.section-title {
@@ -52,8 +72,11 @@
 }
 
 .water-disinfection__img {
+  display: flex;
+  align-items: center;
   background-color: var(--light-divider-color);
   border: 1px solid var(--divider-color);
+
 
   img{
     mix-blend-mode: darken;
