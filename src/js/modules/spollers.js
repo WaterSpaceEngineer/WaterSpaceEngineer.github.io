@@ -7,9 +7,9 @@ const spollers = () => {
       const target = e.target;
       e.preventDefault();
 
-      target.classList.toggle('button-active')
+      target.classList.toggle('button-active');
       
-      target.nextElementSibling.classList.toggle('content-open')
+      target.nextElementSibling.classList.toggle('content-open');
     })
   })
 }

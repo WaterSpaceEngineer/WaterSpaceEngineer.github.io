@@ -12,11 +12,15 @@
 	font-weight: 500;
 
 	@include min576 {
-		font-size: rem(26px);
+		font-size: rem(24px);
 		margin-bottom: rem(24px);
 	}
 
 	@include min768 {
+		margin-bottom: rem(28px);
+	}
+
+	@include min992 {
 		margin-bottom: rem(36px);
 	}
 }
@@ -27,11 +31,11 @@
 		display: block;
 		content: "";
 		background-color: var(--accent-color);
-		width: rem(12px);
+		flex: 0 0 rem(12px);
 		height: rem(12px);
 
 		@include min768 {
-			width: rem(16px);
+			flex: 0 0 rem(16px);
 			height: rem(16px);
 		}
 	}
@@ -43,6 +47,10 @@
   font-size: rem(24px);
   line-height: 1.2;
 	font-weight: 400;
+
+	@include min576 {
+		font-size: rem(26px);
+	}
 
   @include min768 {
     margin-bottom: rem(20px);

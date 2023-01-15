@@ -6,6 +6,10 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: var(--main-font);
 	color: var(--main-text-color);
@@ -71,8 +75,13 @@ button {
 }
 
 .hero-actions__section {
-	padding-top: rem(20px);
-	padding-bottom: rem(34px);
+	padding-top: rem(16px);
+	padding-bottom: rem(16px);
+
+	@include min768 {
+		padding-top: rem(20px);
+		padding-bottom: rem(34px);
+	}
 }
 
 .visually-hidden {

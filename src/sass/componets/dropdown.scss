@@ -3,9 +3,6 @@
 
   @media (any-hover: hover) {
     &:hover {
-      color: var(--white-color);
-      background-color: var(--accent-color);
-
       .dropdown__list {
         transform: translate(0,0);
         visibility: visible;
@@ -14,17 +11,18 @@
         color: var(--white-color);
       }
 
-      & > .dropdown__btn::before {
+      .dropdown__btn {
         color: var(--white-color);
+        background-color: var(--accent-color);
+      }
+
+      .dropdown__btn::before {
         transform: rotate(-180deg);
       }
     }
   }
 
-  @include min768 {
-    &._hover {
-      color: var(--white-color);
-      background-color: var(--accent-color);
+  &._dropdown-open {
   
       .dropdown__list {
         transform: translate(0,0);
@@ -33,38 +31,33 @@
         opacity: 1;
         color: var(--white-color);
       }
-  
-      & > .dropdown__btn::before {
+
+      .dropdown__btn {
         color: var(--white-color);
+        background-color: var(--accent-color);
+      }
+
+      .dropdown__btn::before {
         transform: rotate(-180deg);
       }
     }
-  }
 }
 
 .dropdown__list {
-  position: relative;
+  position: absolute;
   background-color: var(--accent-color);
   padding: 10px;
   flex: 1 1 100%;
+  left: 0;
+  top: 100%;
+  transform: translate(0,10px);
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .3s ease, transform .3s ease, visibility .3s ease;
   box-shadow: 0 8px 8px rgb(0 0 0 / 25%), 0 0 2px rgb(0 0 0 / 25%);
   overflow-x: auto;
-
-  @include min768 {
-    position: absolute;
-    left: 0;
-    top: 100%;
-    transform: translate(0,10px);
-    visibility: hidden;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity .3s ease, transform .3s ease, visibility .3s ease;
-    z-index: 1;
-  }
-}
-
-.dropdown__btn::before {
-  transition: transform 0.3s ease, color 0.3s ease;
+  z-index: 1;
 }
 
 .dropdown__item {
@@ -75,4 +68,5 @@
 
 .dropdown__link {
   padding: 5px 0;
+  font-size: rem(14px);
 }

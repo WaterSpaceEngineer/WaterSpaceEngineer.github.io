@@ -44,7 +44,7 @@
   margin-bottom: rem(16px);
 
   @include min768 {
-    margin-bottom: rem(24px);
+    margin-bottom: rem(18px);
   }
 }
 
@@ -77,8 +77,11 @@
   background-color: var(--light-divider-color);
   border: 1px solid var(--divider-color);
 
-
   img{
     mix-blend-mode: darken;
+  }
+
+  @include max767 {
+    display: none;
   }
 } 

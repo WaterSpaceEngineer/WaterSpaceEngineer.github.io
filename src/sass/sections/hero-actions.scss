@@ -1,7 +1,7 @@
 .hero-actions__container {
   display: flex;
   flex-direction: column;
-  row-gap: rem(20px);
+  row-gap: rem(12px);
 
   @include min768 {
     row-gap: rem(26px);
@@ -12,17 +12,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: rem(24px);
+  row-gap: 5px;
 }
 
 .hero-actions__condition {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   column-gap: rem(24px);
+  padding: 5px 0;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .condition__button {
   padding: 5px 0;
-  font-size: 12px;
+  font-size: 13px;
   font-family: var(--main-font);
 
   @include min768 {
@@ -33,10 +40,14 @@
 .informational__list {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   column-gap: rem(10px);
   row-gap: rem(12px);
+
+  @include min576 {
+    justify-content: center;
+  }
 }
 
 .page__title {
@@ -45,3 +56,4 @@
   margin-right: auto;
   margin-bottom: rem(30px);
 }
+

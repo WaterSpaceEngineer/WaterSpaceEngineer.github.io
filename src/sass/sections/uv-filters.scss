@@ -6,7 +6,15 @@
 }
 
 .uv-filters__cart {
-  width: item-base(3,24px);
+  width: 100%;
+
+  @include min576 {
+    width: item-base(2,24px);
+  }
+
+  @include min768 {
+    width: item-base(3,24px);
+  }
 }
 
 .cart {
@@ -63,6 +71,11 @@
 }
 
 .cart__name-product {
+
+  @include max767 {
+    display: none;
+  }
+
   position: absolute;
   bottom: rem(10px);
   left: 50%;
@@ -73,21 +86,30 @@
 }
 
 .cart__box {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transform: translateY(101%);
-  transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   row-gap: rem(12px);
   padding: rem(10px);
-  width: 100%;
-  background-color: rgba(255,255,255, .9);
-  box-shadow: 0 8px 8px rgb(0 0 0 / 25%), 0 0 2px rgb(0 0 0 / 25%);
-  border-radius: 5px;
-  z-index: 1;
+
+  @include max767 {
+    padding-top: 0;
+  }
+
+  @media (any-hover:hover) {
+    @include min768 {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      transform: translateY(101%);
+      transition: transform 0.3s ease;
+      background-color: rgba(255,255,255, .9);
+      box-shadow: 0 8px 8px rgb(0 0 0 / 25%), 0 0 2px rgb(0 0 0 / 25%);
+      border-radius: 5px;
+      z-index: 1;
+    }
+  }
 }
 
 .description-cart {
