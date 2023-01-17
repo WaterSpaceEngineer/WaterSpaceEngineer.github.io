@@ -5,46 +5,60 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 50;
+    z-index: 10;
     background-color: rgba(0, 0, 0, 0.5);
 
     &__close {
         position: absolute;
         top: rem(10px);
         right:rem(10px);
-        font-size: 2rem;
-        color: var(--accent-color);
+        font-size: rem(24px);
         border: none;
         background-color: transparent;
         width: rem(40px);
         height: rem(40px);
-        transition: background-color 0.3s ease 0s;
+        border-radius: 3px;
+        transition: background-color 0.3s ease;
         cursor: pointer;
 
         &:hover,
         &:focus {
-            background-color: rgba(#ffffff, 0.15);
+            background-color: var(--light-primary-color);
+            
+            &::before {
+                transform: rotate(180deg);
+                color: var(--accent-color);
+            }
+        }
+
+        &::before {
+            color: var(--main-text-color);
+            transition: transform 0.3s ease 0s, color 0.3s ease 0s;
         }
     }
 
     &__wrap {
         width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+        @include min576 {
+            align-items: center;
+        }
     }
 
     &__body {
-        position: fixed;
-        text-align: center;
-        margin-top: 20px;
+        position: relative;
+        margin-top: rem(24px);
         width: 95%;
         background-color: var(--white-color);
-        padding: rem(40px);
-
-        @include min576 {
-            max-width: 25rem;
+        padding: rem(40px) rem(24px) rem(24px);
+        overflow-y: auto;
+        
+        @include min768 {
+            max-width: rem(650px);
             width: 100%;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
         }
     }
 }

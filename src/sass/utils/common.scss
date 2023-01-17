@@ -72,6 +72,20 @@
 	}
 }
 
+.modal-title {
+	text-align: center;
+  color: var(--dark-primary-color);
+  
+  &:not(:last-child) {
+    margin-bottom: rem(24px);
+  }
+}
+
+.text-subtitle {
+	color: var(--dark-primary-color);
+	font-size: rem(18px);
+}
+
 .color-decoration {
 	color: var(--primary-color);
 }

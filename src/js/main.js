@@ -1,6 +1,6 @@
 import './libs/sliders';
 
-// import modals from './modules/modals';
+import modals from './modules/modals';
 import scrollPage from "./modules/scrollPage";
 import resizePage from './modules/resizePage';
 import touchSubMenu from './modules/touchSubMenu';
@@ -9,7 +9,7 @@ import mobileMenu from './modules/mobileMenu';
 import dropdownList from './modules/dropdownList';
 
 window.addEventListener('DOMContentLoaded', () => {
-    // modals();
+    modals();
     scrollPage();
     resizePage();
     touchSubMenu('submenu-button', '.submenu-item', '.submenu-item._hover');

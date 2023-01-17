@@ -1,10 +1,14 @@
 const modals = () => {
-    function bindModal(triggerSelector, modalSelector, closeSelector, closeClickOverlay = true) {
+    function bindModal(triggerSelector, modalSelector, modalWrapSelector, modalBodySelector, closeSelector, closeClickOverlay = true) {
         const trigger = document.querySelectorAll(triggerSelector);
         const modal = document.querySelector(modalSelector);
+        const modalWrap = document.querySelector(modalWrapSelector);
+        const modalBody = document.querySelector(modalBodySelector);
         const close = document.querySelector(closeSelector);
         const windows = document.querySelectorAll('[data-modal]'); // необходим для работы со всеми модальными окнами
         const scroll = calcScroll();
+
+        const callMe = document.getElementById('call-me');
 
         trigger.forEach(item => {
             item.addEventListener('click', (e) => {
@@ -20,6 +24,8 @@ const modals = () => {
                 modal.style.display = "block";
                 document.body.style.overflow = "hidden";
                 document.body.style.marginRight = `${scroll}px`;
+                callMe.style.marginRight = `${scroll}px`;
+                modalBody.style.marginRight = `${scroll}px`;
             });
         });
 
@@ -31,7 +37,7 @@ const modals = () => {
                 setTimeout(() => {
                     item.classList.remove('fadeOut')
                     item.style.display = "none";
-                }, 800)
+                }, 350)
 
             });
 
@@ -41,15 +47,17 @@ const modals = () => {
             setTimeout(() => {
                 modal.classList.remove('fadeOut');
                 modal.style.display = "none";
-            }, 800)
+            }, 350)
 
 
             document.body.style.overflow = "";
             document.body.style.marginRight = `0px`;
+            callMe.style.marginRight = `0px`;
+            modalBody.style.marginRight = `0px`;
         });
 
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal && closeClickOverlay) {
+        modalWrap.addEventListener('click', (e) => {
+            if (e.target === modalWrap && closeClickOverlay) {
                 windows.forEach(item => {
                     item.classList.remove('fadeIn')
                     item.classList.add('fadeOut')
@@ -57,7 +65,7 @@ const modals = () => {
                     setTimeout(() => {
                         item.classList.remove('fadeOut')
                         item.style.display = "none";
-                    }, 800)
+                    }, 350)
                 });
 
                 
@@ -67,10 +75,12 @@ const modals = () => {
                 setTimeout(() => {
                     modal.classList.remove('fadeOut')
                     modal.style.display = "none";
-                }, 800)
+                }, 350)
 
                 document.body.style.overflow = ""; 
                 document.body.style.marginRight = `0px`;
+                callMe.style.marginRight = `0px`;
+                modalBody.style.marginRight = `0px`;
             }
         });
     }
@@ -111,7 +121,13 @@ const modals = () => {
         return scrollWidth;
     }
 
-    bindModal('.phone__link', '.popup', '.popup .popup__close');
+    const popups = document.querySelectorAll('.popup');
+
+    if(popups.length > 0) {
+        bindModal('.condition__button.delivery', '.popup-delivery', '.popup-delivery .popup__wrap', '.popup-delivery .popup__body', '.popup-delivery .popup__close');
+        bindModal('.condition__button.payment', '.popup-payment', '.popup-payment .popup__wrap', '.popup-payment .popup__body', '.popup-payment .popup__close');
+    }
+
     // showModalByTime('.popup', 60000);
    
 };

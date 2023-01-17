@@ -1,0 +1,23 @@
+.terms-payment__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(12px);
+  overflow: auto;
+}
+
+.terms-payment__item {
+  display: flex;
+  align-items: baseline;
+
+  &::before {
+    margin-right: 12px;
+    color: var(--accent-color);
+  }
+}
+
+.text-btn {
+  display: inline-flex;
+  padding: 3px 7px;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}

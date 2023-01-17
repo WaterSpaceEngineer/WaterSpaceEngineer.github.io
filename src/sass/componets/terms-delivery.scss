@@ -1,0 +1,27 @@
+.delivery-terms__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(12px);
+  overflow: auto;
+}
+
+.delivery-terms__text {
+  text-align: justify;
+}
+
+.companies-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: rem(16px);
+}
+
+.companies-list__item {
+  padding: 5px;
+  background-color: var(--light-primary-color);
+  width: rem(150px);
+  height: rem(55px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

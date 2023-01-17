@@ -30,6 +30,9 @@
 	}
 }
 
+._icon-close:before {
+  content: "\e90a";
+}
 ._icon-cheveron-right:before {
   content: "\e909";
 }
