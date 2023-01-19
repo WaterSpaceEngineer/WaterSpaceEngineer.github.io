@@ -50,11 +50,6 @@
         align-items:baseline;
         font-size: rem(18px);
 
-        &::before {
-            margin-right: 12px;
-            color: var(--accent-color);
-        }
-
         &:not(:last-child) {
             margin-bottom: 16px;
         } 

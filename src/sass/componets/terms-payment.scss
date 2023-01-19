@@ -15,6 +15,15 @@
   }
 }
 
+.terms-payment__list {
+  padding-left: 7px;
+}
+
+.terms-payment__item {
+  display: flex;
+  gap: 5px;
+}
+
 .text-btn {
   display: inline-flex;
   padding: 3px 7px;

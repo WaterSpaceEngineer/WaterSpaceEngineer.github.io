@@ -189,3 +189,41 @@
 	}
 }
 
+.blue-checkmark {
+	display: inline-flex;
+	align-items: baseline;
+
+	&::before {
+		margin-right: 12px;
+    color: var(--accent-color);
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.accent-color {
+	color: var(--accent-color);
+}
+
+.light-bg {
+	background-color: var(--divider-color);
+}
+
+.fw-bold {
+	font-weight: 700;
+}
+
+.fw-normal {
+	font-weight: 400;
+}
+
+.w-100 {
+	width: 100%;
+}
+

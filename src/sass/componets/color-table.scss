@@ -1,0 +1,27 @@
+.color-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    padding: 3px 7px;
+  }
+}
+
+.color-table__title {
+  margin-bottom: rem(12px);
+}
+
+.color-table__header {
+  color: var(--dark-primary-color);
+  padding-top: rem(10px);
+  padding-bottom: rem(5px);
+  text-align: center;
+  font-size: rem(18px);
+  font-weight: normal;
+}
+
+.color-table__note {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: rem(12px);
+}

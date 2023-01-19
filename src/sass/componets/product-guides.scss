@@ -1,0 +1,21 @@
+.product-guides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: rem(24px);
+  row-gap: rem(12px);
+}
+
+.product-guides__link {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  &::before {
+    margin-right: 7px;
+    font-size: rem(20px);
+    transition: color 0.3s ease;
+    color: #F40F02;
+  }
+}
