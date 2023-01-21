@@ -10,6 +10,12 @@
 	}
 }
 
+@mixin min768-max991 {
+	@media screen and (min-width: 768px) and (max-width: 991px) {
+		@content;
+	}
+}
+
 @mixin min768-max1199 {
 	@media screen and (min-width: 768px) and (max-width: 1199px) {
 		@content;

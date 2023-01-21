@@ -435,19 +435,19 @@
 }
 
 .submenu__wrap {
-    display: grid;
-    grid-template-rows: 0fr;
-    transition: 1s;
-    overflow: hidden;
+    // display: grid;
+    // grid-template-rows: 0fr;
+    // transition: 1s;
+    // overflow: hidden;
     width: 100%;
 }
 
 .submenu__wrap .inside {
-    min-height: 0;
+    // min-height: 0;
 }
 
 .submenu__wrap.content-open {
-    grid-template-rows: 1fr;
+    // grid-template-rows: 1fr;
 
     @include max767 {
         padding-top: rem(15px);

@@ -116,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hea
   \************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\nconst spollers = () => {\n  const toggleButtons = document.querySelectorAll('[data-spoller-btn]');\n  const content = document.querySelector('[data-spoller-content]')\n  \n  toggleButtons.forEach(button => {\n    button.addEventListener('click', (e) => {\n      const target = e.target;\n      e.preventDefault();\n\n      target.classList.toggle('button-active');\n      \n      target.nextElementSibling.classList.toggle('content-open');\n    })\n  })\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (spollers);\n\n\n//# sourceURL=webpack://water-space/./src/js/modules/spollers.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nconst spollers = () => {\n  const toggleButtons = document.querySelectorAll('[data-spoller-btn]');\n  \n  toggleButtons && toggleButtons.forEach(button => {\n    button.addEventListener('click', (e) => {\n      const target = e.target;\n      e.preventDefault();\n\n      target.classList.toggle('button-active');\n      \n      target.nextElementSibling.classList.toggle('content-open');\n    })\n  })\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (spollers);\n\n\n//# sourceURL=webpack://water-space/./src/js/modules/spollers.js?");
 
 /***/ }),
 

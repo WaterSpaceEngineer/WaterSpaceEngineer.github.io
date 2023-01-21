@@ -1153,6 +1153,19 @@ button {
   color: var(--accent-color);
 }
 
+[data-spoller-content] {
+  display: grid;
+  grid-template-rows: 0fr;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.content-open[data-spoller-content] {
+  grid-template-rows: 1fr;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1858,7 +1871,7 @@ button {
   -webkit-column-gap: 5px;
   -moz-column-gap: 5px;
   column-gap: 5px;
-  row-gap: 10px;
+  row-gap: 5px;
 }
 
 .breadcrumb__item {
@@ -2104,6 +2117,22 @@ button {
 
 .color-table__title {
   margin-bottom: 0.75rem;
+}
+
+.color-table__title._icon-arrow-down::before {
+  margin-left: 7px;
+  font-size: 0.875rem;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.color-table__title.button-active::before {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 .color-table__header {
@@ -2782,21 +2811,7 @@ button {
 }
 
 .submenu__wrap {
-  display: grid;
-  grid-template-rows: 0fr;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
-  overflow: hidden;
   width: 100%;
-}
-
-.submenu__wrap .inside {
-  min-height: 0;
-}
-
-.submenu__wrap.content-open {
-  grid-template-rows: 1fr;
 }
 
 .menu-button {
@@ -3461,10 +3476,12 @@ button {
   display: -ms-flexbox;
   display: flex;
   gap: 1.5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .product-unit__box {
-  width: calc((100% - 24px) / 2);
+  width: 100%;
 }
 
 .product-unit__characteristics {
@@ -3499,9 +3516,9 @@ button {
 }
 
 .gallery-thumbs__img {
-  width: 5.625rem;
-  height: 5.625rem;
   mix-blend-mode: darken;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 .product-unit__button {
@@ -3573,11 +3590,6 @@ button {
   mix-blend-mode: darken;
 }
 
-.product-swiper__hero {
-  width: 100%;
-  height: 460px;
-}
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -3594,8 +3606,6 @@ button {
 }
 
 .swiper {
-  width: 100%;
-  height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -3612,8 +3622,6 @@ button {
 
 .gallery-thumbs {
   height: 20%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   padding: 10px 0;
 }
 
@@ -4141,6 +4149,11 @@ button {
     align-items: center;
   }
 
+  .gallery-thumbs__img {
+    width: 4.0625rem;
+    height: 4.0625rem;
+  }
+
   .uv-filters__cart {
     width: calc((100% - 24px) / 2);
   }
@@ -4213,6 +4226,10 @@ button {
 
   .item-subcategory__dropdown-list {
     min-width: 9.875rem;
+  }
+
+  .color-table__title._icon-arrow-down::before {
+    display: none;
   }
 
   .actual__wrap {
@@ -4470,6 +4487,15 @@ button {
     width: 100%;
   }
 
+  .product-unit__box {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .gallery-thumbs__img {
+    width: 5.3125rem;
+    height: 5.3125rem;
+  }
+
   .quality-mark__item {
     width: 3.75rem;
     height: 3.75rem;
@@ -4577,6 +4603,26 @@ button {
 }
 
 @media all and (max-width: 767px) {
+  [data-spoller-content] .inside {
+    min-height: 0;
+  }
+
+  .color-table__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+
   .benefits__text {
     background-color: var(--light-primary-color);
   }
@@ -4685,6 +4731,10 @@ button {
     padding-top: 0.9375rem;
   }
 
+  .gallery-top__img {
+    max-height: 350px;
+  }
+
   .cart__name-product {
     display: none;
   }
@@ -4753,6 +4803,20 @@ button {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+@supports (-webkit-appearance:none) {
+
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .gallery-top {
+    height: 60%;
+  }
+
+  .gallery-thumbs {
+    height: 18%;
   }
 
 @supports (-webkit-appearance:none) {

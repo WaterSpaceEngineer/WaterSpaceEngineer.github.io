@@ -1,8 +1,7 @@
 const spollers = () => {
   const toggleButtons = document.querySelectorAll('[data-spoller-btn]');
-  const content = document.querySelector('[data-spoller-content]')
   
-  toggleButtons.forEach(button => {
+  toggleButtons && toggleButtons.forEach(button => {
     button.addEventListener('click', (e) => {
       const target = e.target;
       e.preventDefault();

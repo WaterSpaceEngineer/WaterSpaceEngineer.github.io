@@ -199,6 +199,37 @@
 	}
 }
 
+// spollers and arrow open
+
+[data-spoller-content] {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 1s;
+  overflow: hidden;
+}
+
+[data-spoller-content] .inside {
+	@include max767 {
+		min-height: 0;
+	}
+}
+
+.content-open[data-spoller-content] {
+  grid-template-rows: 1fr;
+}
+
+// .button-active[data-spoller-content] {
+// 	&::before {
+// 		transform: rotate(-180deg);
+// 	}
+// }
+
+// ._icon-arrow-down {
+// 	&::before {
+// 		transition: transform .3s ease;
+// 	}
+// }
+
 .text-center {
 	text-align: center;
 }
