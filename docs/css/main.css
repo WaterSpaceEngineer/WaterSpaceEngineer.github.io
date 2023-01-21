@@ -3492,7 +3492,7 @@ button {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  row-gap: 0.75rem;
+  row-gap: 0.875rem;
 }
 
 .gallery-top__slide {
@@ -3655,6 +3655,39 @@ button {
   width: 2.5rem;
   height: 2.5rem;
   color: var(--accent-color);
+}
+
+.gallery-top .swiper-pagination {
+  background: var(--light-divider-color);
+  color: var(--accent-color);
+  padding: 5px;
+  width: 2.5rem;
+  height: 1.875rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.gallery-thumbs .swiper-button-next::after,
+.gallery-thumbs .swiper-button-prev::after {
+  content: none;
+}
+
+.gallery-thumbs .swiper-button-next,
+.gallery-thumbs .swiper-button-prev {
+  background: var(--light-divider-color);
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--accent-color);
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.gallery-thumbs .swiper-button-next::before,
+.gallery-thumbs .swiper-button-prev::before {
+  font-size: 1.25rem;
 }
 
 .products {
@@ -4574,6 +4607,14 @@ button {
 
   .hero__undertitle {
     font-size: 1.375rem;
+  }
+
+  .product-unit__characteristics {
+    row-gap: 1.125rem;
+  }
+
+  .product-unit__characteristics-item:not(:last-child) {
+    margin-bottom: 0.625rem;
   }
 
   .water-disinfection__video {
