@@ -1242,6 +1242,10 @@ button {
   display: block;
 }
 
+._icon-cheveron-left:before {
+  content: "\e90c";
+}
+
 ._icon-icon-pdf:before {
   content: "\e90b";
 }
@@ -1987,7 +1991,7 @@ button {
   -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25), 0 0 2px rgba(0, 0, 0, 0.25);
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25), 0 0 2px rgba(0, 0, 0, 0.25);
   overflow-x: auto;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown__item:not(:last-child) {
@@ -3474,6 +3478,32 @@ button {
   row-gap: 0.75rem;
 }
 
+.gallery-top__slide {
+  background: url("../img/backgrounds/hexagons-bg.svg") no-repeat center/cover var(--light-primary-color);
+  padding: 0.625rem;
+  border: 1px solid rgba(117, 117, 117, 0.55);
+}
+
+.gallery-thumbs__slide {
+  border: 1px solid var(--secondary-text);
+}
+
+.gallery-top__img {
+  mix-blend-mode: darken;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.swiper-slide.gallery-thumbs__slide {
+  background: var(--light-divider-color);
+}
+
+.gallery-thumbs__img {
+  width: 5.625rem;
+  height: 5.625rem;
+  mix-blend-mode: darken;
+}
+
 .product-unit__button {
   margin-left: auto;
   margin-right: auto;
@@ -3524,7 +3554,7 @@ button {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.625rem;
+  padding: 5px 10px;
   border: 1px solid var(--divider-color);
   -webkit-transition: border-color 0.3s ease, background-color 0.3s ease;
   -o-transition: border-color 0.3s ease, background-color 0.3s ease;
@@ -3538,13 +3568,12 @@ button {
 }
 
 .product-spares__img {
-  width: 4.6875rem;
-  height: 4.6875rem;
+  width: 5.625rem;
+  height: 5.625rem;
   mix-blend-mode: darken;
 }
 
 .product-swiper__hero {
-  background: grey;
   width: 100%;
   height: 460px;
 }
@@ -3591,11 +3620,33 @@ button {
 .gallery-thumbs .swiper-slide {
   width: 25%;
   height: 100%;
-  opacity: 0.4;
+  opacity: 0.55;
 }
 
 .gallery-thumbs .swiper-slide-thumb-active {
   opacity: 1;
+}
+
+.gallery-thumbs .gallery-thumbs__slide.swiper-slide-thumb-active {
+  border: 1px solid var(--accent-color);
+}
+
+.gallery-top .swiper-button-next::after,
+.gallery-top .swiper-button-prev::after {
+  content: none;
+}
+
+.gallery-top .swiper-button-next::before,
+.gallery-top .swiper-button-prev::before {
+  font-size: 1.875rem;
+}
+
+.gallery-top .swiper-button-next,
+.gallery-top .swiper-button-prev {
+  background: var(--light-divider-color);
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--accent-color);
 }
 
 .products {
@@ -3929,6 +3980,10 @@ button {
   }
 
   .hero {
+    background-image: url("../img/backgrounds/hexagons-bg.svg");
+  }
+
+  .gallery-top__slide {
     background-image: url("../img/backgrounds/hexagons-bg.svg");
   }
 
