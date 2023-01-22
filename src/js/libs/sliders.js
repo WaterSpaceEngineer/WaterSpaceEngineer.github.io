@@ -10,7 +10,7 @@ new Swiper('.hero-swiper', {
   },
 });
 
-const galleryThumbs = new Swiper('.gallery-thumbs', {
+const galleryThumbs = new Swiper('.product-gallery-thumbs', {
   modules: [Navigation],
   loop: true,
   spaceBetween: 10,
@@ -23,7 +23,7 @@ const galleryThumbs = new Swiper('.gallery-thumbs', {
   },
 });
 
-const galleryTop = new Swiper('.gallery-top', {
+const galleryTop = new Swiper('.product-gallery-top', {
   modules: [Navigation, Thumbs, Pagination],
   loop: true,
   speed: 750,
@@ -38,5 +38,69 @@ const galleryTop = new Swiper('.gallery-top', {
   },
   thumbs: {
     swiper: galleryThumbs,
+  },
+});
+
+const galleryThumbsSecond = new Swiper('.gallery-thumbs-second', {
+  modules: [Navigation],
+  // якщо зображень більше чотирьох розкоментувати loop і slidesPerView змінити на 4
+  // loop: true, 
+  spaceBetween: 10,
+  slidesPerView: "auto",
+  freeMode: true,
+  watchSlidesProgress: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+const galleryTopSecond = new Swiper('.gallery-top-second', {
+  modules: [Navigation, Thumbs, Pagination],
+  loop: true,
+  speed: 750,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+  thumbs: {
+    swiper: galleryThumbsSecond,
+  },
+});
+
+const galleryThumbsThird = new Swiper('.gallery-thumbs-third', {
+  modules: [Navigation],
+  // якщо зображень більше чотирьох розкоментувати loop і slidesPerView змінити на 4
+  // loop: true, 
+  spaceBetween: 10,
+  slidesPerView: "auto",
+  freeMode: true,
+  watchSlidesProgress: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+const galleryTopThird = new Swiper('.gallery-top-third', {
+  modules: [Navigation, Thumbs, Pagination],
+  loop: true,
+  speed: 750,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+  thumbs: {
+    swiper: galleryThumbsThird,
   },
 });

@@ -25,26 +25,20 @@
                 </ul>
               </nav>
 
-              <ul class="hero-actions__condition condition">
-                <li class="condition__item">
-                  <button class="condition__button delivery emphasis" type="button">Условия доставки</button>
-                </li>
-                <li class="condition__item">
-                  <button class="condition__button payment emphasis" type="button">Условия оплаты</button>
-                </li>
-              </ul>
+              @@include('chunk/condition.html')
+              
             </div>
 
             <nav class="hero-actions__informational informational">
               <ul class="informational__list">
                 <li class="informational__item">
-                  <a class="informational__link button-simple" href="#">Ликбез</a>
+                  <a class="informational__link button-simple" target="_blank" href="./educational-program.html">Ликбез</a>
                 </li>
                 <li class="informational__item">
-                  <a class="informational__link button-simple" href="#">Регистрация покупки</a>
+                  <a class="informational__link button-simple" target="_blank" href="./purchase-registration.html">Регистрация покупки</a>
                 </li>
                 <li class="informational__item">
-                  <a class="informational__link button-simple" href="#">Вопрос-ответ</a>
+                  <a class="informational__link button-simple" target="_blank" href="./question-answer.html">Вопрос-ответ</a>
                 </li>
               </ul>
             </nav>
@@ -102,16 +96,16 @@
                   </ul>
                 </li>
                 <li class="subcategory__item">
-                  <a class="subcategory__link button-simple" href="#">Сменные элементы</a>
+                  <a class="subcategory__link button-simple" target="_blank" href="./replaceable-elements.html">Сменные элементы</a>
                 </li>
                 <li class="subcategory__item">
-                  <a class="subcategory__link button-simple" href="#">Опционные индикаторы</a>
+                  <a class="subcategory__link button-simple" target="_blank" href="./option-indicators.html">Опционные индикаторы</a>
                 </li>
                 <li class="subcategory__item">
-                  <a class="subcategory__link button-simple" href="#">Блоки управления</a>
+                  <a class="subcategory__link button-simple" target="_blank" href="./control-units.html">Блоки управления</a>
                 </li>
                 <li class="subcategory__item">
-                  <a class="subcategory__link button-simple" href="#">Запасные части</a>
+                  <a class="subcategory__link button-simple" target="_blank" href="./spare-parts.html">Запасные части</a>
                 </li>
               </ul>
             </nav>
@@ -125,7 +119,7 @@
             <div class="product-unit__wrap">
               <div class="product-unit__block">
                 <div class="product-unit__box">
-                  <div class="swiper gallery-top">
+                  <div class="swiper gallery-top product-gallery-top">
                     <div class="swiper-wrapper gallery-top__wrapper">
                       <div class="swiper-slide gallery-top__slide">
                         <picture>
@@ -142,7 +136,8 @@
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/reactor_dle@1x.webp" type="image/webp">
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/reactor_dle@1x.jpg" type="image/jpeg">
                           <img class="gallery-top__img" 
-                            src="./img/ultraviolet-water-disinfectant/ws15dle/reactor_dle@1x.jpg" width="140" height="90"
+                            src="./img/ultraviolet-water-disinfectant/ws15dle/reactor_dle@1x.jpg" 
+                            width="350" height="350"
                             alt="Ультрафиолетовый стерилизатор воды Модель WS15DLE"
                             title="Ультрафиолетовый стерилизатор воды Модель WS15DLE" loading="lazy">
                         </picture>
@@ -152,7 +147,8 @@
                           <source srcset="./img/spares/block_de@1x.webp" type="image/webp">
                           <source srcset="./img/spares/block_de@1x.jpg" type="image/jpeg">
                           <img class="gallery-top__img" 
-                            src="./img/spares/block_de@1x.jpg" width="140" height="90"
+                            src="./img/spares/block_de@1x.jpg" 
+                            width="350" height="350"
                             alt="Блок управления стерилизатора WS15DLE"
                             title="Блок управления стерилизатора WS15DLE" loading="lazy">
                         </picture>
@@ -162,7 +158,8 @@
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/ws15dle-3@1x.webp" type="image/webp">
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/ws15dle-3@1x.jpg" type="image/jpeg">
                           <img class="gallery-top__img" 
-                            src="./img/ultraviolet-water-disinfectant/ws15dle/ws15dle-3@1x.jpg" width="140" height="90"
+                            src="./img/ultraviolet-water-disinfectant/ws15dle/ws15dle-3@1x.jpg" 
+                            width="350" height="350"
                             alt="Ультрафиолетовый стерилизатор воды Модель WS15DLE с опционными индикаторами"
                             title="Ультрафиолетовый стерилизатор воды Модель WS15DLE с опционными индикаторами" loading="lazy">
                         </picture>
@@ -172,7 +169,8 @@
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/reactor_bottom_dle@1x.webp" type="image/webp">
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/reactor_bottom_dle@1x.jpg" type="image/jpeg">
                           <img class="gallery-top__img" 
-                            src="./img/ultraviolet-water-disinfectant/ws15dle/reactor_bottom_dle@1x.jpg" width="140" height="90"
+                            src="./img/ultraviolet-water-disinfectant/ws15dle/reactor_bottom_dle@1x.jpg" 
+                            width="350" height="350"
                             alt="Ультрафиолетовый стерилизатор воды Модель WS15DLE"
                             title="Ультрафиолетовый стерилизатор воды Модель WS15DLE" loading="lazy">
                         </picture>
@@ -182,7 +180,8 @@
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/reactor_top_dle@1x.webp" type="image/webp">
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/reactor_top_dle@1x.jpg" type="image/jpeg">
                           <img class="gallery-top__img" 
-                            src="./img/ultraviolet-water-disinfectant/ws15dle/reactor_top_dle@1x.jpg" width="140" height="90"
+                            src="./img/ultraviolet-water-disinfectant/ws15dle/reactor_top_dle@1x.jpg" 
+                            width="350" height="350"
                             alt="Ультрафиолетовый стерилизатор воды Модель WS15DLE"
                             title="Ультрафиолетовый стерилизатор воды Модель WS15DLE" loading="lazy">
                         </picture>
@@ -192,7 +191,7 @@
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/package_reactor_small_dle@1x.webp" type="image/webp">
                           <source srcset="./img/ultraviolet-water-disinfectant/ws15dle/package_reactor_small_dle@1x.jpg" type="image/jpeg">
                           <img class="gallery-top__img" 
-                            src="./img/ultraviolet-water-disinfectant/ws15dle/package_reactor_small_dle@1x.jpg" width="140" height="90"
+                            src="./img/ultraviolet-water-disinfectant/ws15dle/package_reactor_small_dle@1x.jpg" width="350" height="350"
                             alt="Ультрафиолетовый стерилизатор воды Модель WS15DLE в упаковке"
                             title="Ультрафиолетовый стерилизатор воды Модель WS15DLE в упаковке" loading="lazy">
                         </picture>
@@ -202,7 +201,8 @@
                           <source srcset="./img/spares/izluchatel_small@1x.webp" type="image/webp">
                           <source srcset="./img/spares/izluchatel_small@1x.jpg" type="image/jpeg">
                           <img class="gallery-top__img" 
-                            src="./img/spares/izluchatel_small@1x.jpg" width="140" height="90"
+                            src="./img/spares/izluchatel_small@1x.jpg" 
+                            width="350" height="350"
                             alt="Бактерицидная лампа модель WS15D/P UV-C"
                             title="Бактерицидная лампа модель WS15D/P UV-C" loading="lazy">
                         </picture>
@@ -212,7 +212,7 @@
                     <div class="swiper-button-prev _icon-cheveron-left"></div>
                     <div class="swiper-pagination"></div>
                   </div>
-                  <div thumbsSlider="" class="swiper gallery-thumbs">
+                  <div thumbsSlider="" class="swiper gallery-thumbs product-gallery-thumbs">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide gallery-thumbs__slide">
                         <picture>
@@ -310,10 +310,10 @@
                   </ul>
                   <ul class="product-unit__guides product-guides">
                     <li class="product-guides__item">
-                      <a class="product-guides__link emphasis _icon-icon-pdf" href="#" target="_blank">Брошюра</a>
+                      <a class="product-guides__link emphasis _icon-icon-pdf" href="./ws-brochure.pdf" target="_blank">Брошюра</a>
                     </li>
                     <li class="product-guides__item">
-                      <a class="product-guides__link emphasis _icon-icon-pdf" href="#" target="_blank">Руководство пользователя</a>
+                      <a class="product-guides__link emphasis _icon-icon-pdf" href="./ws-manual.pdf" target="_blank">Руководство пользователя</a>
                     </li>
                   </ul>
 
@@ -487,7 +487,7 @@
                   <h4 class="product-spares__title title-block text-center">Основные запасные части</h4>
                   <ul class="product-spares__list">
                     <li class="product-spares__item">
-                      <a class="product-spares__link" href="#">
+                      <a class="product-spares__link" href="./replaceable-elements.html#emitter-small">
                         <p class="product-spares__text">Бактерицидная лампа модель WS15D/P UV-C</p>
                         <picture>
                           <source srcset="./img/spares/izluchatel_small@1x.webp" type="image/webp">

@@ -194,8 +194,39 @@
 	align-items: baseline;
 
 	&::before {
-		margin-right: 12px;
+		margin-right: rem(12px);
     color: var(--accent-color);
+	}
+}
+
+.blue-dots {
+	position: relative;
+	display: flex;
+	align-items: baseline;
+
+	&::before {
+		display: block;
+    content: "";
+		margin-right: rem(12px);
+    background-color: var(--accent-color);
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+	}
+}
+
+.blue-square {
+	position: relative;
+	display: flex;
+	align-items: baseline;
+
+	&::before {
+		display: block;
+    content: "";
+		margin-right: rem(12px);
+    background-color: var(--accent-color);
+		width: 7px;
+		height: 7px;
 	}
 }
 
@@ -256,5 +287,13 @@
 
 .w-100 {
 	width: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+.f-wrap {
+	flex-wrap: wrap;
 }
 

@@ -23,3 +23,5 @@ Possible problems and solutions:
     and / or
     <b>npm install sass gulp-sass --save-dev</b>
 
+Node.js - v10.19.0
+

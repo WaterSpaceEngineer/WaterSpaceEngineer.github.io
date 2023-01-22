@@ -1149,8 +1149,47 @@ button {
 }
 
 .blue-checkmark::before {
-  margin-right: 12px;
+  margin-right: 0.75rem;
   color: var(--accent-color);
+}
+
+.blue-dots {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.blue-dots::before {
+  background: var(--accent-color);
+  display: block;
+  content: "";
+  margin-right: 0.75rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.blue-square {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.blue-square::before {
+  background: var(--accent-color);
+  display: block;
+  content: "";
+  margin-right: 0.75rem;
+  width: 7px;
+  height: 7px;
 }
 
 [data-spoller-content] {
@@ -1192,6 +1231,17 @@ button {
 
 .w-100 {
   width: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.f-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 @font-face {
@@ -3460,6 +3510,11 @@ button {
   margin-bottom: 1.875rem;
 }
 
+.product-unit__head {
+  text-align: center;
+  color: var(--dark-primary-color);
+}
+
 .product-unit__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3493,6 +3548,23 @@ button {
   -ms-flex-direction: column;
   flex-direction: column;
   row-gap: 0.875rem;
+}
+
+.product-unit__characteristics-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-unit__characteristics-sublist {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  margin-left: 1.875rem;
+}
+
+.product-unit__descr-text:not(:last-child) {
+  margin-bottom: 0.75rem;
 }
 
 .gallery-top__slide {
@@ -3588,6 +3660,16 @@ button {
   width: 5.625rem;
   height: 5.625rem;
   mix-blend-mode: darken;
+}
+
+.product-unit__list,
+.product-unit__item {
+  font-weight: 500;
+}
+
+.product-unit__list:not(:last-child),
+.product-unit__item:not(:last-child) {
+  margin-bottom: 0.4375rem;
 }
 
 .swiper-slide {
@@ -4524,6 +4606,10 @@ button {
     width: calc((100% - 24px) / 2);
   }
 
+  .product-unit__descr-text {
+    font-size: 20px;
+  }
+
   .gallery-thumbs__img {
     width: 5.3125rem;
     height: 5.3125rem;
@@ -4614,6 +4700,11 @@ button {
   }
 
   .product-unit__characteristics-item:not(:last-child) {
+    margin-bottom: 0.625rem;
+  }
+
+  .product-unit__characteristics-subitem:not(:last-child),
+  .product-unit__characteristics-item__text:not(:last-child) {
     margin-bottom: 0.625rem;
   }
 
