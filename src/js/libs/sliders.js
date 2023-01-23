@@ -43,7 +43,7 @@ const galleryTop = new Swiper('.product-gallery-top', {
 
 const galleryThumbsSecond = new Swiper('.gallery-thumbs-second', {
   modules: [Navigation],
-  // якщо зображень більше чотирьох розкоментувати loop і slidesPerView змінити на 4
+  // якщо зображень більше чотирьох розкоментувати loop та slidesPerView змінити на 4
   // loop: true, 
   spaceBetween: 10,
   slidesPerView: "auto",
@@ -75,7 +75,7 @@ const galleryTopSecond = new Swiper('.gallery-top-second', {
 
 const galleryThumbsThird = new Swiper('.gallery-thumbs-third', {
   modules: [Navigation],
-  // якщо зображень більше чотирьох розкоментувати loop і slidesPerView змінити на 4
+  // якщо зображень більше чотирьох розкоментувати loop та slidesPerView змінити на 4
   // loop: true, 
   spaceBetween: 10,
   slidesPerView: "auto",

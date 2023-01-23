@@ -3709,7 +3709,7 @@ button {
 }
 
 .gallery-thumbs .swiper-slide {
-  width: 25%;
+  width: calc((100% - 30px) / 4);
   height: 100%;
   opacity: 0.55;
 }
