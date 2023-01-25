@@ -216,18 +216,18 @@
   height: 80%;
   width: 100%;
 
-  @include min768-max991 {
-    height: 60%;
-  }
+  // @include min768-max991 {
+  //   height: 60%;
+  // }
 }
 
 .gallery-thumbs {
   height: 20%;
   padding: 10px 0;
 
-  @include min768-max991 {
-    height: 18%;
-  }
+  // @include min768-max991 {
+  //   height: 18%;
+  // }
 }
 
 .gallery-thumbs .swiper-slide {
