@@ -2093,6 +2093,22 @@ button {
   color: #F40F02;
 }
 
+.simple-table {
+  width: 100%;
+  font-size: 0.875rem;
+  border-collapse: collapse;
+  border: 1px solid var(--secondary-text);
+}
+
+.simple-table__head {
+  border: 1px solid var(--secondary-text);
+}
+
+.simple-table__sell {
+  padding: 3px 5px;
+  border: 1px solid var(--secondary-text);
+}
+
 .subcategory {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2531,6 +2547,61 @@ button {
   max-width: 16.875rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.educational-program.section {
+  padding-top: 0;
+}
+
+.educational-program__title {
+  margin-bottom: 1.875rem;
+}
+
+.educational-program__text:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.educational-program__content {
+  margin-bottom: 1.5rem;
+}
+
+.educational-program__subtitle {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.educational-program__wrap {
+  overflow-x: auto;
+}
+
+.educational-program__wrap:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.educational-program__bibliography-head {
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+}
+
+.bibliography__list:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.bibliography__item:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.bibliography__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.educational-program__note {
+  font-size: 0.875rem;
 }
 
 .footer-main {
@@ -3902,6 +3973,10 @@ button {
   background: var(--dark-primary-color);
   border-color: var(--white-color);
   color: var(--white-color);
+}
+
+.spare-parts.section {
+  padding-top: 0;
 }
 
 .spare-parts__wrap {

@@ -1,0 +1,15 @@
+.simple-table {
+  width: 100%;
+  font-size: rem(14px);
+  border-collapse: collapse;
+  border: 1px solid var(--secondary-text);
+}
+
+.simple-table__head {
+  border: 1px solid var(--secondary-text);
+}
+
+.simple-table__sell {
+  padding: 3px 5px;
+  border: 1px solid var(--secondary-text);
+}

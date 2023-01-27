@@ -1,0 +1,56 @@
+.educational-program.section {
+  padding-top: 0;
+}
+
+.educational-program__title {
+  margin-bottom: 1.875rem;
+}
+
+.educational-program__text {
+  &:not(:last-child) {
+    margin-bottom: rem(12px);
+  }
+}
+
+.educational-program__content {
+  margin-bottom: rem(24px);
+}
+
+.educational-program__subtitle {
+  text-align: center;
+  margin-bottom: rem(24px);
+}
+
+.educational-program__wrap {
+  overflow-x: auto;
+
+  &:not(:last-child) {
+    margin-bottom: rem(24px);
+  }
+}
+
+.educational-program__bibliography-head {
+  margin-bottom: rem(24px);
+  font-size: rem(18px);
+}
+
+.bibliography__list {
+  &:not(:last-child) {
+    margin-bottom: rem(24px);
+  }
+}
+
+.bibliography__item {
+  &:not(:last-child) {
+    margin-bottom: 7px;
+  }
+}
+
+.bibliography__text {
+  display: flex;
+  align-items: center;
+}
+
+.educational-program__note {
+  font-size: rem(14px);
+}
