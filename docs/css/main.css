@@ -1188,7 +1188,9 @@ button {
   display: block;
   content: "";
   margin-right: 0.75rem;
-  width: 7px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 7px;
+  flex: 0 0 7px;
   height: 7px;
 }
 
@@ -2553,10 +2555,6 @@ button {
   padding-top: 0;
 }
 
-.educational-program__title {
-  margin-bottom: 1.875rem;
-}
-
 .educational-program__text:not(:last-child) {
   margin-bottom: 0.75rem;
 }
@@ -2589,15 +2587,6 @@ button {
 
 .bibliography__item:not(:last-child) {
   margin-bottom: 7px;
-}
-
-.bibliography__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .educational-program__note {
@@ -3975,6 +3964,40 @@ button {
   color: var(--white-color);
 }
 
+.question-answer.section {
+  padding-top: 0;
+}
+
+.question-answer__content:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.question-answer__subheader {
+  font-size: 1.5rem;
+  color: var(--dark-primary-color);
+}
+
+.question-answer__subheader:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.question-answer__inner:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.question-answer__header {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.question-answer__header:not(:last-child) {
+  margin-bottom: 0.4375rem;
+}
+
+.question-answer__list {
+  padding-left: 0.75rem;
+}
+
 .spare-parts.section {
   padding-top: 0;
 }
@@ -4027,7 +4050,9 @@ button {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .spare-box__img.cart__img {
@@ -4393,6 +4418,12 @@ button {
     width: calc((100% - 24px) / 2);
   }
 
+  .bibliography__text {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .footer-main__container {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -4462,6 +4493,12 @@ button {
   .gallery-thumbs__img {
     width: 4.0625rem;
     height: 4.0625rem;
+  }
+
+  .question-answer__list-text {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .spare-box__cart {

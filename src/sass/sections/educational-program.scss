@@ -2,10 +2,6 @@
   padding-top: 0;
 }
 
-.educational-program__title {
-  margin-bottom: 1.875rem;
-}
-
 .educational-program__text {
   &:not(:last-child) {
     margin-bottom: rem(12px);
@@ -47,8 +43,9 @@
 }
 
 .bibliography__text {
-  display: flex;
-  align-items: center;
+  @include min576 {
+    align-items: center;
+  }
 }
 
 .educational-program__note {
