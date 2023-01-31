@@ -104,3 +104,35 @@ const galleryTopThird = new Swiper('.gallery-top-third', {
     swiper: galleryThumbsThird,
   },
 });
+
+const galleryThumbsFourth = new Swiper('.gallery-thumbs-fourth', {
+  modules: [Navigation],
+  // якщо зображень більше чотирьох розкоментувати loop та slidesPerView змінити на 4
+  // loop: true, 
+  spaceBetween: 10,
+  slidesPerView: "auto",
+  freeMode: true,
+  watchSlidesProgress: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+const galleryTopFourth = new Swiper('.gallery-top-fourth', {
+  modules: [Navigation, Thumbs, Pagination],
+  loop: true,
+  speed: 750,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+  thumbs: {
+    swiper: galleryThumbsFourth,
+  },
+});

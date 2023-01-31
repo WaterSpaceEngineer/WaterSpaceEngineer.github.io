@@ -18,7 +18,15 @@
 .product-unit__wrap {
   display: flex;
   flex-direction: column;
-  row-gap: rem(48px);
+  row-gap: rem(20px);
+
+  @include min576 {
+    row-gap: rem(24px);
+  }
+
+  @include min768 {
+    row-gap: rem(48px);
+  }
 }
 
 .product-unit__block {
@@ -87,13 +95,22 @@
 
 .product-unit__param-list {
   background-color: var(--light-divider-color);
-  padding: rem(12px);
+  padding: 5px;
+
+  @include min576 {
+    padding: rem(12px);
+  }
 }
 
 .param-list__item {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  font-size: rem(14px);
+
+  @include min576 {
+    font-size: initial;
+  }
 
   &:not(:last-child) {
     margin-bottom: 5px;
@@ -104,8 +121,13 @@
     height: 1px;
     background-color: var(--divider-color);
     flex-grow: 1;
-    margin-left: rem(12px);
-    margin-right: rem(12px);
+    margin-left: rem(4px);
+    margin-right: rem(4px);
+
+    @include min576 {
+      margin-left: rem(12px);
+      margin-right: rem(12px);
+    }
   }
 }
 
@@ -119,8 +141,14 @@
 
 .product-unit__inner-price {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content:space-around;
+  row-gap: rem(12px);
+
+  @include min576 {
+    flex-direction: row;
+    justify-content:space-around;
+  }
 
   .product-unit__button {
     margin: 0;
@@ -334,4 +362,29 @@
 .gallery-thumbs .swiper-button-next::before,
 .gallery-thumbs .swiper-button-prev::before {
   font-size: rem(20px);
+}
+
+.product-unit__video {
+  display: flex;
+  align-items: center;
+
+  @include max767 {
+    justify-content: center;
+  }
+}
+
+.video-product__wrap {
+  position: relative;
+  max-width: rem(500px);
+  width: 100%;
+  min-height: rem(270px);
+}
+
+#video-product__frame {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
 }
