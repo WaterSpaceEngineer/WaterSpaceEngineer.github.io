@@ -1307,6 +1307,10 @@ button {
   display: block;
 }
 
+._icon-play-outline:before {
+  content: "\e90d";
+}
+
 ._icon-cheveron-left:before {
   content: "\e90c";
 }
@@ -3913,19 +3917,37 @@ button {
 }
 
 .video-product__wrap {
+  background: url("../img/backgrounds/video-bg-silencers.jpg") no-repeat center center/cover;
   position: relative;
   max-width: 31.25rem;
   width: 100%;
-  min-height: 16.875rem;
+  height: 16.875rem;
 }
 
-#video-product__frame {
+.video-product__play {
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 3.75rem;
+  height: 3.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.video-product__play-btn {
+  font-size: 3.75rem;
+  color: var(--white-color);
 }
 
 .products {
@@ -4419,6 +4441,10 @@ button {
 
   .gallery-top__slide {
     background-image: url("../img/backgrounds/hexagons-bg.svg");
+  }
+
+  .video-product__wrap {
+    background-image: url("../img/backgrounds/video-bg-silencers.webp");
   }
 
   .products {

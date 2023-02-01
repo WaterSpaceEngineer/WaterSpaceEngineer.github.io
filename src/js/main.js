@@ -7,6 +7,7 @@ import touchSubMenu from './modules/touchSubMenu';
 import spollers from './modules/spollers';
 import mobileMenu from './modules/mobileMenu';
 import dropdownList from './modules/dropdownList';
+import playVideo from './modules/playVideo';
 
 window.addEventListener('DOMContentLoaded', () => {
     modals();
@@ -16,4 +17,5 @@ window.addEventListener('DOMContentLoaded', () => {
     dropdownList();
     spollers();
     mobileMenu('menu-button', '.navigation');
+    playVideo('.silencers-play');
 });
