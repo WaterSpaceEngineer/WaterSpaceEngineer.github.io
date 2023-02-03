@@ -48,11 +48,18 @@
     &__text {
         display: flex;
         align-items:baseline;
-        font-size: rem(18px);
 
         &:not(:last-child) {
-            margin-bottom: 16px;
-        } 
+            margin-bottom: rem(10px);
+        }
+
+        @include min768 {
+            font-size: rem(18px);
+
+            &:not(:last-child) {
+                margin-bottom: rem(16px);
+            }
+        }
     }
 }
 

@@ -18,4 +18,5 @@ window.addEventListener('DOMContentLoaded', () => {
     spollers();
     mobileMenu('menu-button', '.navigation');
     playVideo('.silencers-play');
+    playVideo('.travel-filter-play');
 });
