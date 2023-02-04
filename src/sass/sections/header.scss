@@ -367,13 +367,60 @@
     }
 }
 
-.sub-submenu-list {
+.sub-submenu-list__item {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+
+    @include any-hover {
+        &:hover {
+            .double-submenu-list {
+                transform: translate(0,0);
+                visibility: visible;
+                pointer-events: auto;
+                opacity: 1;
+            }
+
+            & > .submenu-button::before {
+                transform: rotate(-90deg);
+            }
+        }
+    }
+
+    @include min768 {
+        padding: 0 rem(10px);
+
+        &._hover {
+            .double-submenu-list {
+                transform: translate(0,0);
+                visibility: visible;
+                pointer-events: auto;
+                opacity: 1;
+            }
+
+            & > .submenu-button::before {
+                transform: rotate(-90deg);
+            }
+        }
+    }
+
+    @include max767 {
+        padding-left: rem(10px);
+        border-left: 1px solid var(--accent-color);
+    }
+}
+
+.sub-submenu-list,
+.double-submenu-list {
     @include max767 {
         padding-left: rem(20px);
     }
 }
 
-.sub-submenu-list__item {
+.sub-submenu-list__item,
+.double-submenu-list__item {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -391,7 +438,8 @@
 }
 
 .submenu-list__link,
-.sub-submenu-list__link {
+.sub-submenu-list__link,
+.double-submenu-list__link {
     padding: 5px 0;
     line-height: 1.5;
 
@@ -434,6 +482,27 @@
     }
 }
 
+.double-submenu-list {
+    position: relative;
+    flex: 1 1 100%;
+
+    @include min768 {
+        min-width: rem(200px);
+        background-color: var(--primary-color);
+        position: absolute;
+        left: 100%;
+        top: 0;
+        padding: rem(10px) 0;
+        transform: translate(0,20px);
+        visibility: hidden;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity .3s ease, transform .3s ease;
+        box-shadow: 0 8px 8px rgb(0 0 0 / 25%), 0 0 2px rgb(0 0 0 / 25%);
+        z-index: 5;
+    }
+}
+
 .submenu__wrap {
     // display: grid;
     // grid-template-rows: 0fr;
@@ -453,6 +522,8 @@
         padding-top: rem(15px);
     }
 }
+
+// Button menu
 
 .menu-button {
     position: relative;
