@@ -1,0 +1,69 @@
+.card-next {
+  display: flex;
+  flex-direction: column;
+  border-radius: rem(8px);
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid var(--divider-color);
+  box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-next__wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 60%;
+  background-image: url(../img/backgrounds/circuit-board-cart-bg.svg);
+  background-color: var(--light-divider-color);
+
+  @include min768 {
+      padding-top: 65%;
+  }
+}
+
+.card-next__img {
+  width: auto;
+  height: 87%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-next__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+.card-next__title {
+  color: var(--dark-primary-color);
+  text-align: center;
+  
+  &:not(:last-child) {
+  margin-bottom: rem(14px);
+
+  @include min768 {
+    margin-bottom: rem(18px);
+  }
+}
+}
+
+.card-next__description {
+  font-size: rem(16px);
+  line-height: 1.7;
+  margin-bottom: rem(24px);
+  flex-grow: 1;
+}
+
+.card-next__text:not(:last-child) {
+  margin-bottom: rem(5px);
+}
+
+.card-next__btn {
+  max-width: 270px;
+}

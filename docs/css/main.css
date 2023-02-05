@@ -1119,6 +1119,14 @@ button {
   border-radius: 50%;
 }
 
+.airspace-logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #0051ba;
+  font-family: "dynarshadow-bold";
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1959,6 +1967,90 @@ button {
   }
 }
 
+.card-next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid var(--divider-color);
+  -webkit-box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-next__wrap {
+  background: url(../img/backgrounds/circuit-board-cart-bg.svg) var(--light-divider-color);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 60%;
+}
+
+.card-next__img {
+  width: auto;
+  height: 87%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.card-next__content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.card-next__title {
+  color: var(--dark-primary-color);
+  text-align: center;
+}
+
+.card-next__title:not(:last-child) {
+  margin-bottom: 0.875rem;
+}
+
+.card-next__description {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.card-next__text:not(:last-child) {
+  margin-bottom: 0.3125rem;
+}
+
+.card-next__btn {
+  max-width: 270px;
+}
+
 .color-table {
   width: 100%;
   border-collapse: collapse;
@@ -2258,97 +2350,13 @@ button {
   color: var(--white-color);
 }
 
-.actual-wrap {
+.actual-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 24px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-}
-
-.actual__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  width: 100%;
-  border: 1px solid var(--divider-color);
-  -webkit-box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.05);
-  box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.05);
-}
-
-.actual__wrap {
-  background: url(../img/backgrounds/circuit-board-cart-bg.svg) var(--light-divider-color);
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%;
-  padding-top: 60%;
-}
-
-.actual__img {
-  width: auto;
-  height: 87%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.actual-item__content {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 24px;
-}
-
-.actual-item__title {
-  color: var(--dark-primary-color);
-  text-align: center;
-}
-
-.actual-item__title:not(:last-child) {
-  margin-bottom: 0.875rem;
-}
-
-.actual-item__description {
-  font-size: 1rem;
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-}
-
-.actual-item__text:not(:last-child) {
-  margin-bottom: 0.3125rem;
-}
-
-.actual-item__btn {
-  max-width: 270px;
 }
 
 .benefits__list {
@@ -4154,6 +4162,32 @@ button {
   padding-left: 0.75rem;
 }
 
+.recirculators-irradiators.section {
+  padding-top: 0;
+}
+
+.recirculators-irradiators__title {
+  max-width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.875rem;
+}
+
+.recirculators-irradiators__subtitle {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.recirculators-irradiators__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
 .spare-parts.section {
   padding-top: 0;
 }
@@ -4462,7 +4496,7 @@ button {
 }
 
 @supports (-webkit-appearance:none) {
-  .actual__wrap {
+  .card-next__wrap {
     background-image: url(../img/backgrounds/circuit-board-cart-bg.svg);
   }
 
@@ -4693,6 +4727,10 @@ button {
     align-items: center;
   }
 
+  .recirculators-irradiators__box {
+    width: calc((100% - 24px) / 2);
+  }
+
   .spare-box__cart {
     width: calc((100% - 24px) / 2);
   }
@@ -4771,20 +4809,20 @@ button {
     font-size: 14px;
   }
 
+  .card-next__wrap {
+    padding-top: 65%;
+  }
+
+  .card-next__title:not(:last-child) {
+    margin-bottom: 1.125rem;
+  }
+
   .color-table__title._icon-arrow-down::before {
     display: none;
   }
 
   .item-subcategory__dropdown-list {
     min-width: 9.875rem;
-  }
-
-  .actual__wrap {
-    padding-top: 65%;
-  }
-
-  .actual-item__title:not(:last-child) {
-    margin-bottom: 1.125rem;
   }
 
   .benefits__item {
@@ -5223,6 +5261,10 @@ button {
     max-width: 25rem;
   }
 
+  .recirculators-irradiators__box {
+    width: calc((100% - 48px) / 3);
+  }
+
   .spare-card__item {
     width: calc((100% - 72px) / 4);
   }
@@ -5432,6 +5474,11 @@ button {
 @media all and (max-width: 575px) {
   .footer-bottom__container {
     font-size: 0.875rem;
+  }
+
+  .recirculators-irradiators__block {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
 @supports (-webkit-appearance:none) {

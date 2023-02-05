@@ -165,6 +165,12 @@
 	}
 }
 
+.airspace-logo {
+	display: inline-flex;
+	color: #0051ba;
+	font-family: 'dynarshadow-bold';
+}
+
 .logo {
 	display: flex;
 	align-items: center;
@@ -248,18 +254,6 @@
 .content-open[data-spoller-content] {
   grid-template-rows: 1fr;
 }
-
-// .button-active[data-spoller-content] {
-// 	&::before {
-// 		transform: rotate(-180deg);
-// 	}
-// }
-
-// ._icon-arrow-down {
-// 	&::before {
-// 		transition: transform .3s ease;
-// 	}
-// }
 
 .text-center {
 	text-align: center;

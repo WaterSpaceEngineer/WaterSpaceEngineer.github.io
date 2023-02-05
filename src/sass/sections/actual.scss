@@ -1,17 +1,10 @@
-.actual-wrap {
+.actual-body {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
 }
 
 .actual__item {
-    display: flex;
-    flex-direction: column;
-    border-radius: rem(8px);
-    overflow: hidden;
-    width: 100%;
-    border: 1px solid var(--divider-color);
-    box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(0, 0, 0, 0.05);
 
     @include min576 {
         width: item-base(2, 24px);
@@ -22,64 +15,4 @@
     @include min992 {
         width: item-base(3, 24px);
     }
-}
-
-.actual__wrap {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-top: 60%;
-    background-image: url(../img/backgrounds/circuit-board-cart-bg.svg);
-    background-color: var(--light-divider-color);
-
-    @include min768 {
-        padding-top: 65%;
-    }
-}
-
-.actual__img {
-    width: auto;
-    height: 87%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.actual-item__content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px;
-}
-
-.actual-item__title {
-    color: var(--dark-primary-color);
-    text-align: center;
-    
-    &:not(:last-child) {
-		margin-bottom: rem(14px);
-
-		@include min768 {
-			margin-bottom: rem(18px);
-		}
-	}
-}
-
-.actual-item__description {
-    font-size: rem(16px);
-    line-height: 1.7;
-    margin-bottom: rem(24px);
-    flex-grow: 1;
-}
-
-.actual-item__text:not(:last-child) {
-    margin-bottom: rem(5px);
-}
-
-.actual-item__btn {
-    max-width: 270px;
 }

@@ -1,0 +1,35 @@
+.recirculators-irradiators.section {
+  padding-top: 0;
+}
+
+.recirculators-irradiators__title {
+  max-width: rem(600px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.875rem;
+}
+
+.recirculators-irradiators__subtitle {
+  margin-bottom: rem(24px);
+  text-align: center;
+}
+
+.recirculators-irradiators__block {
+  display: flex;
+  justify-content: center;
+  gap: rem(24px);
+
+  @include max575 {
+    flex-wrap: wrap;
+  }
+}
+
+.recirculators-irradiators__box {
+  @include min576 {
+    width: item-base(2, 24px);
+  }
+
+  @include min992 {
+    width: item-base(3, 24px);
+  }
+}
