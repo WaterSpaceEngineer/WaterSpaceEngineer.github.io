@@ -1,0 +1,34 @@
+.goods.recirculators {
+  padding-top: 0;
+}
+
+.recirculators__carts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: rem(24px);
+}
+
+.recirculators__cart {
+  width: 100%;
+  background-image: url('../img/backgrounds/hexagons-bg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include min576 {
+    width: item-base(2,24px);
+  }
+
+  @include min768 {
+    width: item-base(3,24px);
+  }
+}
+
+.recirculators-title.cart__title {
+  font-size: rem(20px);
+
+  &:not(:last-child) {
+    margin-bottom: rem(10px);
+  }
+}
