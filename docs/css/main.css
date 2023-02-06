@@ -4293,11 +4293,13 @@ button {
   gap: 1.5rem;
 }
 
-.goods.recirculators {
+.goods.recirculators,
+.goods.irradiators {
   padding-top: 0;
 }
 
-.recirculators__carts {
+.recirculators__carts,
+.irradiators__carts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4309,16 +4311,19 @@ button {
   gap: 1.5rem;
 }
 
-.recirculators__cart {
+.recirculators__cart,
+.irradiators__cart {
   background: url("../img/backgrounds/hexagons-bg.svg") no-repeat center/cover;
   width: 100%;
 }
 
-.recirculators-title.cart__title {
+.recirculators-title.cart__title,
+.irradiators-title.cart__title {
   font-size: 1.25rem;
 }
 
-.recirculators-title.cart__title:not(:last-child) {
+.recirculators-title.cart__title:not(:last-child),
+.irradiators-title.cart__title:not(:last-child) {
   margin-bottom: 0.625rem;
 }
 
@@ -4557,7 +4562,8 @@ button {
     background-image: url("../img/backgrounds/circles-bg.svg");
   }
 
-  .recirculators__cart {
+  .recirculators__cart,
+  .irradiators__cart {
     background-image: url("../img/backgrounds/hexagons-bg.svg");
   }
 
@@ -4764,7 +4770,8 @@ button {
     width: calc((100% - 24px) / 2);
   }
 
-  .recirculators__cart {
+  .recirculators__cart,
+  .irradiators__cart {
     width: calc((100% - 24px) / 2);
   }
 
@@ -5183,7 +5190,8 @@ button {
     height: 3.75rem;
   }
 
-  .recirculators__cart {
+  .recirculators__cart,
+  .irradiators__cart {
     width: calc((100% - 48px) / 3);
   }
 
