@@ -3741,6 +3741,22 @@ button {
   width: 100%;
 }
 
+.product-unit__wrap-img {
+  background: url("../img/backgrounds/hexagons-bg.svg") no-repeat center/cover;
+  width: 21.875rem;
+  height: 21.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: 1px solid rgba(117, 117, 117, 0.55);
+}
+
+.product-unit__img {
+  mix-blend-mode: darken;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .product-unit__characteristics {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4546,6 +4562,10 @@ button {
     background-image: url("../img/backgrounds/hexagons-bg.svg");
   }
 
+  .product-unit__wrap-img {
+    background-image: url("../img/backgrounds/hexagons-bg.svg");
+  }
+
   .gallery-top__slide {
     background-image: url("../img/backgrounds/hexagons-bg.svg");
   }
@@ -5284,6 +5304,10 @@ button {
     column-gap: 1.5rem;
   }
 
+  .product-unit__wrap-img {
+    padding: 0.625rem;
+  }
+
   .product-unit__characteristics {
     row-gap: 1.125rem;
   }
@@ -5543,6 +5567,17 @@ button {
 
   .languages__link {
     font-size: 13px;
+  }
+
+@supports (-webkit-appearance:none) {
+
+}
+}
+
+@media (max-width: 380px) {
+  .product-unit__wrap-img {
+    width: 18.125rem;
+    height: 18.125rem;
   }
 
 @supports (-webkit-appearance:none) {

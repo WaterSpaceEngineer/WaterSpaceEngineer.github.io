@@ -58,6 +58,38 @@
   }
 }
 
+.product-unit__wrap-img {
+  width: rem(350px);
+  height: rem(350px);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: 1px solid rgba(#757575, 0.55);
+  background-image: url('../img/backgrounds/hexagons-bg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  // @include min576 {
+  //   width: rem(350px);
+  //   height: rem(350px);
+  // }
+
+  @media (max-width: 380px) {
+    width: rem(290px);
+    height: rem(290px);
+  }
+
+  @include min992 {
+    padding: rem(10px);
+  }
+}
+
+.product-unit__img {
+  mix-blend-mode: darken;
+  object-fit: cover;
+}
+
 .product-unit__characteristics {
   display: flex;
   flex-direction: column;
