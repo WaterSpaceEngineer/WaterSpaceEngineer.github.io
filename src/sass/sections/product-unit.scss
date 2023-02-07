@@ -70,11 +70,6 @@
   background-position: center;
   background-size: cover;
 
-  // @include min576 {
-  //   width: rem(350px);
-  //   height: rem(350px);
-  // }
-
   @media (max-width: 380px) {
     width: rem(290px);
     height: rem(290px);
