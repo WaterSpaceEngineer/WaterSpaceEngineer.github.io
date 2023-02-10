@@ -466,7 +466,7 @@
     flex: 1 1 100%;
 
     @include min768 {
-        min-width: rem(200px);
+        min-width: rem(220px);
         background-color: var(--primary-color);
         position: absolute;
         left: 100%;

@@ -34,21 +34,14 @@
   }
 }
 
-.goods.recirculators,
-.goods.irradiators {
-  padding-top: 0;
-}
-
-.recirculators__carts,
-.irradiators__carts {
+.recirculators-irradiators__carts {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: rem(24px);
 }
 
-.recirculators__cart,
-.irradiators__cart {
+.recirculators-irradiators__cart {
   width: 100%;
   background-image: url('../img/backgrounds/hexagons-bg.svg');
   background-position: center;
@@ -64,8 +57,7 @@
   }
 }
 
-.recirculators-title.cart__title,
-.irradiators-title.cart__title {
+.recirculators-irradiators__title.cart__title {
   font-size: rem(20px);
 
   &:not(:last-child) {
