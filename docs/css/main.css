@@ -3766,6 +3766,7 @@ button {
   -ms-flex-direction: column;
   flex-direction: column;
   row-gap: 0.875rem;
+  width: 100%;
 }
 
 .product-unit__characteristics-item {
