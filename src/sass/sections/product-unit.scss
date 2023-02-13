@@ -205,8 +205,28 @@
 
 .product-unit__price {
   color: var(--accent-color);
-  font-size: rem(24px);
+  font-size: rem(20px);
   flex: 0 0 auto;
+
+  @include min768 {
+    font-size: rem(22px);
+  }
+}
+
+.commodity-prices {
+  .param-list__name,
+  .param-list__cost {
+
+    @include min576 {
+      font-size: rem(18px);
+    }
+  }
+
+  .param-list__cost {
+    @include max575 {
+      font-size: rem(14px);
+    }
+  }
 }
 
 .gallery-top__slide {
