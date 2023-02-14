@@ -2300,6 +2300,10 @@ button {
   color: #F40F02;
 }
 
+.table-wrap {
+  overflow-x: auto;
+}
+
 .simple-table {
   width: 100%;
   font-size: 0.875rem;
@@ -2308,6 +2312,7 @@ button {
 }
 
 .simple-table__head {
+  padding: 3px 5px;
   border: 1px solid var(--secondary-text);
 }
 
