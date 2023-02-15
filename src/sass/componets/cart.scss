@@ -3,6 +3,8 @@
   box-shadow: -8px -8px 20px #fff, 8px 8px 20px rgb(0 0 0 / 5%);
   border-radius: 5px;
   transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 
   @media (any-hover: hover) {
@@ -29,7 +31,10 @@
 
 .cart__content {
   position: relative;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 auto;
 }
 
 .cart__logo {
