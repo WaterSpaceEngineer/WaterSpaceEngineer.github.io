@@ -18,7 +18,9 @@ const subcategoryTopFixation = () => {
         getParametersheroActions.height -
         getParametersSubcategory.height -
         getPaddingBottomHeroActionsSection -
-        getRowGapHeroActionsContainer / 4 &&
+        getRowGapHeroActionsContainer / 2 
+        // 232.5
+        &&
       window.matchMedia("(min-width: 768px)").matches
     ) {
       subcategory.classList.add("fix");
@@ -28,9 +30,9 @@ const subcategoryTopFixation = () => {
       document.documentElement.scrollTop <=
         getParametersHeader.height +
         getParametersheroActions.height -
-        getParametersSubcategory.height -
-        getPaddingBottomHeroActionsSection -
-        getRowGapHeroActionsContainer / 4 &&
+        getPaddingBottomHeroActionsSection
+        // 219.5
+        &&
       window.matchMedia("(min-width: 768px)").matches
     ) {
       subcategory.classList.remove("fix");
