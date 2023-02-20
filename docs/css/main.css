@@ -3791,6 +3791,7 @@ button {
 
 .product-unit__img {
   mix-blend-mode: darken;
+  height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
