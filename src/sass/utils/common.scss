@@ -287,10 +287,20 @@
 	display: flex;
 }
 
+.inline-flex {
+	display: inline-flex;
+}
+
 .f-wrap {
 	flex-wrap: wrap;
 }
 
 .fz-18 {
 	font-size: rem(18px);
+}
+
+.mb-24 {
+	&:not(:last-child) {
+		margin-bottom: rem(24px);
+	}
 }

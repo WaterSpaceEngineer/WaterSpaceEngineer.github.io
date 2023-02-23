@@ -1249,6 +1249,12 @@ button {
   display: flex;
 }
 
+.inline-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
 .f-wrap {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -1256,6 +1262,10 @@ button {
 
 .fz-18 {
   font-size: 1.125rem;
+}
+
+.mb-24:not(:last-child) {
+  margin-bottom: 1.5rem;
 }
 
 @font-face {
