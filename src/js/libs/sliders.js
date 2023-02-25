@@ -136,3 +136,66 @@ const galleryTopFourth = new Swiper('.gallery-top-fourth', {
     swiper: galleryThumbsFourth,
   },
 });
+
+const galleryThumbsFiveth = new Swiper('.gallery-thumbs-fiveth', {
+  modules: [Navigation],
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+const galleryTopFiveth = new Swiper('.gallery-top-fiveth', {
+  modules: [Navigation, Thumbs, Pagination],
+  loop: true,
+  speed: 750,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+  thumbs: {
+    swiper: galleryThumbsFiveth,
+  },
+});
+
+const galleryThumbsSixth = new Swiper('.gallery-thumbs-sixth', {
+  modules: [Navigation],
+  // якщо зображень більше чотирьох розкоментувати loop та slidesPerView змінити на 4
+  // loop: true, 
+  spaceBetween: 10,
+  slidesPerView: "auto",
+  freeMode: true,
+  watchSlidesProgress: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+const galleryTopSixth = new Swiper('.gallery-top-sixth', {
+  modules: [Navigation, Thumbs, Pagination],
+  loop: true,
+  speed: 750,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+  },
+  thumbs: {
+    swiper: galleryThumbsSixth,
+  },
+});

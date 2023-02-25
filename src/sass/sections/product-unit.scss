@@ -121,6 +121,22 @@
   }
 }
 
+.product-unit__num-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(10px);
+  width: 100%;
+  padding-left: rem(12px);
+
+  @include min992 {
+    row-gap: rem(12px);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: rem(12px);
+  }
+}
+
 .product-unit__descr-txt {
   @include min768 {
     font-size: 20px;
@@ -254,6 +270,10 @@
 
   @include max767 {
     max-height: 350px;
+  }
+
+  &.mix-blend-mode-none {
+    mix-blend-mode: initial;
   }
 }
 
