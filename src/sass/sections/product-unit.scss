@@ -464,6 +464,51 @@
   font-size: rem(20px);
 }
 
+.product-description__head,
+.product-description__list,
+.product-description__text {
+  
+  @include min768 {
+    font-size: rem(18px);
+  }
+}
+
+.product-description__content {
+  &:not(:last-child) {
+    margin-bottom: rem(18px);
+
+    @include min768 {
+      margin-bottom: rem(24px);
+    }
+  }
+}
+
+.product-description__head,
+.product-description__list,
+.product-description__text {
+  &:not(:last-child) {
+    margin-bottom: rem(10px);
+
+    @include min768 {
+      margin-bottom: rem(12px);
+    }
+  }
+}
+
+.product-description__list {
+  margin-left: rem(14px);
+}
+
+.product-description__item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: rem(7px);
+
+    @include min768 {
+      margin-bottom: rem(10px);
+    }
+}
+
 .product-unit__video {
   display: flex;
   align-items: center;

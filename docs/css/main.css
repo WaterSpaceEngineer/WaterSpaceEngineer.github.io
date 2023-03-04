@@ -1264,6 +1264,10 @@ button {
   font-size: 1.125rem;
 }
 
+.fz-20 {
+  font-size: 1.25rem;
+}
+
 .mb-24:not(:last-child) {
   margin-bottom: 1.5rem;
 }
@@ -4139,6 +4143,30 @@ button {
   font-size: 1.25rem;
 }
 
+.product-description__content:not(:last-child) {
+  margin-bottom: 1.125rem;
+}
+
+.product-description__head:not(:last-child),
+.product-description__list:not(:last-child),
+.product-description__text:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
+
+.product-description__list {
+  margin-left: 0.875rem;
+}
+
+.product-description__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin-bottom: 0.4375rem;
+}
+
 .product-unit__video {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5277,6 +5305,26 @@ button {
   .quality-mark__item {
     width: 3.75rem;
     height: 3.75rem;
+  }
+
+  .product-description__head,
+  .product-description__list,
+  .product-description__text {
+    font-size: 1.125rem;
+  }
+
+  .product-description__content:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  .product-description__head:not(:last-child),
+  .product-description__list:not(:last-child),
+  .product-description__text:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+
+  .product-description__item {
+    margin-bottom: 0.625rem;
   }
 
   .recirculators-irradiators__cart {
