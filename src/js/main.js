@@ -19,4 +19,5 @@ window.addEventListener('DOMContentLoaded', () => {
     mobileMenu('menu-button', '.navigation');
     playVideo('.silencers-play');
     playVideo('.travel-filter-play');
+    playVideo('.ultraviolet-sterilizer-play');
 });

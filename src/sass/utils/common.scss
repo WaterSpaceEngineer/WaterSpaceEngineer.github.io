@@ -308,3 +308,11 @@
 		margin-bottom: rem(24px);
 	}
 }
+
+.box-50 {
+	width: 100%;
+
+	@include min768 {
+		width: item-base(2, 24px);
+	}
+}
