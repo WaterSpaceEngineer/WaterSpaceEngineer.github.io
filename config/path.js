@@ -23,9 +23,15 @@ module.exports = {
     },
 
     img: {
-        src: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg,ico,mp4,webm,webmanifest}",
-        watch: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg,ico,mp4,webm,webmanifest}",
+        src: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg,ico,webmanifest}",
+        watch: pathSrc + "/img/**/*.{png,jpg,jpeg,gif,svg,ico,webmanifest}",
         dest: pathDest + "/img"
+    },
+
+    videos: {
+        src: pathSrc + "/videos/**/*.{png,jpg,jpeg,mp4,webm}",
+        watch: pathSrc + "/videos/**/*.{png,jpg,jpeg,mp4,webm}",
+        dest: pathDest + "/videos"
     },
 
     font: {

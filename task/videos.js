@@ -10,17 +10,17 @@ const notify = require('gulp-notify');
 const newer = require('gulp-newer');
 
 
-// Обработка Instructions
-const instructions = () => {
-    return src(path.instructions.src)
+// Обработка Videos
+const videos = () => {
+    return src(path.videos.src)
     .pipe(plumber({
         errorHandler: notify.onError(error => ({
-            title: "Instructions",
+            title: "Videos",
             message: error.message
         }))
     }))
-    .pipe(newer(path.instructions.dest))
-    .pipe(dest(path.instructions.dest));
+    .pipe(newer(path.videos.dest))
+    .pipe(dest(path.videos.dest));
 };
 
-module.exports = instructions;
+module.exports = videos;
