@@ -1,0 +1,56 @@
+.big-card__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(24px);
+}
+
+.big-card__head {
+  color: var(--dark-primary-color);
+  text-align: center;
+  font-size: rem(18px);
+  padding: 5px 10px;
+
+  &:not(:last-child) {
+    margin-bottom: rem(18px);
+  }
+}
+
+.big-card__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.big-card__box {
+  position: relative;
+  width: 100%;
+  padding-top: 61.5%;
+  background-color: var(--light-divider-color);
+
+  // Через for перебираем и добавляем фон
+  // @for $var from 1 to 4 {
+  //   &-#{$var}::before {
+  //     position: absolute;
+  //     content: '';
+  //     top: 0;
+  //     left: 0;
+  //     width: 100%;
+  //     height: 100%;
+  //     background-image: url('../img/water-treatment-systems/water-treatment-systems-#{$var}@1x.jpg');
+  //     background-position: center;
+  //     background-repeat: no-repeat;
+  //     background-size: cover;
+  //   }
+  // }
+
+}
+
+.big-card__img,
+.big-card__video {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
