@@ -34,34 +34,17 @@
 }
 
 @include min576 {
-    .benefits__item::before {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
 
-    .benefits__item.benefits-quality::before {
-        background-image: url('../img/benefits/quality.jpg');
-    }
-    
-    .benefits__item.benefits-value::before {
-        background-image: url('../img/benefits/value.jpg');
-    }
-    
-    .benefits__item.benefits-cooperation::before {
-        background-image: url('../img/benefits/cooperation.jpg');
-    }
-    
-    .benefits__item.benefits-laboratory::before {
-        background-image: url('../img/benefits/laboratory.jpg');
-    }
-    
-    .benefits__item.benefits-consultation::before {
-        background-image: url('../img/benefits/consultation.jpg');
-    }
-    
-    .benefits__item.benefits-support::before {
-        background-image: url('../img/benefits/support.jpg');
+    .benefits__item {
+        // Через for перебираем и добавляем фон
+        @for $var from 1 to 9 {
+            &-#{$var}::before {
+                background-image: url('../img/benefits/benefits__item-#{$var}.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
     }
 }
 

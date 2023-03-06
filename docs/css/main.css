@@ -4821,34 +4821,60 @@ button {
     border-top-left-radius: 5px 5px;
   }
 
-  .benefits__item::before {
-    background-repeat: no-repeat;
+  .benefits__item-1::before {
+    background-image: url("../img/benefits/benefits__item-1.jpg");
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .benefits__item.benefits-quality::before {
-    background-image: url("../img/benefits/quality.jpg");
+  .benefits__item-2::before {
+    background-image: url("../img/benefits/benefits__item-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .benefits__item.benefits-value::before {
-    background-image: url("../img/benefits/value.jpg");
+  .benefits__item-3::before {
+    background-image: url("../img/benefits/benefits__item-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .benefits__item.benefits-cooperation::before {
-    background-image: url("../img/benefits/cooperation.jpg");
+  .benefits__item-4::before {
+    background-image: url("../img/benefits/benefits__item-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .benefits__item.benefits-laboratory::before {
-    background-image: url("../img/benefits/laboratory.jpg");
+  .benefits__item-5::before {
+    background-image: url("../img/benefits/benefits__item-5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .benefits__item.benefits-consultation::before {
-    background-image: url("../img/benefits/consultation.jpg");
+  .benefits__item-6::before {
+    background-image: url("../img/benefits/benefits__item-6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .benefits__item.benefits-support::before {
-    background-image: url("../img/benefits/support.jpg");
+  .benefits__item-7::before {
+    background-image: url("../img/benefits/benefits__item-7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .benefits__item-8::before {
+    background-image: url("../img/benefits/benefits__item-8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .form-block__item {
@@ -4996,28 +5022,36 @@ button {
   }
 
 @supports (-webkit-appearance:none) {
-    .benefits__item.benefits-quality::before {
-      background-image: url("../img/benefits/quality.webp");
+    .benefits__item-1::before {
+      background-image: url("../img/benefits/benefits__item-1.webp");
     }
 
-    .benefits__item.benefits-value::before {
-      background-image: url("../img/benefits/value.webp");
+    .benefits__item-2::before {
+      background-image: url("../img/benefits/benefits__item-2.webp");
     }
 
-    .benefits__item.benefits-cooperation::before {
-      background-image: url("../img/benefits/cooperation.webp");
+    .benefits__item-3::before {
+      background-image: url("../img/benefits/benefits__item-3.webp");
     }
 
-    .benefits__item.benefits-laboratory::before {
-      background-image: url("../img/benefits/laboratory.webp");
+    .benefits__item-4::before {
+      background-image: url("../img/benefits/benefits__item-4.webp");
     }
 
-    .benefits__item.benefits-consultation::before {
-      background-image: url("../img/benefits/consultation.webp");
+    .benefits__item-5::before {
+      background-image: url("../img/benefits/benefits__item-5.webp");
     }
 
-    .benefits__item.benefits-support::before {
-      background-image: url("../img/benefits/support.webp");
+    .benefits__item-6::before {
+      background-image: url("../img/benefits/benefits__item-6.webp");
+    }
+
+    .benefits__item-7::before {
+      background-image: url("../img/benefits/benefits__item-7.webp");
+    }
+
+    .benefits__item-8::before {
+      background-image: url("../img/benefits/benefits__item-8.webp");
     }
 }
 }
