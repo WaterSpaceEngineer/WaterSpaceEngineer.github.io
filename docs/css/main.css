@@ -4248,12 +4248,6 @@ button {
   height: 16.875rem;
 }
 
-.video-product__wrap-max {
-  position: relative;
-  width: 100%;
-  height: 12.5rem;
-}
-
 .movie-box {
   width: 100%;
   height: 100%;
@@ -4991,10 +4985,6 @@ button {
     height: 4.0625rem;
   }
 
-  .video-product__wrap-max {
-    height: 21.875rem;
-  }
-
   .question-answer__list-text {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -5458,10 +5448,6 @@ button {
 
   .product-description__item {
     margin-bottom: 0.625rem;
-  }
-
-  .video-product__wrap-max {
-    height: 100%;
   }
 
   .recirculators-irradiators__cart {
