@@ -1,0 +1,40 @@
+.fag {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(28px);
+}
+
+.fag__title {
+  color: var(--dark-primary-color);
+  padding: 5px;
+  margin-bottom: rem(12px);
+  background-color: var(--light-divider-color);
+  background-color: var(--light-primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  cursor: pointer;
+
+  @include min768 {
+    padding: rem(12px) rem(16px);
+  }
+
+  &::before {
+    font-size: rem(16px);
+  }
+}
+
+.fag__answer {
+  padding: 5px;
+
+  @include min768 {
+    padding: rem(5px) rem(16px);
+  }
+}
+
+.fag__text {
+  &:not(:last-child) {
+    margin-bottom: 7px;
+  }
+}
