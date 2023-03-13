@@ -1215,6 +1215,23 @@ button {
   grid-template-rows: 1fr;
 }
 
+[data-accordion-content] {
+  display: grid;
+  grid-template-rows: 0fr;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+[data-accordion-content] .inside {
+  min-height: 0;
+}
+
+.content-open[data-accordion-content] {
+  grid-template-rows: 1fr;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1229,6 +1246,14 @@ button {
 
 .light-bg {
   background: var(--divider-color);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .fw-bold {
@@ -1278,6 +1303,18 @@ button {
 
 .fz-20 {
   font-size: 1.25rem;
+}
+
+.mt-7:not(:first-child) {
+  margin-top: 0.4375rem;
+}
+
+.mb-7:not(:last-child) {
+  margin-bottom: 0.4375rem;
+}
+
+.mt-10:not(:first-child) {
+  margin-top: 0.625rem;
 }
 
 .mb-10:not(:last-child) {
@@ -2371,6 +2408,26 @@ button {
   font-size: 0.875rem;
 }
 
+.list-parameter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.list-parameter__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
 .product-guides {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2845,11 +2902,10 @@ button {
   row-gap: 1.75rem;
 }
 
-.fag__title {
+.fag__question {
   background: var(--light-primary-color);
   color: var(--dark-primary-color);
   padding: 5px;
-  margin-bottom: 0.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2863,19 +2919,61 @@ button {
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
+  -webkit-column-gap: 1.5rem;
+  -moz-column-gap: 1.5rem;
+  column-gap: 1.5rem;
   cursor: pointer;
 }
 
-.fag__title::before {
-  font-size: 1rem;
+.fag__question::before {
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.fag__question.button-active::before {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.fag__wrap {
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+}
+
+.fag__wrap.content-open {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .fag__answer {
-  padding: 5px;
+  position: relative;
+}
+
+.fag__answer::before {
+  background: url("../img/backgrounds/faq-bg.jpg") no-repeat center/cover;
+  display: block;
+  content: "";
+  float: left;
+  width: 3.75rem;
+  height: 2.5rem;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
 .fag__text:not(:last-child) {
   margin-bottom: 7px;
+}
+
+.fag__subheader {
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.75rem;
 }
 
 .footer-main {
@@ -4777,6 +4875,10 @@ button {
     background-image: url("../img/backgrounds/words-bg.webp");
   }
 
+  .fag__answer::before {
+    background-image: url("../img/backgrounds/faq-bg.webp");
+  }
+
   .footer-main {
     background-image: url("../img/backgrounds/oblique-lines-bg.svg");
   }
@@ -4931,6 +5033,11 @@ button {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .fag__answer::before {
+    width: 7.5rem;
+    height: 5rem;
   }
 
   .footer-main__container {
@@ -5137,6 +5244,14 @@ button {
     width: calc((100% - 24px) / 2);
   }
 
+  .bottom-0 {
+    bottom: 0;
+  }
+
+  .top-0 {
+    top: 0;
+  }
+
   .breadcrumb__item {
     font-size: 14px;
   }
@@ -5189,12 +5304,21 @@ button {
     margin-bottom: 1rem;
   }
 
-  .fag__title {
+  .fag__question {
     padding: 0.75rem 1rem;
+    font-size: 1.125rem;
   }
 
-  .fag__answer {
-    padding: 0.3125rem 1rem;
+  .fag__wrap {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .fag__answer::before {
+    width: 9.375rem;
+    height: 6.25rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .footer-main__container {
@@ -5390,7 +5514,6 @@ button {
     background-color: var(--primary-color);
     position: absolute;
     left: 100%;
-    top: 0;
     padding: 0.625rem 0;
     -webkit-transform: translate(0, 20px);
     -ms-transform: translate(0, 20px);
@@ -5413,7 +5536,7 @@ button {
     background-color: var(--primary-color);
     position: absolute;
     left: 100%;
-    top: 0;
+    bottom: 0;
     padding: 0.625rem 0;
     -webkit-transform: translate(0, 20px);
     -ms-transform: translate(0, 20px);

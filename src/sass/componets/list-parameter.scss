@@ -1,0 +1,10 @@
+.list-parameter {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.list-parameter__item {
+  display: flex;
+  align-items: baseline;
+}

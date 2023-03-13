@@ -8,6 +8,7 @@ import spollers from './modules/spollers';
 import mobileMenu from './modules/mobileMenu';
 import dropdownList from './modules/dropdownList';
 import playVideo from './modules/playVideo';
+import accordion from './modules/accordion';
 
 window.addEventListener('DOMContentLoaded', () => {
     modals();
@@ -19,5 +20,5 @@ window.addEventListener('DOMContentLoaded', () => {
     mobileMenu('menu-button', '.navigation');
     playVideo('.silencers-play');
     playVideo('.travel-filter-play');
-    playVideo('.ultraviolet-sterilizer-play');
+    accordion();
 });
