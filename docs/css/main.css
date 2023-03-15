@@ -2417,6 +2417,7 @@ button {
   -ms-flex-direction: column;
   flex-direction: column;
   row-gap: 7px;
+  padding-left: 1.5rem;
 }
 
 .list-parameter__item {
