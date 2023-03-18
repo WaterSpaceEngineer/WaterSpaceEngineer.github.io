@@ -4,6 +4,20 @@
   row-gap: rem(28px);
 }
 
+.fag-top__section {
+  padding-top: rem(16px);
+  padding-bottom: rem(16px);
+}
+
+.fag-top__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fag__section.section {
+  padding-top: 0;
+}
+
 .fag__question {
   color: var(--dark-primary-color);
   padding: 5px;
@@ -88,4 +102,20 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: rem(12px);
+}
+
+.popup-faq__item.form-block__item {
+  width: 100%;
+}
+
+.popup-faq__textarea {
+  width: 100%;
+}
+
+.popup-faq__textarea.form-block__textarea {
+  margin-bottom: rem(16px);
+}
+
+.popup-faq__button {
+  max-width: rem(270px);
 }

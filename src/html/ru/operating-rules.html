@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('modules/head.html')
+
+<body>
+    <div class="wrapper">
+      @@include('modules/header.html')
+      
+      <main class="page">
+        <section class="hero-actions hero-actions__section">
+          <div class="hero-actions__container container">
+            <div class="hero-actions__top">
+              <nav aria-label="Хлебные крошки" class="breadcrumb hero-actions__breadcrumb">
+                <ul class="breadcrumb__list">
+                  <li class="breadcrumb__item _icon-cheveron-right">
+                    <a class="breadcrumb__link emphasis" href="./index.html">Продукция</a>
+                  </li>
+                  <li class="breadcrumb__item _icon-cheveron-right">
+                    <a class="breadcrumb__link emphasis" href="./recirculators-irradiators.html">Рециркуляторы и облучатели</a>
+                  </li>
+                  <li class="breadcrumb__item">
+                    <span class="breadcrumb__text" aria-current="Страница Продолжительность обработки помещений">Продолжительность обработки помещений</span>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </section>
+
+        <section class="product-unit section">
+          <div class="product-unit__container container">
+            <h1 class="product-unit__title title-hero">Продолжительность обработки помещений</h1>
+            <div class="product-unit__wrap">
+
+              <h2 class="product-unit__head title-block">Рекомендованная продолжительность обработки, в зависимости от категории помещения</h2>
+              <div class="table-wrap">
+                <table class="simple-table text-center">
+                  <tbody>
+                    <tr>
+                      <th class="simple-table__head" rowspan="2">Высота помещения, м</th>
+                      <th class="simple-table__head" colspan="5">Продолжительность обработки (мин.) по категориям помещений</th>
+                    </tr>
+                    <tr>
+                      <th class="simple-table__head">99,9% (I категория)</th>
+                      <th class="simple-table__head">99,0% (II категория)</th>
+                      <th class="simple-table__head">95,0% (III категория)</th>
+                      <th class="simple-table__head">90,0% (IV категория)</th>
+                      <th class="simple-table__head">85,0% (V категория)</th>
+                    </tr>
+                    <tr>
+                      <td class="simple-table__sell">2,5</td>
+                      <td class="simple-table__sell">45</td>
+                      <td class="simple-table__sell">40</td>
+                      <td class="simple-table__sell">35</td>
+                      <td class="simple-table__sell">30</td>
+                      <td class="simple-table__sell">25</td>
+                    </tr>
+                    <tr>
+                      <td class="simple-table__sell">2,7</td>
+                      <td class="simple-table__sell">50</td>
+                      <td class="simple-table__sell">45</td>
+                      <td class="simple-table__sell">40</td>
+                      <td class="simple-table__sell">35</td>
+                      <td class="simple-table__sell">30</td>
+                    </tr>
+                    <tr>
+                      <td class="simple-table__sell">3,0</td>
+                      <td class="simple-table__sell">60</td>
+                      <td class="simple-table__sell">50</td>
+                      <td class="simple-table__sell">45</td>
+                      <td class="simple-table__sell">40</td>
+                      <td class="simple-table__sell">35</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+              <h2 class="product-unit__head title-block">Категории помещений</h2>
+              <div class="table-wrap">
+                <table class="simple-table">
+                  <tbody>
+                    <tr>
+                      <th class="simple-table__head">Категория<br>помещения</th>
+                      <th class="simple-table__head">Тип помещения</th>
+                      <th class="simple-table__head">Нормы<br>бактерицидной<br>эффективности,<br>%</th>
+                    </tr>
+                    <tr>
+                      <td class="simple-table__sell text-center">I</td>
+                      <td class="simple-table__sell">Операционные, предоперационные, родильные, стерильные зоны ЦСВ, детские палаты родильных домов,
+                        палаты для детей с патологиями</td>
+                      <td class="simple-table__sell text-center">99,9</td>
+                    </tr>
+                    <tr>
+                      <td class="simple-table__sell text-center">II</td>
+                      <td class="simple-table__sell">Перевязочные, комнаты стерилизации и пастеризации грудного молока, палаты и отделения
+                        иммуноослабленных больных, палаты реанимационных отделений, помещения нестерильных зон ЦСВ, бактериологические и
+                        вирусологические лаборатории, станции переливания крови, фармацевтические производства стерильных лечебных форм
+                      </td>
+                      <td class="simple-table__sell text-center">99,0</td>
+                    </tr>
+                    <tr>
+                      <td class="simple-table__sell text-center">III</td>
+                      <td class="simple-table__sell">Палаты, кабинеты и другие помещения ЛПУ, которые не входят в первые две категории</td>
+                      <td class="simple-table__sell text-center">95,0</td>
+                    </tr>
+                    <tr>
+                      <td class="simple-table__sell text-center">IV</td>
+                      <td class="simple-table__sell">Детские игральные комнаты, школьные классы, бытовые помещения производственных и общественных
+                        учреждений с большим скоплением людей при длительном пребывании</td>
+                      <td class="simple-table__sell text-center">90,0</td>
+                    </tr>
+                    <tr>
+                      <td class="simple-table__sell text-center">V</td>
+                      <td class="simple-table__sell">Комнаты для курения, общественные уборные и лестничные площадки лечебно-профилактических
+                        заведений</td>
+                      <td class="simple-table__sell text-center">85,0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <p class="fw-bold"><span class="accent-color">Внимание!!!</span> Ультрафиолетовое излучение UV-C диапазона небезопасно для глаз и кожи! Не допускается работа рециркулятора с открытым корпусом в присутствие людей! Не смотрите на открытый работающий излучатель без защитных очков! Не оставляйте детей одних дома с доступом к работающему рециркулятору!</p>
+            </div>
+          </div>
+        </section>
+        
+        @@include('chunk/call.html')
+      </main>
+    </div>
+
+    @@include('modules/footer.html')
+
+    @@include('chunk/terms-delivery.html')
+    @@include('chunk/terms-payment.html')
+    @@include('componets/call-me.html')
+
+  </body>
+</html>

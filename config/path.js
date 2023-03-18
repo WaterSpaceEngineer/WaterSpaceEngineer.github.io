@@ -4,8 +4,14 @@ const pathDest = "./docs";
 module.exports = {
     root: pathDest,
 
+    index: {
+        src: pathSrc + "/html/index.html",
+        watch: pathSrc + "/html/index.html",
+        dest: pathDest
+    },
+
     html: {
-        src: pathSrc + "/html/*.html",
+        src: pathSrc + "/html/{ru,ukr}/*.html",
         watch: pathSrc + "/html/**/*.html",
         dest: pathDest
     },

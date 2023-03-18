@@ -121,11 +121,14 @@ const modals = () => {
         return scrollWidth;
     }
 
-    const popups = document.querySelectorAll('.popup');
-
+    const popups = document.querySelectorAll('[data-popup-ultraviolet]');
     if(popups.length > 0) {
         bindModal('.condition__button.delivery', '.popup-delivery', '.popup-delivery .popup__wrap', '.popup-delivery .popup__body', '.popup-delivery .popup__close');
         bindModal('.condition__button.payment', '.popup-payment', '.popup-payment .popup__wrap', '.popup-payment .popup__body', '.popup-payment .popup__close');
+    }
+
+    if(document.querySelector('[data-popup-faq]')) {
+        bindModal('.fag-top__button', '.popup-faq', '.popup-faq .popup__wrap', '.popup-faq .popup__body', '.popup-faq .popup__close');
     }
 
     // showModalByTime('.popup', 60000);

@@ -8,6 +8,7 @@ const app = require('./config/app.js');
 // Задачи
 const clear = require('./task/clear.js');
 const html = require('./task/html.js');
+const index = require('./task/index.js');
 const scss = require('./task/scss.js');
 const js = require('./task/js.js');
 const img = require('./task/img.js');
@@ -27,6 +28,7 @@ const server = () => {
 // Наблюдатель
 const watcher = () => {
     watch(path.html.watch, html).on('all', browserSync.reload);
+    watch(path.index.watch, index).on('all', browserSync.reload);
     watch(path.scss.watch, scss).on('all', browserSync.reload);
     watch(path.js.watch, js).on('all', browserSync.reload);
     watch(path.img.watch, img).on('all', browserSync.reload);
@@ -37,7 +39,7 @@ const watcher = () => {
 
 const build = series(
     clear,
-    parallel( html, scss, js, img, font, instructions, videos)
+    parallel( html, index, scss, js, img, font, instructions, videos)
 );
 
 const dev = series (
@@ -47,6 +49,7 @@ const dev = series (
 
 // Задачи
 exports.html = html;
+exports.index = index;
 exports.scss = scss;
 exports.js = js;
 exports.img = img;
