@@ -4431,10 +4431,6 @@ button {
   object-fit: cover;
 }
 
-.travel-filter__video-bg {
-  background: url("../img/backgrounds/video-bg-travel-filter.jpg") no-repeat center center/cover;
-}
-
 .ultraviolet-sterilizer__video-bg {
   background: url("../img/backgrounds/video-bg-sterilizer.jpg") no-repeat center center/cover;
 }
@@ -4910,10 +4906,6 @@ button {
 
   .gallery-top__slide {
     background-image: url("../img/backgrounds/hexagons-bg.svg");
-  }
-
-  .travel-filter__video-bg {
-    background-image: url("../img/backgrounds/video-bg-travel-filter.webp");
   }
 
   .ultraviolet-sterilizer__video-bg {

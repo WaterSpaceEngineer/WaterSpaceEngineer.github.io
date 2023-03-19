@@ -7,7 +7,6 @@ import touchSubMenu from './modules/touchSubMenu';
 import spollers from './modules/spollers';
 import mobileMenu from './modules/mobileMenu';
 import dropdownList from './modules/dropdownList';
-import playVideo from './modules/playVideo';
 import accordion from './modules/accordion';
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -18,6 +17,5 @@ window.addEventListener('DOMContentLoaded', () => {
     dropdownList();
     spollers();
     mobileMenu('menu-button', '.navigation');
-    playVideo('.travel-filter-play');
     accordion();
 });
