@@ -247,6 +247,8 @@
 }
 
 .gallery-top__slide {
+  width: rem(350px);
+  height: rem(350px);
   padding: 5px;
   border: 1px solid rgba(#757575, 0.55);
   background-image: url('../img/backgrounds/hexagons-bg.svg');
@@ -257,6 +259,8 @@
 
   @include min992 {
     padding: rem(10px);
+    width: rem(400px);
+    height: rem(400px);
   }
 }
 
@@ -509,22 +513,6 @@
     }
 }
 
-.product-unit__video {
-  display: flex;
-  align-items: center;
-
-  @include max767 {
-    justify-content: center;
-  }
-}
-
-.video-product__wrap {
-  position: relative;
-  max-width: rem(500px);
-  width: 100%;
-  height: rem(270px);
-}
-
 .movie-box {
   width: 100%;
   height: 100%;
@@ -534,13 +522,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.silencers__video-bg {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-image: url('../img/backgrounds/video-bg-silencers.jpg');
 }
 
 .travel-filter__video-bg {

@@ -18,7 +18,6 @@ window.addEventListener('DOMContentLoaded', () => {
     dropdownList();
     spollers();
     mobileMenu('menu-button', '.navigation');
-    playVideo('.silencers-play');
     playVideo('.travel-filter-play');
     accordion();
 });
