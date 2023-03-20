@@ -249,7 +249,6 @@
 .gallery-top__slide {
   width: rem(350px);
   height: rem(350px);
-  padding: 5px;
   border: 1px solid rgba(#757575, 0.55);
   background-image: url('../img/backgrounds/hexagons-bg.svg');
   background-repeat: no-repeat;
@@ -258,7 +257,6 @@
   background-color: var(--light-primary-color);
 
   @include min992 {
-    padding: rem(10px);
     width: rem(400px);
     height: rem(400px);
   }

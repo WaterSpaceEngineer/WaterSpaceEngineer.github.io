@@ -4191,7 +4191,6 @@ button {
   background: url("../img/backgrounds/hexagons-bg.svg") no-repeat center/cover var(--light-primary-color);
   width: 21.875rem;
   height: 21.875rem;
-  padding: 5px;
   border: 1px solid rgba(117, 117, 117, 0.55);
 }
 
@@ -5753,7 +5752,6 @@ button {
   }
 
   .gallery-top__slide {
-    padding: 0.625rem;
     width: 25rem;
     height: 25rem;
   }
