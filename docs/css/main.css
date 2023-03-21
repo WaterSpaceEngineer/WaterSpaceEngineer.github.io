@@ -4102,6 +4102,15 @@ button {
   margin-bottom: 0.75rem;
 }
 
+.product-unit__num-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-column-gap: 7px;
+  -moz-column-gap: 7px;
+  column-gap: 7px;
+}
+
 .product-unit__descr-txt:not(:last-child) {
   margin-bottom: 0.75rem;
 }

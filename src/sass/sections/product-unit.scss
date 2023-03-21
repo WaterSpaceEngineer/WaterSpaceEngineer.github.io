@@ -137,6 +137,11 @@
   }
 }
 
+.product-unit__num-text {
+  display: inline-flex;
+  column-gap: 7px;
+}
+
 .product-unit__descr-txt {
   @include min768 {
     font-size: 20px;
