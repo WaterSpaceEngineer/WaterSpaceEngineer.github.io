@@ -42,6 +42,8 @@
         height: 100%;
         display: flex;
         justify-content: center;
+        padding-top: rem(12px);
+        padding-bottom: rem(12px);
 
         @include min576 {
             align-items: center;
@@ -50,8 +52,8 @@
 
     &__body {
         position: relative;
-        margin-top: rem(24px);
         width: 95%;
+        height: 100%;
         background-color: var(--white-color);
         padding: rem(40px) rem(24px) rem(24px);
         overflow-y: auto;

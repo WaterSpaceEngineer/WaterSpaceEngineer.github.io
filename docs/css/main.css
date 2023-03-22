@@ -3936,13 +3936,15 @@ button {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .popup__body {
   background: var(--white-color);
   position: relative;
-  margin-top: 1.5rem;
   width: 95%;
+  height: 100%;
   padding: 2.5rem 1.5rem 1.5rem;
   overflow-y: auto;
 }
