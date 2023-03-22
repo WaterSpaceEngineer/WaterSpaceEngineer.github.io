@@ -2304,6 +2304,41 @@ button {
   max-width: 16.875rem;
 }
 
+.certificates__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.certificates__item {
+  width: 100%;
+}
+
+.certificates__wrap {
+  background: var(--light-divider-color);
+  position: relative;
+  width: 100%;
+  padding-top: 137%;
+}
+
+.certificates__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.certificates__name {
+  padding: 0.625rem;
+  text-align: center;
+}
+
 .color-table {
   width: 100%;
   border-collapse: collapse;
@@ -4441,36 +4476,6 @@ button {
   object-fit: cover;
 }
 
-.ultraviolet-sterilizer__video-bg {
-  background: url("../img/backgrounds/video-bg-sterilizer.jpg") no-repeat center center/cover;
-}
-
-.video-product__play {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 3.75rem;
-  height: 3.75rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.video-product__play-btn {
-  font-size: 3.75rem;
-  color: var(--white-color);
-}
-
 .products {
   background: url("../img/backgrounds/circles-bg.svg") no-repeat center/cover var(--light-divider-color);
 }
@@ -4918,10 +4923,6 @@ button {
     background-image: url("../img/backgrounds/hexagons-bg.svg");
   }
 
-  .ultraviolet-sterilizer__video-bg {
-    background-image: url("../img/backgrounds/video-bg-sterilizer.webp");
-  }
-
   .products {
     background-image: url("../img/backgrounds/circles-bg.svg");
   }
@@ -4956,6 +4957,10 @@ button {
 
   .logo {
     font-size: 1.625rem;
+  }
+
+  .certificates__item {
+    width: calc((100% - 24px) / 2);
   }
 
   .actual__item {
@@ -5277,6 +5282,10 @@ button {
 
   .card-next__title:not(:last-child) {
     margin-bottom: 1.125rem;
+  }
+
+  .certificates__item {
+    width: calc((100% - 48px) / 3);
   }
 
   .color-table__title._icon-arrow-down::before {

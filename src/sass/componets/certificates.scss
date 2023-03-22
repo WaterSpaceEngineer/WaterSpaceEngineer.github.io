@@ -1,0 +1,38 @@
+.certificates__list {
+  display: flex;
+  gap: rem(24px);
+  flex-wrap: wrap;
+}
+
+.certificates__item {
+  width: 100%;
+
+  @include min576 {
+    width: item-base(2,24px);
+  }
+
+  @include min768 {
+    width: item-base(3,24px);
+  }
+}
+
+.certificates__wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 137%;
+  background-color: var(--light-divider-color);
+}
+
+.certificates__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.certificates__name {
+  padding: rem(10px);
+  text-align: center;
+}
