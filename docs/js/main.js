@@ -1251,6 +1251,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	__webpack_require__("./src/js/main.js");
+/******/ 	__webpack_require__("./src/js/libs/sliders.js");
 /******/ 	__webpack_require__("./src/js/modules/accordion.js");
 /******/ 	__webpack_require__("./src/js/modules/animationOnScroll.js");
 /******/ 	__webpack_require__("./src/js/modules/dropdownList.js");
@@ -1264,8 +1265,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	__webpack_require__("./src/js/modules/spollers.js");
 /******/ 	__webpack_require__("./src/js/modules/subcategoryTopFixation.js");
 /******/ 	__webpack_require__("./src/js/modules/touchSubMenu.js");
-/******/ 	__webpack_require__("./src/js/modules/touchSubMenuAll.js");
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/js/libs/sliders.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/js/modules/touchSubMenuAll.js");
 /******/ 	
 /******/ })()
 ;
