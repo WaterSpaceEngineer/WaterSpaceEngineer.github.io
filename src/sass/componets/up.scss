@@ -1,0 +1,22 @@
+.page-up {
+  opacity: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  background-color: var(--dark-primary-color);
+  width: rem(45px);
+  height: rem(45px);
+  border-radius: 50%;
+  right: 3%;
+  bottom: rem(70px);
+  animation-duration: 0s;
+  z-index: 3;
+  cursor: pointer;
+
+  &::before {
+    font-weight: bold;
+    transform: rotate(180deg);
+  }
+}

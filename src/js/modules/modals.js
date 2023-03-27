@@ -8,7 +8,7 @@ const modals = () => {
         const windows = document.querySelectorAll('[data-modal]'); // необходим для работы со всеми модальными окнами
         const scroll = calcScroll();
 
-        const callMe = document.getElementById('call-me');
+        const pageUp = document.querySelector('.page-up');
 
         trigger.forEach(item => {
             item.addEventListener('click', (e) => {
@@ -24,7 +24,7 @@ const modals = () => {
                 modal.style.display = "block";
                 document.body.style.overflow = "hidden";
                 document.body.style.marginRight = `${scroll}px`;
-                callMe.style.marginRight = `${scroll}px`;
+             pageUp.style.marginRight = `${scroll}px`;
                 modalBody.style.marginRight = `${scroll}px`;
             });
         });
@@ -52,7 +52,7 @@ const modals = () => {
 
             document.body.style.overflow = "";
             document.body.style.marginRight = `0px`;
-            callMe.style.marginRight = `0px`;
+         pageUp.style.marginRight = `0px`;
             modalBody.style.marginRight = `0px`;
         });
 
@@ -79,7 +79,7 @@ const modals = () => {
 
                 document.body.style.overflow = ""; 
                 document.body.style.marginRight = `0px`;
-                callMe.style.marginRight = `0px`;
+             pageUp.style.marginRight = `0px`;
                 modalBody.style.marginRight = `0px`;
             }
         });

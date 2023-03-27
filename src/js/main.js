@@ -8,6 +8,7 @@ import spollers from './modules/spollers';
 import mobileMenu from './modules/mobileMenu';
 import dropdownList from './modules/dropdownList';
 import accordion from './modules/accordion';
+import scrolling from './modules/scrolling';
 
 window.addEventListener('DOMContentLoaded', () => {
     modals();
@@ -18,4 +19,5 @@ window.addEventListener('DOMContentLoaded', () => {
     spollers();
     mobileMenu('menu-button', '.navigation');
     accordion();
+    scrolling('.page-up');
 });
