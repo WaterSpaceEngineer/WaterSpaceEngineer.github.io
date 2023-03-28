@@ -15,7 +15,8 @@
   font-weight: 500;
 }
 
-.product-unit__wrap {
+.product-unit__wrap,
+.product-unit__card {
   display: flex;
   flex-direction: column;
   row-gap: rem(20px);
