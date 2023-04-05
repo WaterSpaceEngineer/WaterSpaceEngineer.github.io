@@ -30,6 +30,12 @@
 	}
 }
 
+._icon-whatsapp:before {
+  content: "\e90e";
+}
+._icon-viber:before {
+  content: "\e90f";
+}
 ._icon-play-outline:before {
   content: "\e90d";
 }

@@ -1,6 +1,6 @@
 .footer-main {
-    padding-top: 64px;
-    padding-bottom: 32px;
+    padding-top: rem(24px);
+    padding-bottom: rem(24px);
     background-image: url('../img/backgrounds/oblique-lines-bg.svg');
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -20,6 +20,11 @@
             justify-content: space-between;
             column-gap: rem(24px);
         }
+    }
+
+    @include min768 {
+        padding-top: rem(64px);
+        padding-bottom: rem(32px);
     }
 }
 
