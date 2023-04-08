@@ -38,19 +38,4 @@
   object-fit: cover;
 }
 
-.business-water__guide {
-  display: flex;
-  gap: rem(24px);
-}
 
-.business-water__bg {
-  position: relative;
-  display: flex;
-
-  &::before {
-    display: block;
-    content: '';
-    width: 90%;
-    background-color: red;
-  }
-}

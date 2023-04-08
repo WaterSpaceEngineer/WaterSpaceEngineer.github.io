@@ -1809,27 +1809,6 @@ button {
   object-fit: cover;
 }
 
-.business-water__guide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.business-water__bg {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.business-water__bg::before {
-  background: red;
-  display: block;
-  content: "";
-  width: 90%;
-}
-
 .breadcrumb {
   padding: 5px 0;
   margin-left: 3px;
