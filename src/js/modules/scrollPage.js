@@ -1,6 +1,7 @@
 import headerTopFixation from './headerTopFixation';
 import animationOnScroll from './animationOnScroll';
-import subcategoryTopFixation from './subcategoryTopFixation';
+import blockTopFixation from './blockTopFixation';
+import boxTopFixation from './boxTopFixation';
 
 const scrollPage = () => {
   
@@ -8,8 +9,11 @@ const scrollPage = () => {
     // Фіксація header-top при scroll
     headerTopFixation();
 
-    // Фіксація subcategory при scroll
-    subcategoryTopFixation();
+    // Фіксація block при scroll
+    blockTopFixation('.hero-actions__subcategory');
+
+    // Фіксація box при scroll
+    boxTopFixation('.fag-top__section');
 
     // Анімація при scroll
     animationOnScroll();

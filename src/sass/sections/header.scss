@@ -1,7 +1,6 @@
 .header {
     position: relative;
-    border-bottom: 1px solid var(--divider-color);
-
+    
     @include max767 {
         position: fixed;
         top: 0;

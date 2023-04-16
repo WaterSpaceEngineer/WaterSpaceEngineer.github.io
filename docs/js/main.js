@@ -50,6 +50,26 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst animationOnScroll = () 
 
 /***/ }),
 
+/***/ "./src/js/modules/blockTopFixation.js":
+/*!********************************************!*\
+  !*** ./src/js/modules/blockTopFixation.js ***!
+  \********************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\nconst blockTopFixation = (blockSelector) => {\n  const block = document.querySelector(blockSelector);\n  \n  if(block) {\n    const getParametersHeader = document.querySelector('.header').getBoundingClientRect();\n    const getParametersHeaderMain = document.querySelector('.header-main').getBoundingClientRect();\n    const heroActionsSection = document.querySelector('.hero-actions__section');\n    const heroActionsContainer = heroActionsSection.querySelector('.hero-actions__container');\n    const getParametersheroActions = heroActionsSection.getBoundingClientRect();\n    const getParametersBlock = block.getBoundingClientRect();\n\n    let getPaddingBottomHeroActionsSection = parseInt(getComputedStyle(heroActionsSection).paddingBottom);\n    let getRowGapHeroActionsContainer = parseInt(getComputedStyle(heroActionsContainer).rowGap);\n\n    if (\n      document.documentElement.scrollTop >\n        getParametersHeader.height +\n        getParametersheroActions.height -\n        getParametersBlock.height -\n        getPaddingBottomHeroActionsSection -\n        getRowGapHeroActionsContainer / 2 \n        // 232.5\n        &&\n      window.matchMedia(\"(min-width: 768px)\").matches\n    ) {\n      block.classList.add(\"fix\");\n      block.style.paddingTop = `${getParametersHeaderMain.height + (getRowGapHeroActionsContainer / 4)}px`;\n      block.style.paddingBottom = `${(getRowGapHeroActionsContainer / 4)}px`;\n    } else if (\n      document.documentElement.scrollTop <=\n        getParametersHeader.height +\n        getParametersheroActions.height -\n        getPaddingBottomHeroActionsSection\n        // 219.5\n        &&\n      window.matchMedia(\"(min-width: 768px)\").matches\n    ) {\n      block.classList.remove(\"fix\");\n      block.style.paddingTop = '';\n      block.style.paddingBottom = '';\n    }\n  }\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (blockTopFixation);\n\n//# sourceURL=webpack://water-space/./src/js/modules/blockTopFixation.js?");
+
+/***/ }),
+
+/***/ "./src/js/modules/boxTopFixation.js":
+/*!******************************************!*\
+  !*** ./src/js/modules/boxTopFixation.js ***!
+  \******************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\nconst boxTopFixation = (boxSelector) => {\n  const box = document.querySelector(boxSelector);\n\n  if(box) {\n    const getParametersHeader = document.querySelector('.header').getBoundingClientRect();\n    const getParametersHeaderMain = document.querySelector('.header-main').getBoundingClientRect();\n    let getPaddingTopBox = parseInt(getComputedStyle(box).paddingTop);\n    console.log(getPaddingTopBox);\n\n    if(\n      document.documentElement.scrollTop > \n      getParametersHeader.height\n      &&\n      window.matchMedia(\"(min-width: 768px)\").matches\n      ) {\n        box.classList.add(\"fix\");\n        box.style.paddingTop = `${getParametersHeaderMain.height}px`;\n    } else if (\n      document.documentElement.scrollTop <= getParametersHeader.height &&\n      window.matchMedia(\"(min-width: 768px)\").matches\n      ) {\n        box.classList.remove(\"fix\");\n        box.style.paddingTop = '';\n    }\n  }\n  \n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (boxTopFixation);\n\n//# sourceURL=webpack://water-space/./src/js/modules/boxTopFixation.js?");
+
+/***/ }),
+
 /***/ "./src/js/modules/dropdownList.js":
 /*!****************************************!*\
   !*** ./src/js/modules/dropdownList.js ***!
@@ -126,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hea
   \**************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _headerTopFixation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./headerTopFixation */ \"./src/js/modules/headerTopFixation.js\");\n/* harmony import */ var _animationOnScroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./animationOnScroll */ \"./src/js/modules/animationOnScroll.js\");\n/* harmony import */ var _subcategoryTopFixation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./subcategoryTopFixation */ \"./src/js/modules/subcategoryTopFixation.js\");\n\n\n\n\nconst scrollPage = () => {\n  \n  window.addEventListener('scroll', () => {\n    // Фіксація header-top при scroll\n    (0,_headerTopFixation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n    // Фіксація subcategory при scroll\n    (0,_subcategoryTopFixation__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n\n    // Анімація при scroll\n    (0,_animationOnScroll__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (scrollPage);\n\n//# sourceURL=webpack://water-space/./src/js/modules/scrollPage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _headerTopFixation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./headerTopFixation */ \"./src/js/modules/headerTopFixation.js\");\n/* harmony import */ var _animationOnScroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./animationOnScroll */ \"./src/js/modules/animationOnScroll.js\");\n/* harmony import */ var _blockTopFixation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./blockTopFixation */ \"./src/js/modules/blockTopFixation.js\");\n/* harmony import */ var _boxTopFixation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./boxTopFixation */ \"./src/js/modules/boxTopFixation.js\");\n\n\n\n\n\nconst scrollPage = () => {\n  \n  window.addEventListener('scroll', () => {\n    // Фіксація header-top при scroll\n    (0,_headerTopFixation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n    // Фіксація block при scroll\n    (0,_blockTopFixation__WEBPACK_IMPORTED_MODULE_2__[\"default\"])('.hero-actions__subcategory');\n\n    // Фіксація box при scroll\n    (0,_boxTopFixation__WEBPACK_IMPORTED_MODULE_3__[\"default\"])('.fag-top__section');\n\n    // Анімація при scroll\n    (0,_animationOnScroll__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (scrollPage);\n\n//# sourceURL=webpack://water-space/./src/js/modules/scrollPage.js?");
 
 /***/ }),
 
@@ -147,16 +167,6 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst scrolling = (upSelector
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\nconst spollers = () => {\n  const toggleButtons = document.querySelectorAll('[data-spoller-btn]');\n  \n  toggleButtons && toggleButtons.forEach(button => {\n    button.addEventListener('click', (e) => {\n      const target = e.target;\n      e.preventDefault();\n\n      target.classList.toggle('button-active');\n      \n      target.nextElementSibling.classList.toggle('content-open');\n    })\n  })\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (spollers);\n\n\n//# sourceURL=webpack://water-space/./src/js/modules/spollers.js?");
-
-/***/ }),
-
-/***/ "./src/js/modules/subcategoryTopFixation.js":
-/*!**************************************************!*\
-  !*** ./src/js/modules/subcategoryTopFixation.js ***!
-  \**************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\nconst subcategoryTopFixation = () => {\n  const subcategory = document.querySelector('.hero-actions__subcategory');\n\n  if(subcategory) {\n    const getParametersHeader = document.querySelector('.header').getBoundingClientRect();\n    const getParametersHeaderMain = document.querySelector('.header-main').getBoundingClientRect();\n    const heroActionsSection = document.querySelector('.hero-actions__section');\n    const heroActionsContainer = heroActionsSection.querySelector('.hero-actions__container');\n    const getParametersheroActions = heroActionsSection.getBoundingClientRect();\n    const getParametersSubcategory = subcategory.getBoundingClientRect();\n\n    let getPaddingBottomHeroActionsSection = parseInt(getComputedStyle(heroActionsSection).paddingBottom);\n    let getRowGapHeroActionsContainer = parseInt(getComputedStyle(heroActionsContainer).rowGap);\n\n    if (\n      document.documentElement.scrollTop >\n        getParametersHeader.height +\n        getParametersheroActions.height -\n        getParametersSubcategory.height -\n        getPaddingBottomHeroActionsSection -\n        getRowGapHeroActionsContainer / 2 \n        // 232.5\n        &&\n      window.matchMedia(\"(min-width: 768px)\").matches\n    ) {\n      subcategory.classList.add(\"fix\");\n      subcategory.style.paddingTop = `${getParametersHeaderMain.height + (getRowGapHeroActionsContainer / 4)}px`;\n      subcategory.style.paddingBottom = `${(getRowGapHeroActionsContainer / 4)}px`;\n    } else if (\n      document.documentElement.scrollTop <=\n        getParametersHeader.height +\n        getParametersheroActions.height -\n        getPaddingBottomHeroActionsSection\n        // 219.5\n        &&\n      window.matchMedia(\"(min-width: 768px)\").matches\n    ) {\n      subcategory.classList.remove(\"fix\");\n      subcategory.style.paddingTop = '';\n      subcategory.style.paddingBottom = '';\n    }\n  }\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (subcategoryTopFixation);\n\n//# sourceURL=webpack://water-space/./src/js/modules/subcategoryTopFixation.js?");
 
 /***/ }),
 
@@ -1264,6 +1274,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	__webpack_require__("./src/js/libs/sliders.js");
 /******/ 	__webpack_require__("./src/js/modules/accordion.js");
 /******/ 	__webpack_require__("./src/js/modules/animationOnScroll.js");
+/******/ 	__webpack_require__("./src/js/modules/blockTopFixation.js");
+/******/ 	__webpack_require__("./src/js/modules/boxTopFixation.js");
 /******/ 	__webpack_require__("./src/js/modules/dropdownList.js");
 /******/ 	__webpack_require__("./src/js/modules/headerFixationOnMobile.js");
 /******/ 	__webpack_require__("./src/js/modules/headerTopFixation.js");
@@ -1274,7 +1286,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	__webpack_require__("./src/js/modules/scrollPage.js");
 /******/ 	__webpack_require__("./src/js/modules/scrolling.js");
 /******/ 	__webpack_require__("./src/js/modules/spollers.js");
-/******/ 	__webpack_require__("./src/js/modules/subcategoryTopFixation.js");
 /******/ 	__webpack_require__("./src/js/modules/touchSubMenu.js");
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/js/modules/touchSubMenuAll.js");
 /******/ 	
