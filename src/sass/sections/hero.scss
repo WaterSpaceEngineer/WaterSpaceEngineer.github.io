@@ -1,15 +1,19 @@
-.hero {
-  // background-image: url('../img/backgrounds/hexagons-bg.svg');
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  // background-position: center;
-  background-color: var(--secondary-text);
-  display: flex;
-  align-items: center;
+// .hero {
+//   background: linear-gradient(45deg,rgba(18,18,20,0.7),rgba(18,18,20,.7)),
+//      url(../img/backgrounds/hero-bg.jpg) no-repeat 0% 10%/cover var(--secondary-text);
+//   display: flex;
+//   align-items: center;
 
-  @include min992 {
-    height: calc(100vh - 150px);
-  }
+//   @include min992 {
+//     height: calc(100vh - 149px);
+//   }
+// }
+
+.hero {
+  background-image: url('../img/backgrounds/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero__container {
@@ -37,11 +41,12 @@
 .hero__title {
   font-weight: 700;
   letter-spacing: 0.03em;
+  // color: var(--accent-color);
 }
 
 .hero__subtitle {
   text-align: center;
-  font-size: rem(18px);
+  font-size: rem(20px);
   line-height: 1.2;
   font-weight: 400;
 

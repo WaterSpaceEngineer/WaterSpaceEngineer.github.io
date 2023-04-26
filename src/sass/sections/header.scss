@@ -35,10 +35,10 @@
 .header__logo {
     position: relative;
     z-index: 5;
-    font-size: rem(22px);
+    font-size: rem(26px);
 
 	@include min576 {
-		font-size: rem(26px);
+		font-size: rem(28px);
 	}
 
 	@include min768 {
