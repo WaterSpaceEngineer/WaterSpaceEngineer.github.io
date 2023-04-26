@@ -28,6 +28,18 @@
     }
 }
 
+.footer__logo {
+    font-size: rem(22px);
+
+	@include min576 {
+		font-size: rem(26px);
+	}
+
+	@include min768 {
+		font-size: rem(30px);
+	}
+}
+
 .footer-main__box {
     display: flex;
     flex-direction: column;
@@ -110,7 +122,7 @@
     }
 }
 
-.footer__waterspace {
+.footer__slogan {
     font-size: rem(20px);
 
     @include min576-max767 {
@@ -121,12 +133,5 @@
 .footer {
     .logo-box {
         max-width: rem(350px);
-        display: flex;
-        flex-direction: column;
-        row-gap: rem(12px);
-
-        @include min576-max767 {
-            align-items: center;
-        }
     }
 }

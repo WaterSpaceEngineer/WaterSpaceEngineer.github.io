@@ -130,41 +130,6 @@
 	}
 }
 
-.waterspace-logo {
-	position: relative;
-	display: inline-flex;
-	align-items: center;
-	color: #0051ba;
-	font-family: 'dynarshadow-bold';
-	padding-right: 0.7em;
-
-	&__star {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-size: inherit;
-		object-fit: cover;
-		width: 0.8em;
-		height: 0.8em;
-	}
-
-	&::after {
-		position: absolute;
-		content: 'R';
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-family: var(--main-font);
-		top: 0;
-		right: 0.3em;
-		font-size: 0.3em;
-		width: 1.6em;
-		height: 1.6em;
-		border: 1px solid #0051ba;
-		border-radius: 50%;
-	}
-}
-
 .airspace-logo {
 	display: inline-flex;
 	color: #0051ba;
@@ -174,18 +139,8 @@
 .logo {
 	display: flex;
 	align-items: center;
-	font-size: rem(22px);
 	font-weight: 500;
-	text-transform: uppercase;
-
-	@include min576 {
-		font-size: rem(26px);
-	}
-
-	@include min768 {
-		font-size: rem(32px);
-	}
-
+	
 	&__icon {
 		display: block;
 		width: 0.75em;

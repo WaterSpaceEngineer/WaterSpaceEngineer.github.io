@@ -1,0 +1,38 @@
+.waterspace-logo {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	color: #0051ba;
+	font-family: 'dynarshadow-bold';
+	padding-right: 0.6em;
+
+	&__star {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: inherit;
+		object-fit: cover;
+		width: 1em;
+		height: 1em;
+
+    &::before {
+      font-size: 1.3em;
+    }
+	}
+
+	&::after {
+		position: absolute;
+		content: 'R';
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: var(--main-font);
+		top: 0.5em;
+		right: 0.3em;
+		font-size: 0.25em;
+		width: 1.6em;
+		height: 1.6em;
+		border: 1px solid #0051ba;
+		border-radius: 50%;
+	}
+}

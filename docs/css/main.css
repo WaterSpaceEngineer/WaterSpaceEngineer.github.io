@@ -1068,57 +1068,6 @@ button {
   bottom: 0;
 }
 
-.waterspace-logo {
-  position: relative;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #0051ba;
-  font-family: "dynarshadow-bold";
-  padding-right: 0.7em;
-}
-
-.waterspace-logo__star {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-size: inherit;
-  -o-object-fit: cover;
-  object-fit: cover;
-  width: 0.8em;
-  height: 0.8em;
-}
-
-.waterspace-logo::after {
-  font: 0.3em var(--main-font);
-  position: absolute;
-  content: "R";
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  top: 0;
-  right: 0.3em;
-  width: 1.6em;
-  height: 1.6em;
-  border: 1px solid #0051ba;
-  border-radius: 50%;
-}
-
 .airspace-logo {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1134,9 +1083,7 @@ button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1.375rem;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 .logo__icon {
@@ -2813,6 +2760,61 @@ button {
   transform: rotate(180deg);
 }
 
+.waterspace-logo {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #0051ba;
+  font-family: "dynarshadow-bold";
+  padding-right: 0.6em;
+}
+
+.waterspace-logo__star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: inherit;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+
+.waterspace-logo__star::before {
+  font-size: 1.3em;
+}
+
+.waterspace-logo::after {
+  font: 0.25em var(--main-font);
+  position: absolute;
+  content: "R";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 0.5em;
+  right: 0.3em;
+  width: 1.6em;
+  height: 1.6em;
+  border: 1px solid #0051ba;
+  border-radius: 50%;
+}
+
 .actual-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3303,6 +3305,10 @@ button {
   row-gap: 3rem;
 }
 
+.footer__logo {
+  font-size: 1.375rem;
+}
+
 .footer-main__box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3380,20 +3386,12 @@ button {
   color: var(--white-color);
 }
 
-.footer__waterspace {
+.footer__slogan {
   font-size: 1.25rem;
 }
 
 .footer .logo-box {
   max-width: 21.875rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  row-gap: 0.75rem;
 }
 
 .header {
@@ -3408,6 +3406,7 @@ button {
 .header__logo {
   position: relative;
   z-index: 5;
+  font-size: 1.375rem;
 }
 
 .header__top {
@@ -4071,7 +4070,13 @@ button {
 }
 
 .hero {
-  background: url("../img/backgrounds/hexagons-bg.svg") no-repeat center/cover var(--light-divider-color);
+  background: var(--secondary-text);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hero__container {
@@ -4086,20 +4091,28 @@ button {
   -ms-flex-align: center;
   align-items: center;
   gap: 24px;
+  width: 100%;
 }
 
 .hero__content {
   max-width: 34.375rem;
   margin: 0 auto;
+  color: var(--light-divider-color);
 }
 
-.hero__waterspace {
+.hero__title {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.hero__subtitle {
   text-align: center;
   font-size: 1.125rem;
   line-height: 1.2;
+  font-weight: 400;
 }
 
-.hero__waterspace:not(:last-child) {
+.hero__subtitle:not(:last-child) {
   margin-bottom: 1rem;
 }
 
@@ -5151,10 +5164,6 @@ button {
     background-image: url("../img/backgrounds/oblique-lines-bg.svg");
   }
 
-  .hero {
-    background-image: url("../img/backgrounds/hexagons-bg.svg");
-  }
-
   .product-unit__wrap-img {
     background-image: url("../img/backgrounds/hexagons-bg.svg");
   }
@@ -5192,10 +5201,6 @@ button {
   }
 
   .title-hero {
-    font-size: 1.625rem;
-  }
-
-  .logo {
     font-size: 1.625rem;
   }
 
@@ -5306,6 +5311,10 @@ button {
     align-items: center;
   }
 
+  .footer__logo {
+    font-size: 1.625rem;
+  }
+
   .footer-main__box {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -5318,6 +5327,10 @@ button {
 
   .footer-main__address {
     max-width: 13.75rem;
+  }
+
+  .header__logo {
+    font-size: 1.625rem;
   }
 
   .header__actions {
@@ -5497,10 +5510,6 @@ button {
     font-size: 1.375rem;
   }
 
-  .logo {
-    font-size: 2rem;
-  }
-
   .box-50 {
     width: calc((100% - 24px) / 2);
   }
@@ -5638,6 +5647,10 @@ button {
     padding-bottom: 2rem;
   }
 
+  .footer__logo {
+    font-size: 1.875rem;
+  }
+
   .header.nav-fix .header-main {
     position: fixed;
     top: 0;
@@ -5650,6 +5663,10 @@ button {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
+  }
+
+  .header__logo {
+    font-size: 2.25rem;
   }
 
   .header__top {
@@ -5868,14 +5885,14 @@ button {
   }
 
   .hero__content {
-    max-width: 46.875rem;
+    max-width: 40.625rem;
   }
 
-  .hero__waterspace {
+  .hero__subtitle {
     font-size: 1.25rem;
   }
 
-  .hero__waterspace:not(:last-child) {
+  .hero__subtitle:not(:last-child) {
     margin-bottom: 1.25rem;
   }
 
@@ -6011,6 +6028,10 @@ button {
     width: calc((100% - 48px) / 3);
   }
 
+  .hero {
+    height: calc(100vh - 150px);
+  }
+
   .hero__container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -6018,7 +6039,7 @@ button {
     flex-direction: row;
   }
 
-  .hero__waterspace {
+  .hero__subtitle {
     font-size: 1.75rem;
   }
 
@@ -6345,14 +6366,8 @@ button {
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .footer__waterspace {
+  .footer__slogan {
     text-align: center;
-  }
-
-  .footer .logo-box {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
   }
 
 @supports (-webkit-appearance:none) {
