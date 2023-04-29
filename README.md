@@ -25,3 +25,5 @@ Possible problems and solutions:
 
 Node.js - v10.19.0
 
+Node.js - v13.14.0
+

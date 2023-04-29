@@ -1,0 +1,28 @@
+.button-simple {
+	border: none;
+	display: inline-flex;
+	font-family: var(--main-font);
+	background-color: var(--divider-color);
+	font-size: rem(14px);
+	border-radius: 3px;
+	line-height: 1.5;
+	letter-spacing: .03em;
+	color: currentColor;
+	transition: color .3s ease,background-color .3s ease,box-shadow .3s ease;
+	padding: 7px 10px;
+	cursor: pointer;
+
+	@media (any-hover: hover) {
+		&:hover {
+			color: var(--white-color);
+    	background-color: var(--accent-color);
+    	box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
+		}
+	}
+
+	&.button-simple-active {
+		color: var(--white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
+	}
+}

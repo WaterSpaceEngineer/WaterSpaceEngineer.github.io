@@ -9,6 +9,7 @@ import mobileMenu from './modules/mobileMenu';
 import dropdownList from './modules/dropdownList';
 import accordion from './modules/accordion';
 import scrolling from './modules/scrolling';
+import submitButton from './modules/button-submit';
 
 window.addEventListener('DOMContentLoaded', () => {
     modals();
@@ -20,4 +21,5 @@ window.addEventListener('DOMContentLoaded', () => {
     mobileMenu('menu-button', '.navigation');
     accordion();
     scrolling('.page-up');
+    submitButton();
 });

@@ -186,7 +186,7 @@
         </div>
         <div class="call__box form-box">
             <h2 class="form-box__title section-title">Замовити дзвінок</h2>
-            <form class="form-block">
+            <form class="form form-block">
                 <div class="form-block__wrap">
                     <div class="form-block__item">
                         <input class="form-block__input" name="user_name" required type="text" placeholder="Ваше ім’я*">
@@ -197,10 +197,14 @@
                         <span class="form-block__icon _icon-phone"></span>
                     </div>
                 </div>
-                <textarea class="form-block__textarea" placeholder="Напишіть ваше повідомлення" maxlength="300"></textarea>
-                <button class="form-block__button button" name="submit" type="submit">Відправити
-                    <span></span><span></span><span></span><span></span><span></span><span></span>
-                </button>
+                <textarea class="form-block__textarea" placeholder="Напишіть ваше повідомлення" name="user_massage" maxlength="300"></textarea>
+                <div class="submit-button__wrap">
+  <button class="form-block__button submit-button" name="submit" type="submit">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <p class="submit-button__text">Відправити</p>
+  </button>
+</div>
+
             </form>
         </div>
     </div>
