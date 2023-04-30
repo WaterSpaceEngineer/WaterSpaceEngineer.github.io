@@ -4,8 +4,6 @@ const boxTopFixation = (boxSelector) => {
   if(box) {
     const getParametersHeader = document.querySelector('.header').getBoundingClientRect();
     const getParametersHeaderMain = document.querySelector('.header-main').getBoundingClientRect();
-    let getPaddingTopBox = parseInt(getComputedStyle(box).paddingTop);
-    console.log(getPaddingTopBox);
 
     if(
       document.documentElement.scrollTop > 
