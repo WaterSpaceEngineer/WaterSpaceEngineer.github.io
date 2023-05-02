@@ -1,32 +1,24 @@
 const submitForm = () => {
   const forms = document.querySelectorAll('form');
-  const submitButtons = document.querySelectorAll('.submit-button');
   const languagePage = document.documentElement.lang;
 
   let message = {};
 
+  const loadingMessage = {
+    loading: 'img/spinner.svg'
+  };
+
   if(languagePage === 'uk') {
-    message = {... {
-      original: 'Відправити-2',
+    message = { ...loadingMessage, ... {
       success: 'Повідомлення відправлено',
       failure: 'Виникла помилка'
     }}
   } else if (languagePage === 'ru') {
-    message = {... {
-      original: 'Отправить',
+    message = {...loadingMessage, ... {
       success: 'Сообщение отправлено',
       failure: 'Возникла ошибка'
     }}
   }
-
-  submitButtons && submitButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      btn.classList.add('submiting');
-      setTimeout(() => {
-        btn.classList.remove('submiting');
-      }, 3000)
-    })
-  })
 
   forms && forms.forEach(item => {
     postData(item);
@@ -34,44 +26,60 @@ const submitForm = () => {
 
   function postData(form) {
     form.addEventListener('submit', (e) => {
+      const statusBlock = form.querySelector('.form-block__message');
       e.preventDefault();
+
+      const loadingMessage = document.createElement('img');
+      loadingMessage.src = message.loading;
+      loadingMessage.classList.add('loading');
+      statusBlock.append(loadingMessage);
       
       const formData = new FormData(form);
 
-      fetch('server1.php', {
+      // const object = {};
+      // formData.forEach((value, key) => {
+      //   object[key] = value
+      // })
+
+      // http://2.waterspace.pl.ua/call.php
+      fetch('http://2.waterspace.pl.ua/call.php', {
         method: "POST",
-        body: formData
+        body: formData,
+        // headers: {
+        //   'Content-Type': 'application/json'
+        // },
+        // body: JSON.stringify(object)
       })
-      // .then(data => data.text())
+      .then(data => data.text())
+      // .then(response => response.json())
+      
+
       .then(res => {
-        if(res.status === 200 || res.status === 201) {
-          console.log(res.status);
-          showStatus(message.success, message.original, '#388E3C');
-        }
-        else {
-          console.log(res.status);
-          throw new Error(res.status);
-        }
+        console.log(res.status);
+        showStatus(message.success, 'message-success');
+        // if(res.status === 200 || res.status === 201) {
+        //   console.log(res.status);
+        //   showStatus(message.success, 'message-success');
+        // }
+        // else {
+        //   console.log(res.status);
+        //   throw new Error(res.status);
+        // }
         form.reset();
       })
       .catch(() => {
-        showStatus(message.failure, message.original, '#D32F2F');
+        showStatus(message.failure, 'message-errow');
       })
     });
 
-    function showStatus(message, original, bgColor) {
-      const submitButton = form.querySelector('.submit-button');
-      const submitButtonText = submitButton.querySelector('.submit-button__text');
-      
-      submitButton.disabled = true;
-      submitButtonText.innerHTML = `${message}`;
-      submitButton.style.backgroundColor = bgColor;
-    
+    function showStatus(messageText, messageClass) {
+      const statusBlock = form.querySelector('.form-block__message');
+      statusBlock.innerHTML = `${messageText}`;
+      statusBlock.classList.add(messageClass);
+
       setTimeout(() => {
-        submitButton.style.backgroundColor = '';
-        submitButton.disabled = false;
-        submitButtonText.innerHTML = `${original}`;
-      }, 6000)
+        statusBlock.innerHTML = '';
+      }, 4000);
     }
   }
 }
