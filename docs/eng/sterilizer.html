@@ -249,9 +249,13 @@
                     </div>
                 </div>
                 <textarea class="form-block__textarea" name="user_massage" placeholder="Write your message" maxlength="300"></textarea>
-                <button class="form-block__button button" name="submit" type="submit">Send
-                    <span></span><span></span><span></span><span></span><span></span><span></span>
-                </button>
+                <div class="form-block__message"></div>
+                <button class="submit-button" name="submit" type="submit">
+  <span></span><span></span><span></span><span></span><span></span><span></span>
+  <p class="submit-button__text">Send</p>
+</button>
+
+
             </form>
         </div>
     </div>
@@ -323,63 +327,67 @@
     </div>
 </footer>    <div class="popup popup-delivery" data-popup-ultraviolet data-modal>
   <div class="popup__wrap">
-    <div class="popup__body">
-      <button type="button" class="popup__close _icon-close" aria-label="Кнопка закрытия модального окна"></button>
-      <div class="delivery-terms">
-        <h3 class="delivery-terms__title modal-title title-block">Условия доставки</h3>
-        <div class="delivery-terms__content">
-          <p class="delivery-terms__text">После оформления заказа, включающего оплату продукта, в течение 1 – 3 рабочих дней мы передадим оплаченный товар в транспортную компанию, сообщив вам необходимые данные для получения продукта. Доставка товара может быть осуществлена транспортными службами:</p>
-          <ul class="delivery-terms__companies companies-list">
-            <li class="companies-list__item">
-              <img src="../img/logo-delivery-companies/nova-poshta.svg" alt="Логотип компании Нова пошта">
-            </li>
-            <li class="companies-list__item">
-              <img src="../img/logo-delivery-companies/del-auto-logo.png" alt="Логотип компании Дел Авто">
-            </li>
-            <li class="companies-list__item">
-              <img src="../img/logo-delivery-companies/intime.svg" alt="Логотип компании Ин Тайм">
-            </li>
-            <li class="companies-list__item">
-              <img src="../img/logo-delivery-companies/autolux.svg" alt="Логотип компании Авто Люкс">
-            </li>
-            <li class="companies-list__item">
-              <img src="../img/logo-delivery-companies/gunsel.svg" alt="Логотип компании Гюнсел">
-            </li>
-          </ul>
-          <p class="delivery-terms__text">или любым другим способом. Сроки доставки в этом случае определяются графиком работы транспортных компаний.</p>
-          <p class="delivery-terms__text">Мы рассмотрим любые, удобные для вас, способы доставки/получения наших продуктов. За дополнительной информацией вы можете обратиться к менеджерам нашей компании.</p>
+    <div class="popup__inner">
+      <div class="popup__body">
+        <button type="button" class="popup__close _icon-close" aria-label="Кнопка закрытия модального окна"></button>
+        <div class="delivery-terms">
+          <h3 class="delivery-terms__title modal-title title-block">Условия доставки</h3>
+          <div class="delivery-terms__content">
+            <p class="delivery-terms__text">После оформления заказа, включающего оплату продукта, в течение 1 – 3 рабочих дней мы передадим оплаченный товар в транспортную компанию, сообщив вам необходимые данные для получения продукта. Доставка товара может быть осуществлена транспортными службами:</p>
+            <ul class="delivery-terms__companies companies-list">
+              <li class="companies-list__item">
+                <img src="../img/logo-delivery-companies/nova-poshta.svg" alt="Логотип компании Нова пошта">
+              </li>
+              <li class="companies-list__item">
+                <img src="../img/logo-delivery-companies/del-auto-logo.png" alt="Логотип компании Дел Авто">
+              </li>
+              <li class="companies-list__item">
+                <img src="../img/logo-delivery-companies/intime.svg" alt="Логотип компании Ин Тайм">
+              </li>
+              <li class="companies-list__item">
+                <img src="../img/logo-delivery-companies/autolux.svg" alt="Логотип компании Авто Люкс">
+              </li>
+              <li class="companies-list__item">
+                <img src="../img/logo-delivery-companies/gunsel.svg" alt="Логотип компании Гюнсел">
+              </li>
+            </ul>
+            <p class="delivery-terms__text">или любым другим способом. Сроки доставки в этом случае определяются графиком работы транспортных компаний.</p>
+            <p class="delivery-terms__text">Мы рассмотрим любые, удобные для вас, способы доставки/получения наших продуктов. За дополнительной информацией вы можете обратиться к менеджерам нашей компании.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>    <div class="popup popup-payment" data-popup-ultraviolet data-modal>
   <div class="popup__wrap">
-    <div class="popup__body">
-      <button type="button" class="popup__close _icon-close" aria-label="Кнопка закрытия модального окна"></button>
-      <div class="terms-payment">
-        <h3 class="terms-payment__title modal-title title-block">Условия оплаты</h3>
-        <div class="terms-payment__content">
-          <p class="terms-payment__text text-subtitle">1. Наличными в кассу предприятия.</p>
-          <p class="terms-payment__text text-subtitle">2. Наложенным платежом при получении товара.</p>
-          <div>
-            <p class="text-subtitle">3. Безналичными на расчетный счет предприятия:</p>
-            <p>ТОВ «ЭКОТЕХ-Инжиниринг», г. Кременчуг, ул. Мичурина, 98. <br>
-              р/с № 26006492524 в «Райффайзен Банк Аваль», г. Киев, МФО 380805.<br>
-              Предприятие является плательщиком единого налога по ставке 3% с НДС.</p>
+    <div class="popup__inner">
+      <div class="popup__body">
+        <button type="button" class="popup__close _icon-close" aria-label="Кнопка закрытия модального окна"></button>
+        <div class="terms-payment">
+          <h3 class="terms-payment__title modal-title title-block">Условия оплаты</h3>
+          <div class="terms-payment__content">
+            <p class="terms-payment__text text-subtitle">1. Наличными в кассу предприятия.</p>
+            <p class="terms-payment__text text-subtitle">2. Наложенным платежом при получении товара.</p>
+            <div>
+              <p class="text-subtitle">3. Безналичными на расчетный счет предприятия:</p>
+              <p>ТОВ «ЭКОТЕХ-Инжиниринг», г. Кременчуг, ул. Мичурина, 98. <br>
+                р/с № 26006492524 в «Райффайзен Банк Аваль», г. Киев, МФО 380805.<br>
+                Предприятие является плательщиком единого налога по ставке 3% с НДС.</p>
+            </div>
+            <p class="text-subtitle">4. Переводом на карту ПриватБанка.</p>
+            <div>
+              <p>Мы рассмотрим любые, удобные для вас, способы оплаты наших продуктов. Наши менеджеры всегда помогут вам в выборе наиболее удобного способа осуществления покупки с целью максимальной оптимизации ваших затрат.</p>
+              <p>При нажатии на кнопку <span class="text-btn">Заказать</span> появляется форма, в которую нужно внести ваше имя и телефон.</p>
+              <p>Мы перезвоним вам и уточним детали.</p>
+            </div>
+            <ol class="terms-payment__list">
+              <li class="terms-payment__item"><span class="accent-color">1.</span><p>Оформив заказ по телефону, вы получите платежные реквизиты в виде счета-фактуры или номера карты ПриватБанка.</p></li>
+              <li class="terms-payment__item"><span class="accent-color">2.</span><p>Проведите операцию по перечислению денег на счет-фактуру или карту ПриватБанка и сообщите нам о совершенном платеже.</p></li>
+              <li class="terms-payment__item"><span class="accent-color">3.</span><p>Отправив заказ перевозчику, мы сообщим вам номер декларации на получение товара.</p></li>
+            </ol>
+            <p>При отправке продукции наложенным платежом, оплата осуществляется по месту получения в кассу транспортной компании, осуществившей доставку.</p>
+            <p>За дополнительной информацией вы можете обратиться к менеджерам нашей компании.</p>
           </div>
-          <p class="text-subtitle">4. Переводом на карту ПриватБанка.</p>
-          <div>
-            <p>Мы рассмотрим любые, удобные для вас, способы оплаты наших продуктов. Наши менеджеры всегда помогут вам в выборе наиболее удобного способа осуществления покупки с целью максимальной оптимизации ваших затрат.</p>
-            <p>При нажатии на кнопку <span class="text-btn">Заказать</span> появляется форма, в которую нужно внести ваше имя и телефон.</p>
-            <p>Мы перезвоним вам и уточним детали.</p>
-          </div>
-          <ol class="terms-payment__list">
-            <li class="terms-payment__item"><span class="accent-color">1.</span><p>Оформив заказ по телефону, вы получите платежные реквизиты в виде счета-фактуры или номера карты ПриватБанка.</p></li>
-            <li class="terms-payment__item"><span class="accent-color">2.</span><p>Проведите операцию по перечислению денег на счет-фактуру или карту ПриватБанка и сообщите нам о совершенном платеже.</p></li>
-            <li class="terms-payment__item"><span class="accent-color">3.</span><p>Отправив заказ перевозчику, мы сообщим вам номер декларации на получение товара.</p></li>
-          </ol>
-          <p>При отправке продукции наложенным платежом, оплата осуществляется по месту получения в кассу транспортной компании, осуществившей доставку.</p>
-          <p>За дополнительной информацией вы можете обратиться к менеджерам нашей компании.</p>
         </div>
       </div>
     </div>

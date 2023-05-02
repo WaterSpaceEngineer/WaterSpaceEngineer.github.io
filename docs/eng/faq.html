@@ -229,21 +229,26 @@
     </div>
 </footer>    <div class="popup popup-faq" data-popup-faq data-modal>
     <div class="popup__wrap">
-        <div class="popup__body">
-            <button type="button" class="popup__close _icon-close" aria-label="Кнопка закрытия модального окна"></button>
-            <div class="popup__form">
-                <form class="form form-popup">
-                    <h2 class="form-popup__title">Ask a Question</h2>
-                    <div class="popup-faq__item form-block__item">
-                        <input class="form-block__input" name="user_name" required="" type="text" placeholder="Your full name*">
-                        <span class="form-block__icon _icon-user"></span>
-                    </div>
-                    <textarea class="popup-faq__textarea form-block__textarea" name="use_question" required="" minlength="20" maxlength="300" placeholder="Write your question*"></textarea>
-                    <button class="popup-faq__button form-popup__button button" name="submit" type="submit">
-                        Send
-                        <span></span><span></span><span></span><span></span><span></span><span></span>
-                    </button>
-                </form>
+        <div class="popup__inner">
+            <div class="popup__body">
+                <button type="button" class="popup__close _icon-close" aria-label="Кнопка закрытия модального окна"></button>
+                <div class="popup__form">
+                    <form class="form form-popup">
+                        <h2 class="form-popup__title">Ask a Question</h2>
+                        <div class="popup-faq__item form-block__item">
+                            <input class="form-block__input" name="user_name" required="" type="text" placeholder="Your full name*">
+                            <span class="form-block__icon _icon-user"></span>
+                        </div>
+                        <textarea class="popup-faq__textarea form-block__textarea" name="use_question" required="" minlength="20" maxlength="300" placeholder="Write your question*"></textarea>
+                        <div class="form-block__message"></div>
+                        <button class="submit-button" name="submit" type="submit">
+  <span></span><span></span><span></span><span></span><span></span><span></span>
+  <p class="submit-button__text">Send</p>
+</button>
+
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>

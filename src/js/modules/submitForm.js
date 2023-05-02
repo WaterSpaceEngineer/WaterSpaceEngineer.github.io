@@ -5,7 +5,7 @@ const submitForm = () => {
   let message = {};
 
   const loadingMessage = {
-    loading: 'img/spinner.svg'
+    loading: '../img/spinner.svg'
   };
 
   if(languagePage === 'uk') {
@@ -17,6 +17,11 @@ const submitForm = () => {
     message = {...loadingMessage, ... {
       success: 'Сообщение отправлено',
       failure: 'Возникла ошибка'
+    }}
+  } else if (languagePage === 'en') {
+    message = {...loadingMessage, ... {
+      success: 'Message sent',
+      failure: 'An error has occurred'
     }}
   }
 
@@ -79,6 +84,7 @@ const submitForm = () => {
 
       setTimeout(() => {
         statusBlock.innerHTML = '';
+        statusBlock.classList.remove(messageClass);
       }, 4000);
     }
   }

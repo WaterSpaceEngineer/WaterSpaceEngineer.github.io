@@ -71,22 +71,26 @@
     </div>
 </footer>    <div class="popup popup-faq" data-popup-faq data-modal>
     <div class="popup__wrap">
-        <div class="popup__body">
-            <button type="button" class="popup__close _icon-close" aria-label="Кнопка закриття модального вікна"></button>
-            <div class="popup__form">
-                <form class="form form-popup">
-                    <h2 class="form-popup__title">Задати питання</h2>
-                    <div class="popup-faq__item form-block__item">
-                        <input class="form-block__input" name="user_name" required="" type="text" placeholder="Ваше ім’я*">
-                        <span class="form-block__icon _icon-user"></span>
-                    </div>
-                    <textarea class="popup-faq__textarea form-block__textarea" required="" minlength="20" maxlength="300" placeholder="Напишіть ваше запитання*" name="user_question"></textarea>
-                    <div class="form-block__message"></div>
-                    <button class="popup-faq__button form-popup__button button" name="submit" type="submit">
-                        Надіслати
-                        <span></span><span></span><span></span><span></span><span></span><span></span>
-                    </button>
-                </form>
+        <div class="popup__inner">
+            <div class="popup__body">
+                <button type="button" class="popup__close _icon-close" aria-label="Кнопка закриття модального вікна"></button>
+                <div class="popup__form">
+                    <form class="form form-popup">
+                        <h2 class="form-popup__title">Задати питання</h2>
+                        <div class="popup-faq__item form-block__item">
+                            <input class="form-block__input" name="user_name" required="" type="text" placeholder="Ваше ім’я*">
+                            <span class="form-block__icon _icon-user"></span>
+                        </div>
+                        <textarea class="popup-faq__textarea form-block__textarea" required="" minlength="20" maxlength="300" placeholder="Напишіть ваше запитання*" name="user_question"></textarea>
+                        <div class="form-block__message"></div>
+                        <button class="submit-button" name="submit" type="submit">
+  <span></span><span></span><span></span><span></span><span></span><span></span>
+  <p class="submit-button__text">Відправити</p>
+</button>
+
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>
