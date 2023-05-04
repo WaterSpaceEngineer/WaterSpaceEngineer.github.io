@@ -11,8 +11,12 @@
                             <span class="form-block__icon _icon-user"></span>
                         </div>
                         <textarea class="popup-faq__textarea form-block__textarea" name="use_question" required="" minlength="20" maxlength="300" placeholder="Write your question*"></textarea>
+                        
+                        <div class="submit-form__wrap">
+                            <div class="submit-form__recaptcha g-recaptcha" data-sitekey="6Ld2KdUlAAAAAF7xgMBOPqvl8X0dEl9yWNBTWJzu"></div>
+                            @@include('../buttons/button-send-form.html')
+                        </div>
                         <div class="form-block__message"></div>
-                        @@include('../buttons/button-send-form.html')
                     </form>
                 </div>
             </div>

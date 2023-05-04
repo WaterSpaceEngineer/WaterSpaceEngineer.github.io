@@ -3243,34 +3243,6 @@ button {
   margin-right: auto;
 }
 
-.form-block__message {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%;
-  height: 3rem;
-}
-
-.form-block__message.message-success {
-  color: #388E3C;
-}
-
-.form-block__message.message-errow {
-  color: #D32F2F;
-}
-
-.form-block__message .loading {
-  display: block;
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
 .contacts__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4531,6 +4503,57 @@ button {
   color: var(--secondary-text);
 }
 
+.form-block__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 2.5rem;
+}
+
+.form-block__message.message-success {
+  color: #388E3C;
+}
+
+.form-block__message.message-errow {
+  color: #D32F2F;
+}
+
+.form-block__message .loading {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.submit-form__wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  row-gap: 24px;
+}
+
 .product-unit.section {
   padding-top: 0;
 }
@@ -5624,6 +5647,13 @@ button {
     align-items: center;
   }
 
+  .submit-form__wrap {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
   .product-unit__wrap,
   .product-unit__card {
     row-gap: 1.5rem;
@@ -5817,10 +5847,6 @@ button {
 
   .problem-box__text:not(:last-child) {
     margin-bottom: 1rem;
-  }
-
-  .form-block__message {
-    font-size: 1.125rem;
   }
 
   .contacts__block {
@@ -6154,6 +6180,10 @@ button {
     width: 100%;
   }
 
+  .form-block__message {
+    font-size: 1.125rem;
+  }
+
   .product-unit__wrap,
   .product-unit__card {
     row-gap: 2.5rem;
@@ -6290,6 +6320,11 @@ button {
 
   .hero__undertitle {
     font-size: 1.375rem;
+  }
+
+  .submit-form__wrap {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .product-unit__block {

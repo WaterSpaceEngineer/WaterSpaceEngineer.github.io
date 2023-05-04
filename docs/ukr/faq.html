@@ -11,6 +11,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,regular,500,700&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer="defer"></script>
     <script src="../js/main.js" defer="defer"></script>
     <link rel="stylesheet" href="../css/main.min.css">
 </head><body>    <div class="wrapper" id="up">      <header class="header">        <div class="header__container container">            <div class="header__top">                <div class="header__top-inner">                  <a class="header__logo logo" href="/">                    <span class="waterspace-logo" lang="en">
@@ -82,13 +83,16 @@
                             <span class="form-block__icon _icon-user"></span>
                         </div>
                         <textarea class="popup-faq__textarea form-block__textarea" required="" minlength="20" maxlength="300" placeholder="Напишіть ваше запитання*" name="user_question"></textarea>
-                        <div class="form-block__message"></div>
-                        <button class="submit-button" name="submit" type="submit">
+                        <div class="submit-form__wrap">
+                            <div class="submit-form__recaptcha g-recaptcha" data-sitekey="6Ld2KdUlAAAAAF7xgMBOPqvl8X0dEl9yWNBTWJzu"></div>
+                            <button class="submit-button" name="submit" type="submit">
   <span></span><span></span><span></span><span></span><span></span><span></span>
   <p class="submit-button__text">Відправити</p>
 </button>
 
 
+                        </div>
+                        <div class="form-block__message"></div>
                     </form>
                 </div>
             </div>

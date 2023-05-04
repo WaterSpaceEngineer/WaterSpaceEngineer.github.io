@@ -22,8 +22,12 @@
                     </div>
                 </div>
                 <textarea class="form-block__textarea" name="user_massage" placeholder="Write your message" maxlength="300"></textarea>
+                
+                <div class="submit-form__wrap">
+                    <div class="submit-form__recaptcha g-recaptcha" data-sitekey="6Ld2KdUlAAAAAF7xgMBOPqvl8X0dEl9yWNBTWJzu"></div>
+                    @@include('../buttons/button-send-form.html')
+                </div>
                 <div class="form-block__message"></div>
-                @@include('../buttons/button-send-form.html')
             </form>
         </div>
     </div>
