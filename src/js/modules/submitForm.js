@@ -2,7 +2,6 @@ const submitForm = () => {
   const forms = document.querySelectorAll('form');
   const languagePage = document.documentElement.lang;
   
-
   let message = {};
 
   const loadingMessage = {
@@ -40,8 +39,6 @@ const submitForm = () => {
       
       e.preventDefault();
 
-      console.log(captcha.length);
-
       if(!captcha.length) {
         captchaFailure();
       } else {
@@ -66,12 +63,20 @@ const submitForm = () => {
           // },
           // body: JSON.stringify(object)
         })
-        .then(data => data.text())
+        // .then(data => data.text())
         // .then(response => response.json())
         
         .then(res => {
-          console.log(res.status);
-          showStatus(message.success, 'message-success');
+          
+          if(!res.ok) {
+            showStatus(message.failure, 'message-errow');
+            throw new Error(res.status);
+          } else {
+            showStatus(message.success, 'message-success');
+            form.reset();
+            grecaptcha.reset();
+          }
+          
           // if(res.status === 200 || res.status === 201) {
           //   console.log(res.status);
           //   showStatus(message.success, 'message-success');
@@ -80,8 +85,7 @@ const submitForm = () => {
           //   console.log(res.status);
           //   throw new Error(res.status);
           // }
-          form.reset();
-          grecaptcha.reset();
+          
         })
         .catch(() => {
           showStatus(message.failure, 'message-errow');
