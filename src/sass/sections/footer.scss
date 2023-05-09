@@ -130,8 +130,16 @@
     }
 }
 
+.footer__subslogan {
+    font-size: rem(18px);
+}
+
 .footer {
-    .logo-box {
+    .slogan-box {
         max-width: rem(350px);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: rem(16px);
     }
 }
