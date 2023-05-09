@@ -10,7 +10,7 @@ import dropdownList from './modules/dropdownList';
 import accordion from './modules/accordion';
 import scrolling from './modules/scrolling';
 import submitForm from './modules/submitForm';
-import transitionActivityClass from './modules/transitionActivityClass';
+import clickOnHash from './modules/clickOnHash';
 
 window.addEventListener('DOMContentLoaded', () => {
     modals();
@@ -23,5 +23,5 @@ window.addEventListener('DOMContentLoaded', () => {
     accordion();
     scrolling('.page-up');
     submitForm();
-    transitionActivityClass();
+    clickOnHash();
 });
