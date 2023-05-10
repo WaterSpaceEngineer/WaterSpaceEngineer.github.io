@@ -68,13 +68,14 @@ const submitForm = () => {
         
         .then(res => {
           
-          if(!res.ok) {
-            showStatus(message.failure, 'message-errow');
-            throw new Error(res.status);
-          } else {
+          if(res.status === 200 || res.status === 201) {
             showStatus(message.success, 'message-success');
             form.reset();
             grecaptcha.reset();
+          } else {
+            showStatus(message.failure, 'message-errow');
+            grecaptcha.reset();
+            throw new Error(res.status);
           }
           
           // if(res.status === 200 || res.status === 201) {
