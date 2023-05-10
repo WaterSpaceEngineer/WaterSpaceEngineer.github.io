@@ -349,6 +349,18 @@
 	padding-left: rem(48px);
 }
 
+.box-25 {
+	width: 100%;
+
+	@include min576 {
+		width: item-base(2, 24px);
+	}
+
+	@include min992 {
+		width: item-base(4, 24px);
+	}
+}
+
 .box-50 {
 	width: 100%;
 

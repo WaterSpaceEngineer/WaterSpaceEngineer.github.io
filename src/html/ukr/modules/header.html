@@ -30,8 +30,8 @@
                     </a>
                 </div>
                 <ul class="actions-header__languages languages">
-                    <li><a class="languages__link" href="/eng">eng</a></li>
-                    <li><a class="languages__link" href="/ru">rus</a></li>
+                    <li><a class="languages__link language-btn" data-page-language="eng" href="/eng">eng</a></li>
+                    <li><a class="languages__link language-btn" data-page-language="ru" href="/ru">rus</a></li>
                 </ul>
             </div>
         </div>
@@ -141,4 +141,27 @@
             </nav>
         </div>
     </div>
+
+    <script>
+        document.querySelectorAll('.language-btn').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const href = window.location.href;
+                const lang = e.target.dataset.pageLanguage;
+                let languagePage = '';
+                    if(document.documentElement.lang === 'uk') {
+                        languagePage = 'ukr'
+                    } else if (document.documentElement.lang === 'en') {
+                        languagePage = 'eng'
+                    } else {
+                        languagePage = 'ru'
+                    }
+                    
+                const new_href = href.replace(languagePage, lang);
+                window.location.href = new_href;
+                console.log(lang);
+            })
+        })
+
+    </script>
 </header>
