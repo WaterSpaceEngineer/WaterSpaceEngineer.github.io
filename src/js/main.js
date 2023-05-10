@@ -1,5 +1,6 @@
 import './libs/sliders';
 
+import languageSwitchingBtns from './modules/languageSwitchingBtns';
 import modals from './modules/modals';
 import scrollPage from "./modules/scrollPage";
 import resizePage from './modules/resizePage';
@@ -13,6 +14,7 @@ import submitForm from './modules/submitForm';
 import clickOnHash from './modules/clickOnHash';
 
 window.addEventListener('DOMContentLoaded', () => {
+    languageSwitchingBtns();
     modals();
     scrollPage();
     resizePage();
