@@ -217,6 +217,7 @@
 [data-accordion-content] {
   display: grid;
   grid-template-rows: 0fr;
+	grid-template-columns: 100%;
   transition: 1s;
   overflow: hidden;
 }
@@ -227,6 +228,7 @@
 
 .content-open[data-accordion-content] {
   grid-template-rows: 1fr;
+	grid-template-columns: 100%;
 }
 
 // accordion end
@@ -237,6 +239,10 @@
 
 .text-right {
 	text-align: right;
+}
+
+.text-left {
+	text-align: left;
 }
 
 .accent-color {

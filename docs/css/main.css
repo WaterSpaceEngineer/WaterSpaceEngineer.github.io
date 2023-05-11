@@ -1165,6 +1165,7 @@ button {
 [data-accordion-content] {
   display: grid;
   grid-template-rows: 0fr;
+  grid-template-columns: 100%;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
@@ -1177,6 +1178,7 @@ button {
 
 .content-open[data-accordion-content] {
   grid-template-rows: 1fr;
+  grid-template-columns: 100%;
 }
 
 .text-center {
@@ -1185,6 +1187,10 @@ button {
 
 .text-right {
   text-align: right;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .accent-color {
@@ -2777,11 +2783,13 @@ button {
 }
 
 .table-wrap {
+  display: block;
   overflow-x: auto;
 }
 
 .simple-table {
   width: 100%;
+  min-width: 31.25rem;
   font-size: 0.875rem;
   border-collapse: collapse;
   border: 1px solid var(--secondary-text);
@@ -3456,11 +3464,6 @@ button {
   transform: rotate(-180deg);
 }
 
-.fag__wrap {
-  padding-right: 0.625rem;
-  padding-left: 0.625rem;
-}
-
 .fag__wrap.content-open {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
@@ -3495,6 +3498,8 @@ button {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.75rem;
+  width: 100%;
+  max-width: 34.375rem;
 }
 
 .popup-faq__item.form-block__item {
@@ -5916,8 +5921,8 @@ button {
   }
 
   .fag__wrap {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
   }
 
   .fag__answer::before {

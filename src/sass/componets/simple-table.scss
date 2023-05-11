@@ -1,9 +1,11 @@
 .table-wrap {
+  display: block;
   overflow-x: auto;
 }
 
 .simple-table {
   width: 100%;
+  min-width: rem(500px);
   font-size: rem(14px);
   border-collapse: collapse;
   border: 1px solid var(--secondary-text);
