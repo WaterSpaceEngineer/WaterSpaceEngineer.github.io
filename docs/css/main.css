@@ -3752,6 +3752,8 @@ button {
   -webkit-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
+  font-weight: 700;
+  color: var(--dark-primary-color);
 }
 
 .languages__link:hover,
