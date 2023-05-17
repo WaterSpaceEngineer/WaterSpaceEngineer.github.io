@@ -6,7 +6,7 @@ const languageSwitchingBtns = () => {
       e.preventDefault();
 
       const href = window.location.href;
-      const lang = e.target.dataset.pageLanguage;
+      const lang = '/' + e.target.dataset.pageLanguage;
       const pageHeadLang = document.documentElement.lang;
       let languagePage = '';
       
@@ -16,12 +16,12 @@ const languageSwitchingBtns = () => {
       };
 
       if (pageHeadLang === 'uk') {
-        languagePage = 'ukr';
+        languagePage = '/ukr';
         creatingNewHref();
       } else if (pageHeadLang === 'en') {
-        window.location.pathname === '/eng/' ? window.location.href = window.location.origin : (languagePage = 'eng', creatingNewHref());
+        window.location.pathname === '/eng/' ? window.location.href = window.location.origin : (languagePage = '/eng', creatingNewHref());
       } else if (pageHeadLang === 'ru') {
-        window.location.pathname === '/ru/' ? window.location.href = window.location.origin : (languagePage = 'ru', creatingNewHref());
+        window.location.pathname === '/rus/' ? window.location.href = window.location.origin : (languagePage = '/rus', creatingNewHref());
       } 
     })
   })

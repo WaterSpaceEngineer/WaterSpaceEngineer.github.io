@@ -11,7 +11,7 @@ module.exports = {
     },
 
     html: {
-        src: pathSrc + "/html/{ru,ukr,eng}/*.html",
+        src: pathSrc + "/html/{rus,ukr,eng}/*.html",
         watch: pathSrc + "/html/**/*.html",
         dest: pathDest
     },
