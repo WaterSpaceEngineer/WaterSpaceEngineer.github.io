@@ -5425,19 +5425,22 @@ button {
   margin-bottom: 0.625rem;
 }
 
-.water-disinfection__img {
+.water-disinfection__clip-wrap {
   background: var(--light-divider-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 1px solid var(--divider-color);
+  position: relative;
+  width: 100%;
+  padding-top: 30.2%;
 }
 
-.water-disinfection__img img {
-  mix-blend-mode: darken;
+.water-disinfection__clip {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 @supports (-webkit-appearance:none) {
@@ -6615,7 +6618,7 @@ button {
     margin-bottom: 0.625rem;
   }
 
-  .water-disinfection__img {
+  .water-disinfection__clip-wrap {
     display: none;
   }
 
