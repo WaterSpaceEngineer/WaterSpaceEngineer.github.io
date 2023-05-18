@@ -1,20 +1,16 @@
-// .hero {
-//   background: linear-gradient(45deg,rgba(18,18,20,0.7),rgba(18,18,20,.7)),
-//      url(../img/backgrounds/hero-bg.jpg) no-repeat 0% 10%/cover var(--secondary-text);
-//   display: flex;
-//   align-items: center;
-
-//   @include min992 {
-//     height: calc(100vh - 149px);
-//   }
-// }
-
 .hero {
-  background-image: url('../img/backgrounds/hero-bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: linear-gradient(50deg,rgba(30, 30, 133, 0.4),rgba(12, 12, 112, 0.6)),
+     url(../img/backgrounds/hero-bg.jpg) no-repeat 0% 0%/cover var(--secondary-text);
+  display: flex;
+  align-items: center;
 }
+
+// .hero {
+//   background-image: url('../img/backgrounds/hero-bg.jpg');
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+// }
 
 .hero__container {
   display: flex;

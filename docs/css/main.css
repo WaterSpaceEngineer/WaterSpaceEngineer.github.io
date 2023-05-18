@@ -4315,7 +4315,14 @@ button {
 }
 
 .hero {
-  background: url("../img/backgrounds/hero-bg.jpg") no-repeat center/cover;
+  background: -o-linear-gradient(40deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.jpg) no-repeat 0% 0%/cover var(--secondary-text);
+  background: linear-gradient(50deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.jpg) no-repeat 0% 0%/cover var(--secondary-text);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hero__container {
@@ -5461,7 +5468,8 @@ button {
   }
 
   .hero {
-    background-image: url("../img/backgrounds/hero-bg.webp");
+    background: -o-linear-gradient(40deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.webp) no-repeat 0% 0%/cover var(--secondary-text);
+    background: linear-gradient(50deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.webp) no-repeat 0% 0%/cover var(--secondary-text);
   }
 
   .product-unit__wrap-img {
