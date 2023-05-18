@@ -152,6 +152,7 @@
 
 .actions-header__languages {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: rem(12px);
 }
