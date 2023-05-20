@@ -26,11 +26,5 @@ window.addEventListener('DOMContentLoaded', () => {
     scrolling('.page-up');
     submitForm();
     clickOnHash();
-
-
-    const siteLanguageSwich = (e) => {
-        console.log('swich');
-    }
-
     
 });
