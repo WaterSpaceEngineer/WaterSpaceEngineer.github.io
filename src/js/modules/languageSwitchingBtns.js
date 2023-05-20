@@ -1,30 +1,46 @@
 const languageSwitchingBtns = () => {
   const languageBtns = document.querySelectorAll('.language-btn');
 
-  languageBtns && languageBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
+languageBtns && languageBtns.forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
 
-      const href = window.location.href;
-      const lang = '/' + e.target.dataset.pageLanguage;
-      const pageHeadLang = document.documentElement.lang;
-      let languagePage = '';
-      
-      const creatingNewHref = () => {
-        const new_href = href.replace(languagePage, lang);
-        window.location.href = new_href;
-      };
+    const href = window.location.href;
+    const lang = '/' + e.target.dataset.pageLanguage;
+    const pageHeadLang = document.documentElement.lang;
+    let languagePage = '';
 
-      if (pageHeadLang === 'uk') {
+    const createNewHref = () => {
+      const newHref = href.replace(languagePage, lang);
+      window.location.href = newHref;
+    };
+
+    switch (pageHeadLang) {
+      case 'uk':
         languagePage = '/ukr';
-        creatingNewHref();
-      } else if (pageHeadLang === 'en') {
-        window.location.pathname === '/eng/' ? window.location.href = window.location.origin : (languagePage = '/eng', creatingNewHref());
-      } else if (pageHeadLang === 'ru') {
-        window.location.pathname === '/rus/' ? window.location.href = window.location.origin : (languagePage = '/rus', creatingNewHref());
-      } 
-    })
+        createNewHref();
+        break;
+      case 'en':
+        if (window.location.pathname === '/eng/' && e.target.dataset.pageLanguage === 'ukr') {
+          window.location.href = window.location.origin;
+        } else {
+          languagePage = '/eng';
+          createNewHref();
+        }
+        break;
+      case 'ru':
+        if (window.location.pathname === '/rus/' && e.target.dataset.pageLanguage === 'ukr') {
+          window.location.href = window.location.origin;
+        } else {
+          languagePage = '/rus';
+          createNewHref();
+        }
+        break;
+      default:
+        break;
+    }
   })
+})
 }
 
 export default languageSwitchingBtns;
