@@ -1,7 +1,7 @@
 const languageSwitchingBtns = () => {
   const languageBtns = document.querySelectorAll('.language-btn');
 
-languageBtns && languageBtns.forEach(btn => {
+  languageBtns && languageBtns.forEach(btn => {
   btn.addEventListener('click', (e) => {
     e.preventDefault();
 

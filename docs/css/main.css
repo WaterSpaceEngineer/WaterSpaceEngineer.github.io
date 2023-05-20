@@ -4311,8 +4311,8 @@ button {
 }
 
 .hero {
-  background: -o-linear-gradient(40deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.jpg) no-repeat 0% 0%/cover var(--dark-primary-color);
-  background: linear-gradient(50deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.jpg) no-repeat 0% 0%/cover var(--dark-primary-color);
+  background: -o-linear-gradient(40deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.jpg) no-repeat 50% 50%/cover var(--dark-primary-color);
+  background: linear-gradient(50deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.jpg) no-repeat 50% 50%/cover var(--dark-primary-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5471,8 +5471,8 @@ button {
   }
 
   .hero {
-    background: -o-linear-gradient(40deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.webp) no-repeat 0% 0%/cover var(--dark-primary-color);
-    background: linear-gradient(50deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.webp) no-repeat 0% 0%/cover var(--dark-primary-color);
+    background: -o-linear-gradient(40deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.webp) no-repeat 50% 50%/cover var(--dark-primary-color);
+    background: linear-gradient(50deg, rgba(30, 30, 133, 0.4), rgba(12, 12, 112, 0.6)), url(../img/backgrounds/hero-bg.webp) no-repeat 50% 50%/cover var(--dark-primary-color);
   }
 
   .product-unit__wrap-img {
