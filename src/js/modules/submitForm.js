@@ -49,23 +49,10 @@ const submitForm = () => {
         
         const formData = new FormData(form);
 
-        // const object = {};
-        // formData.forEach((value, key) => {
-        //   object[key] = value
-        // })
-
-        // http://2.waterspace.pl.ua/forms.php
         fetch('http://2.waterspace.pl.ua/forms.php', {
           method: "POST",
           body: formData,
-          // headers: {
-          //   'Content-Type': 'application/json'
-          // },
-          // body: JSON.stringify(object)
         })
-        // .then(data => data.text())
-        // .then(response => response.json())
-        
         .then(res => {
           
           if(res.status === 200 || res.status === 201) {
@@ -77,16 +64,6 @@ const submitForm = () => {
             grecaptcha.reset();
             throw new Error(res.status);
           }
-          
-          // if(res.status === 200 || res.status === 201) {
-          //   console.log(res.status);
-          //   showStatus(message.success, 'message-success');
-          // }
-          // else {
-          //   console.log(res.status);
-          //   throw new Error(res.status);
-          // }
-          
         })
         .catch(() => {
           showStatus(message.failure, 'message-errow');
