@@ -1,16 +1,9 @@
 .hero {
   background: linear-gradient(50deg,rgba(30, 30, 133, 0.2),rgba(12, 12, 112, 0.2)),
-     url(../img/backgrounds/hero-bg-1.jpg) no-repeat 50% 75%/cover var(--dark-primary-color);
+     url(../img/backgrounds/hero-bg.jpg) no-repeat 50% 75%/cover var(--dark-primary-color);
   display: flex;
   align-items: center;
 }
-
-// .hero {
-//   background: linear-gradient(50deg,rgba(30, 30, 133, 0.4),rgba(12, 12, 112, 0.6)),
-//      url(../img/backgrounds/hero-bg.jpg) no-repeat 50% 50%/cover var(--dark-primary-color);
-//   display: flex;
-//   align-items: center;
-// }
 
 // .hero {
 //   background-image: url('../img/backgrounds/hero-bg.jpg');
