@@ -49,7 +49,7 @@ const submitForm = () => {
         
         const formData = new FormData(form);
 
-        fetch('http://2.waterspace.pl.ua/forms.php', {
+        fetch('https://waterspace.ua/forms.php', {
           method: "POST",
           body: formData,
         })
