@@ -1,4 +1,4 @@
-import onEnteredNumTextarea from './onEnteredNumTextarea';
+import enteredCountSymbolsTextarea from './enteredCountSymbolsTextarea';
 
 const submitForm = () => {
   const forms = document.querySelectorAll('form');
@@ -31,7 +31,7 @@ const submitForm = () => {
   }
 
   forms && forms.forEach(item => {
-    onEnteredNumTextarea(item);
+    enteredCountSymbolsTextarea(item);
     postData(item);
   });
 
