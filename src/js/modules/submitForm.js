@@ -1,3 +1,5 @@
+import onEnteredNumTextarea from './onEnteredNumTextarea';
+
 const submitForm = () => {
   const forms = document.querySelectorAll('form');
   const languagePage = document.documentElement.lang;
@@ -29,6 +31,7 @@ const submitForm = () => {
   }
 
   forms && forms.forEach(item => {
+    onEnteredNumTextarea(item);
     postData(item);
   });
 

@@ -204,8 +204,14 @@
                         <span class="form-block__icon _icon-phone"></span>
                     </div>
                 </div>
-                <textarea class="form-block__textarea" name="user_massage" placeholder="Write your message (max 300 symb.)" maxlength="300"></textarea>
-                
+                <div class="form-block__wrap-textarea">
+                    <textarea class="form-block__textarea" placeholder="Write your message" name="user_massage" maxlength="300"></textarea>
+                    <div class="form-block__textarea-symbols form-textarea">
+                        <span class="form-textarea__values" data-textarea-present>0</span>
+                         / 
+                        <span class="form-textarea__values" data-textarea-max>100</span>
+                    </div>
+                </div>
                 <div class="submit-form__wrap">
                     <div class="submit-form__recaptcha g-recaptcha" data-sitekey="6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH"></div>
                     <button class="submit-button" name="submit" type="submit">
