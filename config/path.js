@@ -51,4 +51,10 @@ module.exports = {
         watch: pathSrc + "/instructions/**/*.pdf",
         dest: pathDest + "/instructions"
     },
+
+    data: {
+        src: pathSrc + "/data/*.json",
+        watch: pathSrc + "/data/**/*.json",
+        dest: pathDest + "/data"
+    },
 };
