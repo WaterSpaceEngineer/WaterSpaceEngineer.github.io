@@ -5259,6 +5259,60 @@ button {
   margin-bottom: 0.625rem;
 }
 
+.relax-room__text:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
+
+.relax-room__descr-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 0.625rem;
+  width: 100%;
+  padding-left: 0.75rem;
+}
+
+.relax-room__descr-list:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.relax-room__descr-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-column-gap: 7px;
+  -moz-column-gap: 7px;
+  column-gap: 7px;
+}
+
+.relax-room__bnt-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-column-gap: 0.625rem;
+  -moz-column-gap: 0.625rem;
+  column-gap: 0.625rem;
+  row-gap: 0.75rem;
+}
+
+.relax-room__video-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .spare-parts.section {
   padding-top: 0;
 }
@@ -6060,6 +6114,7 @@ button {
     -webkit-column-gap: 2rem;
     -moz-column-gap: 2rem;
     column-gap: 2rem;
+    width: 100%;
   }
 
   .navigation__item {
@@ -6079,6 +6134,10 @@ button {
     -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
+  }
+
+  .navigation__item.navigation__item-ml {
+    margin-left: auto;
   }
 
   .navigation__link {
@@ -6300,6 +6359,10 @@ button {
     width: calc((100% - 48px) / 3);
   }
 
+  .relax-room__text:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+
   .spare-box__cart {
     width: calc((100% - 48px) / 3);
   }
@@ -6439,6 +6502,10 @@ button {
 
   .recirculators-irradiators__box {
     width: calc((100% - 48px) / 3);
+  }
+
+  .relax-room__descr-list {
+    row-gap: 0.75rem;
   }
 
   .spare-card__item {
