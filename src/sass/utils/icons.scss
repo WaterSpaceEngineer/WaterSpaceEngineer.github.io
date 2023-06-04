@@ -30,6 +30,12 @@
 	}
 }
 
+._icon-youtube:before {
+  content: "\e900";
+}
+._icon-gear:before {
+  content: "\e901";
+}
 ._icon-whatsapp:before {
   content: "\e90e";
 }
@@ -55,26 +61,26 @@
   content: "\e908";
 }
 ._icon-arrow-down:before {
-  content: "\e900";
-}
-._icon-arrow-right:before {
-  content: "\e901";
-}
-._icon-checkmark:before {
   content: "\e902";
 }
-._icon-email:before {
+._icon-arrow-right:before {
   content: "\e903";
 }
-._icon-location:before {
+._icon-checkmark:before {
   content: "\e904";
 }
-._icon-mobile:before {
+._icon-email:before {
   content: "\e905";
 }
-._icon-phone:before {
+._icon-location:before {
   content: "\e906";
 }
-._icon-user:before {
+._icon-mobile:before {
   content: "\e907";
+}
+._icon-phone:before {
+  content: "\e910";
+}
+._icon-user:before {
+  content: "\e911";
 }

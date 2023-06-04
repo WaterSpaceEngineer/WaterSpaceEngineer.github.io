@@ -1367,6 +1367,14 @@ button {
   display: block;
 }
 
+._icon-youtube:before {
+  content: "\e900";
+}
+
+._icon-gear:before {
+  content: "\e901";
+}
+
 ._icon-whatsapp:before {
   content: "\e90e";
 }
@@ -1400,35 +1408,35 @@ button {
 }
 
 ._icon-arrow-down:before {
-  content: "\e900";
-}
-
-._icon-arrow-right:before {
-  content: "\e901";
-}
-
-._icon-checkmark:before {
   content: "\e902";
 }
 
-._icon-email:before {
+._icon-arrow-right:before {
   content: "\e903";
 }
 
-._icon-location:before {
+._icon-checkmark:before {
   content: "\e904";
 }
 
-._icon-mobile:before {
+._icon-email:before {
   content: "\e905";
 }
 
-._icon-phone:before {
+._icon-location:before {
   content: "\e906";
 }
 
-._icon-user:before {
+._icon-mobile:before {
   content: "\e907";
+}
+
+._icon-phone:before {
+  content: "\e910";
+}
+
+._icon-user:before {
+  content: "\e911";
 }
 
 .fadeIn {
@@ -1815,6 +1823,32 @@ button {
 
 .breadcrumb__text {
   color: var(--primary-color);
+}
+
+.video-block__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 2rem;
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button-play-video {
+  font-size: 2rem;
+  color: #ff0000;
 }
 
 .submit-button {
@@ -3284,6 +3318,12 @@ button {
 
 .business-videos.section {
   padding-top: 0;
+}
+
+.video-preview-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .call {
