@@ -12,6 +12,7 @@ import accordion from './modules/accordion';
 import scrolling from './modules/scrolling';
 import submitForm from './modules/submitForm';
 import clickOnHash from './modules/clickOnHash';
+import playVideos from './modules/playVideos';
 
 window.addEventListener('DOMContentLoaded', () => {
     languageSwitchingBtns();
@@ -26,5 +27,5 @@ window.addEventListener('DOMContentLoaded', () => {
     scrolling('.page-up');
     submitForm();
     clickOnHash();
-    
+    playVideos('[data-video-trigger]');
 });
