@@ -13,6 +13,7 @@ import scrolling from './modules/scrolling';
 import submitForm from './modules/submitForm';
 import clickOnHash from './modules/clickOnHash';
 import playVideos from './modules/playVideos';
+import filterVideo from './modules/filterVideo';
 
 window.addEventListener('DOMContentLoaded', () => {
     languageSwitchingBtns();
@@ -27,5 +28,6 @@ window.addEventListener('DOMContentLoaded', () => {
     scrolling('.page-up');
     submitForm();
     clickOnHash();
+    filterVideo();
     playVideos('[data-video-trigger]');
 });

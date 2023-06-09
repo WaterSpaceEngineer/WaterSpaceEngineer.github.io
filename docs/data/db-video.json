@@ -1,14 +1,23 @@
-[
-    {
-        "name": "Первая новость",
-        "body": "Текст первой новости"
-    },
-    {
-        "name": "Вторая новость",
-        "body": "Текст второй новости"
-    },
-    {
-        "name": "Третья новость",
-        "body": "Текст третьей новости"
-    }
-]
+{
+    "youtube": [
+        {
+            "id": "frame-1",
+            "title": "А муж здесь откуда (Монументальная нирвана)",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg"
+        },
+        {
+            "id": "frame-2",
+            "title": "Мировоззрение (Зри в корень)",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg"
+        },
+        {
+            "id": "frame-3",
+            "title": "Эмансипация (Эмансипация)",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg"
+        }
+    ],
+    "media": []
+}
