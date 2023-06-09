@@ -865,6 +865,7 @@ button.swiper-pagination-bullet {
   --accent-color: #2196f3;
   --light-primary-color: rgba(33, 150, 243, 0.05);
   --primary-color: #0c84e4;
+  --secondary-primary-color: #208afc;
   --dark-primary-color: #19588a;
   --divider-color: #e8e8e8;
   --light-divider-color: #fafafa;
@@ -3874,7 +3875,7 @@ button {
 }
 
 .header-main {
-  background: #208afc;
+  background: var(--secondary-primary-color);
   position: relative;
 }
 
@@ -6140,7 +6141,7 @@ button {
 
   .submenu-list {
     min-width: 15rem;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-primary-color);
     position: absolute;
     left: 0;
     top: 100%;
@@ -6213,7 +6214,7 @@ button {
 
   .sub-submenu-list {
     min-width: 13.75rem;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-primary-color);
     position: absolute;
     left: 100%;
     padding: 0.625rem 0;
