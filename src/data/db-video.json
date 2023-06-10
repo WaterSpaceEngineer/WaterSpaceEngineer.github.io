@@ -4,19 +4,43 @@
             "id": "frame-1",
             "title": "А муж здесь откуда (Монументальная нирвана)",
             "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg"
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-nothing"
         },
         {
             "id": "frame-2",
             "title": "Мировоззрение (Зри в корень)",
             "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/business-on-water/video-bg/store.jpg"
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-politics"
         },
         {
             "id": "frame-3",
             "title": "Эмансипация (Эмансипация)",
             "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg"
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-4",
+            "title": "Красота спасет мир (Гостья из будущего)",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-nothing"
+        },
+        {
+            "id": "frame-5",
+            "title": "Шустряк (Багиры)",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-politics"
+        },
+        {
+            "id": "frame-6",
+            "title": "Куда подальше (Первое свидание)",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-weather"
         }
     ],
     "media": []
