@@ -5314,7 +5314,6 @@ button {
   flex-direction: column;
   row-gap: 0.625rem;
   width: 100%;
-  padding-left: 0.75rem;
 }
 
 .relax-room__descr-list:not(:last-child) {
@@ -5346,6 +5345,12 @@ button {
   -moz-column-gap: 0.625rem;
   column-gap: 0.625rem;
   row-gap: 0.75rem;
+}
+
+.relax-room__bnt {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .relax-room__content {
@@ -5952,6 +5957,10 @@ button {
 
   .recirculators-irradiators__cart {
     width: calc((100% - 24px) / 2);
+  }
+
+  .relax-room__bnt {
+    min-width: 5.625rem;
   }
 
   .spare-box__cart {

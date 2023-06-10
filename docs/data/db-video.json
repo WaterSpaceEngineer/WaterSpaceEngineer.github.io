@@ -2,42 +2,252 @@
     "youtube": [
         {
             "id": "frame-1",
-            "title": "А муж здесь откуда (Монументальная нирвана)",
+            "title": "А муж здесь откуда",
             "urlVideo": "5gLWdjuhQOE",
             "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
             "category": "about-nothing"
         },
         {
             "id": "frame-2",
-            "title": "Мировоззрение (Зри в корень)",
+            "title": "Мировоззрение",
             "urlVideo": "Eo7J2uRC4Qo",
             "bgImg": "../img/business-on-water/video-bg/store.jpg",
-            "category": "about-politics"
+            "category": "about-nothing"
         },
         {
             "id": "frame-3",
-            "title": "Эмансипация (Эмансипация)",
+            "title": "Эмансипация",
             "urlVideo": "43Eve54y3NM",
             "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
-            "category": "about-it"
+            "category": "about-nothing"
         },
         {
             "id": "frame-4",
-            "title": "Красота спасет мир (Гостья из будущего)",
+            "title": "Красота спасет мир",
             "urlVideo": "5gLWdjuhQOE",
             "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
             "category": "about-nothing"
         },
         {
             "id": "frame-5",
-            "title": "Шустряк (Багиры)",
+            "title": "Шустряк",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-nothing"
+        },
+        {
+            "id": "frame-6",
+            "title": "Куда подальше",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-nothing"
+        },
+        {
+            "id": "frame-7",
+            "title": "Имперская греза",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-politics"
+        },
+        {
+            "id": "frame-8",
+            "title": "Диалог",
             "urlVideo": "Eo7J2uRC4Qo",
             "bgImg": "../img/business-on-water/video-bg/store.jpg",
             "category": "about-politics"
         },
         {
-            "id": "frame-6",
-            "title": "Куда подальше (Первое свидание)",
+            "id": "frame-9",
+            "title": "С улыбкой к Победе",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-politics"
+        },
+        {
+            "id": "frame-10",
+            "title": "Поджигателям войны",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-politics"
+        },
+        {
+            "id": "frame-11",
+            "title": "Рашизм",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-politics"
+        },
+        {
+            "id": "frame-12",
+            "title": "Измена не пройдет",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-13",
+            "title": "Ассоль",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-14",
+            "title": "Неподдельный романтизм",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-15",
+            "title": "Мы с вами где-то встречались",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-16",
+            "title": "Ничего лишнего",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-17",
+            "title": "Подражание вечности",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-18",
+            "title": "Пикник на обочине",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-19",
+            "title": "Полигамия",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-20",
+            "title": "Сила притяжения",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-21",
+            "title": "Без лишних слов",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-22",
+            "title": "Супружеский долг",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-23",
+            "title": "Сказки Шехерезады",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-24",
+            "title": "Омен",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-it"
+        },
+        {
+            "id": "frame-25",
+            "title": "Между прошлым и будущим",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-26",
+            "title": "Мимистки",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-27",
+            "title": "Ну и варите",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-28",
+            "title": "Пути господни",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-29",
+            "title": "Субординация",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-30",
+            "title": "Диспозиция в экспозиции",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-31",
+            "title": "Рок-н-ролл жив",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-32",
+            "title": "Водные авто",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-33",
+            "title": "С акулами на ты",
+            "urlVideo": "43Eve54y3NM",
+            "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-34",
+            "title": "А мне летать охота",
+            "urlVideo": "5gLWdjuhQOE",
+            "bgImg": "../img/business-on-water/video-bg/rus/housing-area.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-35",
+            "title": "Вот как надо",
+            "urlVideo": "Eo7J2uRC4Qo",
+            "bgImg": "../img/business-on-water/video-bg/store.jpg",
+            "category": "about-weather"
+        },
+        {
+            "id": "frame-36",
+            "title": "Любовь моя - вода",
             "urlVideo": "43Eve54y3NM",
             "bgImg": "../img/business-on-water/video-bg/rus/trading-floor.jpg",
             "category": "about-weather"

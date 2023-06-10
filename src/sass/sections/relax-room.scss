@@ -15,7 +15,6 @@
   flex-direction: column;
   row-gap: rem(10px);
   width: 100%;
-  padding-left: rem(12px);
 
   @include min992 {
     row-gap: rem(12px);
@@ -38,6 +37,14 @@
   flex-wrap: wrap;
   column-gap: rem(10px);
   row-gap: rem(12px);
+}
+
+.relax-room__bnt {
+  justify-content: center;
+
+  @include min576 {
+    min-width: rem(90px);
+  }
 }
 
 .relax-room__content {
