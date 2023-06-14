@@ -1,23 +1,35 @@
+import playVideos from "./playVideos";
+
 const filterVideo = () => {
   const filterBtns = document.querySelectorAll('[data-relax-room-btn]');
+  const videoContainer = document.querySelector('.relax-room__video-items');
   
   const getData = (category) => {
     fetch('../data/db-video.json')
-    .then(res => res.json())
-    .then(data => data.youtube)
-    .then(data => {
-      const array = data.filter(item => {
-        return item.category === category;
+      .then(res => res.json())
+      .then(data => {
+
+        const arrayMedia = data.media.filter(item => {
+          return item.category === category;
+        })
+        const arrayYoutube = data.youtube.filter(item => {
+          return item.category === category;
+        })
+
+        videoContainer.innerHTML = '';
+
+        createMediaVideo(arrayMedia);
+        createYoutubeVideo(arrayYoutube);
+
+        // localStorage.setItem('video', JSON.stringify(array))
       })
-
-      createVideo(array);
-
-      // localStorage.setItem('video', JSON.stringify(array))
-    })
+      .then(() => {
+        playVideos('[data-video-trigger]');
+      })
   }
 
   if(filterBtns.length) {
-    getData(filterBtns[0].getAttribute('data-youtube-category'))
+    getData(filterBtns[0].getAttribute('data-category'))
   }
   
 
@@ -29,9 +41,9 @@ const filterVideo = () => {
         btn.classList.add('button-simple-active')
       }
       
-      const youtubeCategory = btn.getAttribute('data-youtube-category');
+      const category = btn.getAttribute('data-category');
       
-      getData(youtubeCategory);
+      getData(category);
     })
   })
 
@@ -46,15 +58,29 @@ const filterVideo = () => {
   // }
 
   // getResource('../data/db-video.json')
-  //   .then(data => createVideo(data.youtube))
+  //   .then(data => createYoutubeVideo(data.youtube))
 
+  function createMediaVideo(arrayMedia) {
+    arrayMedia.forEach(({bgImg, urlVideosWebm, urlVideosMp, title}) => {
+      
+      videoContainer.insertAdjacentHTML('beforeend', 
+        `
+        <div class="relax-room__video-item">
+            <div class="relax-room__video-wrap mb-10">
+                <video class="water-disinfection__video" width="100%" poster="${bgImg}" controls>
+                    <source src="${urlVideosWebm}" type="video/webm">
+                    <source src="${urlVideosMp}" type="video/mp4">
+                  </video>
+            </div>
+            <h2 class="relax-room__video-title">${title}</h2>
+        </div>
+        `
+      )
+    });
+  }
             
-  function createVideo(array) {
-    const videoContainer = document.querySelector('.relax-room__video-items');
-
-    videoContainer.innerHTML = '';
-
-    array.forEach(({id, title, urlVideo, bgImg}) => {
+  function createYoutubeVideo(arrayYoutube) {
+    arrayYoutube.forEach(({id, title, urlVideo, bgImg}) => {
       
       videoContainer.insertAdjacentHTML('beforeend', 
         `
