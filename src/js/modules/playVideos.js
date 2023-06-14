@@ -23,7 +23,8 @@ const playVideos = (triggerSelector) => {
       btnsPlay.forEach((btnPlay, index) => {
         btnPlay.addEventListener('click', () => {
           const path = btnPlay.getAttribute('data-youtabe-url');
-          const frameId = `frame-${index + 1}`;
+          // const frameId = `frame-${index + 1}`;
+          const frameId = btnPlay.previousElementSibling.getAttribute('id');
           createPlayer(path, frameId);
           btnPlay.remove();
         });
