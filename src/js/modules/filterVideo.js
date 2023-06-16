@@ -3,23 +3,37 @@ import playVideos from "./playVideos";
 const filterVideo = () => {
   const filterBtns = document.querySelectorAll('[data-relax-room-btn]');
   const videoContainer = document.querySelector('.relax-room__video-items');
+  const switchCheckbox = document.getElementById('switch-checkbox');
   
-  const getData = (category) => {
+  const getData = (category, statusCheckbox = false) => {
     fetch('../data/db-video.json')
       .then(res => res.json())
       .then(data => {
 
-        const arrayMedia = data.media.filter(item => {
-          return item.category === category;
-        })
-        const arrayYoutube = data.youtube.filter(item => {
-          return item.category === category;
-        })
-
         videoContainer.innerHTML = '';
 
-        createMediaVideo(arrayMedia);
-        createYoutubeVideo(arrayYoutube);
+
+        if(!statusCheckbox) {
+          const arrayMedia = data.media.filter(item => {
+            return item.category === category && item.videoType === 'wide';
+          })
+          const arrayYoutube = data.youtube.filter(item => {
+            return item.category === category && item.videoType === 'wide';
+          })
+
+          createMediaWideVideo(arrayMedia);
+          createYoutubeWideVideo(arrayYoutube);
+        } else {
+          const arrayMedia = data.media.filter(item => {
+            return item.category === category && item.videoType === 'narrow';
+          })
+          const arrayYoutube = data.youtube.filter(item => {
+            return item.category === category && item.videoType === 'narrow';
+          })
+
+          createMediaNarrowVideo(arrayMedia);
+          createYoutubeNarrowVideo(arrayYoutube);
+        }
 
         // localStorage.setItem('video', JSON.stringify(array))
       })
@@ -43,9 +57,23 @@ const filterVideo = () => {
       
       const category = btn.getAttribute('data-category');
       
-      getData(category);
+      getData(category, switchCheckbox.checked);
     })
   })
+
+  if(switchCheckbox) {
+    switchCheckbox.addEventListener('change', () => {
+
+      let category;
+
+      filterBtns.forEach(btn => {
+        btn.classList.contains('button-simple-active') ? 
+        category = btn.getAttribute('data-category') : null;
+      })
+
+      getData(category, switchCheckbox.checked);
+    })
+  }
 
   // const getResource = async (url) => {
   //   const res = await fetch(url);
@@ -60,14 +88,14 @@ const filterVideo = () => {
   // getResource('../data/db-video.json')
   //   .then(data => createYoutubeVideo(data.youtube))
 
-  function createMediaVideo(arrayMedia) {
+  function createMediaWideVideo(arrayMedia) {
     arrayMedia.forEach(({bgImg, urlVideosWebm, urlVideosMp, title}) => {
       
       videoContainer.insertAdjacentHTML('beforeend', 
         `
         <div class="relax-room__video-item">
             <div class="relax-room__video-wrap mb-10">
-                <video class="water-disinfection__video" width="100%" poster="${bgImg}" controls>
+                <video class="relax-room__video" width="100%" poster="${bgImg}" controls>
                     <source src="${urlVideosWebm}" type="video/webm">
                     <source src="${urlVideosMp}" type="video/mp4">
                   </video>
@@ -79,7 +107,7 @@ const filterVideo = () => {
     });
   }
             
-  function createYoutubeVideo(arrayYoutube) {
+  function createYoutubeWideVideo(arrayYoutube) {
     arrayYoutube.forEach(({id, title, urlVideo, bgImg}) => {
       
       videoContainer.insertAdjacentHTML('beforeend', 
@@ -93,6 +121,44 @@ const filterVideo = () => {
             </div>
             <h2 class="relax-room__video-title">${title}</h2>
           </div>
+        `
+      )
+    });
+  }
+
+  function createYoutubeNarrowVideo(arrayYoutube) {
+    arrayYoutube.forEach(({id, title, urlVideo, bgImg}) => {
+      
+      videoContainer.insertAdjacentHTML('beforeend', 
+        `
+          <div class="relax-room__video-item_height">
+            <div class="relax-room__video-wrap height-video relax-room__video-bg mb-10" style="background-image: url(${bgImg});">
+              <div class="relax-room__video" id="${id}"></div>
+              <div class="relax-room__video-play" data-video-trigger data-youtabe-url="${urlVideo}">
+                <button class="relax-room__btn-play _icon-youtube" type="button" aria-current="Кнопка запуска видео"></button>
+              </div>
+            </div>
+            <h2 class="relax-room__video-title">${title}</h2>
+          </div>
+        `
+      )
+    });
+  }
+
+  function createMediaNarrowVideo(arrayYoutube) {
+    arrayYoutube.forEach(({bgImg, urlVideosWebm, urlVideosMp, title}) => {
+      
+      videoContainer.insertAdjacentHTML('beforeend', 
+        `
+        <div class="relax-room__video-item_height">
+            <div class="relax-room__video-wrap height-video mb-10">
+                <video class="relax-room__video" width="100%" poster="${bgImg}" controls>
+                    <source src="${urlVideosWebm}" type="video/webm">
+                    <source src="${urlVideosMp}" type="video/mp4">
+                  </video>
+            </div>
+            <h2 class="relax-room__video-title">${title}</h2>
+        </div>
         `
       )
     });
