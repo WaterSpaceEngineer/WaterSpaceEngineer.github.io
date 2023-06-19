@@ -53,3 +53,14 @@
 		url(../font/dynarshadow-bold.ttf) format('truetype'),
 		url(../font/dynarshadow-bold.eot) format('eot');
 }
+
+@font-face {
+	font-family: 'favorit';
+	font-display: swap;
+	font-style: normal;
+	src:
+		url(../font/favorit.woff) format('woff'),
+		url(../font/favorit.woff2) format('woff2'),
+		url(../font/favorit.ttf) format('truetype'),
+		url(../font/favorit.eot) format('eot');
+}
