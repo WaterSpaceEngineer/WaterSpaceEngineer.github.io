@@ -2660,7 +2660,7 @@ button {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 7px 15px;
-  border-radius: 10px;
+  border-radius: 5px;
   -webkit-box-shadow: -4px -4px 7px rgba(245, 245, 245, 0.702), 5px 5px 5px rgba(0, 0, 0, 0.302);
   box-shadow: -4px -4px 7px rgba(245, 245, 245, 0.702), 5px 5px 5px rgba(0, 0, 0, 0.302);
 }
@@ -5451,6 +5451,11 @@ button {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.relax-room__bnt.button-simple {
+  -webkit-box-shadow: -4px -4px 7px rgba(245, 245, 245, 0.702), 5px 5px 5px rgba(0, 0, 0, 0.302);
+  box-shadow: -4px -4px 7px rgba(245, 245, 245, 0.702), 5px 5px 5px rgba(0, 0, 0, 0.302);
 }
 
 .relax-room__content {
