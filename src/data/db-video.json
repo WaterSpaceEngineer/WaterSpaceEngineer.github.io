@@ -1,440 +1,1323 @@
 {
-    "youtube": [
-        {
-            "id": "frame-1",
-            "title": "А муж здесь откуда",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
-            "category": "about-nothing",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-2",
-            "title": "Мировоззрение",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
-            "category": "about-nothing",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-3",
-            "title": "Эмансипация",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
-            "category": "about-nothing",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-4",
-            "title": "Красота спасет мир",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
-            "category": "about-nothing",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-5",
-            "title": "Шустряк",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
-            "category": "about-nothing",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-6",
-            "title": "Куда подальше",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-            "category": "about-nothing",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-7",
-            "title": "Имперская греза",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
-            "category": "about-politics",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-8",
-            "title": "Диалог",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
-            "category": "about-politics",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-9",
-            "title": "С улыбкой к Победе",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
-            "category": "about-politics",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-10",
-            "title": "Поджигателям войны",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
-            "category": "about-politics",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-11",
-            "title": "Рашизм",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
-            "category": "about-politics",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-12",
-            "title": "Измена не пройдет",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-13",
-            "title": "Ассоль",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-14",
-            "title": "Неподдельный романтизм",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-15",
-            "title": "Мы с вами где-то встречались",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-16",
-            "title": "Ничего лишнего",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-17",
-            "title": "Подражание вечности",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-18",
-            "title": "Пикник на обочине",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-19",
-            "title": "Полигамия",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-20",
-            "title": "Сила притяжения",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-21",
-            "title": "Без лишних слов",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-22",
-            "title": "Супружеский долг",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-23",
-            "title": "Сказки Шехерезады",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-24",
-            "title": "Омен",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-25",
-            "title": "Между прошлым и будущим",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-26",
-            "title": "Мимистки",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-27",
-            "title": "Ну и варите",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-28",
-            "title": "Пути господни",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-29",
-            "title": "Субординация",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-30",
-            "title": "Диспозиция в экспозиции",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-31",
-            "title": "Рок-н-ролл жив",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-32",
-            "title": "Водные авто",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-33",
-            "title": "С акулами на ты",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-34",
-            "title": "А мне летать охота",
-            "urlVideo": "5gLWdjuhQOE",
-            "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-35",
-            "title": "Вот как надо",
-            "urlVideo": "Eo7J2uRC4Qo",
-            "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-36",
-            "title": "Любовь моя - вода",
-            "urlVideo": "43Eve54y3NM",
-            "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "frame-37",
-            "title": "Бахчисарай",
-            "urlVideo": "KT6VCeN-Df4",
-            "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
-            "category": "about-nothing",
-            "videoType": "narrow"
-        },
-        {
-            "id": "frame-38",
-            "title": "Дерево",
-            "urlVideo": "UW-81KtLYMI",
-            "bgImg": "../img/relax-room-bg/rus/tree.jpg",
-            "category": "about-nothing",
-            "videoType": "narrow"
-        },
-        {
-            "id": "frame-39",
-            "title": "Унисекс",
-            "urlVideo": "Rf11cV2MYPo",
-            "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
-            "category": "about-nothing",
-            "videoType": "narrow"
-        },
-        {
-            "id": "frame-40",
-            "title": "Коррекция зрения",
-            "urlVideo": "_UR40Qbpw48",
-            "bgImg": "../img/relax-room-bg/rus/vision-corrector.jpg",
-            "category": "about-nothing",
-            "videoType": "narrow"
-        },
-        {
-            "id": "frame-41",
-            "title": "Бахчисарай",
-            "urlVideo": "KT6VCeN-Df4",
-            "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
-            "category": "about-politics",
-            "videoType": "narrow"
-        },
-        {
-            "id": "frame-42",
-            "title": "Дерево",
-            "urlVideo": "KT6VCeN-Df4",
-            "bgImg": "../img/relax-room-bg/rus/tree.jpg",
-            "category": "about-it",
-            "videoType": "narrow"
-        },
-        {
-            "id": "frame-43",
-            "title": "Унисекс",
-            "urlVideo": "KT6VCeN-Df4",
-            "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
-            "category": "about-weather",
-            "videoType": "narrow"
-        }
-    ],
-    "media": [
-        {
-            "id": "video-01",
-            "title": "А муж здесь откуда",
-            "urlVideosMp": "../videos/relax-room/rus/where-is-the-husband-from.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/where-is-the-husband-from.webm",
-            "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-            "category": "about-nothing",
-            "videoType": "wide"
-        },
-        {
-            "id": "video-02",
-            "title": "Мировоззрение",
-            "urlVideosMp": "../videos/relax-room/rus/emancipation.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/emancipation.webm",
-            "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
-            "category": "about-politics",
-            "videoType": "wide"
-        },
-        {
-            "id": "video-03",
-            "title": "Эмансипация",
-            "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
-            "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "video-04",
-            "title": "Шустряк",
-            "urlVideosMp": "../videos/relax-room/rus/omen.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/omen.webm",
-            "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
-            "category": "about-weather",
-            "videoType": "wide"
-        },
-        {
-            "id": "video-05",
-            "title": "Красота спасет мир",
-            "urlVideosMp": "../videos/relax-room/rus/water-nude.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/water-nude.webm",
-            "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "video-06",
-            "title": "Куда подальше",
-            "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
-            "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-            "category": "about-it",
-            "videoType": "wide"
-        },
-        {
-            "id": "video-07",
-            "title": "Бахчисарай",
-            "urlVideosMp": "../videos/relax-room/rus/dialogue.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/dialogue.webm",
-            "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
-            "category": "about-nothing",
-            "videoType": "narrow"
-        },
-        {
-            "id": "video-08",
-            "title": "Дерево",
-            "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
-            "bgImg": "../img/relax-room-bg/rus/tree.jpg",
-            "category": "about-politics",
-            "videoType": "narrow"
-        },
-        {
-            "id": "video-09",
-            "title": "Куда подальше",
-            "urlVideosMp": "../videos/relax-room/rus/with-a-smile-for-victory.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/with-a-smile-for-victory.webm",
-            "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
-            "category": "about-it",
-            "videoType": "narrow"
-        },
-        {
-            "id": "video-09",
-            "title": "Куда подальше",
-            "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
-            "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
-            "bgImg": "../img/relax-room-bg/rus/vision-corrector.jpg",
-            "category": "about-weather",
-            "videoType": "narrow"
-        }
-    ]
+
+    "uk": {
+        "youtube": [
+            {
+                "id": "frame-1",
+                "title": "#ukr А муж здесь откуда",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-2",
+                "title": "#ukr Мировоззрение",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-3",
+                "title": "#ukr Эмансипация",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-4",
+                "title": "#ukr Красота спасет мир",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-5",
+                "title": "#ukr Шустряк",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-6",
+                "title": "#ukr Куда подальше",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-7",
+                "title": "#ukr Имперская греза",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-8",
+                "title": "#ukr Диалог",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-9",
+                "title": "#ukr С улыбкой к Победе",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-10",
+                "title": "#ukr Поджигателям войны",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-11",
+                "title": "#ukr Рашизм",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-12",
+                "title": "#ukr Измена не пройдет",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-13",
+                "title": "#ukr Ассоль",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-14",
+                "title": "#ukr Неподдельный романтизм",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-15",
+                "title": "#ukr Мы с вами где-то встречались",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-16",
+                "title": "#ukr Ничего лишнего",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-17",
+                "title": "#ukr Подражание вечности",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-18",
+                "title": "#ukr Пикник на обочине",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-19",
+                "title": "#ukr Полигамия",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-20",
+                "title": "#ukr Сила притяжения",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-21",
+                "title": "#ukr Без лишних слов",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-22",
+                "title": "#ukr Супружеский долг",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-23",
+                "title": "#ukr Сказки Шехерезады",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-24",
+                "title": "#ukr Омен",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-25",
+                "title": "#ukr Между прошлым и будущим",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-26",
+                "title": "#ukr Мимистки",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-27",
+                "title": "#ukr Ну и варите",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-28",
+                "title": "#ukr Пути господни",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-29",
+                "title": "#ukr Субординация",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-30",
+                "title": "#ukr Диспозиция в экспозиции",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-31",
+                "title": "#ukr Рок-н-ролл жив",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-32",
+                "title": "#ukr Водные авто",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-33",
+                "title": "#ukr С акулами на ты",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-34",
+                "title": "#ukr А мне летать охота",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-35",
+                "title": "#ukr Вот как надо",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-36",
+                "title": "#ukr Любовь моя - вода",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-37",
+                "title": "#ukr Бахчисарай",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-38",
+                "title": "#ukr Дерево",
+                "urlVideo": "UW-81KtLYMI",
+                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-39",
+                "title": "#ukr Унисекс",
+                "urlVideo": "Rf11cV2MYPo",
+                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-40",
+                "title": "#ukr Коррекция зрения",
+                "urlVideo": "_UR40Qbpw48",
+                "bgImg": "../img/relax-room-bg/rus/vision-corrector.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-41",
+                "title": "#ukr Бахчисарай",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-42",
+                "title": "#ukr Дерево",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-43",
+                "title": "#ukr Унисекс",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            }
+        ],
+        "media": [
+            {
+                "id": "video-01",
+                "title": "##ukr А муж здесь откуда",
+                "urlVideosMp": "../videos/relax-room/rus/where-is-the-husband-from.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/where-is-the-husband-from.webm",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-02",
+                "title": "##ukr Мировоззрение",
+                "urlVideosMp": "../videos/relax-room/rus/emancipation.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/emancipation.webm",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-03",
+                "title": "##ukr Эмансипация",
+                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-04",
+                "title": "##ukr Шустряк",
+                "urlVideosMp": "../videos/relax-room/rus/omen.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/omen.webm",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-05",
+                "title": "##ukr Красота спасет мир",
+                "urlVideosMp": "../videos/relax-room/rus/water-nude.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/water-nude.webm",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-06",
+                "title": "##ukr Куда подальше",
+                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-07",
+                "title": "##ukr Бахчисарай",
+                "urlVideosMp": "../videos/relax-room/rus/dialogue.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/dialogue.webm",
+                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "video-08",
+                "title": "##ukr Дерево",
+                "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
+                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "video-09",
+                "title": "##ukr Куда подальше",
+                "urlVideosMp": "../videos/relax-room/rus/with-a-smile-for-victory.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/with-a-smile-for-victory.webm",
+                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "video-09",
+                "title": "##ukr Куда подальше",
+                "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
+                "bgImg": "../img/relax-room-bg/rus/vision-corrector.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            }
+        ]
+    },
+    "en": {
+        "youtube": [
+            {
+                "id": "frame-1",
+                "title": "##eng А муж здесь откуда",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-2",
+                "title": "##eng Мировоззрение",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-3",
+                "title": "##eng Эмансипация",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-4",
+                "title": "##eng Красота спасет мир",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-5",
+                "title": "##eng Шустряк",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-6",
+                "title": "##eng Куда подальше",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-7",
+                "title": "##eng Имперская греза",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-8",
+                "title": "##eng Диалог",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-9",
+                "title": "##eng С улыбкой к Победе",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-10",
+                "title": "##eng Поджигателям войны",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-11",
+                "title": "##eng Рашизм",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-12",
+                "title": "##eng Измена не пройдет",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-13",
+                "title": "##eng Ассоль",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-14",
+                "title": "##eng Неподдельный романтизм",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-15",
+                "title": "##eng Мы с вами где-то встречались",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-16",
+                "title": "##eng Ничего лишнего",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-17",
+                "title": "##eng Подражание вечности",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-18",
+                "title": "##eng Пикник на обочине",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-19",
+                "title": "##eng Полигамия",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-20",
+                "title": "##eng Сила притяжения",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-21",
+                "title": "##eng Без лишних слов",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-22",
+                "title": "##eng Супружеский долг",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-23",
+                "title": "##eng Сказки Шехерезады",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-24",
+                "title": "##eng Омен",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-25",
+                "title": "##eng Между прошлым и будущим",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-26",
+                "title": "##eng Мимистки",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-27",
+                "title": "##eng Ну и варите",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-28",
+                "title": "##eng Пути господни",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-29",
+                "title": "##eng Субординация",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-30",
+                "title": "##eng Диспозиция в экспозиции",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-31",
+                "title": "##eng Рок-н-ролл жив",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-32",
+                "title": "##eng Водные авто",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-33",
+                "title": "##eng С акулами на ты",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-34",
+                "title": "##eng А мне летать охота",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-35",
+                "title": "##eng Вот как надо",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-36",
+                "title": "##eng Любовь моя - вода",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-37",
+                "title": "##eng Бахчисарай",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-38",
+                "title": "##eng Дерево",
+                "urlVideo": "UW-81KtLYMI",
+                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-39",
+                "title": "##eng Унисекс",
+                "urlVideo": "Rf11cV2MYPo",
+                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-40",
+                "title": "##eng Коррекция зрения",
+                "urlVideo": "_UR40Qbpw48",
+                "bgImg": "../img/relax-room-bg/rus/vision-corrector.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-41",
+                "title": "##eng Бахчисарай",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-42",
+                "title": "##eng Дерево",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-43",
+                "title": "##eng Унисекс",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            }
+        ],
+        "media": [
+            {
+                "id": "video-01",
+                "title": "##eng А муж здесь откуда",
+                "urlVideosMp": "../videos/relax-room/rus/where-is-the-husband-from.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/where-is-the-husband-from.webm",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-02",
+                "title": "##eng Мировоззрение",
+                "urlVideosMp": "../videos/relax-room/rus/emancipation.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/emancipation.webm",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-03",
+                "title": "##eng Эмансипация",
+                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-04",
+                "title": "##eng Шустряк",
+                "urlVideosMp": "../videos/relax-room/rus/omen.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/omen.webm",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-05",
+                "title": "##eng Красота спасет мир",
+                "urlVideosMp": "../videos/relax-room/rus/water-nude.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/water-nude.webm",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-06",
+                "title": "##eng Куда подальше",
+                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-07",
+                "title": "##eng Бахчисарай",
+                "urlVideosMp": "../videos/relax-room/rus/dialogue.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/dialogue.webm",
+                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "video-08",
+                "title": "##eng Дерево",
+                "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
+                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "video-09",
+                "title": "##eng Куда подальше",
+                "urlVideosMp": "../videos/relax-room/rus/with-a-smile-for-victory.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/with-a-smile-for-victory.webm",
+                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "video-09",
+                "title": "##eng Куда подальше",
+                "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
+                "bgImg": "../img/relax-room-bg/rus/vision-corrector.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            }
+        ]
+    },
+    "ru": {
+        "youtube": [
+            {
+                "id": "frame-1",
+                "title": "А муж здесь откуда",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-2",
+                "title": "Мировоззрение",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-3",
+                "title": "Эмансипация",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-4",
+                "title": "Красота спасет мир",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-5",
+                "title": "Шустряк",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-6",
+                "title": "Куда подальше",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-7",
+                "title": "Имперская греза",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-8",
+                "title": "Диалог",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-9",
+                "title": "С улыбкой к Победе",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-10",
+                "title": "Поджигателям войны",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-11",
+                "title": "Рашизм",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-12",
+                "title": "Измена не пройдет",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-13",
+                "title": "Ассоль",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-14",
+                "title": "Неподдельный романтизм",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-15",
+                "title": "Мы с вами где-то встречались",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-16",
+                "title": "Ничего лишнего",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-17",
+                "title": "Подражание вечности",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-18",
+                "title": "Пикник на обочине",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-19",
+                "title": "Полигамия",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-20",
+                "title": "Сила притяжения",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-21",
+                "title": "Без лишних слов",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-22",
+                "title": "Супружеский долг",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-23",
+                "title": "Сказки Шехерезады",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-24",
+                "title": "Омен",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-25",
+                "title": "Между прошлым и будущим",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-26",
+                "title": "Мимистки",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-27",
+                "title": "Ну и варите",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-28",
+                "title": "Пути господни",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-29",
+                "title": "Субординация",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-30",
+                "title": "Диспозиция в экспозиции",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-31",
+                "title": "Рок-н-ролл жив",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-32",
+                "title": "Водные авто",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-33",
+                "title": "С акулами на ты",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-34",
+                "title": "А мне летать охота",
+                "urlVideo": "5gLWdjuhQOE",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-35",
+                "title": "Вот как надо",
+                "urlVideo": "Eo7J2uRC4Qo",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-36",
+                "title": "Любовь моя - вода",
+                "urlVideo": "43Eve54y3NM",
+                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-37",
+                "title": "Бахчисарай",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-38",
+                "title": "Дерево",
+                "urlVideo": "UW-81KtLYMI",
+                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-39",
+                "title": "Унисекс",
+                "urlVideo": "Rf11cV2MYPo",
+                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-40",
+                "title": "Коррекция зрения",
+                "urlVideo": "_UR40Qbpw48",
+                "bgImg": "../img/relax-room-bg/rus/vision-corrector.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-41",
+                "title": "Бахчисарай",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-42",
+                "title": "Дерево",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-43",
+                "title": "Унисекс",
+                "urlVideo": "KT6VCeN-Df4",
+                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            }
+        ],
+        "media": [
+            {
+                "id": "video-01",
+                "title": "А муж здесь откуда",
+                "urlVideosMp": "../videos/relax-room/rus/where-is-the-husband-from.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/where-is-the-husband-from.webm",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-02",
+                "title": "Мировоззрение",
+                "urlVideosMp": "../videos/relax-room/rus/emancipation.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/emancipation.webm",
+                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-03",
+                "title": "Эмансипация",
+                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
+                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-04",
+                "title": "Шустряк",
+                "urlVideosMp": "../videos/relax-room/rus/omen.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/omen.webm",
+                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-05",
+                "title": "Красота спасет мир",
+                "urlVideosMp": "../videos/relax-room/rus/water-nude.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/water-nude.webm",
+                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-06",
+                "title": "Куда подальше",
+                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
+                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "video-07",
+                "title": "Бахчисарай",
+                "urlVideosMp": "../videos/relax-room/rus/dialogue.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/dialogue.webm",
+                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "video-08",
+                "title": "Дерево",
+                "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
+                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "video-09",
+                "title": "Куда подальше",
+                "urlVideosMp": "../videos/relax-room/rus/with-a-smile-for-victory.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/with-a-smile-for-victory.webm",
+                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "video-09",
+                "title": "Куда подальше",
+                "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
+                "bgImg": "../img/relax-room-bg/rus/vision-corrector.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            }
+        ]
+    }
 }
