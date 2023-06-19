@@ -1,4 +1,3 @@
-
 .relax-room__text {
 
   &:not(:last-child) {
@@ -56,6 +55,12 @@
   @include min576 {
     min-width: rem(90px);
   }
+}
+
+.relax-room__bnt.button-simple {
+  box-shadow:  
+    -4px -4px 7px rgba(245, 245, 245, 0.702),
+    5px 5px 5px rgba(0, 0, 0, 0.302);
 }
 
 .relax-room__content {
