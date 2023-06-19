@@ -1,3 +1,12 @@
+.relax-room__title.title-hero {
+  font-family: 'favorit', sans-serif;
+  font-size: rem(48px);
+
+  @include min768 {
+    font-size: rem(60px);
+  }
+}
+
 .relax-room__text {
 
   &:not(:last-child) {

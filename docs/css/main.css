@@ -1343,6 +1343,13 @@ button {
 }
 
 @font-face {
+  font-family: "favorit";
+  font-display: swap;
+  font-style: normal;
+  src: url(../font/favorit.woff) format("woff"), url(../font/favorit.woff2) format("woff2"), url(../font/favorit.ttf) format("truetype"), url(../font/favorit.eot) format("eot");
+}
+
+@font-face {
   font-family: "icons";
   font-display: swap;
   src: url("../font/icons.ttf") format("truetype"), url("../font/icons.eot") format("eot"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.woff2") format("woff2");
@@ -5380,6 +5387,10 @@ button {
   margin-bottom: 0.625rem;
 }
 
+.relax-room__title.title-hero {
+  font: 3rem "favorit", sans-serif;
+}
+
 .relax-room__text:not(:last-child) {
   margin-bottom: 0.625rem;
 }
@@ -6615,6 +6626,10 @@ button {
 
   .recirculators-irradiators__cart {
     width: calc((100% - 48px) / 3);
+  }
+
+  .relax-room__title.title-hero {
+    font-size: 3.75rem;
   }
 
   .relax-room__text:not(:last-child) {
