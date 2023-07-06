@@ -1,5 +1,4 @@
 {
-
     "uk": {
         "youtube": [
             {
@@ -350,75 +349,75 @@
         "media": [
             {
                 "id": "video-01",
-                "title": "##ukr А муж здесь откуда",
-                "urlVideosMp": "../videos/relax-room/rus/where-is-the-husband-from.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/where-is-the-husband-from.webm",
-                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-                "category": "about-nothing",
+                "title": "А чоловік тут звідкіля",
+                "urlVideosMp": "../videos/relax-room/ukr/wide/where-is-the-husband-from.mp4",
+                "urlVideosWebm": "../videos/relax-room/ukr/wide/where-is-the-husband-from.mp4",
+                "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-02",
-                "title": "##ukr Мировоззрение",
-                "urlVideosMp": "../videos/relax-room/rus/emancipation.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/emancipation.webm",
-                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
-                "category": "about-politics",
+                "title": "Свiтогляд",
+                "urlVideosMp": "../videos/relax-room/ukr/wide/worldview.mp4",
+                "urlVideosWebm": "../videos/relax-room/ukr/wide/worldview.webm",
+                "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-03",
-                "title": "##ukr Эмансипация",
-                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
-                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "title": "Емансипацiя",
+                "urlVideosMp": "../videos/relax-room/ukr/wide/emancipation.mp4",
+                "urlVideosWebm": "../videos/relax-room/ukr/wide/emancipation.webm",
+                "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-04",
-                "title": "##ukr Шустряк",
-                "urlVideosMp": "../videos/relax-room/rus/omen.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/omen.webm",
-                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
-                "category": "about-weather",
+                "title": "Жвавлик",
+                "urlVideosMp": "../videos/relax-room/ukr/wide/quick-guy.mp4",
+                "urlVideosWebm": "../videos/relax-room/ukr/wide/quick-guy.webm",
+                "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-05",
-                "title": "##ukr Красота спасет мир",
-                "urlVideosMp": "../videos/relax-room/rus/water-nude.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/water-nude.webm",
-                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "title": "Бiзнес насамперед",
+                "urlVideosMp": "../videos/relax-room/ukr/wide/business-first.mp4",
+                "urlVideosWebm": "../videos/relax-room/ukr/wide/business-first.webm",
+                "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-06",
-                "title": "##ukr Куда подальше",
-                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
-                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "title": "Куди подалi",
+                "urlVideosMp": "../videos/relax-room/ukr/wide/somewhere-far-away.mp4",
+                "urlVideosWebm": "../videos/relax-room/ukr/wide/somewhere-far-away.webm",
+                "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-07",
-                "title": "##ukr Бахчисарай",
-                "urlVideosMp": "../videos/relax-room/rus/dialogue.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/dialogue.webm",
-                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
-                "category": "about-nothing",
-                "videoType": "narrow"
+                "title": "Оазiс безпеки",
+                "urlVideosMp": "../videos/relax-room/ukr/wide/an-oasis-of-security.mp4",
+                "urlVideosWebm": "../videos/relax-room/ukr/wide/an-oasis-of-security.webm",
+                "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             },
             {
                 "id": "video-08",
-                "title": "##ukr Дерево",
-                "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
-                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
-                "category": "about-politics",
-                "videoType": "narrow"
+                "title": "Краса врятує свiт",
+                "urlVideosMp": "../videos/relax-room/ukr/wide/beauty-will-save-the-world.mp4",
+                "urlVideosWebm": "../videos/relax-room/ukr/wide/beauty-will-save-the-world.webm",
+                "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             },
             {
                 "id": "video-09",
@@ -426,7 +425,7 @@
                 "urlVideosMp": "../videos/relax-room/rus/with-a-smile-for-victory.mp4",
                 "urlVideosWebm": "../videos/relax-room/rus/with-a-smile-for-victory.webm",
                 "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
-                "category": "about-it",
+                "category": "about-politics",
                 "videoType": "narrow"
             },
             {
@@ -790,75 +789,75 @@
         "media": [
             {
                 "id": "video-01",
-                "title": "##eng А муж здесь откуда",
-                "urlVideosMp": "../videos/relax-room/rus/where-is-the-husband-from.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/where-is-the-husband-from.webm",
-                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-                "category": "about-nothing",
+                "title": "Where is the husband from",
+                "urlVideosMp": "../videos/relax-room/eng/wide/where-is-the-husband-from.mp4",
+                "urlVideosWebm": "../videos/relax-room/eng/wide/where-is-the-husband-from.webm",
+                "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-02",
-                "title": "##eng Мировоззрение",
-                "urlVideosMp": "../videos/relax-room/rus/emancipation.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/emancipation.webm",
-                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
-                "category": "about-politics",
+                "title": "Worldview",
+                "urlVideosMp": "../videos/relax-room/eng/wide/worldview.mp4",
+                "urlVideosWebm": "../videos/relax-room/eng/wide/worldview.webm",
+                "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-03",
-                "title": "##eng Эмансипация",
-                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
-                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "title": "Emancipation",
+                "urlVideosMp": "../videos/relax-room/eng/wide/emancipation.mp4",
+                "urlVideosWebm": "../videos/relax-room/eng/wide/emancipation.webm",
+                "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-04",
-                "title": "##eng Шустряк",
-                "urlVideosMp": "../videos/relax-room/rus/omen.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/omen.webm",
-                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
-                "category": "about-weather",
+                "title": "Quick guy",
+                "urlVideosMp": "../videos/relax-room/eng/wide/quick-guy.mp4",
+                "urlVideosWebm": "../videos/relax-room/eng/wide/quick-guy.webm",
+                "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-05",
-                "title": "##eng Красота спасет мир",
-                "urlVideosMp": "../videos/relax-room/rus/water-nude.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/water-nude.webm",
-                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "title": "Business first",
+                "urlVideosMp": "../videos/relax-room/eng/wide/business-first.mp4",
+                "urlVideosWebm": "../videos/relax-room/eng/wide/business-first.webm",
+                "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-06",
-                "title": "##eng Куда подальше",
-                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
-                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "title": "Somewhere far away",
+                "urlVideosMp": "../videos/relax-room/eng/wide/somewhere-far-away.mp4",
+                "urlVideosWebm": "../videos/relax-room/eng/wide/somewhere-far-away.webm",
+                "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-07",
-                "title": "##eng Бахчисарай",
-                "urlVideosMp": "../videos/relax-room/rus/dialogue.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/dialogue.webm",
-                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
-                "category": "about-nothing",
-                "videoType": "narrow"
+                "title": "An oasis of security",
+                "urlVideosMp": "../videos/relax-room/eng/wide/an-oasis-of-security.mp4",
+                "urlVideosWebm": "../videos/relax-room/eng/wide/an-oasis-of-security.webm",
+                "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             },
             {
                 "id": "video-08",
-                "title": "##eng Дерево",
-                "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
-                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
-                "category": "about-politics",
-                "videoType": "narrow"
+                "title": "Beauty will save the world",
+                "urlVideosMp": "../videos/relax-room/eng/wide/beauty-will-save-the-world.mp4",
+                "urlVideosWebm": "../videos/relax-room/eng/wide/beauty-will-save-the-world.webm",
+                "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             },
             {
                 "id": "video-09",
@@ -866,7 +865,7 @@
                 "urlVideosMp": "../videos/relax-room/rus/with-a-smile-for-victory.mp4",
                 "urlVideosWebm": "../videos/relax-room/rus/with-a-smile-for-victory.webm",
                 "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
-                "category": "about-it",
+                "category": "about-politics",
                 "videoType": "narrow"
             },
             {
@@ -1231,74 +1230,74 @@
             {
                 "id": "video-01",
                 "title": "А муж здесь откуда",
-                "urlVideosMp": "../videos/relax-room/rus/where-is-the-husband-from.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/where-is-the-husband-from.webm",
-                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-                "category": "about-nothing",
+                "urlVideosMp": "../videos/relax-room/rus/wide/where-is-the-husband-from.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/wide/where-is-the-husband-from.mp4",
+                "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-02",
                 "title": "Мировоззрение",
-                "urlVideosMp": "../videos/relax-room/rus/emancipation.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/emancipation.webm",
-                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
-                "category": "about-politics",
+                "urlVideosMp": "../videos/relax-room/rus/wide/worldview.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/wide/worldview.webm",
+                "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-03",
                 "title": "Эмансипация",
-                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
-                "bgImg": "../img/relax-room-bg/rus/decadence.jpg",
+                "urlVideosMp": "../videos/relax-room/rus/wide/emancipation.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/wide/emancipation.webm",
+                "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-04",
                 "title": "Шустряк",
-                "urlVideosMp": "../videos/relax-room/rus/omen.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/omen.webm",
-                "bgImg": "../img/relax-room-bg/rus/first-date.jpg",
-                "category": "about-weather",
+                "urlVideosMp": "../videos/relax-room/rus/wide/quick-guy.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/wide/quick-guy.webm",
+                "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-05",
-                "title": "Красота спасет мир",
-                "urlVideosMp": "../videos/relax-room/rus/water-nude.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/water-nude.webm",
-                "bgImg": "../img/relax-room-bg/rus/glass-of-abundance.jpg",
+                "title": "Первым делом - самолеты",
+                "urlVideosMp": "../videos/relax-room/rus/wide/business-first.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/wide/business-first.webm",
+                "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-06",
                 "title": "Куда подальше",
-                "urlVideosMp": "../videos/relax-room/rus/imitation-of-eternity.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/imitation-of-eternity.webm",
-                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
+                "urlVideosMp": "../videos/relax-room/rus/wide/somewhere-far-away.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/wide/somewhere-far-away.webm",
+                "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
             {
                 "id": "video-07",
-                "title": "Бахчисарай",
-                "urlVideosMp": "../videos/relax-room/rus/dialogue.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/dialogue.webm",
-                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
-                "category": "about-nothing",
-                "videoType": "narrow"
+                "title": "Оазис безопасности",
+                "urlVideosMp": "../videos/relax-room/rus/wide/an-oasis-of-security.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/wide/an-oasis-of-security.webm",
+                "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             },
             {
                 "id": "video-08",
-                "title": "Дерево",
-                "urlVideosMp": "../videos/relax-room/rus/imperial-dream.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/imperial-dream.webm",
-                "bgImg": "../img/relax-room-bg/rus/tree.jpg",
-                "category": "about-politics",
-                "videoType": "narrow"
+                "title": "Красота спасет мир",
+                "urlVideosMp": "../videos/relax-room/rus/wide/beauty-will-save-the-world.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/wide/beauty-will-save-the-world.webm",
+                "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             },
             {
                 "id": "video-09",
