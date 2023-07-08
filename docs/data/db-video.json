@@ -490,6 +490,15 @@
                 "bgImg": "../videos/relax-room/ukr/video-bg/narrow/birdie.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "video-17",
+                "title": "Звані гості",
+                "urlVideosMp": "../videos/relax-room/ukr/wide/invited-guests.mp4",
+                "urlVideosWebm": "../videos/relax-room/ukr/wide/invited-guests.webm",
+                "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             }
         ]
     },
@@ -984,6 +993,15 @@
                 "bgImg": "../videos/relax-room/eng/video-bg/narrow/birdie.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "video-17",
+                "title": "Invited guests",
+                "urlVideosMp": "../videos/relax-room/eng/wide/invited-guests.mp4",
+                "urlVideosWebm": "../videos/relax-room/eng/wide/invited-guests.webm",
+                "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             }
         ]
     },
@@ -1478,6 +1496,15 @@
                 "bgImg": "../videos/relax-room/rus/video-bg/narrow/birdie.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "video-17",
+                "title": "Званые гости",
+                "urlVideosMp": "../videos/relax-room/rus/wide/invited-guests.mp4",
+                "urlVideosWebm": "../videos/relax-room/rus/wide/invited-guests.webm",
+                "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             }
         ]
     }
