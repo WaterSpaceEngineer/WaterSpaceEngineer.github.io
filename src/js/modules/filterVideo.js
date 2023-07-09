@@ -82,10 +82,10 @@ const filterVideo = () => {
         `
         <div class="relax-room__video-item">
             <div class="relax-room__video-wrap mb-10">
-                <video class="relax-room__video" width="100%" poster="${bgImg}" controls>
-                    <source src="${urlVideosWebm}" type="video/webm">
-                    <source src="${urlVideosMp}" type="video/mp4">
-                  </video>
+                <video class="relax-room__video" width="960" height="540" poster="${bgImg}" controls>
+                  <source src="${urlVideosWebm}" type="video/webm">
+                  <source src="${urlVideosMp}" type="video/mp4">
+                </video>
             </div>
             <h2 class="relax-room__video-title">${title}</h2>
         </div>
@@ -139,10 +139,10 @@ const filterVideo = () => {
         `
         <div class="relax-room__video-item_height">
             <div class="relax-room__video-wrap height-video mb-10">
-                <video class="relax-room__video" width="100%" poster="${bgImg}" controls>
-                    <source src="${urlVideosWebm}" type="video/webm">
-                    <source src="${urlVideosMp}" type="video/mp4">
-                  </video>
+                <video class="relax-room__video" width="540" height="960" poster="${bgImg}" controls>
+                  <source src="${urlVideosWebm}" type="video/webm">
+                  <source src="${urlVideosMp}" type="video/mp4">
+                </video>
             </div>
             <h2 class="relax-room__video-title">${title}</h2>
         </div>
