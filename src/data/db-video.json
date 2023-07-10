@@ -43,65 +43,73 @@
             },
             {
                 "id": "frame-6",
-                "title": "#ukr Имперская греза",
-                "urlVideo": "5gLWdjuhQOE",
-                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "title": "Iмперська мрiя",
+                "urlVideo": "nFtKAeA3ZDo",
+                "bgImg": "../img/relax-room-bg/ukr/wide/imperial-dream.jpg",
                 "category": "about-politics",
                 "videoType": "wide"
             },
             {
                 "id": "frame-7",
-                "title": "#ukr Диалог",
-                "urlVideo": "Eo7J2uRC4Qo",
-                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "title": "Дiалог",
+                "urlVideo": "9Jspkzxllw0",
+                "bgImg": "../img/relax-room-bg/ukr/wide/hell-gate.jpg",
                 "category": "about-politics",
                 "videoType": "wide"
             },
             {
                 "id": "frame-8",
-                "title": "#ukr Рашизм",
-                "urlVideo": "Eo7J2uRC4Qo",
-                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
+                "title": "Паліям війни",
+                "urlVideo": "Jy4nuq51-_Y",
+                "bgImg": "../img/relax-room-bg/ukr/wide/rashism.jpg",
                 "category": "about-politics",
                 "videoType": "wide"
             },
             {
                 "id": "frame-9",
-                "title": "#ukr Между прошлым и будущим",
-                "urlVideo": "5gLWdjuhQOE",
-                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-                "category": "about-weather",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-10",
-                "title": "#ukr Мимистки",
-                "urlVideo": "Eo7J2uRC4Qo",
-                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
-                "category": "about-weather",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-27",
-                "title": "#ukr Ну и варите",
-                "urlVideo": "43Eve54y3NM",
-                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
-                "category": "about-weather",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-41",
-                "title": "#ukr Бахчисарай",
-                "urlVideo": "KT6VCeN-Df4",
-                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "title": "Iмперська мрiя",
+                "urlVideo": "CUGMWyIaJsc",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/imperial-dream.jpg",
                 "category": "about-politics",
                 "videoType": "narrow"
             },
             {
-                "id": "frame-43",
-                "title": "#ukr Унисекс",
-                "urlVideo": "KT6VCeN-Df4",
-                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "id": "frame-10",
+                "title": "Дiалог",
+                "urlVideo": "h0VlcMA4yEo",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/hell-gate.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-11",
+                "title": "З посмішкою до Перемоги",
+                "urlVideo": "oflGmBB4oFM",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/glory-ua.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-12",
+                "title": "Паліям війни",
+                "urlVideo": "ckFMCT6RYuc",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/rashism.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-13",
+                "title": "#ukr wide",
+                "urlVideo": "ckFMCT6RYuc",
+                "bgImg": "../img/relax-room-bg/ukr/wide/rashism.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-14",
+                "title": "#ukr narrow",
+                "urlVideo": "ckFMCT6RYuc",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/imperial-dream.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
             }
@@ -314,66 +322,74 @@
                 "videoType": "narrow"
             },
             {
+                "id": "frame-6",
+                "title": "Imperial dream",
+                "urlVideo": "v3Mv_wWIM-g",
+                "bgImg": "../img/relax-room-bg/eng/wide/imperial-dream.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
                 "id": "frame-7",
-                "title": "##eng Имперская греза",
-                "urlVideo": "5gLWdjuhQOE",
-                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "title": "Dialogue",
+                "urlVideo": "TnqpV6eMtfw",
+                "bgImg": "../img/relax-room-bg/eng/wide/hell-gate.jpg",
                 "category": "about-politics",
                 "videoType": "wide"
             },
             {
-                "id": "frame-10",
-                "title": "##eng Поджигателям войны",
-                "urlVideo": "5gLWdjuhQOE",
-                "bgImg": "../img/relax-room-bg/rus/untitled.jpg",
+                "id": "frame-8",
+                "title": "Rashist warmongers",
+                "urlVideo": "g5HPBVWU8DE",
+                "bgImg": "../img/relax-room-bg/eng/wide/rashism.jpg",
                 "category": "about-politics",
                 "videoType": "wide"
             },
             {
-                "id": "frame-11",
-                "title": "##eng Рашизм",
-                "urlVideo": "Eo7J2uRC4Qo",
-                "bgImg": "../img/relax-room-bg/rus/alter-ego.jpg",
-                "category": "about-politics",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-31",
-                "title": "##eng Рок-н-ролл жив",
-                "urlVideo": "5gLWdjuhQOE",
-                "bgImg": "../img/relax-room-bg/rus/cabal.jpg",
-                "category": "about-weather",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-35",
-                "title": "##eng Вот как надо",
-                "urlVideo": "Eo7J2uRC4Qo",
-                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-                "category": "about-weather",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-36",
-                "title": "##eng Любовь моя - вода",
-                "urlVideo": "43Eve54y3NM",
-                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
-                "category": "about-weather",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-41",
-                "title": "##eng Бахчисарай",
-                "urlVideo": "KT6VCeN-Df4",
-                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "id": "frame-9",
+                "title": "Imperial dream",
+                "urlVideo": "p3iY_hbMnvE",
+                "bgImg": "../img/relax-room-bg/eng/narrow/imperial-dream.jpg",
                 "category": "about-politics",
                 "videoType": "narrow"
             },
             {
-                "id": "frame-43",
-                "title": "##eng Унисекс",
-                "urlVideo": "KT6VCeN-Df4",
-                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "id": "frame-10",
+                "title": "Dialogue",
+                "urlVideo": "_wHRQzRK-oo",
+                "bgImg": "../img/relax-room-bg/eng/narrow/hell-gate.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-11",
+                "title": "With a smile for Victory",
+                "urlVideo": "fZI0EFdv5RA",
+                "bgImg": "../img/relax-room-bg/eng/narrow/glory-ua.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-12",
+                "title": "Rashist warmongers",
+                "urlVideo": "2jDfNJmvdA0",
+                "bgImg": "../img/relax-room-bg/eng/narrow/rashism.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-13",
+                "title": "##eng wide",
+                "urlVideo": "2jDfNJmvdA0",
+                "bgImg": "../img/relax-room-bg/eng/wide/rashism.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-14",
+                "title": "##eng narrow",
+                "urlVideo": "2jDfNJmvdA0",
+                "bgImg": "../img/relax-room-bg/eng/narrow/glory-ua.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
             }
@@ -586,66 +602,74 @@
                 "videoType": "narrow"
             },
             {
+                "id": "frame-6",
+                "title": "Имперская греза",
+                "urlVideo": "Awel4Ucs0Zk",
+                "bgImg": "../img/relax-room-bg/rus/wide/imperial-dream.jpg",
+                "category": "about-politics",
+                "videoType": "wide"
+            },
+            {
                 "id": "frame-7",
-                "title": "##rus Имперская греза",
-                "urlVideo": "5gLWdjuhQOE",
-                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
+                "title": "Диалог",
+                "urlVideo": "5gwz-9sP8Bg",
+                "bgImg": "../img/relax-room-bg/rus/wide/hell-gate.jpg",
                 "category": "about-politics",
                 "videoType": "wide"
             },
             {
                 "id": "frame-8",
-                "title": "##rus Диалог",
-                "urlVideo": "Eo7J2uRC4Qo",
-                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
+                "title": "Поджигателям войны",
+                "urlVideo": "wHw_tkKAElk",
+                "bgImg": "../img/relax-room-bg/rus/wide/rashism.jpg",
                 "category": "about-politics",
                 "videoType": "wide"
             },
             {
                 "id": "frame-9",
-                "title": "##rus С улыбкой к Победе",
-                "urlVideo": "43Eve54y3NM",
-                "bgImg": "../img/relax-room-bg/rus/nativity-scene-of-poetry-and-prose.jpg",
-                "category": "about-politics",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-25",
-                "title": "##rus Между прошлым и будущим",
-                "urlVideo": "5gLWdjuhQOE",
-                "bgImg": "../img/relax-room-bg/rus/liquid-phase.jpg",
-                "category": "about-weather",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-26",
-                "title": "##rus Мимистки",
-                "urlVideo": "Eo7J2uRC4Qo",
-                "bgImg": "../img/relax-room-bg/rus/look-at-the-root.jpg",
-                "category": "about-weather",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-27",
-                "title": "##rus Ну и варите",
-                "urlVideo": "43Eve54y3NM",
-                "bgImg": "../img/relax-room-bg/rus/monumental-nirvana.jpg",
-                "category": "about-weather",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-41",
-                "title": "##rus Бахчисарай",
-                "urlVideo": "KT6VCeN-Df4",
-                "bgImg": "../img/relax-room-bg/rus/bakhchisaray.jpg",
+                "title": "Имперская греза",
+                "urlVideo": "QoEmYo3x0BQ",
+                "bgImg": "../img/relax-room-bg/rus/narrow/imperial-dream.jpg",
                 "category": "about-politics",
                 "videoType": "narrow"
             },
             {
-                "id": "frame-43",
-                "title": "##rus Унисекс",
-                "urlVideo": "KT6VCeN-Df4",
-                "bgImg": "../img/relax-room-bg/rus/unisex.jpg",
+                "id": "frame-10",
+                "title": "Диалог",
+                "urlVideo": "5gwz-9sP8Bg",
+                "bgImg": "../img/relax-room-bg/rus/narrow/hell-gate.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-11",
+                "title": "С улыбкой к Победе",
+                "urlVideo": "XxPZJbkDzvU",
+                "bgImg": "../img/relax-room-bg/rus/narrow/glory-ua.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-12",
+                "title": "Поджигателям войны",
+                "urlVideo": "BBfoN9Y1yN8",
+                "bgImg": "../img/relax-room-bg/rus/narrow/rashism.jpg",
+                "category": "about-politics",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-13",
+                "title": "##rus wide",
+                "urlVideo": "wHw_tkKAElk",
+                "bgImg": "../img/relax-room-bg/rus/wide/rashism.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-14",
+                "title": "##rus narrow",
+                "urlVideo": "BBfoN9Y1yN8",
+                "bgImg": "../img/relax-room-bg/rus/narrow/hell-gate.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
             }
