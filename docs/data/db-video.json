@@ -152,6 +152,14 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/footprint.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-20",
+                "title": "Ми з вами десь зустрiчались",
+                "urlVideo": "YrC3yt30xEE",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/roof.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -472,6 +480,14 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/footprint.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-20",
+                "title": "We have met before",
+                "urlVideo": "dV_kzAMSmIc",
+                "bgImg": "../img/relax-room-bg/eng/narrow/roof.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -791,6 +807,14 @@
                 "urlVideo": "jTqtAROkk20",
                 "bgImg": "../img/relax-room-bg/rus/narrow/footprint.jpg",
                 "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-20",
+                "title": "Мы с вами где-то встречались",
+                "urlVideo": "7znFUYiiXJg",
+                "bgImg": "../img/relax-room-bg/rus/narrow/roof.jpg",
+                "category": "about-nothing",
                 "videoType": "narrow"
             }
         ],
