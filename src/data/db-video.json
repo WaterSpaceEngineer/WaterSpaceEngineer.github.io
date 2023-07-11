@@ -99,17 +99,57 @@
             },
             {
                 "id": "frame-13",
-                "title": "#ukr wide",
-                "urlVideo": "ckFMCT6RYuc",
-                "bgImg": "../img/relax-room-bg/ukr/wide/rashism.jpg",
+                "title": "З акулами на ти",
+                "urlVideo": "LZpOt_sAzjk",
+                "bgImg": "../img/relax-room-bg/ukr/wide/shark-grip.jpg",
                 "category": "about-weather",
                 "videoType": "wide"
             },
             {
                 "id": "frame-14",
-                "title": "#ukr narrow",
-                "urlVideo": "ckFMCT6RYuc",
-                "bgImg": "../img/relax-room-bg/ukr/narrow/imperial-dream.jpg",
+                "title": "Ось як треба!",
+                "urlVideo": "FKii83qhvbE",
+                "bgImg": "../img/relax-room-bg/ukr/wide/like-this.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-15",
+                "title": "Мені б літати",
+                "urlVideo": "YXspyrlsahw",
+                "bgImg": "../img/relax-room-bg/ukr/wide/balloon.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-16",
+                "title": "Глобальне потепління",
+                "urlVideo": "Q3WXnVnGK04",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/cooling-down.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-17",
+                "title": "Монументальна нiрвана",
+                "urlVideo": "1lHOIaMseiA",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/ishtar.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-18",
+                "title": "Зловтіха",
+                "urlVideo": "YKsMzictL-Q",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/monument.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-19",
+                "title": "Акварiкша",
+                "urlVideo": "8r8phmWVFJc",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/footprint.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
             }
@@ -379,17 +419,57 @@
             },
             {
                 "id": "frame-13",
-                "title": "##eng wide",
-                "urlVideo": "2jDfNJmvdA0",
-                "bgImg": "../img/relax-room-bg/eng/wide/rashism.jpg",
+                "title": "Ok with sharks",
+                "urlVideo": "qORj7Xyzuas",
+                "bgImg": "../img/relax-room-bg/eng/wide/shark-grip.jpg",
                 "category": "about-weather",
                 "videoType": "wide"
             },
             {
                 "id": "frame-14",
-                "title": "##eng narrow",
-                "urlVideo": "2jDfNJmvdA0",
-                "bgImg": "../img/relax-room-bg/eng/narrow/glory-ua.jpg",
+                "title": "Like this!",
+                "urlVideo": "yI-vYj-b6rI",
+                "bgImg": "../img/relax-room-bg/eng/wide/like-this.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-15",
+                "title": "And I want to fly",
+                "urlVideo": "SRS-o7zFLRs",
+                "bgImg": "../img/relax-room-bg/eng/wide/balloon.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-16",
+                "title": "Global warming",
+                "urlVideo": "Qdrhmvf-oEc",
+                "bgImg": "../img/relax-room-bg/eng/narrow/cooling-down.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-17",
+                "title": "Monumental nirvana",
+                "urlVideo": "oYX-osDcB8Q",
+                "bgImg": "../img/relax-room-bg/eng/narrow/ishtar.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-18",
+                "title": "Schadenfroude",
+                "urlVideo": "5jXswGbcj5k",
+                "bgImg": "../img/relax-room-bg/eng/narrow/monument.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-19",
+                "title": "Aquarickshaw",
+                "urlVideo": "zqKs3ey5Nfg",
+                "bgImg": "../img/relax-room-bg/eng/narrow/footprint.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
             }
@@ -659,17 +739,57 @@
             },
             {
                 "id": "frame-13",
-                "title": "##rus wide",
-                "urlVideo": "wHw_tkKAElk",
-                "bgImg": "../img/relax-room-bg/rus/wide/rashism.jpg",
+                "title": "С акулами на ты",
+                "urlVideo": "uUD7siYzFEg",
+                "bgImg": "../img/relax-room-bg/rus/wide/shark-grip.jpg",
                 "category": "about-weather",
                 "videoType": "wide"
             },
             {
                 "id": "frame-14",
-                "title": "##rus narrow",
-                "urlVideo": "BBfoN9Y1yN8",
-                "bgImg": "../img/relax-room-bg/rus/narrow/hell-gate.jpg",
+                "title": "Вот как надо!",
+                "urlVideo": "FUsG1VwxTO8",
+                "bgImg": "../img/relax-room-bg/rus/wide/like-this.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-15",
+                "title": "А мне летать охота",
+                "urlVideo": "RkEbvPnfDak",
+                "bgImg": "../img/relax-room-bg/rus/wide/balloon.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-16",
+                "title": "Глобальное потепление",
+                "urlVideo": "Oog-h8yKN-c",
+                "bgImg": "../img/relax-room-bg/rus/narrow/cooling-down.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-17",
+                "title": "Монументальная нирвана",
+                "urlVideo": "oalms-Wg8eQ",
+                "bgImg": "../img/relax-room-bg/rus/narrow/ishtar.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-18",
+                "title": "Злорадство",
+                "urlVideo": "2cQf903M8CU",
+                "bgImg": "../img/relax-room-bg/rus/narrow/monument.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-19",
+                "title": "Акварикша",
+                "urlVideo": "jTqtAROkk20",
+                "bgImg": "../img/relax-room-bg/rus/narrow/footprint.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
             }
