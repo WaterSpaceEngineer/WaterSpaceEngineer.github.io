@@ -160,6 +160,54 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/roof.jpg",
                 "category": "about-nothing",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-21",
+                "title": "Ну, i варiть!",
+                "urlVideo": "9PtdJa-eh9I",
+                "bgImg": "../img/relax-room-bg/ukr/wide/horror.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-22",
+                "title": "Воднi авто",
+                "urlVideo": "YuRvg_kDD7Y",
+                "bgImg": "../img/relax-room-bg/ukr/wide/overboard.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-23",
+                "title": "Рiдка фаза",
+                "urlVideo": "wO2Arml9Nhs",
+                "bgImg": "../img/relax-room-bg/ukr/wide/quagmire.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-24",
+                "title": "Ну, i варiть!",
+                "urlVideo": "KcqB-imTweY",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/stubbornness.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-25",
+                "title": "Ассоль",
+                "urlVideo": "mw6T14CvFXE",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/rose-in-water.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-26",
+                "title": "Рiдка фаза",
+                "urlVideo": "7CnIiaaKdcg",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/autumn.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -488,6 +536,54 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/roof.jpg",
                 "category": "about-nothing",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-21",
+                "title": "Well, cook!",
+                "urlVideo": "f5znNk6HMHc",
+                "bgImg": "../img/relax-room-bg/eng/wide/horror.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-22",
+                "title": "Water cars",
+                "urlVideo": "Ilwyjn88y2U",
+                "bgImg": "../img/relax-room-bg/eng/wide/overboard.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-23",
+                "title": "Liquid phase",
+                "urlVideo": "olWhMit2r-k",
+                "bgImg": "../img/relax-room-bg/eng/wide/quagmire.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-24",
+                "title": "Well, cook!",
+                "urlVideo": "6pubKIj5fHI",
+                "bgImg": "../img/relax-room-bg/eng/narrow/stubbornness.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-25",
+                "title": "Assol",
+                "urlVideo": "AA9JoS8A6vI",
+                "bgImg": "../img/relax-room-bg/eng/narrow/rose-in-water.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-26",
+                "title": "Liquid phase",
+                "urlVideo": "ez0iaNQFc-Y",
+                "bgImg": "../img/relax-room-bg/eng/narrow/autumn.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -815,6 +911,54 @@
                 "urlVideo": "7znFUYiiXJg",
                 "bgImg": "../img/relax-room-bg/rus/narrow/roof.jpg",
                 "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-21",
+                "title": "Ну, и варите!",
+                "urlVideo": "k00-n4lCFRA",
+                "bgImg": "../img/relax-room-bg/rus/wide/horror.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-22",
+                "title": "Водные авто",
+                "urlVideo": "e5nvQcQoaCU",
+                "bgImg": "../img/relax-room-bg/rus/wide/overboard.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-23",
+                "title": "Жидкая фаза",
+                "urlVideo": "soXT3lmMcXA",
+                "bgImg": "../img/relax-room-bg/rus/wide/quagmire.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-24",
+                "title": "Ну, и варите!",
+                "urlVideo": "fwKPVqSDzoM",
+                "bgImg": "../img/relax-room-bg/rus/narrow/stubbornness.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-25",
+                "title": "Ассоль",
+                "urlVideo": "FrEHuQIIFH0",
+                "bgImg": "../img/relax-room-bg/rus/narrow/rose-in-water.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-26",
+                "title": "Жидкая фаза",
+                "urlVideo": "4YyRjwHc4kg",
+                "bgImg": "../img/relax-room-bg/rus/narrow/autumn.jpg",
+                "category": "about-weather",
                 "videoType": "narrow"
             }
         ],
