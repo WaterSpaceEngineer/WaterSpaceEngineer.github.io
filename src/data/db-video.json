@@ -208,6 +208,54 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/autumn.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-27",
+                "title": "Шляхи Господнi",
+                "urlVideo": "ab4r4Na55hE",
+                "bgImg": "../img/relax-room-bg/ukr/wide/soothsayer.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-28",
+                "title": "Iнфляцiя",
+                "urlVideo": "AZvsBowUkNw",
+                "bgImg": "../img/relax-room-bg/ukr/wide/eden.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-29",
+                "title": "Охопливе визнання",
+                "urlVideo": "zjM6lfeQFIg",
+                "bgImg": "../img/relax-room-bg/ukr/wide/hymn.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-30",
+                "title": "Шляхи Господнi",
+                "urlVideo": "NZwcG2XHYJI",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/crocodiles.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-31",
+                "title": "Iнфляцiя",
+                "urlVideo": "kEdO9Fudc7U",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/tap.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-32",
+                "title": "Охопливе визнання",
+                "urlVideo": "ReOAY_YOJAQ",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/show.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -584,6 +632,54 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/autumn.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-27",
+                "title": "God's ways",
+                "urlVideo": "xjEPgFOUr2U",
+                "bgImg": "../img/relax-room-bg/eng/wide/soothsayer.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-28",
+                "title": "Inflation",
+                "urlVideo": "mpnx6p9fdU8",
+                "bgImg": "../img/relax-room-bg/eng/wide/eden.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-29",
+                "title": "Touching acceptance",
+                "urlVideo": "OWazWYw0Nfo",
+                "bgImg": "../img/relax-room-bg/eng/wide/hymn.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-30",
+                "title": "God's ways",
+                "urlVideo": "QrPIeSLZ9yc",
+                "bgImg": "../img/relax-room-bg/eng/narrow/crocodiles.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-31",
+                "title": "Inflation",
+                "urlVideo": "ULkwfylJdKs",
+                "bgImg": "../img/relax-room-bg/eng/narrow/tap.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-32",
+                "title": "Touching acceptance",
+                "urlVideo": "TwjXbDNDbW4",
+                "bgImg": "../img/relax-room-bg/eng/narrow/show.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -958,6 +1054,54 @@
                 "title": "Жидкая фаза",
                 "urlVideo": "4YyRjwHc4kg",
                 "bgImg": "../img/relax-room-bg/rus/narrow/autumn.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-27",
+                "title": "Пути Господни",
+                "urlVideo": "zIpRzKoLLGo",
+                "bgImg": "../img/relax-room-bg/rus/wide/soothsayer.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-28",
+                "title": "Инфляция",
+                "urlVideo": "WLcde4F1ltg",
+                "bgImg": "../img/relax-room-bg/rus/wide/eden.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-29",
+                "title": "Трогательное признание",
+                "urlVideo": "F9iz-msov3U",
+                "bgImg": "../img/relax-room-bg/rus/wide/hymn.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-30",
+                "title": "Пути Господни",
+                "urlVideo": "Vve7fwanyxA",
+                "bgImg": "../img/relax-room-bg/rus/narrow/crocodiles.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-31",
+                "title": "Инфляция",
+                "urlVideo": "BnJokVhavM0",
+                "bgImg": "../img/relax-room-bg/rus/narrow/tap.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-32",
+                "title": "Трогательное признание",
+                "urlVideo": "WyEUCa46JCY",
+                "bgImg": "../img/relax-room-bg/rus/narrow/show.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
             }
