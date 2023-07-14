@@ -256,6 +256,38 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/show.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-33",
+                "title": "Брама раю",
+                "urlVideo": "Srwk4H_ZfN8",
+                "bgImg": "../img/relax-room-bg/ukr/wide/untitled-feast.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-34",
+                "title": "Брама раю",
+                "urlVideo": "7QMQCv99urU",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/hands.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-35",
+                "title": "Вабливий вiтром",
+                "urlVideo": "_qkIZBCqAoE",
+                "bgImg": "../img/relax-room-bg/ukr/wide/kindness.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-36",
+                "title": "Вабливий вiтром",
+                "urlVideo": "SQNKyQdwvjI",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/soaring.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -680,6 +712,38 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/show.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-33",
+                "title": "Gate of Heaven",
+                "urlVideo": "04JFtusRoNM",
+                "bgImg": "../img/relax-room-bg/eng/wide/untitled-feast.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-34",
+                "title": "Gate of Heaven",
+                "urlVideo": "eGogrXKWG3g",
+                "bgImg": "../img/relax-room-bg/eng/narrow/hands.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-35",
+                "title": "Drawn by the wind",
+                "urlVideo": "b5mtAGd6qWU",
+                "bgImg": "../img/relax-room-bg/eng/wide/kindness.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-36",
+                "title": "Drawn by the wind",
+                "urlVideo": "jgNtlnU2wjU",
+                "bgImg": "../img/relax-room-bg/eng/narrow/soaring.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1102,6 +1166,38 @@
                 "title": "Трогательное признание",
                 "urlVideo": "WyEUCa46JCY",
                 "bgImg": "../img/relax-room-bg/rus/narrow/show.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-33",
+                "title": "Врата рая",
+                "urlVideo": "kffEuAFPJPE",
+                "bgImg": "../img/relax-room-bg/rus/wide/untitled-feast.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-34",
+                "title": "Врата рая",
+                "urlVideo": "aZoSIkim5Z4",
+                "bgImg": "../img/relax-room-bg/rus/narrow/hands.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-35",
+                "title": "Влекомый ветром",
+                "urlVideo": "wYJhpNrOBrA",
+                "bgImg": "../img/relax-room-bg/rus/wide/kindness.jpg",
+                "category": "about-weather",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-36",
+                "title": "Влекомый ветром",
+                "urlVideo": "kOcjyu0PCjY",
+                "bgImg": "../img/relax-room-bg/rus/narrow/soaring.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
             }
