@@ -1,4 +1,5 @@
 import playVideos from "./playVideos";
+import setVideoSizeInFullscreen from "./setVideoSizeInFullscreen";
 
 const filterVideo = () => {
   const filterBtns = document.querySelectorAll('[data-relax-room-btn]');
@@ -39,6 +40,7 @@ const filterVideo = () => {
       })
       .then(() => {
         playVideos('[data-video-trigger]');
+        setVideoSizeInFullscreen('[data-media-video]');
       })
   }
 
@@ -82,7 +84,7 @@ const filterVideo = () => {
         `
         <div class="relax-room__video-item">
             <div class="relax-room__video-wrap mb-10">
-                <video class="relax-room__video" width="960" height="540" poster="${bgImg}" controls>
+                <video class="relax-room__video" data-media-video width="960" height="540" poster="${bgImg}" controls>
                   <source src="${urlVideosWebm}" type="video/webm">
                   <source src="${urlVideosMp}" type="video/mp4">
                 </video>
@@ -139,7 +141,7 @@ const filterVideo = () => {
         `
         <div class="relax-room__video-item_height">
             <div class="relax-room__video-wrap height-video mb-10">
-                <video class="relax-room__video" width="540" height="960" poster="${bgImg}" controls>
+                <video class="relax-room__video" data-media-video width="540" height="960" poster="${bgImg}" controls>
                   <source src="${urlVideosWebm}" type="video/webm">
                   <source src="${urlVideosMp}" type="video/mp4">
                 </video>
