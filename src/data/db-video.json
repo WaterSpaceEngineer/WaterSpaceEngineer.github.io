@@ -344,6 +344,46 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/doggie.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-44",
+                "title": "Прiоритети",
+                "urlVideo": "hGLYsr4UeqU",
+                "bgImg": "../img/relax-room-bg/ukr/wide/hat-makers.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-45",
+                "title": "Прiоритети",
+                "urlVideo": "BYXgBS3_d-Y",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/hat-makers.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-46",
+                "title": "А мною заповнюють перерву",
+                "urlVideo": "p9AWsNcqYv8",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/hold-your-back.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-47",
+                "title": "Тримаю парi",
+                "urlVideo": "Fxs1ZtfAoGc",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/crown.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-48",
+                "title": "Iлюстрацiя до роману Живий труп",
+                "urlVideo": "bqjTZ9RFljA",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/lenin-is-alive.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -856,6 +896,46 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/doggie.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-44",
+                "title": "Priorities",
+                "urlVideo": "kcgpEb7fcOY",
+                "bgImg": "../img/relax-room-bg/eng/wide/hat-makers.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-45",
+                "title": "Priorities",
+                "urlVideo": "_bftT-yvlKM",
+                "bgImg": "../img/relax-room-bg/eng/narrow/hat-makers.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-46",
+                "title": "And I fill the intermission",
+                "urlVideo": "XUxNLeYAo6w",
+                "bgImg": "../img/relax-room-bg/eng/narrow/hold-your-back.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-47",
+                "title": "I bet",
+                "urlVideo": "dbfhTv4rm6o",
+                "bgImg": "../img/relax-room-bg/eng/narrow/crown.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-48",
+                "title": "Illustration for the novel The Living Corpse",
+                "urlVideo": "cPa67WfezXc",
+                "bgImg": "../img/relax-room-bg/eng/narrow/lenin-is-alive.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1366,6 +1446,46 @@
                 "title": "Cattus erectus",
                 "urlVideo": "JCtLt1KXNko",
                 "bgImg": "../img/relax-room-bg/rus/narrow/doggie.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-44",
+                "title": "Приоритеты",
+                "urlVideo": "PK4bzN94gao",
+                "bgImg": "../img/relax-room-bg/rus/wide/hat-makers.jpg",
+                "category": "about-nothing",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-45",
+                "title": "Приоритеты",
+                "urlVideo": "PK4bzN94gao",
+                "bgImg": "../img/relax-room-bg/rus/narrow/hat-makers.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-46",
+                "title": "А мною заполняют перерыв",
+                "urlVideo": "X5Mq81Exy2M",
+                "bgImg": "../img/relax-room-bg/rus/narrow/hold-your-back.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-47",
+                "title": "Держу пари",
+                "urlVideo": "O-tzdacagwQ",
+                "bgImg": "../img/relax-room-bg/rus/narrow/crown.jpg",
+                "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-48",
+                "title": "Иллюстрация к роману Живой труп",
+                "urlVideo": "OHu151vpOPo",
+                "bgImg": "../img/relax-room-bg/rus/narrow/lenin-is-alive.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
             }
