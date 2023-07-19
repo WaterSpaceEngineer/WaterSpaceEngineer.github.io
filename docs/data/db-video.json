@@ -384,6 +384,22 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/lenin-is-alive.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-49",
+                "title": "Alter ego",
+                "urlVideo": "0dawlOToTw4",
+                "bgImg": "../img/relax-room-bg/ukr/wide/poetry-and-prose-den.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-50",
+                "title": "Alter ego",
+                "urlVideo": "Q8nhj3PL4I8",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/farrier.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -936,6 +952,22 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/lenin-is-alive.jpg",
                 "category": "about-weather",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-49",
+                "title": "Alter ego",
+                "urlVideo": "pqB6nJoyQok",
+                "bgImg": "../img/relax-room-bg/eng/wide/poetry-and-prose-den.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-50",
+                "title": "Alter ego",
+                "urlVideo": "hFGZfGOWSew",
+                "bgImg": "../img/relax-room-bg/eng/narrow/farrier.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1487,6 +1519,22 @@
                 "urlVideo": "OHu151vpOPo",
                 "bgImg": "../img/relax-room-bg/rus/narrow/lenin-is-alive.jpg",
                 "category": "about-weather",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-49",
+                "title": "Alter ego",
+                "urlVideo": "cVOhUzm3HDI",
+                "bgImg": "../img/relax-room-bg/rus/wide/poetry-and-prose-den.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-50",
+                "title": "Alter ego",
+                "urlVideo": "XiLmVYachsI",
+                "bgImg": "../img/relax-room-bg/rus/narrow/farrier.jpg",
+                "category": "about-it",
                 "videoType": "narrow"
             }
         ],
