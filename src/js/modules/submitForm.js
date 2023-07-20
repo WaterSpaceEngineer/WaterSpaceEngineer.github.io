@@ -61,6 +61,7 @@ const submitForm = () => {
           if(res.status === 200 || res.status === 201) {
             showStatus(message.success, 'message-success');
             form.reset();
+            form.querySelector('[data-textarea-present]').innerHTML = 0;
             grecaptcha.reset();
           } else {
             showStatus(message.failure, 'message-errow');
@@ -98,5 +99,6 @@ const submitForm = () => {
     }
   }
 }
+
 
 export default submitForm;
