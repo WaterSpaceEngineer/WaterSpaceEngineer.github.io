@@ -400,6 +400,22 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/farrier.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-51",
+                "title": "Зрада не пройде",
+                "urlVideo": "9R0sNzAfdB4",
+                "bgImg": "../img/relax-room-bg/ukr/wide/pranks.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-52",
+                "title": "Зрада не пройде",
+                "urlVideo": "CHQxLoAMZUs",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/find.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -968,6 +984,22 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/farrier.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-51",
+                "title": "You can't cheat on me",
+                "urlVideo": "fA3SzR4m0gA",
+                "bgImg": "../img/relax-room-bg/eng/wide/pranks.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-52",
+                "title": "You can't cheat on me",
+                "urlVideo": "YUHY2THddtU",
+                "bgImg": "../img/relax-room-bg/eng/narrow/find.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1534,6 +1566,22 @@
                 "title": "Alter ego",
                 "urlVideo": "XiLmVYachsI",
                 "bgImg": "../img/relax-room-bg/rus/narrow/farrier.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-51",
+                "title": "Измена не пройдет",
+                "urlVideo": "SM3h2oaiJzQ",
+                "bgImg": "../img/relax-room-bg/rus/wide/pranks.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-52",
+                "title": "Измена не пройдет",
+                "urlVideo": "gJwUWvvz5TQ",
+                "bgImg": "../img/relax-room-bg/rus/narrow/find.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }
