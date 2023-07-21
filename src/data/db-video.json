@@ -416,6 +416,22 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/find.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-53",
+                "title": "Мiжсобiйчик",
+                "urlVideo": "sSfS1gi6ciU",
+                "bgImg": "../img/relax-room-bg/ukr/wide/duel.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-54",
+                "title": "Мiжсобiйчик",
+                "urlVideo": "1Qo6skU2dXE",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/harmonic.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1000,6 +1016,22 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/find.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-53",
+                "title": "Get-together",
+                "urlVideo": "VxaJlMZQdpA",
+                "bgImg": "../img/relax-room-bg/ukr/wide/duel.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-54",
+                "title": "Get-together",
+                "urlVideo": "hd-P5lmdQT8",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/harmonic.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1582,6 +1614,22 @@
                 "title": "Измена не пройдет",
                 "urlVideo": "gJwUWvvz5TQ",
                 "bgImg": "../img/relax-room-bg/rus/narrow/find.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-53",
+                "title": "Междусобойчик",
+                "urlVideo": "mgBnkMNX9CQ",
+                "bgImg": "../img/relax-room-bg/ukr/wide/duel.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-54",
+                "title": "Междусобойчик",
+                "urlVideo": "kcaRGcrVLN0",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/harmonic.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }
