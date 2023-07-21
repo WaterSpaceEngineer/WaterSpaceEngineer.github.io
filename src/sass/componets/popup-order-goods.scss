@@ -1,0 +1,23 @@
+.popup-order-goods {
+  .form-popup {
+    gap: rem(16px);
+  }
+}
+
+.form-block__input-goods {
+  width: 100%;
+  min-height: rem(64px);
+  padding: 3px 5px;
+  border: transparent;
+  background-color: transparent;
+  outline: transparent;
+  resize: none;
+
+  &::placeholder {
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: rem(18px);
+    font-weight: 500;
+    color: var(--main-text-color); 
+  }
+}

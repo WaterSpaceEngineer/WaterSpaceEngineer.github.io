@@ -1,3 +1,5 @@
+// import setProductNameForm from "./setProductNameForm";
+
 const modals = () => {
     function bindModal(triggerSelector, modalSelector, modalWrapSelector, modalBodySelector, closeSelector, closeClickOverlay = true) {
         const trigger = document.querySelectorAll(triggerSelector);
@@ -24,8 +26,15 @@ const modals = () => {
                 modal.style.display = "block";
                 document.body.style.overflow = "hidden";
                 document.body.style.marginRight = `${scroll}px`;
-             pageUp.style.marginRight = `${scroll}px`;
+                pageUp.style.marginRight = `${scroll}px`;
                 modalBody.style.marginRight = `${scroll}px`;
+
+                if(modal.classList.contains('popup-order-goods')) {
+                    const btnDataGoodsName = item.getAttribute('data-goods-name');
+                    const modalTitleplaceholder = modal.querySelector('.form-block__input-goods');
+                    
+                    modalTitleplaceholder.placeholder = btnDataGoodsName;
+                }
             });
         });
 
@@ -52,7 +61,7 @@ const modals = () => {
 
             document.body.style.overflow = "";
             document.body.style.marginRight = `0px`;
-         pageUp.style.marginRight = `0px`;
+            pageUp.style.marginRight = `0px`;
             modalBody.style.marginRight = `0px`;
         });
 
@@ -79,7 +88,7 @@ const modals = () => {
 
                 document.body.style.overflow = ""; 
                 document.body.style.marginRight = `0px`;
-             pageUp.style.marginRight = `0px`;
+                pageUp.style.marginRight = `0px`;
                 modalBody.style.marginRight = `0px`;
             }
         });
@@ -129,6 +138,10 @@ const modals = () => {
 
     if(document.querySelector('[data-popup-faq]')) {
         bindModal('.fag-top__button', '.popup-faq', '.popup-faq .popup__wrap', '.popup-faq .popup__inner', '.popup-faq .popup__close');
+    }
+
+    if(document.querySelector(['[data-popup-order-goods]'])) {
+        bindModal('.product-unit__button', '.popup-order-goods', '.popup-order-goods .popup__wrap', '.popup-order-goods .popup__inner', '.popup-order-goods .popup__close');
     }
 
     // showModalByTime('.popup', 60000);
