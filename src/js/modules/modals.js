@@ -29,6 +29,7 @@ const modals = () => {
                 pageUp.style.marginRight = `${scroll}px`;
                 modalBody.style.marginRight = `${scroll}px`;
 
+                // Отримуємо data з назвою товару для форми замовлення
                 if(modal.classList.contains('popup-order-goods')) {
                     const btnDataGoodsName = item.getAttribute('data-goods-name');
                     const modalTitleplaceholder = modal.querySelector('.form-block__input-goods');
