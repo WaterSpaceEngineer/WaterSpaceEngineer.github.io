@@ -64,7 +64,11 @@
     &__body {
         position: relative;
         background-color: var(--white-color);
-        padding: rem(40px) rem(24px) rem(24px);
+        padding: rem(40px) 5px rem(24px);
+
+        @include min380 {
+            padding: rem(40px) rem(24px) rem(24px);
+        }
     }
 }
 

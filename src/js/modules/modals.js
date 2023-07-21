@@ -34,6 +34,7 @@ const modals = () => {
                     const modalTitleplaceholder = modal.querySelector('.form-block__input-goods');
                     
                     modalTitleplaceholder.placeholder = btnDataGoodsName;
+                    document.body.style.overflow = "";
                 }
             });
         });

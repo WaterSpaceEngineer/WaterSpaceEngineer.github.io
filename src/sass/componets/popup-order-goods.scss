@@ -6,18 +6,26 @@
 
 .form-block__input-goods {
   width: 100%;
-  min-height: rem(64px);
+  min-height: rem(88px);
   padding: 3px 5px;
   border: transparent;
   background-color: transparent;
   outline: transparent;
   resize: none;
 
+  @include min576 {
+    min-height: rem(68px);
+  }
+
   &::placeholder {
     text-align: center;
     font-family: var(--main-font);
-    font-size: rem(18px);
+    font-size: rem(16px);
     font-weight: 500;
-    color: var(--main-text-color); 
+    color: var(--main-text-color);
+
+    @include min576 {
+      font-size: rem(18px);
+    }
   }
 }
