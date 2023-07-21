@@ -2854,7 +2854,7 @@ button {
   display: -ms-flexbox;
   display: flex;
   gap: 1.5rem;
-  margin-bottom: 1.5rem;
+  width: 100%;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -3058,6 +3058,50 @@ button {
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
+}
+
+.popup-order-goods .form-popup {
+  gap: 1rem;
+}
+
+.form-block__input-goods {
+  background: transparent;
+  width: 100%;
+  min-height: 4rem;
+  padding: 3px 5px;
+  border: transparent;
+  outline: transparent;
+  resize: none;
+}
+
+.form-block__input-goods::-webkit-input-placeholder {
+  font: 500 1.125rem var(--main-font);
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.form-block__input-goods::-moz-placeholder {
+  font: 500 1.125rem var(--main-font);
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.form-block__input-goods:-ms-input-placeholder {
+  font: 500 1.125rem var(--main-font);
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.form-block__input-goods::-ms-input-placeholder {
+  font: 500 1.125rem var(--main-font);
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.form-block__input-goods::placeholder {
+  font: 500 1.125rem var(--main-font);
+  text-align: center;
+  color: var(--main-text-color);
 }
 
 .product-guides {
