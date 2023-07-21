@@ -12,20 +12,14 @@
   background-color: transparent;
   outline: transparent;
   resize: none;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: rem(16px);
+  font-weight: 500;
+  color: var(--dark-primary-color);
 
   @include min576 {
+    font-size: rem(18px);
     min-height: rem(68px);
-  }
-
-  &::placeholder {
-    text-align: center;
-    font-family: var(--main-font);
-    font-size: rem(16px);
-    font-weight: 500;
-    color: var(--main-text-color);
-
-    @include min576 {
-      font-size: rem(18px);
-    }
   }
 }

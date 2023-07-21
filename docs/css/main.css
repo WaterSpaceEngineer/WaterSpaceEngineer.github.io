@@ -3069,6 +3069,7 @@ button {
 }
 
 .form-block__input-goods {
+  font: 500 1rem var(--main-font);
   background: transparent;
   width: 100%;
   min-height: 5.5rem;
@@ -3076,36 +3077,8 @@ button {
   border: transparent;
   outline: transparent;
   resize: none;
-}
-
-.form-block__input-goods::-webkit-input-placeholder {
-  font: 500 1rem var(--main-font);
   text-align: center;
-  color: var(--main-text-color);
-}
-
-.form-block__input-goods::-moz-placeholder {
-  font: 500 1rem var(--main-font);
-  text-align: center;
-  color: var(--main-text-color);
-}
-
-.form-block__input-goods:-ms-input-placeholder {
-  font: 500 1rem var(--main-font);
-  text-align: center;
-  color: var(--main-text-color);
-}
-
-.form-block__input-goods::-ms-input-placeholder {
-  font: 500 1rem var(--main-font);
-  text-align: center;
-  color: var(--main-text-color);
-}
-
-.form-block__input-goods::placeholder {
-  font: 500 1rem var(--main-font);
-  text-align: center;
-  color: var(--main-text-color);
+  color: var(--dark-primary-color);
 }
 
 .product-guides {
@@ -5926,27 +5899,8 @@ button {
   }
 
   .form-block__input-goods {
+    font-size: 1.125rem;
     min-height: 4.25rem;
-  }
-
-  .form-block__input-goods::-webkit-input-placeholder {
-    font-size: 1.125rem;
-  }
-
-  .form-block__input-goods::-moz-placeholder {
-    font-size: 1.125rem;
-  }
-
-  .form-block__input-goods:-ms-input-placeholder {
-    font-size: 1.125rem;
-  }
-
-  .form-block__input-goods::-ms-input-placeholder {
-    font-size: 1.125rem;
-  }
-
-  .form-block__input-goods::placeholder {
-    font-size: 1.125rem;
   }
 
   .actual__item {

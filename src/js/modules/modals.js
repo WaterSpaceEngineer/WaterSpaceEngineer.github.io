@@ -34,7 +34,7 @@ const modals = () => {
                     const btnDataGoodsName = item.getAttribute('data-goods-name');
                     const modalTitleplaceholder = modal.querySelector('.form-block__input-goods');
                     
-                    modalTitleplaceholder.placeholder = btnDataGoodsName;
+                    modalTitleplaceholder.value = btnDataGoodsName;
                     document.body.style.overflow = "";
                 }
             });
