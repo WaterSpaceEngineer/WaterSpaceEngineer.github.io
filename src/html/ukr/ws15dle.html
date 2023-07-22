@@ -322,8 +322,12 @@
                   @@include('chunk/standards-logos.html')
 
                   <div class="product-unit__inner-price">
-                    <p class="product-unit__price">8045 грн.</p> <a href="#call" class="product-unit__button button">Замовити
-                      <span></span><span></span><span></span><span></span><span></span><span></span> </a>
+                    <p class="product-unit__price">8045 грн.</p>
+                    <button type="button" class="product-unit__button button"
+                      data-goods-name="Ультрафіолетовий стерилізатор води Модель WS15DLE">
+                      Замовити
+                      <span></span><span></span><span></span><span></span><span></span><span></span>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -548,6 +552,7 @@
 
     @@include('modules/footer.html')
 
+    @@include('chunk/order-goods-popup.html')
     @@include('chunk/terms-delivery.html')
     @@include('chunk/terms-payment.html')
     @@include('componets/up.html')

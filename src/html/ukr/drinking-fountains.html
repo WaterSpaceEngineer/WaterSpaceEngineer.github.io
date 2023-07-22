@@ -196,9 +196,11 @@
                     </ul>
                     <div class="product-unit__inner-price">
                       <p class="product-unit__price">14500 грн.</p>
-                      <a href="#call" class="product-unit__button button">Замовити
+                      <button type="button" class="product-unit__button button"
+                        data-goods-name="Фонтанчик підлоговий">
+                        Замовити
                         <span></span><span></span><span></span><span></span><span></span><span></span>
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -340,9 +342,11 @@
                     </ul>
                     <div class="product-unit__inner-price">
                       <p class="product-unit__price">16500 грн.</p>
-                      <a href="#call" class="product-unit__button button">Замовити
+                      <button type="button" class="product-unit__button button"
+                        data-goods-name="Фонтанчик настінний">
+                        Замовити
                         <span></span><span></span><span></span><span></span><span></span><span></span>
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -358,6 +362,7 @@
 
     @@include('modules/footer.html')
 
+    @@include('chunk/order-goods-popup.html')
     @@include('chunk/terms-delivery.html')
     @@include('chunk/terms-payment.html')
     @@include('componets/up.html')

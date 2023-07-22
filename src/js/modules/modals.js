@@ -35,7 +35,11 @@ const modals = () => {
                     const modalTitleplaceholder = modal.querySelector('.form-block__input-goods');
                     
                     modalTitleplaceholder.value = btnDataGoodsName;
+
                     document.body.style.overflow = "";
+                    document.body.style.marginRight = `0px`;
+                    pageUp.style.marginRight = `0px`;
+                    modalBody.style.marginRight = `0px`;
                 }
             });
         });
