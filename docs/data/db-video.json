@@ -432,6 +432,22 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/harmonic.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-55",
+                "title": "Мiмiстки",
+                "urlVideo": "ofQpRZh9fuY",
+                "bgImg": "../img/relax-room-bg/ukr/wide/glasses.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-56",
+                "title": "Мiмiстки",
+                "urlVideo": "uzfAa7btb14",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/philistines.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1021,7 +1037,7 @@
                 "id": "frame-53",
                 "title": "Get-together",
                 "urlVideo": "VxaJlMZQdpA",
-                "bgImg": "../img/relax-room-bg/ukr/wide/duel.jpg",
+                "bgImg": "../img/relax-room-bg/eng/wide/duel.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
@@ -1029,7 +1045,23 @@
                 "id": "frame-54",
                 "title": "Get-together",
                 "urlVideo": "hd-P5lmdQT8",
-                "bgImg": "../img/relax-room-bg/ukr/narrow/harmonic.jpg",
+                "bgImg": "../img/relax-room-bg/eng/narrow/harmonic.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-55",
+                "title": "Mimics",
+                "urlVideo": "EvzcLEskQlI",
+                "bgImg": "../img/relax-room-bg/eng/wide/glasses.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-56",
+                "title": "Mimics",
+                "urlVideo": "vV-fsuVPY6k",
+                "bgImg": "../img/relax-room-bg/eng/narrow/philistines.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }
@@ -1621,7 +1653,7 @@
                 "id": "frame-53",
                 "title": "Междусобойчик",
                 "urlVideo": "mgBnkMNX9CQ",
-                "bgImg": "../img/relax-room-bg/ukr/wide/duel.jpg",
+                "bgImg": "../img/relax-room-bg/rus/wide/duel.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
@@ -1629,7 +1661,23 @@
                 "id": "frame-54",
                 "title": "Междусобойчик",
                 "urlVideo": "kcaRGcrVLN0",
-                "bgImg": "../img/relax-room-bg/ukr/narrow/harmonic.jpg",
+                "bgImg": "../img/relax-room-bg/rus/narrow/harmonic.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-55",
+                "title": "Мимистки",
+                "urlVideo": "SPbQmBgWO70",
+                "bgImg": "../img/relax-room-bg/rus/wide/glasses.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-56",
+                "title": "Мимистки",
+                "urlVideo": "TCyXoNKlXPw",
+                "bgImg": "../img/relax-room-bg/rus/narrow/philistines.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }
