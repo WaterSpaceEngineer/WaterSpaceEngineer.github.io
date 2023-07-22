@@ -342,8 +342,12 @@
                   @@include('chunk/standards-logos.html')
 
                   <div class="product-unit__inner-price">
-                    <p class="product-unit__price">9142 грн.</p> <a href="#call" class="product-unit__button button">Заказать
-                      <span></span><span></span><span></span><span></span><span></span><span></span> </a>
+                    <p class="product-unit__price">9142 грн.</p>
+                    <button type="button" class="product-unit__button button"
+                      data-goods-name="Ультрафиолетовый стерилизатор воды Модель WS15D PRO">
+                      Заказать
+                      <span></span><span></span><span></span><span></span><span></span><span></span>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -592,6 +596,7 @@
 
     @@include('modules/footer.html')
 
+    @@include('chunk/order-goods-popup.html')
     @@include('chunk/terms-delivery.html')
     @@include('chunk/terms-payment.html')
     @@include('componets/up.html')
