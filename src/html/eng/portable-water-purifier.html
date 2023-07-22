@@ -244,9 +244,11 @@
                   </div>
                   <div class="product-unit__inner-price">
                     <p class="product-unit__price">&#8372; 10000</p>
-                    <a href="#call" class="product-unit__button button">Order Now
+                    <button type="button" class="product-unit__button button"
+                      data-goods-name="Portable water filtration system WS-C-090650-UF10C">
+                      Order Now
                       <span></span><span></span><span></span><span></span><span></span><span></span>
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -261,8 +263,7 @@
 
     @@include('modules/footer.html')
 
-    @@include('chunk/terms-delivery.html')
-    @@include('chunk/terms-payment.html')
+    @@include('chunk/order-goods-popup.html')
     @@include('componets/up.html')
 
   </body>

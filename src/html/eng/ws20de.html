@@ -319,8 +319,11 @@
                   @@include('chunk/standards-logos.html')
 
                   <div class="product-unit__inner-price">
-                    <p class="product-unit__price">&#8372; 10971</p> <a href="#call" class="product-unit__button button">Order Now
-                      <span></span><span></span><span></span><span></span><span></span><span></span> </a>
+                    <p class="product-unit__price">&#8372; 10971</p>
+                    <button type="button" class="product-unit__button button"
+                      data-goods-name="Ultraviolet water Sterilizer Model WS20DE">
+                      Order Now
+                      <span></span><span></span><span></span><span></span><span></span><span></span> </button>
                   </div>
                 </div>
               </div>
@@ -562,8 +565,7 @@
 
     @@include('modules/footer.html')
 
-    @@include('chunk/terms-delivery.html')
-    @@include('chunk/terms-payment.html')
+    @@include('chunk/order-goods-popup.html')
     @@include('componets/up.html')
 
   </body>

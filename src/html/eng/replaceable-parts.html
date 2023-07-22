@@ -313,7 +313,7 @@
                 </div>
               </div>
 
-              <h2 class="product-unit__head title-block" id="emitter-small">Models WS15D/P UVModel WS20D/P UV-C</h2>
+              <h2 class="product-unit__head title-block" id="emitter-small">Models WS15D/P UV, WS20D/P UV-C</h2>
 
               <div class="product-unit__block">
                 <div class="product-unit__inner">
@@ -413,9 +413,11 @@
                     </li>
                   </ul>
 
-                  <a href="#call" class="product-unit__button button">Order Now
+                  <button type="button" class="product-unit__button button"
+                    data-goods-name="Model WS...D/P UV">
+                    Order Now
                     <span></span><span></span><span></span><span></span><span></span><span></span>
-                  </a>
+                  </button>
                 </div>
               </div>
 
@@ -526,9 +528,11 @@
                     </li>
                   </ul>
 
-                  <a href="#call" class="product-unit__button button">Order Now
+                  <button type="button" class="product-unit__button button"
+                    data-goods-name="Models WS...D/P UV">
+                    Order Now
                     <span></span><span></span><span></span><span></span><span></span><span></span>
-                  </a>
+                  </button>
                 </div>
               </div>
 
@@ -542,8 +546,7 @@
 
     @@include('modules/footer.html')
 
-    @@include('chunk/terms-delivery.html')
-    @@include('chunk/terms-payment.html')
+    @@include('chunk/order-goods-popup.html')
     @@include('componets/up.html')
 
   </body>

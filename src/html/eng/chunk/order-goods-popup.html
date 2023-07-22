@@ -1,23 +1,35 @@
-<div class="popup popup-faq" data-popup-faq data-modal>
+<div class="popup popup-order-goods" data-popup-order-goods data-modal>
     <div class="popup__wrap">
         <div class="popup__inner">
             <div class="popup__body">
                 <button type="button" class="popup__close _icon-close" aria-label="Button to close the modal window"></button>
                 <div class="popup__form">
                     <form class="form form-popup">
-                        <h2 class="form-popup__title">Ask a Question</h2>
-                        <div class="popup-faq__item form-block__item">
-                            <input class="form-block__input" name="user_name" required="" type="text" placeholder="Your full name*">
-                            <span class="form-block__icon _icon-user"></span>
+                        <h2 class="form-popup__title">Order</h2>
+                        
+                        <textarea class="form-block__input-goods" name="goods_name" type="text" readonly placeholder="">Order the product of your choice</textarea>
+
+                        <div class="form-block__wrap">
+                            <div class="form-block__item">
+                                <input class="form-block__input" name="user_name" required type="text" placeholder="Your full name*">
+                                <span class="form-block__icon _icon-user"></span>
+                            </div>
+                            <div class="form-block__item">
+                                <input class="form-block__input" name="user_phone" required type="tel"
+                                    placeholder="Your phone or email*">
+                                <span class="form-block__icon _icon-paperplane"></span>
+                            </div>
                         </div>
+
                         <div class="popup-faq__textarea form-block__wrap-textarea">
-                            <textarea class="form-block__textarea" required="" minlength="20" maxlength="300" placeholder="Write your question*" name="user_question"></textarea>
+                            <textarea class="form-block__textarea" minlength="20" maxlength="300" placeholder="Write your message" name="user_question"></textarea>
                             <div class="form-block__textarea-symbols form-textarea">
                                 <span class="form-textarea__values" data-textarea-present>0</span>
                                  / 
                                 <span class="form-textarea__values" data-textarea-max>300</span>
                             </div>
                         </div>
+
                         <div class="submit-form__wrap">
                             <div class="submit-form__recaptcha g-recaptcha" data-sitekey="6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH"></div>
                             @@include('../buttons/button-send-form.html')
