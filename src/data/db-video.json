@@ -448,6 +448,38 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/philistines.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-57",
+                "title": "Без зайвих слiв",
+                "urlVideo": "eX0Rp4RQ_U8",
+                "bgImg": "../img/relax-room-bg/ukr/wide/berry.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-58",
+                "title": "Без зайвих слiв",
+                "urlVideo": "K-oB921fNUM",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/shadow.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-59",
+                "title": "Бiлий прапор",
+                "urlVideo": "g7hZtkRtJno",
+                "bgImg": "../img/relax-room-bg/ukr/wide/witnesses.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-60",
+                "title": "Бiлий прапор",
+                "urlVideo": "lDnW-UqrXpc",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/imprisonment.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1064,6 +1096,38 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/philistines.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-57",
+                "title": "Without many words",
+                "urlVideo": "13VFs8AjXkQ",
+                "bgImg": "../img/relax-room-bg/eng/wide/berry.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-58",
+                "title": "Without many words",
+                "urlVideo": "W_oR5fB9dbQ",
+                "bgImg": "../img/relax-room-bg/eng/narrow/shadow.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-59",
+                "title": "White flag",
+                "urlVideo": "XXf--Tqzd1E",
+                "bgImg": "../img/relax-room-bg/eng/wide/witnesses.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-60",
+                "title": "White flag",
+                "urlVideo": "p09NVwuxO4E",
+                "bgImg": "../img/relax-room-bg/eng/narrow/imprisonment.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1678,6 +1742,38 @@
                 "title": "Мимистки",
                 "urlVideo": "TCyXoNKlXPw",
                 "bgImg": "../img/relax-room-bg/rus/narrow/philistines.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-57",
+                "title": "Без лишних слов",
+                "urlVideo": "6XHA9i1WkF0",
+                "bgImg": "../img/relax-room-bg/rus/wide/berry.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-58",
+                "title": "Без лишних слов",
+                "urlVideo": "KSKMCWCXypc",
+                "bgImg": "../img/relax-room-bg/rus/narrow/shadow.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-59",
+                "title": "Белый флаг",
+                "urlVideo": "9yepou7E6v0",
+                "bgImg": "../img/relax-room-bg/rus/wide/witnesses.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-60",
+                "title": "Белый флаг",
+                "urlVideo": "Kkt4PYIddmc",
+                "bgImg": "../img/relax-room-bg/rus/narrow/imprisonment.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }
