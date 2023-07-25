@@ -480,6 +480,22 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/imprisonment.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-61",
+                "title": "Диспозицiя в експозицiї",
+                "urlVideo": "G3dZ7vhgDa8",
+                "bgImg": "../img/relax-room-bg/ukr/wide/astonishment.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-62",
+                "title": "Диспозицiя в експозицiї",
+                "urlVideo": "NBZQuF2-wRg",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/shelf.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1128,6 +1144,22 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/imprisonment.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-61",
+                "title": "Disposition in the exposition",
+                "urlVideo": "rxOBkOzvZ_w",
+                "bgImg": "../img/relax-room-bg/eng/wide/astonishment.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-62",
+                "title": "Disposition in the exposition",
+                "urlVideo": "kevNPSSOBVs",
+                "bgImg": "../img/relax-room-bg/eng/narrow/shelf.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1774,6 +1806,22 @@
                 "title": "Белый флаг",
                 "urlVideo": "Kkt4PYIddmc",
                 "bgImg": "../img/relax-room-bg/rus/narrow/imprisonment.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-61",
+                "title": "Диспозиция в экспозиции",
+                "urlVideo": "uf9043ISdo4",
+                "bgImg": "../img/relax-room-bg/eng/wide/astonishment.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-62",
+                "title": "Диспозиция в экспозиции",
+                "urlVideo": "RTsvlwT4GVA",
+                "bgImg": "../img/relax-room-bg/eng/narrow/shelf.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }
