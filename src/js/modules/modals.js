@@ -1,5 +1,3 @@
-// import setProductNameForm from "./setProductNameForm";
-
 const modals = () => {
     function bindModal(triggerSelector, modalSelector, modalWrapSelector, modalBodySelector, closeSelector, closeClickOverlay = true) {
         const trigger = document.querySelectorAll(triggerSelector);
@@ -45,6 +43,17 @@ const modals = () => {
         });
 
         close.addEventListener('click', () => {
+            closeModalWindow();
+        });
+
+        // Закриття модального вікна клавішей "Esc"
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModalWindow();
+            }
+        });
+
+        function closeModalWindow() {
             windows.forEach(item => {
                 item.classList.remove('fadeIn');
                 item.classList.add('fadeOut');
@@ -69,7 +78,7 @@ const modals = () => {
             document.body.style.marginRight = `0px`;
             pageUp.style.marginRight = `0px`;
             modalBody.style.marginRight = `0px`;
-        });
+        }
 
         modalWrap.addEventListener('click', (e) => {
             if (e.target === modalWrap && closeClickOverlay) {
