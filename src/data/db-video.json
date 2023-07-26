@@ -496,6 +496,22 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/shelf.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-63",
+                "title": "Субординацiя",
+                "urlVideo": "FFnRul8lw-I",
+                "bgImg": "../img/relax-room-bg/ukr/wide/ballerinas.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-64",
+                "title": "Субординацiя",
+                "urlVideo": "edJUlCdcXrU",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/ballerinas.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1160,6 +1176,22 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/shelf.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-63",
+                "title": "Subordination",
+                "urlVideo": "1n3ADqWHvas",
+                "bgImg": "../img/relax-room-bg/eng/wide/ballerinas.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-64",
+                "title": "Subordination",
+                "urlVideo": "-EBkOngrO1s",
+                "bgImg": "../img/relax-room-bg/eng/narrow/ballerinas.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1813,7 +1845,7 @@
                 "id": "frame-61",
                 "title": "Диспозиция в экспозиции",
                 "urlVideo": "uf9043ISdo4",
-                "bgImg": "../img/relax-room-bg/eng/wide/astonishment.jpg",
+                "bgImg": "../img/relax-room-bg/rus/wide/astonishment.jpg",
                 "category": "about-it",
                 "videoType": "wide"
             },
@@ -1821,7 +1853,23 @@
                 "id": "frame-62",
                 "title": "Диспозиция в экспозиции",
                 "urlVideo": "RTsvlwT4GVA",
-                "bgImg": "../img/relax-room-bg/eng/narrow/shelf.jpg",
+                "bgImg": "../img/relax-room-bg/rus/narrow/shelf.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-63",
+                "title": "Субординация",
+                "urlVideo": "d_AkJLVd6i4",
+                "bgImg": "../img/relax-room-bg/rus/wide/ballerinas.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-64",
+                "title": "Субординация",
+                "urlVideo": "TVzftG-zpzw",
+                "bgImg": "../img/relax-room-bg/rus/narrow/ballerinas.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }

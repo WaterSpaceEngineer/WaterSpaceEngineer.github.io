@@ -30,6 +30,29 @@ const submitForm = () => {
     }}
   }
 
+  // const messages = {
+  //   uk: {
+  //     success: 'Повідомлення відправлено',
+  //     failure: 'Виникла помилка',
+  //     recaptchaFailure: 'Ви не пройшли перевірку reCAPTCHA',
+  //     loading: '../img/spinner.svg'
+  //   },
+  //   ru: {
+  //     success: 'Сообщение отправлено',
+  //     failure: 'Возникла ошибка',
+  //     recaptchaFailure: 'Вы не прошли проверку reCAPTCHA',
+  //     loading: '../img/spinner.svg'
+  //   },
+  //   en: {
+  //     success: 'Message sent',
+  //     failure: 'An error has occurred',
+  //     recaptchaFailure: 'You failed the reCAPTCHA check',
+  //     loading: '../img/spinner.svg'
+  //   }
+  // };
+
+  // let message = messages[languagePage];
+
   forms && forms.forEach(item => {
     enteredCountSymbolsTextarea(item);
     postData(item);
