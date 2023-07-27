@@ -512,6 +512,22 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/ballerinas.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-65",
+                "title": "Пiкнiк на узбiччi",
+                "urlVideo": "PiJiGLGNpXM",
+                "bgImg": "../img/relax-room-bg/ukr/wide/set.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-66",
+                "title": "Пiкнiк на узбiччi",
+                "urlVideo": "atHOBXZD31w",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/picnic.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1192,6 +1208,22 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/ballerinas.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-65",
+                "title": "Roadside Picnic",
+                "urlVideo": "UHZ9HY26C_4",
+                "bgImg": "../img/relax-room-bg/eng/wide/set.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-66",
+                "title": "Roadside Picnic",
+                "urlVideo": "x_wUAXF6ZTs",
+                "bgImg": "../img/relax-room-bg/eng/narrow/picnic.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1870,6 +1902,22 @@
                 "title": "Субординация",
                 "urlVideo": "TVzftG-zpzw",
                 "bgImg": "../img/relax-room-bg/rus/narrow/ballerinas.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-65",
+                "title": "Пикник на обочине",
+                "urlVideo": "ihOskIpEWMo",
+                "bgImg": "../img/relax-room-bg/rus/wide/set.jpg",
+                "category": "about-it",
+                "videoType": "wide"
+            },
+            {
+                "id": "frame-66",
+                "title": "Пикник на обочине",
+                "urlVideo": "2yeLIBDFQ0I",
+                "bgImg": "../img/relax-room-bg/rus/narrow/picnic.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }

@@ -2,6 +2,19 @@
 <html lang="uk">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+  
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+      
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+  
   @@include('modules/head.html')
   <title>Бактерицидні опромінювачі та рециркулятори (кварцювачі) Air Space у широкому асортименті - купити</title>
   <meta name="description" content="Настінні, настільні, підлогові рециркулятори та опромінювачі Air Space для знезараження повітря та поверхонь будь-яких приміщень від виробника – НВП ЕКОТЕХ-Інжиніринг, ціни виробника, купити з доставк">

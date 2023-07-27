@@ -3,55 +3,29 @@ import enteredCountSymbolsTextarea from './enteredCountSymbolsTextarea';
 const submitForm = () => {
   const forms = document.querySelectorAll('form');
   const languagePage = document.documentElement.lang;
-  
-  let message = {};
 
-  const loadingMessage = {
-    loading: '../img/spinner.svg'
-  };
-
-  if(languagePage === 'uk') {
-    message = { ...loadingMessage, ... {
+  const messages = {
+    uk: {
       success: 'Повідомлення відправлено',
       failure: 'Виникла помилка',
-      recaptchaFailure: 'Ви не пройшли перевірку reCAPTCHA'
-    }}
-  } else if (languagePage === 'ru') {
-    message = {...loadingMessage, ... {
+      recaptchaFailure: 'Ви не пройшли перевірку reCAPTCHA',
+      loading: '../img/spinner.svg'
+    },
+    ru: {
       success: 'Сообщение отправлено',
       failure: 'Возникла ошибка',
-      recaptchaFailure: 'Вы не прошли проверку reCAPTCHA'
-    }}
-  } else if (languagePage === 'en') {
-    message = {...loadingMessage, ... {
+      recaptchaFailure: 'Вы не прошли проверку reCAPTCHA',
+      loading: '../img/spinner.svg'
+    },
+    en: {
       success: 'Message sent',
       failure: 'An error has occurred',
-      recaptchaFailure: 'You failed the reCAPTCHA check'
-    }}
-  }
+      recaptchaFailure: 'You failed the reCAPTCHA check',
+      loading: '../img/spinner.svg'
+    }
+  };
 
-  // const messages = {
-  //   uk: {
-  //     success: 'Повідомлення відправлено',
-  //     failure: 'Виникла помилка',
-  //     recaptchaFailure: 'Ви не пройшли перевірку reCAPTCHA',
-  //     loading: '../img/spinner.svg'
-  //   },
-  //   ru: {
-  //     success: 'Сообщение отправлено',
-  //     failure: 'Возникла ошибка',
-  //     recaptchaFailure: 'Вы не прошли проверку reCAPTCHA',
-  //     loading: '../img/spinner.svg'
-  //   },
-  //   en: {
-  //     success: 'Message sent',
-  //     failure: 'An error has occurred',
-  //     recaptchaFailure: 'You failed the reCAPTCHA check',
-  //     loading: '../img/spinner.svg'
-  //   }
-  // };
-
-  // let message = messages[languagePage];
+  let message = messages[languagePage];
 
   forms && forms.forEach(item => {
     enteredCountSymbolsTextarea(item);
@@ -61,7 +35,20 @@ const submitForm = () => {
   function postData(form) {
     form.addEventListener('submit', (e) => {
       const statusBlock = form.querySelector('.form-block__message');
-      const captcha = grecaptcha.getResponse();
+      const recaptchaId = form.querySelector('.g-recaptcha').getAttribute('id');
+      let captcha;
+
+      switch(recaptchaId) {
+        case 'recaptcha-1':
+          captcha = grecaptcha.getResponse(widgetId1); // widgetId1 підтягується з <head>
+          break;
+        case 'recaptcha-2':
+          captcha = grecaptcha.getResponse(widgetId2);
+          break;
+        default:
+          captcha = grecaptcha.getResponse();
+          break;
+      }
       
       e.preventDefault();
 

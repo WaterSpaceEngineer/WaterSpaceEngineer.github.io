@@ -2,6 +2,23 @@
 <html lang="uk">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+    let widgetId2;
+
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+
+      widgetId2 = grecaptcha.render('recaptcha-2', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
   @@include('modules/head.html')
   <title>Системи комплексного очищення води Water Space для квартир, котеджів, будинків, офісних, спортивних та інших приміщень - купити</title>
   <meta name="description" content="Водоочисники Water Space для широкого застосування від виробника – НВП ЕКОТЕХ-Інжиніринг, ціни виробника, купити з доставкою по всій Україні">

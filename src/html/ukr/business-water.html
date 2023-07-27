@@ -2,6 +2,18 @@
 <html lang="uk">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
   @@include('modules/head.html')
   <title>Устаткування для торгових точок з продажу води – системи водоочищення, роздавачі (диспенсери) води - купити</title>
   <meta name="description" content="Виготовлення спеціалізованого обладнання для виробництва та продажу питної води, франшиза від виробника – НВП ЕКОТЕХ-Інжиніринг, ціни виробника, купити з доставкою по всій Україні">
