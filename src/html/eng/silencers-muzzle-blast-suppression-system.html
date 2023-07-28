@@ -2,6 +2,23 @@
 <html lang="en">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+    let widgetId2;
+
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+
+      widgetId2 = grecaptcha.render('recaptcha-2', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
   @@include('modules/head.html')
   <title>Silencers and muzzle blast suppression systems for AK, RPK, PKM of all modifications - buy</title>
   <meta name="description" content="Silencers and muzzle blast suppression systems for combat use, high precision alignment, reliable, battle tested, manufacturer – NPP ECOTECH-Engineering, manufacturer’s prices, buy with delivery throughout Ukraine">

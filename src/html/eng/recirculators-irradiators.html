@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+  
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
   @@include('modules/head.html')
   <title>Bactericidal irradiators and air purifiers (quartzizers) Air Space in a wide range - buy</title>
   <meta name="description" content="Wall mount, desktop, floor stand recirculators and Air Space irradiators for disinfection of air and surfaces of any facilities from the manufacturer – NPP ECOTECH-Engineering, manufacturer’s prices, buy with delivery throughout Ukraine">

@@ -2,6 +2,19 @@
 <html lang="en">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+      
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
   @@include('modules/head.html')
   <title>Questions and answers on an array of topics related to the activities of our company.</title>
   <meta name="description" content="Ask and we will answer. Our products: silencers for AK, uninterruptible power supplies (UPS), water purification systems, water filters, water treatments systems, drinking fountains, UV sterilizers, finishing materials, etc.">

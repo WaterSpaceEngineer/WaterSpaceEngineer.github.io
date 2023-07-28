@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+  
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
   @@include('modules/head.html')
   <title>Water treatment and purification systems Water Space for personal and commercial use – order, buy</title>
   <meta name="description" content="Complex water purification and treatment systems – design, manufacturing, filters selection, technical support, repairs from the manufacturer – NPP ECOTECH-Engineering, manufacturer’s prices, buy with delivery throughout Ukraine">
