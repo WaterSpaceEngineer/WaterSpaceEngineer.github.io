@@ -2,6 +2,18 @@
 <html lang="ru">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+  
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
   @@include('modules/head.html')
   <title>Системы очистки воды  Water Space для бытовых и производственных потребностей – заказать, купить</title>
   <meta name="description" content="Комплексные системы водоподготовки -подбор, конструирование, комплектация, изготовление, обслуживание, ремонт, техническая поддержка от производителя – НПП ЭКОТЕХ-Инжиниринг, цены производителя, заказать, купить с доставкой по всей Украине">

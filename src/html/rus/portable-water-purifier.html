@@ -2,6 +2,23 @@
 <html lang="ru">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+    let widgetId2;
+
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+
+      widgetId2 = grecaptcha.render('recaptcha-2', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
   @@include('modules/head.html')
   <title>Мобильный очиститель воды Water Space для крупных подразделений ВСУ и туристических отрядов - купить</title>
   <meta name="description" content="Фильтр комплексной очистки воды из любых природных водоемов, включая особо загрязненные от производителя – НПП ЭКОТЕХ-Инжиниринг, цены производителя, купить с доставкой по всей Украине">
@@ -244,7 +261,7 @@
                     <a class="product-guides__link emphasis _icon-icon-pdf" href="../instructions/rukovodstvo-filtr-zsu.pdf" target="_blank">Инструкция по эксплуатации и обслуживанию</a>
                   </div>
                   <div class="product-unit__inner-price">
-                    <p class="product-unit__price">10000 грн.</p>
+                    <p class="product-unit__price">12000 грн.</p>
                     <button type="button" class="product-unit__button button"
                       data-goods-name="Мобильный очиститель воды WS-C-090650-UF10C">
                       Заказать

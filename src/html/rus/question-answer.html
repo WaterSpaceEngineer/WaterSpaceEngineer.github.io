@@ -2,6 +2,19 @@
 <html lang="ru">
 
 <head>
+  <!-- Recaptcha -->
+  <script>
+    let widgetId1;
+  
+    function onloadCallback() {
+      widgetId1 = grecaptcha.render('recaptcha-1', {
+        'sitekey': '6Lccl1kmAAAAAI6NWLe8y63ksp7deQN07t0rOHDH'
+      });
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
+
   @@include('modules/head.html')
   <title>Вопросы-ответы по спектру тем, связанных с деятельностью нашей компании</title>
   <meta name="description" content="Спрашивайте, ответим. Наша продукция: глушители для АК, бесперебойники, рециркуляторы и облучатели, фильтры для воды, фонтанчики, системы водоподготовки, УФ-стерилизаторы, отделочные материалы и т.д.">
