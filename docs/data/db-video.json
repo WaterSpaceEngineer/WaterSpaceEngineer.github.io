@@ -528,6 +528,14 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/picnic.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-67",
+                "title": "Аут",
+                "urlVideo": "3RWxFVsFfvs",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/strongman.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1224,6 +1232,14 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/picnic.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-67",
+                "title": "Out",
+                "urlVideo": "5UiXltxJAP4",
+                "bgImg": "../img/relax-room-bg/eng/narrow/strongman.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1918,6 +1934,14 @@
                 "title": "Пикник на обочине",
                 "urlVideo": "2yeLIBDFQ0I",
                 "bgImg": "../img/relax-room-bg/rus/narrow/picnic.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-67",
+                "title": "Аут",
+                "urlVideo": "QXJTvDk-eWw",
+                "bgImg": "../img/relax-room-bg/rus/narrow/strongman.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }
