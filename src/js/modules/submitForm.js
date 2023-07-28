@@ -37,18 +37,23 @@ const submitForm = () => {
       const statusBlock = form.querySelector('.form-block__message');
       const recaptchaId = form.querySelector('.g-recaptcha').getAttribute('id');
       let captcha;
+      let captchaId;
 
       switch(recaptchaId) {
         case 'recaptcha-1':
           captcha = grecaptcha.getResponse(widgetId1); // widgetId1 підтягується з <head>
+          captchaId = widgetId1;
           break;
         case 'recaptcha-2':
           captcha = grecaptcha.getResponse(widgetId2);
+          captchaId = widgetId2;
           break;
         default:
           captcha = grecaptcha.getResponse();
           break;
       }
+
+      console.log(captchaId);
       
       e.preventDefault();
 
@@ -72,16 +77,16 @@ const submitForm = () => {
             showStatus(message.success, 'message-success');
             form.reset();
             form.querySelector('[data-textarea-present]').innerHTML = 0;
-            grecaptcha.reset();
+            grecaptcha.reset(captchaId);
           } else {
             showStatus(message.failure, 'message-errow');
-            grecaptcha.reset();
+            grecaptcha.reset(captchaId);
             throw new Error(res.status);
           }
         })
         .catch(() => {
           showStatus(message.failure, 'message-errow');
-          grecaptcha.reset();
+          grecaptcha.reset(captchaId);
         })
       }
     });
