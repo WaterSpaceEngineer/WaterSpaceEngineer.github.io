@@ -16,6 +16,8 @@ import playVideos from './modules/playVideos';
 import filterVideo from './modules/filterVideo';
 
 window.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
     languageSwitchingBtns();
     modals();
     scrollPage();
