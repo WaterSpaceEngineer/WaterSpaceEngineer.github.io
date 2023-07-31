@@ -536,6 +536,14 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/strongman.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-68",
+                "title": "Вiрна прикмета",
+                "urlVideo": "H2sMvKr2goA",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/yes-and-no.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1240,6 +1248,14 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/strongman.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-68",
+                "title": "Sure sign",
+                "urlVideo": "z4murfyiVLU",
+                "bgImg": "../img/relax-room-bg/eng/narrow/yes-and-no.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1942,6 +1958,14 @@
                 "title": "Аут",
                 "urlVideo": "QXJTvDk-eWw",
                 "bgImg": "../img/relax-room-bg/rus/narrow/strongman.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-68",
+                "title": "Верная примета",
+                "urlVideo": "ip1ZE2JZ2KI",
+                "bgImg": "../img/relax-room-bg/rus/narrow/yes-and-no.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }
