@@ -1,5 +1,6 @@
 import './libs/sliders';
 
+import setCurrentYear from './modules/setCurrentYear';
 import languageSwitchingBtns from './modules/languageSwitchingBtns';
 import modals from './modules/modals';
 import scrollPage from "./modules/scrollPage";
@@ -16,8 +17,8 @@ import playVideos from './modules/playVideos';
 import filterVideo from './modules/filterVideo';
 
 window.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
 
+    setCurrentYear();
     languageSwitchingBtns();
     modals();
     scrollPage();
