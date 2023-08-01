@@ -55,6 +55,12 @@ const modals = () => {
 
         function closeModalWindow() {
             windows.forEach(item => {
+                const hasFormElement = item.querySelector('.form');
+                
+                if(hasFormElement) {
+                    hasFormElement.reset();
+                }
+
                 item.classList.remove('fadeIn');
                 item.classList.add('fadeOut');
     
@@ -83,6 +89,12 @@ const modals = () => {
         modalWrap.addEventListener('click', (e) => {
             if (e.target === modalWrap && closeClickOverlay) {
                 windows.forEach(item => {
+                    const hasFormElement = item.querySelector('.form');
+                
+                    if(hasFormElement) {
+                        hasFormElement.reset();
+                    }
+
                     item.classList.remove('fadeIn')
                     item.classList.add('fadeOut')
         
