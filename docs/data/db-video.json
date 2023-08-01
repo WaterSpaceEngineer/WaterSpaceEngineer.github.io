@@ -544,6 +544,14 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/yes-and-no.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-69",
+                "title": "Згоден",
+                "urlVideo": "P5lKNu7fkj4",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/counter.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1256,6 +1264,14 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/yes-and-no.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-69",
+                "title": "Agree",
+                "urlVideo": "cqfny9raEdQ",
+                "bgImg": "../img/relax-room-bg/eng/narrow/counter.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1966,6 +1982,14 @@
                 "title": "Верная примета",
                 "urlVideo": "ip1ZE2JZ2KI",
                 "bgImg": "../img/relax-room-bg/rus/narrow/yes-and-no.jpg",
+                "category": "about-it",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-69",
+                "title": "Согласен",
+                "urlVideo": "2gcgGehFFbw",
+                "bgImg": "../img/relax-room-bg/rus/narrow/counter.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
             }
