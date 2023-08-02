@@ -3,6 +3,7 @@
     {
       "id": 0,
       "category": "silencers",
+      "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для АК-74; 5,45",
       "code": "АК-74",
       "price": 2350
@@ -10,6 +11,7 @@
     {
       "id": 1,
       "category": "silencers",
+      "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для АК-47; 7,62",
       "code": "АК-47",
       "price": 2450
@@ -17,6 +19,7 @@
     {
       "id": 2,
       "category": "silencers",
+      "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для ручного кулемету РПК-74; 5,45",
       "code": "РПК-74",
       "price": 2450
@@ -24,6 +27,7 @@
     {
       "id": 3,
       "category": "silencers",
+      "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для ПКМ; 7,62",
       "code": "ПКМ",
       "price": 2850
@@ -31,6 +35,7 @@
     {
       "id": 4,
       "category": "ups",
+      "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник UPS 12-220-1300PS",
       "code": "UPS 12-220-1300PS",
       "price": 14800
@@ -38,6 +43,7 @@
     {
       "id": 5,
       "category": "ups",
+      "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-12-9-5-0",
       "code": "ДБЖ 12-12-9-5-0",
       "price": 4900
@@ -45,6 +51,7 @@
     {
       "id": 6,
       "category": "ups",
+      "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-12-5-0",
       "code": "ДБЖ 12-12-5-0",
       "price": 4600
@@ -52,6 +59,7 @@
     {
       "id": 7,
       "category": "ups",
+      "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-12-9-0",
       "code": "ДБЖ 12-12-9-0",
       "price": 4600
@@ -59,6 +67,7 @@
     {
       "id": 8,
       "category": "ups",
+      "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-ОСВ-К",
       "code": "ДБЖ 12-ОСВ-К",
       "price": 5200
@@ -66,6 +75,7 @@
     {
       "id": 9,
       "category": "ups",
+      "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-ОСВ",
       "code": "ДБЖ 12-ОСВ",
       "price": 4300
@@ -73,6 +83,7 @@
     {
       "id": 10,
       "category": "ups",
+      "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Світильник лінійний світлодіодний 12 В",
       "code": "Світильник 12 В",
       "price": 230
@@ -80,6 +91,7 @@
     {
       "id": 11,
       "category": "ups",
+      "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Світлодіодний модуль «Samsung» 1,5 W",
       "code": "Світлодіодний модуль 1,5 W",
       "price": 47
@@ -87,6 +99,7 @@
     {
       "id": 12,
       "category": "drinking-fountains",
+      "categoryName": "Питні фонтанчики",
       "name": "Фонтанчик підлоговий",
       "code": "Фонтанчик підлоговий",
       "price": 14500
@@ -94,6 +107,7 @@
     {
       "id": 13,
       "category": "drinking-fountains",
+      "categoryName": "Питні фонтанчики",
       "name": "Фонтанчик настінний",
       "code": "Фонтанчик настінний",
       "price": 16500
@@ -101,6 +115,7 @@
     {
       "id": 14,
       "category": "portable-water-purifier",
+      "categoryName": "Похідний фільтр",
       "name": "Мобільний очищувач води WS-C-090650-UF10C",
       "code": "WS-C-090650-UF10C",
       "price": 12000
@@ -108,6 +123,7 @@
     {
       "id": 15,
       "category": "water-purifiers",
+      "categoryName": "Установки комплексного очищення води",
       "name": "Станція очищення води WS 0735-M-UV08",
       "code": "WS 0735-M-UV08",
       "price": 32000
@@ -115,6 +131,7 @@
     {
       "id": 16,
       "category": "water-purifiers",
+      "categoryName": "Установки комплексного очищення води",
       "name": "Станція очищення води WS 1035-CAB-UV08",
       "code": "WS 1035-CAB-UV08",
       "price": 41000
@@ -129,6 +146,7 @@
     {
       "id": 18,
       "category": "water-purifiers",
+      "categoryName": "Установки комплексного очищення води",
       "name": "Станція очищення води WS 0630-3-UV08",
       "code": "WS 0630-3-UV08",
       "price": 52000
@@ -136,9 +154,234 @@
     {
       "id": 19,
       "category": "water-purifiers",
+      "categoryName": "Установки комплексного очищення води",
       "name": "Станція очищення води WS 1035-3-UV15",
       "code": "WS 1035-3-UV15",
       "price": 56000
+    },
+    {
+      "id": 20,
+      "category": "desktop-air-purifiers",
+      "categoryName": "Рециркулятори настільні",
+      "name": "Рециркулятор AS4W",
+      "code": "AS4W",
+      "price": 1300
+    },
+    {
+      "id": 21,
+      "category": "desktop-air-purifiers",
+      "categoryName": "Рециркулятори настільні",
+      "name": "Рециркулятор AS6W",
+      "code": "AS6W",
+      "price": 1450
+    },
+    {
+      "id": 22,
+      "category": "desktop-air-purifiers",
+      "categoryName": "Рециркулятори настільні",
+      "name": "Рециркулятор AS8W",
+      "code": "AS8W",
+      "price": 1650
+    },
+    {
+      "id": 23,
+      "category": "desktop-air-purifiers",
+      "categoryName": "Рециркулятори настільні",
+      "name": "Рециркулятор AS11W",
+      "code": "AS11W",
+      "price": 1800
+    },
+    {
+      "id": 24,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS4A (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS4A",
+      "price": 1200
+    },
+    {
+      "id": 25,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS4S (корпус з нержавіючої сталі)",
+      "code": "AS4S",
+      "price": 1350
+    },
+    {
+      "id": 26,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS6A (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS6A",
+      "price": 1350
+    },
+    {
+      "id": 27,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS6S (корпус з нержавіючої сталі)",
+      "code": "AS6S",
+      "price": 1500
+    },
+    {
+      "id": 28,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS8A (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS8A",
+      "price": 1550
+    },
+    {
+      "id": 29,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS8S (корпус з нержавіючої сталі)",
+      "code": "AS8S",
+      "price": 1650
+    },
+    {
+      "id": 30,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS11A (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS11A",
+      "price": 1700
+    },
+    {
+      "id": 31,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS11S (корпус з нержавіючої сталі)",
+      "code": "AS11S",
+      "price": 1800
+    },
+    {
+      "id": 32,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS15A (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS15A",
+      "price": 2250
+    },
+    {
+      "id": 33,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS15S (корпус з нержавіючої сталі)",
+      "code": "AS15S",
+      "price": 2450
+    },
+    {
+      "id": 34,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS15AТ (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS15AТ",
+      "price": 2650
+    },
+    {
+      "id": 35,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS15SТ (корпус з нержавіючої сталі)",
+      "code": "AS15SТ",
+      "price": 2850
+    },
+    {
+      "id": 36,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS25A (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS25A",
+      "price": 2650
+    },
+    {
+      "id": 37,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS25S (корпус з нержавіючої сталі)",
+      "code": "AS25S",
+      "price": 2850
+    },
+    {
+      "id": 38,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS25AТ (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS25AТ",
+      "price": 3050
+    },
+    {
+      "id": 39,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS25SТ (корпус з нержавіючої сталі)",
+      "code": "AS25SТ",
+      "price": 3250
+    },
+    {
+      "id": 40,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS30A (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS30A",
+      "price": 3150
+    },
+    {
+      "id": 41,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS30S (корпус з нержавіючої сталі)",
+      "code": "AS30S",
+      "price": 3350
+    },
+    {
+      "id": 42,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS30AТ (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS30AТ",
+      "price": 3550
+    },
+    {
+      "id": 43,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS30SТ (корпус з нержавіючої сталі)",
+      "code": "AS30SТ",
+      "price": 3600
+    },
+    {
+      "id": 44,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS55A (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS55A",
+      "price": 3950
+    },
+    {
+      "id": 45,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS55S (корпус з нержавіючої сталі)",
+      "code": "AS55S",
+      "price": 4150
+    },
+    {
+      "id": 46,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS55AТ (корпус зі сталі з покриттям, колір білий)",
+      "code": "AS55AТ",
+      "price": 4350
+    },
+    {
+      "id": 47,
+      "category": "wall-mount-air-purifiers",
+      "categoryName": "Рециркулятори настінні",
+      "name": "Рециркулятор AS55SТ (корпус з нержавіючої сталі)",
+      "code": "AS55SТ",
+      "price": 4550
     }
   ]
 }
