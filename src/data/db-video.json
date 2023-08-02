@@ -552,6 +552,14 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/counter.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-70",
+                "title": "Перше побачення",
+                "urlVideo": "bIyGVaM7dWc",
+                "bgImg": "../img/relax-room-bg/ukr/wide/dating-edge.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             }
         ],
         "media": [
@@ -1272,6 +1280,14 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/counter.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-70",
+                "title": "First date",
+                "urlVideo": "GvIox4qUJWs",
+                "bgImg": "../img/relax-room-bg/eng/wide/dating-edge.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             }
         ],
         "media": [
@@ -1992,6 +2008,14 @@
                 "bgImg": "../img/relax-room-bg/rus/narrow/counter.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
+            },
+            {
+                "id": "frame-70",
+                "title": "Первое свидание",
+                "urlVideo": "9ffYaPmOeAE",
+                "bgImg": "../img/relax-room-bg/rus/wide/dating-edge.jpg",
+                "category": "about-it",
+                "videoType": "wide"
             }
         ],
         "media": [
