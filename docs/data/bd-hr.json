@@ -6,7 +6,8 @@
       "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для АК-74; 5,45",
       "code": "АК-74",
-      "price": 2350
+      "price": 2350,
+      "priceDiscount": 0
     },
     {
       "id": 1,
@@ -14,7 +15,8 @@
       "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для АК-47; 7,62",
       "code": "АК-47",
-      "price": 2450
+      "price": 2450,
+      "priceDiscount": 0
     },
     {
       "id": 2,
@@ -22,7 +24,8 @@
       "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для ручного кулемету РПК-74; 5,45",
       "code": "РПК-74",
-      "price": 2450
+      "price": 2450,
+      "priceDiscount": 0
     },
     {
       "id": 3,
@@ -30,7 +33,8 @@
       "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для ПКМ; 7,62",
       "code": "ПКМ",
-      "price": 2850
+      "price": 2850,
+      "priceDiscount": 0
     },
     {
       "id": 4,
@@ -38,7 +42,8 @@
       "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник UPS 12-220-1300PS",
       "code": "UPS 12-220-1300PS",
-      "price": 14800
+      "price": 14800,
+      "priceDiscount": 0
     },
     {
       "id": 5,
@@ -46,7 +51,8 @@
       "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-12-9-5-0",
       "code": "ДБЖ 12-12-9-5-0",
-      "price": 4900
+      "price": 4900,
+      "priceDiscount": 0
     },
     {
       "id": 6,
@@ -54,7 +60,8 @@
       "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-12-5-0",
       "code": "ДБЖ 12-12-5-0",
-      "price": 4600
+      "price": 4600,
+      "priceDiscount": 0
     },
     {
       "id": 7,
@@ -62,7 +69,8 @@
       "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-12-9-0",
       "code": "ДБЖ 12-12-9-0",
-      "price": 4600
+      "price": 4600,
+      "priceDiscount": 0
     },
     {
       "id": 8,
@@ -70,7 +78,8 @@
       "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-ОСВ-К",
       "code": "ДБЖ 12-ОСВ-К",
-      "price": 5200
+      "price": 5200,
+      "priceDiscount": 0
     },
     {
       "id": 9,
@@ -78,7 +87,8 @@
       "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник ДБЖ 12-ОСВ",
       "code": "ДБЖ 12-ОСВ",
-      "price": 4300
+      "price": 4300,
+      "priceDiscount": 0
     },
     {
       "id": 10,
@@ -86,7 +96,8 @@
       "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Світильник лінійний світлодіодний 12 В",
       "code": "Світильник 12 В",
-      "price": 230
+      "price": 230,
+      "priceDiscount": 0
     },
     {
       "id": 11,
@@ -94,7 +105,8 @@
       "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Світлодіодний модуль «Samsung» 1,5 W",
       "code": "Світлодіодний модуль 1,5 W",
-      "price": 47
+      "price": 47,
+      "priceDiscount": 0
     },
     {
       "id": 12,
@@ -102,7 +114,8 @@
       "categoryName": "Питні фонтанчики",
       "name": "Фонтанчик підлоговий",
       "code": "Фонтанчик підлоговий",
-      "price": 14500
+      "price": 14500,
+      "priceDiscount": 0
     },
     {
       "id": 13,
@@ -110,7 +123,8 @@
       "categoryName": "Питні фонтанчики",
       "name": "Фонтанчик настінний",
       "code": "Фонтанчик настінний",
-      "price": 16500
+      "price": 16500,
+      "priceDiscount": 0
     },
     {
       "id": 14,
@@ -118,7 +132,8 @@
       "categoryName": "Похідний фільтр",
       "name": "Мобільний очищувач води WS-C-090650-UF10C",
       "code": "WS-C-090650-UF10C",
-      "price": 12000
+      "price": 12000,
+      "priceDiscount": 0
     },
     {
       "id": 15,
@@ -126,7 +141,8 @@
       "categoryName": "Установки комплексного очищення води",
       "name": "Станція очищення води WS 0735-M-UV08",
       "code": "WS 0735-M-UV08",
-      "price": 32000
+      "price": 32000,
+      "priceDiscount": 0
     },
     {
       "id": 16,
@@ -134,14 +150,16 @@
       "categoryName": "Установки комплексного очищення води",
       "name": "Станція очищення води WS 1035-CAB-UV08",
       "code": "WS 1035-CAB-UV08",
-      "price": 41000
+      "price": 41000,
+      "priceDiscount": 0
     },
     {
       "id": 17,
       "category": "water-purifiers",
       "name": "Станція очищення води WS 0735-S-UV08",
       "code": "WS 0735-S-UV08",
-      "price": 51500
+      "price": 51500,
+      "priceDiscount": 0
     },
     {
       "id": 18,
@@ -149,7 +167,8 @@
       "categoryName": "Установки комплексного очищення води",
       "name": "Станція очищення води WS 0630-3-UV08",
       "code": "WS 0630-3-UV08",
-      "price": 52000
+      "price": 52000,
+      "priceDiscount": 0
     },
     {
       "id": 19,
@@ -157,7 +176,8 @@
       "categoryName": "Установки комплексного очищення води",
       "name": "Станція очищення води WS 1035-3-UV15",
       "code": "WS 1035-3-UV15",
-      "price": 56000
+      "price": 56000,
+      "priceDiscount": 0
     },
     {
       "id": 20,
@@ -165,7 +185,8 @@
       "categoryName": "Рециркулятори настільні",
       "name": "Рециркулятор AS4W",
       "code": "AS4W",
-      "price": 1300
+      "price": 1300,
+      "priceDiscount": 0
     },
     {
       "id": 21,
@@ -173,7 +194,8 @@
       "categoryName": "Рециркулятори настільні",
       "name": "Рециркулятор AS6W",
       "code": "AS6W",
-      "price": 1450
+      "price": 1450,
+      "priceDiscount": 0
     },
     {
       "id": 22,
@@ -181,7 +203,8 @@
       "categoryName": "Рециркулятори настільні",
       "name": "Рециркулятор AS8W",
       "code": "AS8W",
-      "price": 1650
+      "price": 1650,
+      "priceDiscount": 0
     },
     {
       "id": 23,
@@ -189,7 +212,8 @@
       "categoryName": "Рециркулятори настільні",
       "name": "Рециркулятор AS11W",
       "code": "AS11W",
-      "price": 1800
+      "price": 1800,
+      "priceDiscount": 0
     },
     {
       "id": 24,
@@ -197,7 +221,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS4A (корпус зі сталі з покриттям, колір білий)",
       "code": "AS4A",
-      "price": 1200
+      "price": 1200,
+      "priceDiscount": 0
     },
     {
       "id": 25,
@@ -205,7 +230,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS4S (корпус з нержавіючої сталі)",
       "code": "AS4S",
-      "price": 1350
+      "price": 1350,
+      "priceDiscount": 0
     },
     {
       "id": 26,
@@ -213,7 +239,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS6A (корпус зі сталі з покриттям, колір білий)",
       "code": "AS6A",
-      "price": 1350
+      "price": 1350,
+      "priceDiscount": 0
     },
     {
       "id": 27,
@@ -221,7 +248,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS6S (корпус з нержавіючої сталі)",
       "code": "AS6S",
-      "price": 1500
+      "price": 1500,
+      "priceDiscount": 0
     },
     {
       "id": 28,
@@ -229,7 +257,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS8A (корпус зі сталі з покриттям, колір білий)",
       "code": "AS8A",
-      "price": 1550
+      "price": 1550,
+      "priceDiscount": 0
     },
     {
       "id": 29,
@@ -237,7 +266,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS8S (корпус з нержавіючої сталі)",
       "code": "AS8S",
-      "price": 1650
+      "price": 1650,
+      "priceDiscount": 0
     },
     {
       "id": 30,
@@ -245,7 +275,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS11A (корпус зі сталі з покриттям, колір білий)",
       "code": "AS11A",
-      "price": 1700
+      "price": 1700,
+      "priceDiscount": 0
     },
     {
       "id": 31,
@@ -253,7 +284,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS11S (корпус з нержавіючої сталі)",
       "code": "AS11S",
-      "price": 1800
+      "price": 1800,
+      "priceDiscount": 0
     },
     {
       "id": 32,
@@ -261,7 +293,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS15A (корпус зі сталі з покриттям, колір білий)",
       "code": "AS15A",
-      "price": 2250
+      "price": 2250,
+      "priceDiscount": 0
     },
     {
       "id": 33,
@@ -269,7 +302,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS15S (корпус з нержавіючої сталі)",
       "code": "AS15S",
-      "price": 2450
+      "price": 2450,
+      "priceDiscount": 0
     },
     {
       "id": 34,
@@ -277,7 +311,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS15AТ (корпус зі сталі з покриттям, колір білий)",
       "code": "AS15AТ",
-      "price": 2650
+      "price": 2650,
+      "priceDiscount": 0
     },
     {
       "id": 35,
@@ -285,7 +320,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS15SТ (корпус з нержавіючої сталі)",
       "code": "AS15SТ",
-      "price": 2850
+      "price": 2850,
+      "priceDiscount": 0
     },
     {
       "id": 36,
@@ -293,7 +329,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS25A (корпус зі сталі з покриттям, колір білий)",
       "code": "AS25A",
-      "price": 2650
+      "price": 2650,
+      "priceDiscount": 0
     },
     {
       "id": 37,
@@ -301,7 +338,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS25S (корпус з нержавіючої сталі)",
       "code": "AS25S",
-      "price": 2850
+      "price": 2850,
+      "priceDiscount": 0
     },
     {
       "id": 38,
@@ -309,7 +347,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS25AТ (корпус зі сталі з покриттям, колір білий)",
       "code": "AS25AТ",
-      "price": 3050
+      "price": 3050,
+      "priceDiscount": 0
     },
     {
       "id": 39,
@@ -317,7 +356,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS25SТ (корпус з нержавіючої сталі)",
       "code": "AS25SТ",
-      "price": 3250
+      "price": 3250,
+      "priceDiscount": 0
     },
     {
       "id": 40,
@@ -325,7 +365,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS30A (корпус зі сталі з покриттям, колір білий)",
       "code": "AS30A",
-      "price": 3150
+      "price": 3150,
+      "priceDiscount": 0
     },
     {
       "id": 41,
@@ -333,7 +374,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS30S (корпус з нержавіючої сталі)",
       "code": "AS30S",
-      "price": 3350
+      "price": 3350,
+      "priceDiscount": 0
     },
     {
       "id": 42,
@@ -341,7 +383,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS30AТ (корпус зі сталі з покриттям, колір білий)",
       "code": "AS30AТ",
-      "price": 3550
+      "price": 3550,
+      "priceDiscount": 0
     },
     {
       "id": 43,
@@ -349,7 +392,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS30SТ (корпус з нержавіючої сталі)",
       "code": "AS30SТ",
-      "price": 3600
+      "price": 3600,
+      "priceDiscount": 0
     },
     {
       "id": 44,
@@ -357,7 +401,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS55A (корпус зі сталі з покриттям, колір білий)",
       "code": "AS55A",
-      "price": 3950
+      "price": 3950,
+      "priceDiscount": 0
     },
     {
       "id": 45,
@@ -365,7 +410,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS55S (корпус з нержавіючої сталі)",
       "code": "AS55S",
-      "price": 4150
+      "price": 4150,
+      "priceDiscount": 0
     },
     {
       "id": 46,
@@ -373,7 +419,8 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS55AТ (корпус зі сталі з покриттям, колір білий)",
       "code": "AS55AТ",
-      "price": 4350
+      "price": 4350,
+      "priceDiscount": 0
     },
     {
       "id": 47,
@@ -381,7 +428,755 @@
       "categoryName": "Рециркулятори настінні",
       "name": "Рециркулятор AS55SТ (корпус з нержавіючої сталі)",
       "code": "AS55SТ",
-      "price": 4550
+      "price": 4550,
+      "priceDiscount": 0
+    },
+    {
+      "id": 48,
+      "category": "recirculators-mobile-stand",
+      "categoryName": "Підставка пересувна",
+      "name": "Підставка пересувна",
+      "code": "Підставка пересувна",
+      "price": 1000,
+      "priceDiscount": 0
+    },
+    {
+      "id": 49,
+      "category": "automobile-air-purifiers",
+      "categoryName": "Рециркулятор автомобільний",
+      "name": "Рециркулятор автомобільний AS11CAR",
+      "code": "AS11CAR",
+      "price": 1850,
+      "priceDiscount": 0
+    },
+    {
+      "id": 50,
+      "category": "irradiators-desktop",
+      "categoryName": "Опромінювачі настільні",
+      "name": "Опромінювач AS18",
+      "code": "AS18",
+      "price": 985,
+      "priceDiscount": 0
+    },
+    {
+      "id": 51,
+      "category": "irradiators-desktop",
+      "categoryName": "Опромінювачі настільні",
+      "name": "Опромінювач AS24",
+      "code": "AS24",
+      "price": 1100,
+      "priceDiscount": 0
+    },
+    {
+      "id": 52,
+      "category": "irradiators-desktop",
+      "categoryName": "Опромінювачі настільні",
+      "name": "Опромінювач AS36",
+      "code": "AS36",
+      "price": 1150,
+      "priceDiscount": 0
+    },
+    {
+      "id": 53,
+      "category": "irradiators-desktop",
+      "categoryName": "Опромінювачі підлогові",
+      "name": "Опромінювач AS330А",
+      "code": "AS330А",
+      "price": 4800,
+      "priceDiscount": 0
+    },
+    {
+      "id": 54,
+      "category": "irradiators-desktop",
+      "categoryName": "Опромінювачі підлогові",
+      "name": "Опромінювач AS330S",
+      "code": "AS330S",
+      "price": 5400,
+      "priceDiscount": 0
+    },
+    {
+      "id": 55,
+      "category": "irradiators-desktop",
+      "categoryName": "Опромінювачі підлогові",
+      "name": "Опромінювач AS630А",
+      "code": "AS630А",
+      "price": 7200,
+      "priceDiscount": 0
+    },
+    {
+      "id": 56,
+      "category": "irradiators-desktop",
+      "categoryName": "Опромінювачі підлогові",
+      "name": "Опромінювач AS630S",
+      "code": "AS630S",
+      "price": 8100,
+      "priceDiscount": 0
+    },
+    {
+      "id": 57,
+      "category": "water-dispensers",
+      "categoryName": "Роздавачі води",
+      "name": "Роздавач WS TC2000-A",
+      "code": "WS TC2000-A",
+      "price": 19420,
+      "priceDiscount": 0
+    },
+    {
+      "id": 58,
+      "category": "water-dispensers",
+      "categoryName": "Роздавачі води",
+      "name": "Роздавач WS TC2000-М (без системи обліку)",
+      "code": "WS TC2000-М",
+      "price": 612,
+      "priceDiscount": 0
+    },
+    {
+      "id": 59,
+      "category": "water-dispensers",
+      "categoryName": "Роздавачі води",
+      "name": "Роздавач WS TC2000-D",
+      "code": "WS TC2000-D",
+      "price": 998,
+      "priceDiscount": 0
+    },
+    {
+      "id": 60,
+      "category": "water-dispensers",
+      "categoryName": "Роздавачі води",
+      "name": "Роздавач-прилавок WS-C",
+      "code": "WS-C",
+      "price": 43152,
+      "priceDiscount": 0
+    },
+    {
+      "id": 61,
+      "category": "water-dispensers",
+      "categoryName": "Роздавачі води",
+      "name": "Роздавач-прилавок WS-C mini",
+      "code": "WS-C mini",
+      "price": 14718,
+      "priceDiscount": 0
+    },
+    {
+      "id": 62,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Плінтус ПК-А-С із нержавіючої сталі AISI 430",
+      "code": "ПК-А-С",
+      "price": 117,
+      "priceDiscount": 98
+    },
+    {
+      "id": 63,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Поріг, поріжок, стикова планка ПКУ 30-5 із нержавіючої сталі AISI 430",
+      "code": "ПКУ 30-5",
+      "price": 87,
+      "priceDiscount": 68
+    },
+    {
+      "id": 64,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Профілі Z-подібні ПZ10-25-0,8",
+      "code": "ПZ10-25-0,8",
+      "price": 60,
+      "priceDiscount": 57
+    },
+    {
+      "id": 65,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Профілі Z-подібні ПZ20-40-0,8",
+      "code": "ПZ20-40-0,8",
+      "price": 106,
+      "priceDiscount": 98
+    },
+    {
+      "id": 66,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Профілі Z-подібні ПZ30-70-0,8",
+      "code": "ПZ30-70-0,8",
+      "price": 160,
+      "priceDiscount": 147
+    },
+    {
+      "id": 67,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Профілі Z-подібні ПZ40-80-0,8",
+      "code": "ПZ40-80-0,8",
+      "price": 194,
+      "priceDiscount": 167
+    },
+    {
+      "id": 68,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Профілі П-подібні ПП10-30-0,8",
+      "code": "ПП10-30-0,8",
+      "price": 60,
+      "priceDiscount": 54
+    },
+    {
+      "id": 69,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Профілі П-подібні ПП20-40-0,8",
+      "code": "ПП20-40-0,8",
+      "price": 106,
+      "priceDiscount": 97
+    },
+    {
+      "id": 70,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Профілі П-подібні ПП30-70-0,8",
+      "code": "ПП30-70-0,8",
+      "price": 160,
+      "priceDiscount": 148
+    },
+    {
+      "id": 71,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Профілі П-подібні ПП40-80-0,8",
+      "code": "ПП40-80-0,8",
+      "price": 194,
+      "priceDiscount": 178
+    },
+    {
+      "id": 72,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Кутки нерівнополичні КН20-30-0,8",
+      "code": "КН20-30-0,8",
+      "price": 65,
+      "priceDiscount": 54
+    },
+    {
+      "id": 73,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Кутки нерівнополичні КН30-40-0,8",
+      "code": "КН30-40-0,8",
+      "price": 95,
+      "priceDiscount": 88
+    },
+    {
+      "id": 74,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Кутки нерівнополичні КН40-50-0,8",
+      "code": "КН40-50-0,8",
+      "price": 120,
+      "priceDiscount": 98
+    },
+    {
+      "id": 75,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Кутки нерівнополичні КН50-60-0,8",
+      "code": "КН50-60-0,8",
+      "price": 147,
+      "priceDiscount": 135
+    },
+    {
+      "id": 76,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Кутки нерівнополичні КН60-70-0,8",
+      "code": "КН60-70-0,8",
+      "price": 178,
+      "priceDiscount": 154
+    },
+    {
+      "id": 77,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР20-20-0,8",
+      "code": "КР20-20-0,8",
+      "price": 54,
+      "priceDiscount": 48
+    },
+    {
+      "id": 78,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР20-20-1,0",
+      "code": "КР20-20-1,0",
+      "price": 64,
+      "priceDiscount": 57
+    },
+    {
+      "id": 79,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР20-20-1,5",
+      "code": "КР20-20-1,5",
+      "price": 98,
+      "priceDiscount": 87
+    },
+    {
+      "id": 80,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР25-25-0,8",
+      "code": "КР25-25-0,8",
+      "price": 62,
+      "priceDiscount": 58
+    },
+    {
+      "id": 81,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР25-25-1,0",
+      "code": "КР25-25-1,0",
+      "price": 84,
+      "priceDiscount": 77
+    },
+    {
+      "id": 82,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР25-25-1,5",
+      "code": "КР25-25-1,5",
+      "price": 118,
+      "priceDiscount": 104
+    },
+    {
+      "id": 83,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР30-30-0,8",
+      "code": "КР30-30-0,8",
+      "price": 82,
+      "priceDiscount": 78
+    },
+    {
+      "id": 84,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР30-30-1,0",
+      "code": "КР30-30-1,0",
+      "price": 98,
+      "priceDiscount": 92
+    },
+    {
+      "id": 85,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР30-30-1,5",
+      "code": "КР30-30-1,5",
+      "price": 137,
+      "priceDiscount": 121
+    },
+    {
+      "id": 86,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР35-35-0,8",
+      "code": "КР35-35-0,8",
+      "price": 96,
+      "priceDiscount": 90
+    },
+    {
+      "id": 87,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР35-35-1,0",
+      "code": "КР35-35-1,0",
+      "price": 119,
+      "priceDiscount": 108
+    },
+    {
+      "id": 87,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР35-35-1,5",
+      "code": "КР35-35-1,5",
+      "price": 177,
+      "priceDiscount": 164
+    },
+    {
+      "id": 88,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР40-40-0,8",
+      "code": "КР40-40-0,8",
+      "price": 106,
+      "priceDiscount": 98
+    },
+    {
+      "id": 89,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР40-40-1,0",
+      "code": "КР40-40-1,0",
+      "price": 125,
+      "priceDiscount": 112
+    },
+    {
+      "id": 90,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР40-40-1,5",
+      "code": "КР40-40-1,5",
+      "price": 198,
+      "priceDiscount": 174
+    },
+    {
+      "id": 91,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР50-50-0,8",
+      "code": "КР50-50-0,8",
+      "price": 125,
+      "priceDiscount": 112
+    },
+    {
+      "id": 92,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР50-50-1,0",
+      "code": "КР50-50-1,0",
+      "price": 158,
+      "priceDiscount": 146
+    },
+    {
+      "id": 93,
+      "category": "finishing-materials",
+      "categoryName": "Оздоблювальні матеріали",
+      "name": "Куточки рівнополочні КР50-50-1,5",
+      "code": "КР50-50-1,5",
+      "price": 218,
+      "priceDiscount": 209
+    },
+    {
+      "id": 94,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS15DLE",
+      "code": "WS15DLE",
+      "price": 8045,
+      "priceDiscount": 0
+    },
+    {
+      "id": 95,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS15DE",
+      "code": "WS15DE",
+      "price": 8411,
+      "priceDiscount": 0
+    },
+    {
+      "id": 96,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS15D PRO",
+      "code": "WS15D PRO",
+      "price": 9142,
+      "priceDiscount": 0
+    },
+    {
+      "id": 97,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS20DLE",
+      "code": "WS20DLE",
+      "price": 10605,
+      "priceDiscount": 0
+    },
+    {
+      "id": 98,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS20DE",
+      "code": "WS20DE",
+      "price": 10971,
+      "priceDiscount": 0
+    },
+    {
+      "id": 99,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS20D PRO",
+      "code": "WS20D PRO",
+      "price": 11702,
+      "priceDiscount": 0
+    },
+    {
+      "id": 100,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS25DLE",
+      "code": "WS25DLE",
+      "price": 14262,
+      "priceDiscount": 0
+    },
+    {
+      "id": 101,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS25DE",
+      "code": "WS25DE",
+      "price": 14627,
+      "priceDiscount": 0
+    },
+    {
+      "id": 102,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS25D PRO",
+      "code": "WS25D PRO",
+      "price": 15359,
+      "priceDiscount": 0
+    },
+    {
+      "id": 103,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS30DLE",
+      "code": "WS30DLE",
+      "price": 17187,
+      "priceDiscount": 0
+    },
+    {
+      "id": 104,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS30DE",
+      "code": "WS30DE",
+      "price": 17553,
+      "priceDiscount": 0
+    },
+    {
+      "id": 105,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS30D PRO",
+      "code": "WS30D PRO",
+      "price": 18284,
+      "priceDiscount": 0
+    },
+    {
+      "id": 106,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS55DLE",
+      "code": "WS55DLE",
+      "price": 20478,
+      "priceDiscount": 0
+    },
+    {
+      "id": 107,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS55DE",
+      "code": "WS55DE",
+      "price": 20844,
+      "priceDiscount": 0
+    },
+    {
+      "id": 108,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Ультрафіолетовий стерилізатор води Модель WS55D PRO",
+      "code": "WS55D PRO",
+      "price": 21941,
+      "priceDiscount": 0
+    },
+    {
+      "id": 109,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Бактерицидна лампа WS15D/P UV-C",
+      "code": "WS15D/P UV-C",
+      "price": 693,
+      "priceDiscount": 0
+    },
+    {
+      "id": 110,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Бактерицидна лампа WS20D/P UV-C",
+      "code": "WS20D/P UV-C",
+      "price": 831,
+      "priceDiscount": 0
+    },
+    {
+      "id": 111,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Бактерицидна лампа WS25D/P UV-C",
+      "code": "WS25D/P UV-C",
+      "price": 970,
+      "priceDiscount": 0
+    },
+    {
+      "id": 112,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Бактерицидна лампа WS30D/P UV-C",
+      "code": "WS30D/P UV-C",
+      "price": 1108,
+      "priceDiscount": 0
+    },
+    {
+      "id": 113,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Бактерицидна лампа WS55D/P UV-C",
+      "code": "WS55D/P UV-C",
+      "price": 1385,
+      "priceDiscount": 0
+    },
+    {
+      "id": 114,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Індикатор залишкового ресурсу WS15-55 RC PRO",
+      "code": "WS15-55 RC PRO",
+      "price": 477,
+      "priceDiscount": 0
+    },
+    {
+      "id": 115,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Індикатор залишкового ресурсу WS15-55 RCE",
+      "code": "WS15-55 RCE",
+      "price": 527,
+      "priceDiscount": 0
+    },
+    {
+      "id": 116,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Індикатор яскравості випромінювання WS15-55 RS PRO",
+      "code": "WS15-55 RS PRO",
+      "price": 427,
+      "priceDiscount": 0
+    },
+    {
+      "id": 117,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Індикатор яскравості випромінювання WS15-55 RSE",
+      "code": "WS15-55 RSE",
+      "price": 477,
+      "priceDiscount": 0
+    },
+    {
+      "id": 118,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS15DLE/DE",
+      "code": "WS15DLE/DE",
+      "price": 1255,
+      "priceDiscount": 0
+    },
+    {
+      "id": 119,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS20DLE/DE",
+      "code": "WS20DLE/DE",
+      "price": 1631,
+      "priceDiscount": 0
+    },
+    {
+      "id": 120,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS25DLE/DE",
+      "code": "WS25DLE/DE",
+      "price": 1255,
+      "priceDiscount": 0
+    },
+    {
+      "id": 121,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS30DLE/DE",
+      "code": "WS30DLE/DE",
+      "price": 1255,
+      "priceDiscount": 0
+    },
+    {
+      "id": 122,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS55DLE/DE",
+      "code": "WS55DLE/DE",
+      "price": 1631,
+      "priceDiscount": 0
+    },
+    {
+      "id": 123,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS15D PRO",
+      "code": "Блок WS15D PRO",
+      "price": 2007,
+      "priceDiscount": 0
+    },
+    {
+      "id": 124,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS20D PRO",
+      "code": "Блок WS20D PRO",
+      "price": 2384,
+      "priceDiscount": 0
+    },
+    {
+      "id": 125,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS25D PRO",
+      "code": "Блок WS25D PRO",
+      "price": 2007,
+      "priceDiscount": 0
+    },
+    {
+      "id": 126,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS30D PRO",
+      "code": "Блок WS30D PRO",
+      "price": 2007,
+      "priceDiscount": 0
+    },
+    {
+      "id": 127,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Блок керування для стерилізатора WS55D PRO",
+      "code": "Блок WS55D PRO",
+      "price": 2384,
+      "priceDiscount": 0
+    },
+    {
+      "id": 128,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Малий кварцовий чохол для стерилізаторів",
+      "code": "Малий кварцовий чохол",
+      "price": 804,
+      "priceDiscount": 0
+    },
+    {
+      "id": 129,
+      "category": "uv-sterilizers",
+      "categoryName": "Ультрафіолетові знезаражувачі води",
+      "name": "Великий кварцовий чохол для стерилізаторів",
+      "code": "Великий кварцовий чохол",
+      "price": 1474,
+      "priceDiscount": 0
     }
   ]
 }
