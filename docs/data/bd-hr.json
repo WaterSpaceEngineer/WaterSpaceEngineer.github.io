@@ -792,7 +792,7 @@
       "priceDiscount": 108
     },
     {
-      "id": 87,
+      "id": 88,
       "category": "finishing-materials",
       "categoryName": "Оздоблювальні матеріали",
       "name": "Куточки рівнополочні КР35-35-1,5",
@@ -801,7 +801,7 @@
       "priceDiscount": 164
     },
     {
-      "id": 88,
+      "id": 89,
       "category": "finishing-materials",
       "categoryName": "Оздоблювальні матеріали",
       "name": "Куточки рівнополочні КР40-40-0,8",
@@ -810,7 +810,7 @@
       "priceDiscount": 98
     },
     {
-      "id": 89,
+      "id": 90,
       "category": "finishing-materials",
       "categoryName": "Оздоблювальні матеріали",
       "name": "Куточки рівнополочні КР40-40-1,0",
@@ -819,7 +819,7 @@
       "priceDiscount": 112
     },
     {
-      "id": 90,
+      "id": 91,
       "category": "finishing-materials",
       "categoryName": "Оздоблювальні матеріали",
       "name": "Куточки рівнополочні КР40-40-1,5",
@@ -828,7 +828,7 @@
       "priceDiscount": 174
     },
     {
-      "id": 91,
+      "id": 92,
       "category": "finishing-materials",
       "categoryName": "Оздоблювальні матеріали",
       "name": "Куточки рівнополочні КР50-50-0,8",
@@ -837,7 +837,7 @@
       "priceDiscount": 112
     },
     {
-      "id": 92,
+      "id": 93,
       "category": "finishing-materials",
       "categoryName": "Оздоблювальні матеріали",
       "name": "Куточки рівнополочні КР50-50-1,0",
@@ -846,7 +846,7 @@
       "priceDiscount": 146
     },
     {
-      "id": 93,
+      "id": 94,
       "category": "finishing-materials",
       "categoryName": "Оздоблювальні матеріали",
       "name": "Куточки рівнополочні КР50-50-1,5",
@@ -855,7 +855,7 @@
       "priceDiscount": 209
     },
     {
-      "id": 94,
+      "id": 95,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS15DLE",
@@ -864,7 +864,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 95,
+      "id": 96,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS15DE",
@@ -873,7 +873,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 96,
+      "id": 97,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS15D PRO",
@@ -882,7 +882,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 97,
+      "id": 98,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS20DLE",
@@ -891,7 +891,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 98,
+      "id": 99,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS20DE",
@@ -900,7 +900,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 99,
+      "id": 100,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS20D PRO",
@@ -909,7 +909,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 100,
+      "id": 101,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS25DLE",
@@ -918,7 +918,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 101,
+      "id": 102,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS25DE",
@@ -927,7 +927,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 102,
+      "id": 103,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS25D PRO",
@@ -936,7 +936,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 103,
+      "id": 104,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS30DLE",
@@ -945,7 +945,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 104,
+      "id": 105,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS30DE",
@@ -954,7 +954,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 105,
+      "id": 106,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS30D PRO",
@@ -963,7 +963,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 106,
+      "id": 107,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS55DLE",
@@ -972,7 +972,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 107,
+      "id": 108,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS55DE",
@@ -981,7 +981,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 108,
+      "id": 109,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Ультрафіолетовий стерилізатор води Модель WS55D PRO",
@@ -990,7 +990,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 109,
+      "id": 110,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Бактерицидна лампа WS15D/P UV-C",
@@ -999,7 +999,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 110,
+      "id": 111,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Бактерицидна лампа WS20D/P UV-C",
@@ -1008,7 +1008,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 111,
+      "id": 112,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Бактерицидна лампа WS25D/P UV-C",
@@ -1017,7 +1017,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 112,
+      "id": 113,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Бактерицидна лампа WS30D/P UV-C",
@@ -1026,7 +1026,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 113,
+      "id": 114,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Бактерицидна лампа WS55D/P UV-C",
@@ -1035,7 +1035,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 114,
+      "id": 115,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Індикатор залишкового ресурсу WS15-55 RC PRO",
@@ -1044,7 +1044,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 115,
+      "id": 116,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Індикатор залишкового ресурсу WS15-55 RCE",
@@ -1053,7 +1053,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 116,
+      "id": 117,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Індикатор яскравості випромінювання WS15-55 RS PRO",
@@ -1062,7 +1062,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 117,
+      "id": 118,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Індикатор яскравості випромінювання WS15-55 RSE",
@@ -1071,7 +1071,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 118,
+      "id": 119,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS15DLE/DE",
@@ -1080,7 +1080,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 119,
+      "id": 120,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS20DLE/DE",
@@ -1089,7 +1089,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 120,
+      "id": 121,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS25DLE/DE",
@@ -1098,7 +1098,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 121,
+      "id": 122,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS30DLE/DE",
@@ -1107,7 +1107,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 122,
+      "id": 123,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS55DLE/DE",
@@ -1116,7 +1116,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 123,
+      "id": 124,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS15D PRO",
@@ -1125,7 +1125,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 124,
+      "id": 125,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS20D PRO",
@@ -1134,7 +1134,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 125,
+      "id": 126,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS25D PRO",
@@ -1143,7 +1143,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 126,
+      "id": 127,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS30D PRO",
@@ -1152,7 +1152,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 127,
+      "id": 128,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Блок керування для стерилізатора WS55D PRO",
@@ -1161,7 +1161,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 128,
+      "id": 129,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Малий кварцовий чохол для стерилізаторів",
@@ -1170,7 +1170,7 @@
       "priceDiscount": 0
     },
     {
-      "id": 129,
+      "id": 130,
       "category": "uv-sterilizers",
       "categoryName": "Ультрафіолетові знезаражувачі води",
       "name": "Великий кварцовий чохол для стерилізаторів",
