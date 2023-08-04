@@ -27,6 +27,14 @@
             },
             {
                 "id": "frame-4",
+                "title": "Казки Шехерезади",
+                "urlVideo": "09lIhXuQGtw",
+                "bgImg": "../img/relax-room-bg/ukr/narrow/master.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-5",
                 "title": "Непiдробний романтизм",
                 "urlVideo": "J7ySN19LqWI",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/reciprocity.jpg",
@@ -34,7 +42,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-5",
+                "id": "frame-6",
                 "title": "Титанiк. Останнiй кадр",
                 "urlVideo": "tomqTcgmMT8",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/rabies.jpg",
@@ -42,7 +50,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-6",
+                "id": "frame-7",
                 "title": "Iмперська мрiя",
                 "urlVideo": "nFtKAeA3ZDo",
                 "bgImg": "../img/relax-room-bg/ukr/wide/imperial-dream.jpg",
@@ -50,7 +58,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-7",
+                "id": "frame-8",
                 "title": "Дiалог",
                 "urlVideo": "9Jspkzxllw0",
                 "bgImg": "../img/relax-room-bg/ukr/wide/hell-gate.jpg",
@@ -58,7 +66,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-8",
+                "id": "frame-9",
                 "title": "Паліям війни",
                 "urlVideo": "Jy4nuq51-_Y",
                 "bgImg": "../img/relax-room-bg/ukr/wide/rashism.jpg",
@@ -66,7 +74,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-9",
+                "id": "frame-10",
                 "title": "Iмперська мрiя",
                 "urlVideo": "CUGMWyIaJsc",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/imperial-dream.jpg",
@@ -74,7 +82,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-10",
+                "id": "frame-11",
                 "title": "Дiалог",
                 "urlVideo": "h0VlcMA4yEo",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/hell-gate.jpg",
@@ -82,7 +90,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-11",
+                "id": "frame-12",
                 "title": "З посмішкою до Перемоги",
                 "urlVideo": "oflGmBB4oFM",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/glory-ua.jpg",
@@ -90,7 +98,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-12",
+                "id": "frame-13",
                 "title": "Паліям війни",
                 "urlVideo": "ckFMCT6RYuc",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/rashism.jpg",
@@ -98,7 +106,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-13",
+                "id": "frame-14",
                 "title": "З акулами на ти",
                 "urlVideo": "LZpOt_sAzjk",
                 "bgImg": "../img/relax-room-bg/ukr/wide/shark-grip.jpg",
@@ -106,7 +114,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-14",
+                "id": "frame-15",
                 "title": "Ось як треба!",
                 "urlVideo": "FKii83qhvbE",
                 "bgImg": "../img/relax-room-bg/ukr/wide/like-this.jpg",
@@ -114,7 +122,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-15",
+                "id": "frame-16",
                 "title": "Мені б літати",
                 "urlVideo": "YXspyrlsahw",
                 "bgImg": "../img/relax-room-bg/ukr/wide/balloon.jpg",
@@ -122,7 +130,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-16",
+                "id": "frame-17",
                 "title": "Глобальне потепління",
                 "urlVideo": "Q3WXnVnGK04",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/cooling-down.jpg",
@@ -130,7 +138,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-17",
+                "id": "frame-18",
                 "title": "Монументальна нiрвана",
                 "urlVideo": "1lHOIaMseiA",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/ishtar.jpg",
@@ -138,7 +146,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-18",
+                "id": "frame-19",
                 "title": "Зловтіха",
                 "urlVideo": "YKsMzictL-Q",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/monument.jpg",
@@ -146,7 +154,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-19",
+                "id": "frame-20",
                 "title": "Акварiкша",
                 "urlVideo": "8r8phmWVFJc",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/footprint.jpg",
@@ -154,7 +162,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-20",
+                "id": "frame-21",
                 "title": "Ми з вами десь зустрiчались",
                 "urlVideo": "YrC3yt30xEE",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/roof.jpg",
@@ -162,7 +170,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-21",
+                "id": "frame-22",
                 "title": "Ну, i варiть!",
                 "urlVideo": "9PtdJa-eh9I",
                 "bgImg": "../img/relax-room-bg/ukr/wide/horror.jpg",
@@ -170,7 +178,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-22",
+                "id": "frame-23",
                 "title": "Воднi авто",
                 "urlVideo": "YuRvg_kDD7Y",
                 "bgImg": "../img/relax-room-bg/ukr/wide/overboard.jpg",
@@ -178,7 +186,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-23",
+                "id": "frame-24",
                 "title": "Рiдка фаза",
                 "urlVideo": "wO2Arml9Nhs",
                 "bgImg": "../img/relax-room-bg/ukr/wide/quagmire.jpg",
@@ -186,7 +194,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-24",
+                "id": "frame-25",
                 "title": "Ну, i варiть!",
                 "urlVideo": "KcqB-imTweY",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/stubbornness.jpg",
@@ -194,7 +202,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-25",
+                "id": "frame-26",
                 "title": "Ассоль",
                 "urlVideo": "mw6T14CvFXE",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/rose-in-water.jpg",
@@ -202,7 +210,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-26",
+                "id": "frame-27",
                 "title": "Рiдка фаза",
                 "urlVideo": "7CnIiaaKdcg",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/autumn.jpg",
@@ -210,7 +218,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-27",
+                "id": "frame-28",
                 "title": "Шляхи Господнi",
                 "urlVideo": "ab4r4Na55hE",
                 "bgImg": "../img/relax-room-bg/ukr/wide/soothsayer.jpg",
@@ -218,7 +226,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-28",
+                "id": "frame-29",
                 "title": "Iнфляцiя",
                 "urlVideo": "AZvsBowUkNw",
                 "bgImg": "../img/relax-room-bg/ukr/wide/eden.jpg",
@@ -226,7 +234,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-29",
+                "id": "frame-30",
                 "title": "Охопливе визнання",
                 "urlVideo": "zjM6lfeQFIg",
                 "bgImg": "../img/relax-room-bg/ukr/wide/hymn.jpg",
@@ -234,7 +242,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-30",
+                "id": "frame-31",
                 "title": "Шляхи Господнi",
                 "urlVideo": "NZwcG2XHYJI",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/crocodiles.jpg",
@@ -242,7 +250,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-31",
+                "id": "frame-32",
                 "title": "Iнфляцiя",
                 "urlVideo": "kEdO9Fudc7U",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/tap.jpg",
@@ -250,7 +258,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-32",
+                "id": "frame-33",
                 "title": "Охопливе визнання",
                 "urlVideo": "ReOAY_YOJAQ",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/show.jpg",
@@ -258,7 +266,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-33",
+                "id": "frame-34",
                 "title": "Брама раю",
                 "urlVideo": "Srwk4H_ZfN8",
                 "bgImg": "../img/relax-room-bg/ukr/wide/untitled-feast.jpg",
@@ -266,7 +274,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-34",
+                "id": "frame-35",
                 "title": "Брама раю",
                 "urlVideo": "7QMQCv99urU",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/hands.jpg",
@@ -274,7 +282,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-35",
+                "id": "frame-36",
                 "title": "Вабливий вiтром",
                 "urlVideo": "_qkIZBCqAoE",
                 "bgImg": "../img/relax-room-bg/ukr/wide/kindness.jpg",
@@ -282,7 +290,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-36",
+                "id": "frame-37",
                 "title": "Вабливий вiтром",
                 "urlVideo": "SQNKyQdwvjI",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/soaring.jpg",
@@ -290,7 +298,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-37",
+                "id": "frame-38",
                 "title": "Мiж минулим i майбутнiм",
                 "urlVideo": "D1PqadipQ6Q",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/squeak.jpg",
@@ -298,7 +306,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-38",
+                "id": "frame-39",
                 "title": "Рок-н-рол живий",
                 "urlVideo": "3iHtvO0Y22k",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/vinyl-forever.jpg",
@@ -306,7 +314,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-39",
+                "id": "frame-40",
                 "title": "Рок-н-рол живий",
                 "urlVideo": "eR_PCEjNaTQ",
                 "bgImg": "../img/relax-room-bg/ukr/wide/scull.jpg",
@@ -314,7 +322,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-40",
+                "id": "frame-41",
                 "title": "Свята прибудова",
                 "urlVideo": "rqGJBo5LlxQ",
                 "bgImg": "../img/relax-room-bg/ukr/wide/nibelungen-egg.jpg",
@@ -322,7 +330,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-41",
+                "id": "frame-42",
                 "title": "Свята прибудова",
                 "urlVideo": "SWFiPoM1wV0",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/nibelungen-egg.jpg",
@@ -330,7 +338,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-42",
+                "id": "frame-43",
                 "title": "Cattus erectus",
                 "urlVideo": "ihz-79rmGXM",
                 "bgImg": "../img/relax-room-bg/ukr/wide/by-he-way.jpg",
@@ -338,7 +346,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-43",
+                "id": "frame-44",
                 "title": "Cattus erectus",
                 "urlVideo": "VJZpRiPJQTs",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/doggie.jpg",
@@ -346,7 +354,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-44",
+                "id": "frame-45",
                 "title": "Прiоритети",
                 "urlVideo": "hGLYsr4UeqU",
                 "bgImg": "../img/relax-room-bg/ukr/wide/hat-makers.jpg",
@@ -354,7 +362,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-45",
+                "id": "frame-46",
                 "title": "Прiоритети",
                 "urlVideo": "BYXgBS3_d-Y",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/hat-makers.jpg",
@@ -362,7 +370,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-46",
+                "id": "frame-47",
                 "title": "А мною заповнюють перерву",
                 "urlVideo": "p9AWsNcqYv8",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/hold-your-back.jpg",
@@ -370,7 +378,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-47",
+                "id": "frame-48",
                 "title": "Тримаю парi",
                 "urlVideo": "Fxs1ZtfAoGc",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/crown.jpg",
@@ -378,7 +386,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-48",
+                "id": "frame-49",
                 "title": "Iлюстрацiя до роману Живий труп",
                 "urlVideo": "bqjTZ9RFljA",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/lenin-is-alive.jpg",
@@ -386,7 +394,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-49",
+                "id": "frame-50",
                 "title": "Alter ego",
                 "urlVideo": "0dawlOToTw4",
                 "bgImg": "../img/relax-room-bg/ukr/wide/poetry-and-prose-den.jpg",
@@ -394,7 +402,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-50",
+                "id": "frame-51",
                 "title": "Alter ego",
                 "urlVideo": "Q8nhj3PL4I8",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/farrier.jpg",
@@ -402,7 +410,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-51",
+                "id": "frame-52",
                 "title": "Зрада не пройде",
                 "urlVideo": "9R0sNzAfdB4",
                 "bgImg": "../img/relax-room-bg/ukr/wide/pranks.jpg",
@@ -410,7 +418,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-52",
+                "id": "frame-53",
                 "title": "Зрада не пройде",
                 "urlVideo": "CHQxLoAMZUs",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/find.jpg",
@@ -418,7 +426,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-53",
+                "id": "frame-54",
                 "title": "Мiжсобiйчик",
                 "urlVideo": "sSfS1gi6ciU",
                 "bgImg": "../img/relax-room-bg/ukr/wide/duel.jpg",
@@ -426,7 +434,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-54",
+                "id": "frame-55",
                 "title": "Мiжсобiйчик",
                 "urlVideo": "1Qo6skU2dXE",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/harmonic.jpg",
@@ -434,7 +442,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-55",
+                "id": "frame-56",
                 "title": "Мiмiстки",
                 "urlVideo": "ofQpRZh9fuY",
                 "bgImg": "../img/relax-room-bg/ukr/wide/glasses.jpg",
@@ -442,7 +450,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-56",
+                "id": "frame-57",
                 "title": "Мiмiстки",
                 "urlVideo": "uzfAa7btb14",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/philistines.jpg",
@@ -450,7 +458,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-57",
+                "id": "frame-58",
                 "title": "Без зайвих слiв",
                 "urlVideo": "eX0Rp4RQ_U8",
                 "bgImg": "../img/relax-room-bg/ukr/wide/berry.jpg",
@@ -458,7 +466,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-58",
+                "id": "frame-59",
                 "title": "Без зайвих слiв",
                 "urlVideo": "K-oB921fNUM",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/shadow.jpg",
@@ -466,7 +474,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-59",
+                "id": "frame-60",
                 "title": "Бiлий прапор",
                 "urlVideo": "g7hZtkRtJno",
                 "bgImg": "../img/relax-room-bg/ukr/wide/witnesses.jpg",
@@ -474,7 +482,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-60",
+                "id": "frame-61",
                 "title": "Бiлий прапор",
                 "urlVideo": "lDnW-UqrXpc",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/imprisonment.jpg",
@@ -482,7 +490,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-61",
+                "id": "frame-62",
                 "title": "Диспозицiя в експозицiї",
                 "urlVideo": "G3dZ7vhgDa8",
                 "bgImg": "../img/relax-room-bg/ukr/wide/astonishment.jpg",
@@ -490,7 +498,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-62",
+                "id": "frame-63",
                 "title": "Диспозицiя в експозицiї",
                 "urlVideo": "NBZQuF2-wRg",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/shelf.jpg",
@@ -498,7 +506,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-63",
+                "id": "frame-64",
                 "title": "Субординацiя",
                 "urlVideo": "FFnRul8lw-I",
                 "bgImg": "../img/relax-room-bg/ukr/wide/ballerinas.jpg",
@@ -506,7 +514,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-64",
+                "id": "frame-65",
                 "title": "Субординацiя",
                 "urlVideo": "edJUlCdcXrU",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/ballerinas.jpg",
@@ -514,7 +522,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-65",
+                "id": "frame-66",
                 "title": "Пiкнiк на узбiччi",
                 "urlVideo": "PiJiGLGNpXM",
                 "bgImg": "../img/relax-room-bg/ukr/wide/set.jpg",
@@ -522,7 +530,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-66",
+                "id": "frame-67",
                 "title": "Пiкнiк на узбiччi",
                 "urlVideo": "atHOBXZD31w",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/picnic.jpg",
@@ -530,7 +538,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-67",
+                "id": "frame-68",
                 "title": "Аут",
                 "urlVideo": "3RWxFVsFfvs",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/strongman.jpg",
@@ -538,7 +546,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-68",
+                "id": "frame-69",
                 "title": "Вiрна прикмета",
                 "urlVideo": "H2sMvKr2goA",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/yes-and-no.jpg",
@@ -546,7 +554,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-69",
+                "id": "frame-70",
                 "title": "Згоден",
                 "urlVideo": "P5lKNu7fkj4",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/counter.jpg",
@@ -554,7 +562,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-70",
+                "id": "frame-71",
                 "title": "Перше побачення",
                 "urlVideo": "bIyGVaM7dWc",
                 "bgImg": "../img/relax-room-bg/ukr/wide/dating-edge.jpg",
@@ -562,7 +570,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-71",
+                "id": "frame-72",
                 "title": "Перше побачення",
                 "urlVideo": "tskAZgfV4U0",
                 "bgImg": "../img/relax-room-bg/ukr/narrow/trickle.jpg",
@@ -723,15 +731,6 @@
                 "bgImg": "../videos/relax-room/ukr/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
-            },
-            {
-                "id": "video-18",
-                "title": "Казки Шехерезади",
-                "urlVideosMp": "../videos/relax-room/ukr/narrow/sheherazada-tales.mp4",
-                "urlVideosWebm": "../videos/relax-room/ukr/narrow/sheherazada-tales.webm",
-                "bgImg": "../videos/relax-room/ukr/video-bg/narrow/roots.jpg",
-                "category": "about-nothing",
-                "videoType": "narrow"
             }
         ]
     },
@@ -763,6 +762,14 @@
             },
             {
                 "id": "frame-4",
+                "title": "Sheherazada Tales",
+                "urlVideo": "3yN0XXnOz9g",
+                "bgImg": "../img/relax-room-bg/eng/narrow/master.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-5",
                 "title": "Genuine romanticism",
                 "urlVideo": "2y2-JKwr5P0",
                 "bgImg": "../img/relax-room-bg/eng/narrow/reciprocity.jpg",
@@ -770,7 +777,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-5",
+                "id": "frame-6",
                 "title": "Titanic. Final shot",
                 "urlVideo": "KQ4KpcLOZNI",
                 "bgImg": "../img/relax-room-bg/eng/narrow/rabies.jpg",
@@ -778,7 +785,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-6",
+                "id": "frame-7",
                 "title": "Imperial dream",
                 "urlVideo": "v3Mv_wWIM-g",
                 "bgImg": "../img/relax-room-bg/eng/wide/imperial-dream.jpg",
@@ -786,7 +793,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-7",
+                "id": "frame-8",
                 "title": "Dialogue",
                 "urlVideo": "TnqpV6eMtfw",
                 "bgImg": "../img/relax-room-bg/eng/wide/hell-gate.jpg",
@@ -794,7 +801,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-8",
+                "id": "frame-9",
                 "title": "Rashist warmongers",
                 "urlVideo": "g5HPBVWU8DE",
                 "bgImg": "../img/relax-room-bg/eng/wide/rashism.jpg",
@@ -802,7 +809,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-9",
+                "id": "frame-10",
                 "title": "Imperial dream",
                 "urlVideo": "p3iY_hbMnvE",
                 "bgImg": "../img/relax-room-bg/eng/narrow/imperial-dream.jpg",
@@ -810,7 +817,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-10",
+                "id": "frame-11",
                 "title": "Dialogue",
                 "urlVideo": "_wHRQzRK-oo",
                 "bgImg": "../img/relax-room-bg/eng/narrow/hell-gate.jpg",
@@ -818,7 +825,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-11",
+                "id": "frame-12",
                 "title": "With a smile for Victory",
                 "urlVideo": "fZI0EFdv5RA",
                 "bgImg": "../img/relax-room-bg/eng/narrow/glory-ua.jpg",
@@ -826,7 +833,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-12",
+                "id": "frame-13",
                 "title": "Rashist warmongers",
                 "urlVideo": "2jDfNJmvdA0",
                 "bgImg": "../img/relax-room-bg/eng/narrow/rashism.jpg",
@@ -834,7 +841,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-13",
+                "id": "frame-14",
                 "title": "Ok with sharks",
                 "urlVideo": "qORj7Xyzuas",
                 "bgImg": "../img/relax-room-bg/eng/wide/shark-grip.jpg",
@@ -842,7 +849,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-14",
+                "id": "frame-15",
                 "title": "Like this!",
                 "urlVideo": "yI-vYj-b6rI",
                 "bgImg": "../img/relax-room-bg/eng/wide/like-this.jpg",
@@ -850,7 +857,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-15",
+                "id": "frame-16",
                 "title": "And I want to fly",
                 "urlVideo": "SRS-o7zFLRs",
                 "bgImg": "../img/relax-room-bg/eng/wide/balloon.jpg",
@@ -858,7 +865,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-16",
+                "id": "frame-17",
                 "title": "Global warming",
                 "urlVideo": "Qdrhmvf-oEc",
                 "bgImg": "../img/relax-room-bg/eng/narrow/cooling-down.jpg",
@@ -866,7 +873,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-17",
+                "id": "frame-18",
                 "title": "Monumental nirvana",
                 "urlVideo": "oYX-osDcB8Q",
                 "bgImg": "../img/relax-room-bg/eng/narrow/ishtar.jpg",
@@ -874,7 +881,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-18",
+                "id": "frame-19",
                 "title": "Schadenfroude",
                 "urlVideo": "5jXswGbcj5k",
                 "bgImg": "../img/relax-room-bg/eng/narrow/monument.jpg",
@@ -882,7 +889,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-19",
+                "id": "frame-20",
                 "title": "Aquarickshaw",
                 "urlVideo": "zqKs3ey5Nfg",
                 "bgImg": "../img/relax-room-bg/eng/narrow/footprint.jpg",
@@ -890,7 +897,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-20",
+                "id": "frame-21",
                 "title": "We have met before",
                 "urlVideo": "dV_kzAMSmIc",
                 "bgImg": "../img/relax-room-bg/eng/narrow/roof.jpg",
@@ -898,7 +905,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-21",
+                "id": "frame-22",
                 "title": "Well, cook!",
                 "urlVideo": "f5znNk6HMHc",
                 "bgImg": "../img/relax-room-bg/eng/wide/horror.jpg",
@@ -906,7 +913,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-22",
+                "id": "frame-23",
                 "title": "Water cars",
                 "urlVideo": "Ilwyjn88y2U",
                 "bgImg": "../img/relax-room-bg/eng/wide/overboard.jpg",
@@ -914,7 +921,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-23",
+                "id": "frame-24",
                 "title": "Liquid phase",
                 "urlVideo": "olWhMit2r-k",
                 "bgImg": "../img/relax-room-bg/eng/wide/quagmire.jpg",
@@ -922,7 +929,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-24",
+                "id": "frame-25",
                 "title": "Well, cook!",
                 "urlVideo": "6pubKIj5fHI",
                 "bgImg": "../img/relax-room-bg/eng/narrow/stubbornness.jpg",
@@ -930,7 +937,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-25",
+                "id": "frame-26",
                 "title": "Assol",
                 "urlVideo": "AA9JoS8A6vI",
                 "bgImg": "../img/relax-room-bg/eng/narrow/rose-in-water.jpg",
@@ -938,7 +945,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-26",
+                "id": "frame-27",
                 "title": "Liquid phase",
                 "urlVideo": "ez0iaNQFc-Y",
                 "bgImg": "../img/relax-room-bg/eng/narrow/autumn.jpg",
@@ -946,7 +953,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-27",
+                "id": "frame-28",
                 "title": "God's ways",
                 "urlVideo": "xjEPgFOUr2U",
                 "bgImg": "../img/relax-room-bg/eng/wide/soothsayer.jpg",
@@ -954,7 +961,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-28",
+                "id": "frame-29",
                 "title": "Inflation",
                 "urlVideo": "mpnx6p9fdU8",
                 "bgImg": "../img/relax-room-bg/eng/wide/eden.jpg",
@@ -962,7 +969,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-29",
+                "id": "frame-30",
                 "title": "Touching acceptance",
                 "urlVideo": "OWazWYw0Nfo",
                 "bgImg": "../img/relax-room-bg/eng/wide/hymn.jpg",
@@ -970,7 +977,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-30",
+                "id": "frame-31",
                 "title": "God's ways",
                 "urlVideo": "QrPIeSLZ9yc",
                 "bgImg": "../img/relax-room-bg/eng/narrow/crocodiles.jpg",
@@ -978,7 +985,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-31",
+                "id": "frame-32",
                 "title": "Inflation",
                 "urlVideo": "ULkwfylJdKs",
                 "bgImg": "../img/relax-room-bg/eng/narrow/tap.jpg",
@@ -986,7 +993,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-32",
+                "id": "frame-33",
                 "title": "Touching acceptance",
                 "urlVideo": "TwjXbDNDbW4",
                 "bgImg": "../img/relax-room-bg/eng/narrow/show.jpg",
@@ -994,7 +1001,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-33",
+                "id": "frame-34",
                 "title": "Gate of Heaven",
                 "urlVideo": "04JFtusRoNM",
                 "bgImg": "../img/relax-room-bg/eng/wide/untitled-feast.jpg",
@@ -1002,7 +1009,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-34",
+                "id": "frame-35",
                 "title": "Gate of Heaven",
                 "urlVideo": "eGogrXKWG3g",
                 "bgImg": "../img/relax-room-bg/eng/narrow/hands.jpg",
@@ -1010,7 +1017,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-35",
+                "id": "frame-36",
                 "title": "Drawn by the wind",
                 "urlVideo": "b5mtAGd6qWU",
                 "bgImg": "../img/relax-room-bg/eng/wide/kindness.jpg",
@@ -1018,7 +1025,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-36",
+                "id": "frame-37",
                 "title": "Drawn by the wind",
                 "urlVideo": "jgNtlnU2wjU",
                 "bgImg": "../img/relax-room-bg/eng/narrow/soaring.jpg",
@@ -1026,7 +1033,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-37",
+                "id": "frame-38",
                 "title": "Between past and future",
                 "urlVideo": "tbmbzNb6J0Q",
                 "bgImg": "../img/relax-room-bg/eng/narrow/squeak.jpg",
@@ -1034,7 +1041,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-38",
+                "id": "frame-39",
                 "title": "Rock 'n' roll is alive",
                 "urlVideo": "sFhdutYTqeE",
                 "bgImg": "../img/relax-room-bg/eng/narrow/vinyl-forever.jpg",
@@ -1042,7 +1049,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-39",
+                "id": "frame-40",
                 "title": "Rock 'n' roll is alive",
                 "urlVideo": "u_o8v5qsJ5M",
                 "bgImg": "../img/relax-room-bg/eng/wide/scull.jpg",
@@ -1050,7 +1057,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-40",
+                "id": "frame-41",
                 "title": "Holy annex",
                 "urlVideo": "vFkaOYJq0JM",
                 "bgImg": "../img/relax-room-bg/eng/wide/nibelungen-egg.jpg",
@@ -1058,7 +1065,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-41",
+                "id": "frame-42",
                 "title": "Holy annex",
                 "urlVideo": "5C8DykKYzVY",
                 "bgImg": "../img/relax-room-bg/eng/narrow/nibelungen-egg.jpg",
@@ -1066,7 +1073,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-42",
+                "id": "frame-43",
                 "title": "Cattus erectus",
                 "urlVideo": "sA-m1rpWA6A",
                 "bgImg": "../img/relax-room-bg/eng/wide/by-he-way.jpg",
@@ -1074,7 +1081,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-43",
+                "id": "frame-44",
                 "title": "Cattus erectus",
                 "urlVideo": "YNf6V9pcHNQ",
                 "bgImg": "../img/relax-room-bg/eng/narrow/doggie.jpg",
@@ -1082,7 +1089,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-44",
+                "id": "frame-45",
                 "title": "Priorities",
                 "urlVideo": "kcgpEb7fcOY",
                 "bgImg": "../img/relax-room-bg/eng/wide/hat-makers.jpg",
@@ -1090,7 +1097,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-45",
+                "id": "frame-46",
                 "title": "Priorities",
                 "urlVideo": "_bftT-yvlKM",
                 "bgImg": "../img/relax-room-bg/eng/narrow/hat-makers.jpg",
@@ -1098,7 +1105,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-46",
+                "id": "frame-47",
                 "title": "And I fill the intermission",
                 "urlVideo": "XUxNLeYAo6w",
                 "bgImg": "../img/relax-room-bg/eng/narrow/hold-your-back.jpg",
@@ -1106,7 +1113,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-47",
+                "id": "frame-48",
                 "title": "I bet",
                 "urlVideo": "dbfhTv4rm6o",
                 "bgImg": "../img/relax-room-bg/eng/narrow/crown.jpg",
@@ -1114,7 +1121,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-48",
+                "id": "frame-49",
                 "title": "Illustration for the novel The Living Corpse",
                 "urlVideo": "cPa67WfezXc",
                 "bgImg": "../img/relax-room-bg/eng/narrow/lenin-is-alive.jpg",
@@ -1122,7 +1129,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-49",
+                "id": "frame-50",
                 "title": "Alter ego",
                 "urlVideo": "pqB6nJoyQok",
                 "bgImg": "../img/relax-room-bg/eng/wide/poetry-and-prose-den.jpg",
@@ -1130,7 +1137,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-50",
+                "id": "frame-51",
                 "title": "Alter ego",
                 "urlVideo": "hFGZfGOWSew",
                 "bgImg": "../img/relax-room-bg/eng/narrow/farrier.jpg",
@@ -1138,7 +1145,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-51",
+                "id": "frame-52",
                 "title": "You can't cheat on me",
                 "urlVideo": "fA3SzR4m0gA",
                 "bgImg": "../img/relax-room-bg/eng/wide/pranks.jpg",
@@ -1146,7 +1153,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-52",
+                "id": "frame-53",
                 "title": "You can't cheat on me",
                 "urlVideo": "YUHY2THddtU",
                 "bgImg": "../img/relax-room-bg/eng/narrow/find.jpg",
@@ -1154,7 +1161,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-53",
+                "id": "frame-54",
                 "title": "Get-together",
                 "urlVideo": "VxaJlMZQdpA",
                 "bgImg": "../img/relax-room-bg/eng/wide/duel.jpg",
@@ -1162,7 +1169,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-54",
+                "id": "frame-55",
                 "title": "Get-together",
                 "urlVideo": "hd-P5lmdQT8",
                 "bgImg": "../img/relax-room-bg/eng/narrow/harmonic.jpg",
@@ -1170,7 +1177,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-55",
+                "id": "frame-56",
                 "title": "Mimics",
                 "urlVideo": "EvzcLEskQlI",
                 "bgImg": "../img/relax-room-bg/eng/wide/glasses.jpg",
@@ -1178,7 +1185,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-56",
+                "id": "frame-57",
                 "title": "Mimics",
                 "urlVideo": "vV-fsuVPY6k",
                 "bgImg": "../img/relax-room-bg/eng/narrow/philistines.jpg",
@@ -1186,7 +1193,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-57",
+                "id": "frame-58",
                 "title": "Without many words",
                 "urlVideo": "13VFs8AjXkQ",
                 "bgImg": "../img/relax-room-bg/eng/wide/berry.jpg",
@@ -1194,7 +1201,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-58",
+                "id": "frame-59",
                 "title": "Without many words",
                 "urlVideo": "W_oR5fB9dbQ",
                 "bgImg": "../img/relax-room-bg/eng/narrow/shadow.jpg",
@@ -1202,7 +1209,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-59",
+                "id": "frame-60",
                 "title": "White flag",
                 "urlVideo": "XXf--Tqzd1E",
                 "bgImg": "../img/relax-room-bg/eng/wide/witnesses.jpg",
@@ -1210,7 +1217,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-60",
+                "id": "frame-61",
                 "title": "White flag",
                 "urlVideo": "p09NVwuxO4E",
                 "bgImg": "../img/relax-room-bg/eng/narrow/imprisonment.jpg",
@@ -1218,7 +1225,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-61",
+                "id": "frame-62",
                 "title": "Disposition in the exposition",
                 "urlVideo": "rxOBkOzvZ_w",
                 "bgImg": "../img/relax-room-bg/eng/wide/astonishment.jpg",
@@ -1226,7 +1233,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-62",
+                "id": "frame-63",
                 "title": "Disposition in the exposition",
                 "urlVideo": "kevNPSSOBVs",
                 "bgImg": "../img/relax-room-bg/eng/narrow/shelf.jpg",
@@ -1234,7 +1241,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-63",
+                "id": "frame-64",
                 "title": "Subordination",
                 "urlVideo": "1n3ADqWHvas",
                 "bgImg": "../img/relax-room-bg/eng/wide/ballerinas.jpg",
@@ -1242,7 +1249,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-64",
+                "id": "frame-65",
                 "title": "Subordination",
                 "urlVideo": "-EBkOngrO1s",
                 "bgImg": "../img/relax-room-bg/eng/narrow/ballerinas.jpg",
@@ -1250,7 +1257,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-65",
+                "id": "frame-66",
                 "title": "Roadside Picnic",
                 "urlVideo": "UHZ9HY26C_4",
                 "bgImg": "../img/relax-room-bg/eng/wide/set.jpg",
@@ -1258,7 +1265,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-66",
+                "id": "frame-67",
                 "title": "Roadside Picnic",
                 "urlVideo": "x_wUAXF6ZTs",
                 "bgImg": "../img/relax-room-bg/eng/narrow/picnic.jpg",
@@ -1266,7 +1273,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-67",
+                "id": "frame-68",
                 "title": "Out",
                 "urlVideo": "5UiXltxJAP4",
                 "bgImg": "../img/relax-room-bg/eng/narrow/strongman.jpg",
@@ -1274,7 +1281,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-68",
+                "id": "frame-69",
                 "title": "Sure sign",
                 "urlVideo": "z4murfyiVLU",
                 "bgImg": "../img/relax-room-bg/eng/narrow/yes-and-no.jpg",
@@ -1282,7 +1289,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-69",
+                "id": "frame-70",
                 "title": "Agree",
                 "urlVideo": "cqfny9raEdQ",
                 "bgImg": "../img/relax-room-bg/eng/narrow/counter.jpg",
@@ -1290,7 +1297,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-70",
+                "id": "frame-71",
                 "title": "First date",
                 "urlVideo": "GvIox4qUJWs",
                 "bgImg": "../img/relax-room-bg/eng/wide/dating-edge.jpg",
@@ -1298,7 +1305,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-71",
+                "id": "frame-72",
                 "title": "First date",
                 "urlVideo": "kQvTCmGWPJk",
                 "bgImg": "../img/relax-room-bg/eng/narrow/trickle.jpg",
@@ -1459,15 +1466,6 @@
                 "bgImg": "../videos/relax-room/eng/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
-            },
-            {
-                "id": "video-18",
-                "title": "Sheherazada Tales",
-                "urlVideosMp": "../videos/relax-room/eng/narrow/sheherazada-tales.mp4",
-                "urlVideosWebm": "../videos/relax-room/eng/narrow/sheherazada-tales.webm",
-                "bgImg": "../videos/relax-room/eng/video-bg/narrow/roots.jpg",
-                "category": "about-nothing",
-                "videoType": "narrow"
             }
         ]
     },
@@ -1499,6 +1497,14 @@
             },
             {
                 "id": "frame-4",
+                "title": "Сказки Шехерезады",
+                "urlVideo": "gMEK8ipRM38",
+                "bgImg": "../img/relax-room-bg/rus/narrow/master.jpg",
+                "category": "about-nothing",
+                "videoType": "narrow"
+            },
+            {
+                "id": "frame-5",
                 "title": "Неподдельный романтизм",
                 "urlVideo": "LG2aaDCU8Mg",
                 "bgImg": "../img/relax-room-bg/rus/narrow/reciprocity.jpg",
@@ -1506,7 +1512,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-5",
+                "id": "frame-6",
                 "title": "Титаник. Последний кадр",
                 "urlVideo": "-IF-oYRLJDQ",
                 "bgImg": "../img/relax-room-bg/rus/narrow/rabies.jpg",
@@ -1514,7 +1520,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-6",
+                "id": "frame-7",
                 "title": "Имперская греза",
                 "urlVideo": "Awel4Ucs0Zk",
                 "bgImg": "../img/relax-room-bg/rus/wide/imperial-dream.jpg",
@@ -1522,7 +1528,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-7",
+                "id": "frame-8",
                 "title": "Диалог",
                 "urlVideo": "5gwz-9sP8Bg",
                 "bgImg": "../img/relax-room-bg/rus/wide/hell-gate.jpg",
@@ -1530,7 +1536,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-8",
+                "id": "frame-9",
                 "title": "Поджигателям войны",
                 "urlVideo": "wHw_tkKAElk",
                 "bgImg": "../img/relax-room-bg/rus/wide/rashism.jpg",
@@ -1538,7 +1544,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-9",
+                "id": "frame-10",
                 "title": "Имперская греза",
                 "urlVideo": "QoEmYo3x0BQ",
                 "bgImg": "../img/relax-room-bg/rus/narrow/imperial-dream.jpg",
@@ -1546,7 +1552,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-10",
+                "id": "frame-11",
                 "title": "Диалог",
                 "urlVideo": "5gwz-9sP8Bg",
                 "bgImg": "../img/relax-room-bg/rus/narrow/hell-gate.jpg",
@@ -1554,7 +1560,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-11",
+                "id": "frame-12",
                 "title": "С улыбкой к Победе",
                 "urlVideo": "XxPZJbkDzvU",
                 "bgImg": "../img/relax-room-bg/rus/narrow/glory-ua.jpg",
@@ -1562,7 +1568,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-12",
+                "id": "frame-13",
                 "title": "Поджигателям войны",
                 "urlVideo": "BBfoN9Y1yN8",
                 "bgImg": "../img/relax-room-bg/rus/narrow/rashism.jpg",
@@ -1570,7 +1576,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-13",
+                "id": "frame-14",
                 "title": "С акулами на ты",
                 "urlVideo": "uUD7siYzFEg",
                 "bgImg": "../img/relax-room-bg/rus/wide/shark-grip.jpg",
@@ -1578,7 +1584,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-14",
+                "id": "frame-15",
                 "title": "Вот как надо!",
                 "urlVideo": "FUsG1VwxTO8",
                 "bgImg": "../img/relax-room-bg/rus/wide/like-this.jpg",
@@ -1586,7 +1592,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-15",
+                "id": "frame-16",
                 "title": "А мне летать охота",
                 "urlVideo": "RkEbvPnfDak",
                 "bgImg": "../img/relax-room-bg/rus/wide/balloon.jpg",
@@ -1594,7 +1600,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-16",
+                "id": "frame-17",
                 "title": "Глобальное потепление",
                 "urlVideo": "Oog-h8yKN-c",
                 "bgImg": "../img/relax-room-bg/rus/narrow/cooling-down.jpg",
@@ -1602,7 +1608,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-17",
+                "id": "frame-18",
                 "title": "Монументальная нирвана",
                 "urlVideo": "oalms-Wg8eQ",
                 "bgImg": "../img/relax-room-bg/rus/narrow/ishtar.jpg",
@@ -1610,7 +1616,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-18",
+                "id": "frame-19",
                 "title": "Злорадство",
                 "urlVideo": "2cQf903M8CU",
                 "bgImg": "../img/relax-room-bg/rus/narrow/monument.jpg",
@@ -1618,7 +1624,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-19",
+                "id": "frame-20",
                 "title": "Акварикша",
                 "urlVideo": "jTqtAROkk20",
                 "bgImg": "../img/relax-room-bg/rus/narrow/footprint.jpg",
@@ -1626,7 +1632,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-20",
+                "id": "frame-21",
                 "title": "Мы с вами где-то встречались",
                 "urlVideo": "7znFUYiiXJg",
                 "bgImg": "../img/relax-room-bg/rus/narrow/roof.jpg",
@@ -1634,7 +1640,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-21",
+                "id": "frame-22",
                 "title": "Ну, и варите!",
                 "urlVideo": "k00-n4lCFRA",
                 "bgImg": "../img/relax-room-bg/rus/wide/horror.jpg",
@@ -1642,7 +1648,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-22",
+                "id": "frame-23",
                 "title": "Водные авто",
                 "urlVideo": "e5nvQcQoaCU",
                 "bgImg": "../img/relax-room-bg/rus/wide/overboard.jpg",
@@ -1650,7 +1656,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-23",
+                "id": "frame-24",
                 "title": "Жидкая фаза",
                 "urlVideo": "soXT3lmMcXA",
                 "bgImg": "../img/relax-room-bg/rus/wide/quagmire.jpg",
@@ -1658,7 +1664,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-24",
+                "id": "frame-25",
                 "title": "Ну, и варите!",
                 "urlVideo": "fwKPVqSDzoM",
                 "bgImg": "../img/relax-room-bg/rus/narrow/stubbornness.jpg",
@@ -1666,7 +1672,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-25",
+                "id": "frame-26",
                 "title": "Ассоль",
                 "urlVideo": "FrEHuQIIFH0",
                 "bgImg": "../img/relax-room-bg/rus/narrow/rose-in-water.jpg",
@@ -1674,7 +1680,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-26",
+                "id": "frame-27",
                 "title": "Жидкая фаза",
                 "urlVideo": "4YyRjwHc4kg",
                 "bgImg": "../img/relax-room-bg/rus/narrow/autumn.jpg",
@@ -1682,7 +1688,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-27",
+                "id": "frame-28",
                 "title": "Пути Господни",
                 "urlVideo": "zIpRzKoLLGo",
                 "bgImg": "../img/relax-room-bg/rus/wide/soothsayer.jpg",
@@ -1690,7 +1696,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-28",
+                "id": "frame-29",
                 "title": "Инфляция",
                 "urlVideo": "WLcde4F1ltg",
                 "bgImg": "../img/relax-room-bg/rus/wide/eden.jpg",
@@ -1698,7 +1704,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-29",
+                "id": "frame-30",
                 "title": "Трогательное признание",
                 "urlVideo": "F9iz-msov3U",
                 "bgImg": "../img/relax-room-bg/rus/wide/hymn.jpg",
@@ -1706,7 +1712,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-30",
+                "id": "frame-31",
                 "title": "Пути Господни",
                 "urlVideo": "Vve7fwanyxA",
                 "bgImg": "../img/relax-room-bg/rus/narrow/crocodiles.jpg",
@@ -1714,7 +1720,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-31",
+                "id": "frame-32",
                 "title": "Инфляция",
                 "urlVideo": "BnJokVhavM0",
                 "bgImg": "../img/relax-room-bg/rus/narrow/tap.jpg",
@@ -1722,7 +1728,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-32",
+                "id": "frame-33",
                 "title": "Трогательное признание",
                 "urlVideo": "WyEUCa46JCY",
                 "bgImg": "../img/relax-room-bg/rus/narrow/show.jpg",
@@ -1730,7 +1736,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-33",
+                "id": "frame-34",
                 "title": "Врата рая",
                 "urlVideo": "kffEuAFPJPE",
                 "bgImg": "../img/relax-room-bg/rus/wide/untitled-feast.jpg",
@@ -1738,7 +1744,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-34",
+                "id": "frame-35",
                 "title": "Врата рая",
                 "urlVideo": "aZoSIkim5Z4",
                 "bgImg": "../img/relax-room-bg/rus/narrow/hands.jpg",
@@ -1746,7 +1752,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-35",
+                "id": "frame-36",
                 "title": "Влекомый ветром",
                 "urlVideo": "wYJhpNrOBrA",
                 "bgImg": "../img/relax-room-bg/rus/wide/kindness.jpg",
@@ -1754,7 +1760,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-36",
+                "id": "frame-37",
                 "title": "Влекомый ветром",
                 "urlVideo": "kOcjyu0PCjY",
                 "bgImg": "../img/relax-room-bg/rus/narrow/soaring.jpg",
@@ -1762,7 +1768,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-37",
+                "id": "frame-38",
                 "title": "Между прошлым и будущим",
                 "urlVideo": "i0-Gtu-YGq4",
                 "bgImg": "../img/relax-room-bg/rus/narrow/squeak.jpg",
@@ -1770,7 +1776,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-38",
+                "id": "frame-39",
                 "title": "Рок-н-ролл жив",
                 "urlVideo": "EAw8LngGOJo",
                 "bgImg": "../img/relax-room-bg/rus/narrow/vinyl-forever.jpg",
@@ -1778,7 +1784,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-39",
+                "id": "frame-40",
                 "title": "Рок-н-ролл жив",
                 "urlVideo": "q_kGKAo52TM",
                 "bgImg": "../img/relax-room-bg/rus/wide/scull.jpg",
@@ -1786,7 +1792,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-40",
+                "id": "frame-41",
                 "title": "Святая пристройка",
                 "urlVideo": "-ihxJHFZl2E",
                 "bgImg": "../img/relax-room-bg/rus/wide/nibelungen-egg.jpg",
@@ -1794,7 +1800,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-41",
+                "id": "frame-42",
                 "title": "Святая пристройка",
                 "urlVideo": "SwTOEBIYcNs",
                 "bgImg": "../img/relax-room-bg/rus/narrow/nibelungen-egg.jpg",
@@ -1802,7 +1808,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-42",
+                "id": "frame-43",
                 "title": "Cattus erectus",
                 "urlVideo": "G2vbxhkEftE",
                 "bgImg": "../img/relax-room-bg/rus/wide/by-he-way.jpg",
@@ -1810,7 +1816,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-43",
+                "id": "frame-44",
                 "title": "Cattus erectus",
                 "urlVideo": "JCtLt1KXNko",
                 "bgImg": "../img/relax-room-bg/rus/narrow/doggie.jpg",
@@ -1818,7 +1824,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-44",
+                "id": "frame-45",
                 "title": "Приоритеты",
                 "urlVideo": "PK4bzN94gao",
                 "bgImg": "../img/relax-room-bg/rus/wide/hat-makers.jpg",
@@ -1826,7 +1832,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-45",
+                "id": "frame-46",
                 "title": "Приоритеты",
                 "urlVideo": "PK4bzN94gao",
                 "bgImg": "../img/relax-room-bg/rus/narrow/hat-makers.jpg",
@@ -1834,7 +1840,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-46",
+                "id": "frame-47",
                 "title": "А мною заполняют перерыв",
                 "urlVideo": "X5Mq81Exy2M",
                 "bgImg": "../img/relax-room-bg/rus/narrow/hold-your-back.jpg",
@@ -1842,7 +1848,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-47",
+                "id": "frame-48",
                 "title": "Держу пари",
                 "urlVideo": "O-tzdacagwQ",
                 "bgImg": "../img/relax-room-bg/rus/narrow/crown.jpg",
@@ -1850,7 +1856,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-48",
+                "id": "frame-49",
                 "title": "Иллюстрация к роману Живой труп",
                 "urlVideo": "OHu151vpOPo",
                 "bgImg": "../img/relax-room-bg/rus/narrow/lenin-is-alive.jpg",
@@ -1858,7 +1864,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-49",
+                "id": "frame-50",
                 "title": "Alter ego",
                 "urlVideo": "cVOhUzm3HDI",
                 "bgImg": "../img/relax-room-bg/rus/wide/poetry-and-prose-den.jpg",
@@ -1866,7 +1872,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-50",
+                "id": "frame-51",
                 "title": "Alter ego",
                 "urlVideo": "XiLmVYachsI",
                 "bgImg": "../img/relax-room-bg/rus/narrow/farrier.jpg",
@@ -1874,7 +1880,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-51",
+                "id": "frame-52",
                 "title": "Измена не пройдет",
                 "urlVideo": "SM3h2oaiJzQ",
                 "bgImg": "../img/relax-room-bg/rus/wide/pranks.jpg",
@@ -1882,7 +1888,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-52",
+                "id": "frame-53",
                 "title": "Измена не пройдет",
                 "urlVideo": "gJwUWvvz5TQ",
                 "bgImg": "../img/relax-room-bg/rus/narrow/find.jpg",
@@ -1890,7 +1896,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-53",
+                "id": "frame-54",
                 "title": "Междусобойчик",
                 "urlVideo": "mgBnkMNX9CQ",
                 "bgImg": "../img/relax-room-bg/rus/wide/duel.jpg",
@@ -1898,7 +1904,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-54",
+                "id": "frame-55",
                 "title": "Междусобойчик",
                 "urlVideo": "kcaRGcrVLN0",
                 "bgImg": "../img/relax-room-bg/rus/narrow/harmonic.jpg",
@@ -1906,7 +1912,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-55",
+                "id": "frame-56",
                 "title": "Мимистки",
                 "urlVideo": "SPbQmBgWO70",
                 "bgImg": "../img/relax-room-bg/rus/wide/glasses.jpg",
@@ -1914,7 +1920,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-56",
+                "id": "frame-57",
                 "title": "Мимистки",
                 "urlVideo": "TCyXoNKlXPw",
                 "bgImg": "../img/relax-room-bg/rus/narrow/philistines.jpg",
@@ -1922,7 +1928,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-57",
+                "id": "frame-58",
                 "title": "Без лишних слов",
                 "urlVideo": "6XHA9i1WkF0",
                 "bgImg": "../img/relax-room-bg/rus/wide/berry.jpg",
@@ -1930,7 +1936,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-58",
+                "id": "frame-59",
                 "title": "Без лишних слов",
                 "urlVideo": "KSKMCWCXypc",
                 "bgImg": "../img/relax-room-bg/rus/narrow/shadow.jpg",
@@ -1938,7 +1944,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-59",
+                "id": "frame-60",
                 "title": "Белый флаг",
                 "urlVideo": "9yepou7E6v0",
                 "bgImg": "../img/relax-room-bg/rus/wide/witnesses.jpg",
@@ -1946,7 +1952,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-60",
+                "id": "frame-61",
                 "title": "Белый флаг",
                 "urlVideo": "Kkt4PYIddmc",
                 "bgImg": "../img/relax-room-bg/rus/narrow/imprisonment.jpg",
@@ -1954,7 +1960,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-61",
+                "id": "frame-62",
                 "title": "Диспозиция в экспозиции",
                 "urlVideo": "uf9043ISdo4",
                 "bgImg": "../img/relax-room-bg/rus/wide/astonishment.jpg",
@@ -1962,7 +1968,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-62",
+                "id": "frame-63",
                 "title": "Диспозиция в экспозиции",
                 "urlVideo": "RTsvlwT4GVA",
                 "bgImg": "../img/relax-room-bg/rus/narrow/shelf.jpg",
@@ -1970,7 +1976,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-63",
+                "id": "frame-64",
                 "title": "Субординация",
                 "urlVideo": "d_AkJLVd6i4",
                 "bgImg": "../img/relax-room-bg/rus/wide/ballerinas.jpg",
@@ -1978,7 +1984,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-64",
+                "id": "frame-65",
                 "title": "Субординация",
                 "urlVideo": "TVzftG-zpzw",
                 "bgImg": "../img/relax-room-bg/rus/narrow/ballerinas.jpg",
@@ -1986,7 +1992,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-65",
+                "id": "frame-66",
                 "title": "Пикник на обочине",
                 "urlVideo": "ihOskIpEWMo",
                 "bgImg": "../img/relax-room-bg/rus/wide/set.jpg",
@@ -1994,7 +2000,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-66",
+                "id": "frame-67",
                 "title": "Пикник на обочине",
                 "urlVideo": "2yeLIBDFQ0I",
                 "bgImg": "../img/relax-room-bg/rus/narrow/picnic.jpg",
@@ -2002,7 +2008,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-67",
+                "id": "frame-68",
                 "title": "Аут",
                 "urlVideo": "QXJTvDk-eWw",
                 "bgImg": "../img/relax-room-bg/rus/narrow/strongman.jpg",
@@ -2010,7 +2016,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-68",
+                "id": "frame-69",
                 "title": "Верная примета",
                 "urlVideo": "ip1ZE2JZ2KI",
                 "bgImg": "../img/relax-room-bg/rus/narrow/yes-and-no.jpg",
@@ -2018,7 +2024,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-69",
+                "id": "frame-70",
                 "title": "Согласен",
                 "urlVideo": "2gcgGehFFbw",
                 "bgImg": "../img/relax-room-bg/rus/narrow/counter.jpg",
@@ -2026,7 +2032,7 @@
                 "videoType": "narrow"
             },
             {
-                "id": "frame-70",
+                "id": "frame-71",
                 "title": "Первое свидание",
                 "urlVideo": "9ffYaPmOeAE",
                 "bgImg": "../img/relax-room-bg/rus/wide/dating-edge.jpg",
@@ -2034,7 +2040,7 @@
                 "videoType": "wide"
             },
             {
-                "id": "frame-71",
+                "id": "frame-72",
                 "title": "Первое свидание",
                 "urlVideo": "byTYFPml0_o",
                 "bgImg": "../img/relax-room-bg/rus/narrow/trickle.jpg",
@@ -2195,15 +2201,6 @@
                 "bgImg": "../videos/relax-room/rus/video-bg/wide/prometheus-gifts.jpg",
                 "category": "about-it",
                 "videoType": "wide"
-            },
-            {
-                "id": "video-18",
-                "title": "Сказки Шехерезады",
-                "urlVideosMp": "../videos/relax-room/rus/narrow/sheherazada-tales.mp4",
-                "urlVideosWebm": "../videos/relax-room/rus/narrow/sheherazada-tales.webm",
-                "bgImg": "../videos/relax-room/rus/video-bg/narrow/roots.jpg",
-                "category": "about-nothing",
-                "videoType": "narrow"
             }
         ]
     }
