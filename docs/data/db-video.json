@@ -560,30 +560,6 @@
                 "bgImg": "../img/relax-room-bg/ukr/narrow/counter.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
-            },
-            {
-                "id": "frame-71",
-                "title": "Перше побачення",
-                "urlVideo": "bIyGVaM7dWc",
-                "bgImg": "../img/relax-room-bg/ukr/wide/dating-edge.jpg",
-                "category": "about-it",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-72",
-                "title": "Перше побачення",
-                "urlVideo": "tskAZgfV4U0",
-                "bgImg": "../img/relax-room-bg/ukr/narrow/trickle.jpg",
-                "category": "about-it",
-                "videoType": "narrow"
-            },
-            {
-                "id": "frame-73",
-                "title": "Глибинний народ",
-                "urlVideo": "to0bBkUEogA",
-                "bgImg": "../img/relax-room-bg/ukr/narrow/roots.jpg",
-                "category": "about-nothing",
-                "videoType": "narrow"
             }
         ],
         "media": [
@@ -1303,30 +1279,6 @@
                 "bgImg": "../img/relax-room-bg/eng/narrow/counter.jpg",
                 "category": "about-it",
                 "videoType": "narrow"
-            },
-            {
-                "id": "frame-71",
-                "title": "First date",
-                "urlVideo": "GvIox4qUJWs",
-                "bgImg": "../img/relax-room-bg/eng/wide/dating-edge.jpg",
-                "category": "about-it",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-72",
-                "title": "First date",
-                "urlVideo": "kQvTCmGWPJk",
-                "bgImg": "../img/relax-room-bg/eng/narrow/trickle.jpg",
-                "category": "about-it",
-                "videoType": "narrow"
-            },
-            {
-                "id": "frame-73",
-                "title": "Deep people",
-                "urlVideo": "S52L4cxOfoA",
-                "bgImg": "../img/relax-room-bg/eng/narrow/roots.jpg",
-                "category": "about-nothing",
-                "videoType": "narrow"
             }
         ],
         "media": [
@@ -2045,30 +1997,6 @@
                 "urlVideo": "2gcgGehFFbw",
                 "bgImg": "../img/relax-room-bg/rus/narrow/counter.jpg",
                 "category": "about-it",
-                "videoType": "narrow"
-            },
-            {
-                "id": "frame-71",
-                "title": "Первое свидание",
-                "urlVideo": "9ffYaPmOeAE",
-                "bgImg": "../img/relax-room-bg/rus/wide/dating-edge.jpg",
-                "category": "about-it",
-                "videoType": "wide"
-            },
-            {
-                "id": "frame-72",
-                "title": "Первое свидание",
-                "urlVideo": "byTYFPml0_o",
-                "bgImg": "../img/relax-room-bg/rus/narrow/trickle.jpg",
-                "category": "about-it",
-                "videoType": "narrow"
-            },
-            {
-                "id": "frame-73",
-                "title": "Глубинный народ",
-                "urlVideo": "Z6xXgAAxf2k",
-                "bgImg": "../img/relax-room-bg/rus/narrow/roots.jpg",
-                "category": "about-nothing",
                 "videoType": "narrow"
             }
         ],
