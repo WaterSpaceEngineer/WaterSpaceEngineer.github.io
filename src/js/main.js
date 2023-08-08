@@ -15,6 +15,7 @@ import submitForm from './modules/submitForm';
 import clickOnHash from './modules/clickOnHash';
 import playVideos from './modules/playVideos';
 import filterVideo from './modules/filterVideo';
+import renderPrices from './modules/renderPrices';
 
 window.addEventListener('DOMContentLoaded', () => {
 
@@ -33,4 +34,5 @@ window.addEventListener('DOMContentLoaded', () => {
     clickOnHash();
     filterVideo();
     playVideos('[data-video-trigger]');
+    renderPrices();
 });
