@@ -226,7 +226,8 @@
   }
 }
 
-.product-unit__price {
+.product-unit__price,
+.product-unit__check {
   color: var(--accent-color);
   font-size: rem(20px);
   flex: 0 0 auto;
@@ -238,14 +239,16 @@
 
 .commodity-prices {
   .param-list__name,
-  .param-list__cost {
+  .param-list__cost,
+  .param-list__check {
 
     @include min576 {
       font-size: rem(18px);
     }
   }
 
-  .param-list__cost {
+  .param-list__cost,
+  .param-list__check {
     @include max575 {
       font-size: rem(14px);
     }

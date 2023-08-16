@@ -6,10 +6,10 @@
       "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для АК-74; 5,45",
       "code": "АК-74",
-      "priceHr": 2350,
-      "priceDiscountHr": 0,
-      "priceDoll": 2350,
-      "priceDiscountDoll": 0
+      "priceHr": "2350",
+      "priceDiscountHr": "0",
+      "priceDoll": "2350",
+      "priceDiscountDoll": "0"
     },
     {
       "id": 1,
@@ -17,10 +17,10 @@
       "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для АК-47; 7,62",
       "code": "АК-47",
-      "priceHr": 2450,
-      "priceDiscountHr": 0,
-      "priceDoll": 2450,
-      "priceDiscountDoll": 0
+      "priceHr": "2450",
+      "priceDiscountHr": "0",
+      "priceDoll": "2450",
+      "priceDiscountDoll": "0"
     },
     {
       "id": 2,
@@ -28,10 +28,10 @@
       "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для ручного кулемету РПК-74; 5,45",
       "code": "РПК-74",
-      "priceHr": 2450,
-      "priceDiscountHr": 0,
-      "priceDoll": 2450,
-      "priceDiscountDoll": 0
+      "priceHr": "2450",
+      "priceDiscountHr": "0",
+      "priceDoll": "2450",
+      "priceDiscountDoll": "0"
     },
     {
       "id": 3,
@@ -39,10 +39,10 @@
       "categoryName": "Глушники-полум’ягасники",
       "name": "Глушник-полум’ягасник (саундмодератор, супресор) для ПКМ; 7,62",
       "code": "ПКМ",
-      "priceHr": 2850,
-      "priceDiscountHr": 0,
-      "priceDoll": 2850,
-      "priceDiscountDoll": 0
+      "priceHr": "2850",
+      "priceDiscountHr": "0",
+      "priceDoll": "2850",
+      "priceDiscountDoll": "0"
     },
     {
       "id": 4,
@@ -50,10 +50,10 @@
       "categoryName": "Автоматичні джерела безперебійного живлення",
       "name": "Безперебійник UPS 12-220-1300PS",
       "code": "UPS 12-220-1300PS",
-      "priceHr": 14800,
-      "priceDiscountHr": 0,
-      "priceDoll": 14800,
-      "priceDiscountDoll": 0
+      "priceHr": "14800",
+      "priceDiscountHr": "0",
+      "priceDoll": "14800",
+      "priceDiscountDoll": "0"
     },
     {
       "id": 5,
@@ -1438,6 +1438,94 @@
       "priceHr": 1474,
       "priceDiscountHr": 0,
       "priceDoll": 1474,
+      "priceDiscountDoll": 0
+    },
+    {
+      "id": 131,
+      "category": "kitchen-water-filters",
+      "categoryName": "Проточні фільтри під мийку",
+      "name": "Проточні фільтри WS-FH…3B",
+      "code": "WS-FH…3B",
+      "priceHr": 0,
+      "priceDiscountHr": 0,
+      "priceDoll": 0,
+      "priceDiscountDoll": 0
+    },
+    {
+      "id": 132,
+      "category": "kitchen-water-filters",
+      "categoryName": "Проточні фільтри під мийку",
+      "name": "Проточні фільтри WS-FH…3BОХ",
+      "code": "WS-FH…3BОХ",
+      "priceHr": 0,
+      "priceDiscountHr": 0,
+      "priceDoll": 0,
+      "priceDiscountDoll": 0
+    },
+    {
+      "id": 133,
+      "category": "kitchen-water-filters",
+      "categoryName": "Проточні фільтри під мийку",
+      "name": "Проточні фільтри WS-FH…3U",
+      "code": "WS-FH…3U",
+      "priceHr": 0,
+      "priceDiscountHr": 0,
+      "priceDoll": 0,
+      "priceDiscountDoll": 0
+    },
+    {
+      "id": 134,
+      "category": "kitchen-water-filters",
+      "categoryName": "Проточні фільтри під мийку",
+      "name": "Проточні фільтри WS-FH…3BOXU",
+      "code": "WS-FH…3BOXU",
+      "priceHr": 0,
+      "priceDiscountHr": 0,
+      "priceDoll": 0,
+      "priceDiscountDoll": 0
+    },
+    {
+      "id": 135,
+      "category": "kitchen-water-filters",
+      "categoryName": "Проточні фільтри під мийку",
+      "name": "Проточні фільтри WS-FH…3U-UF",
+      "code": "WS-FH…3U-UF",
+      "priceHr": 0,
+      "priceDiscountHr": 0,
+      "priceDoll": 0,
+      "priceDiscountDoll": 0
+    },
+    {
+      "id": 136,
+      "category": "kitchen-water-filters",
+      "categoryName": "Проточні фільтри під мийку",
+      "name": "Проточні фільтри WS-FH…3U-RO",
+      "code": "WS-FH…3U-RO",
+      "priceHr": 0,
+      "priceDiscountHr": 0,
+      "priceDoll": 0,
+      "priceDiscountDoll": 0
+    },
+    {
+      "id": 137,
+      "category": "kitchen-water-filters",
+      "categoryName": "Проточні фільтри під мийку",
+      "name": "Проточні фільтри WS-FH…3U-RO-PF",
+      "code": "WS-FH…3U-RO-PF",
+      "priceHr": 0,
+      "priceDiscountHr": 0,
+      "priceDoll": 0,
+      "priceDiscountDoll": 0
+    },
+    {
+      "id": 138,
+      "category": "kitchen-water-filters",
+      "categoryName": "Проточні фільтри під мийку",
+      "name": "Проточні фільтри WS-FH…3U-RO-PF-M",
+      "code": "WS-FH…3U-RO-PF-M",
+      "priceHr": 0,
+      "priceDiscountHr": 0,
+      "priceDoll": 0,
       "priceDiscountDoll": 0
     }
   ]

@@ -1238,6 +1238,10 @@ button {
   display: inline-flex;
 }
 
+.dn {
+  display: none;
+}
+
 .space-between {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -4942,7 +4946,8 @@ button {
   margin: 0;
 }
 
-.product-unit__price {
+.product-unit__price,
+.product-unit__check {
   color: var(--accent-color);
   font-size: 1.25rem;
   -webkit-box-flex: 0;
@@ -6101,7 +6106,8 @@ button {
   }
 
   .commodity-prices .param-list__name,
-  .commodity-prices .param-list__cost {
+  .commodity-prices .param-list__cost,
+  .commodity-prices .param-list__check {
     font-size: 1.125rem;
   }
 
@@ -6627,7 +6633,8 @@ button {
     font-size: 20px;
   }
 
-  .product-unit__price {
+  .product-unit__price,
+  .product-unit__check {
     font-size: 1.375rem;
   }
 
@@ -7054,7 +7061,8 @@ button {
     font-size: 0.875rem;
   }
 
-  .commodity-prices .param-list__cost {
+  .commodity-prices .param-list__cost,
+  .commodity-prices .param-list__check {
     font-size: 0.875rem;
   }
 
