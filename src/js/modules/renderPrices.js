@@ -15,11 +15,19 @@ const renderPrices = async () => {
   codeNames.forEach(item => {
     const itemCode = item.getAttribute('data-item-code');
     const codeData = codeDataMap[itemCode];
-    if (codeData && Number(codeData.priceHr) > 0) {
-      item.innerText = languagePage === 'uk' || languagePage === 'ru' ? codeData.priceHr : codeData.priceDoll;
-    } else {
-      item.parentElement.style.display = 'none';
-      item.parentElement.nextElementSibling.style.display = 'block';
+
+    const isUkOrRu = languagePage === 'uk' || languagePage === 'ru';
+    const isEn = languagePage === 'en';
+    
+    if (codeData) {
+      if (isUkOrRu && Number(codeData.priceHr) > 0) {
+        item.innerText = codeData.priceHr;
+      } else if (isEn && Number(codeData.priceDoll) > 0) {
+        item.innerText = codeData.priceDoll;
+      } else {
+        item.parentElement.style.display = 'none';
+        item.parentElement.nextElementSibling.style.display = 'block';
+      }
     }
   });
 
