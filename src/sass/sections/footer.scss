@@ -132,6 +132,10 @@
 
 .footer__subslogan {
     font-size: rem(18px);
+
+    @include min576-max767 {
+        text-align: center;
+    }
 }
 
 .footer {
