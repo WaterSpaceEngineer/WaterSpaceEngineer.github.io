@@ -40,5 +40,20 @@
   @include min768 {
     min-width: rem(158px);
   }
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: var(--light-divider-color);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-primary-color);
+    background-color: #0051ba;
+    border-radius: 5px;
+    border: 2px solid var(--light-divider-color);
+  }
 }
 

@@ -3262,6 +3262,20 @@ button {
   overflow-y: auto;
 }
 
+.item-subcategory__dropdown-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.item-subcategory__dropdown-list::-webkit-scrollbar-track {
+  background: var(--light-divider-color);
+}
+
+.item-subcategory__dropdown-list::-webkit-scrollbar-thumb {
+  background: #0051ba;
+  border-radius: 5px;
+  border: 2px solid var(--light-divider-color);
+}
+
 .delivery-terms__content {
   display: -webkit-box;
   display: -ms-flexbox;
