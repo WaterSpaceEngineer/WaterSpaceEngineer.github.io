@@ -50,10 +50,14 @@
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: var(--secondary-primary-color);
-    background-color: #0051ba;
+    background-color: var(--secondary-text);
     border-radius: 5px;
     border: 2px solid var(--light-divider-color);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #0051ba;
+    }
   }
 }
 

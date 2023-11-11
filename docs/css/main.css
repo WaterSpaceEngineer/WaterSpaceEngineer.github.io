@@ -3271,9 +3271,15 @@ button {
 }
 
 .item-subcategory__dropdown-list::-webkit-scrollbar-thumb {
-  background: #0051ba;
+  background: var(--secondary-text);
   border-radius: 5px;
   border: 2px solid var(--light-divider-color);
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.item-subcategory__dropdown-list::-webkit-scrollbar-thumb:hover {
+  background: #0051ba;
 }
 
 .delivery-terms__content {
@@ -3876,9 +3882,9 @@ button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-transition: color 0.3s ease;
-  -o-transition: color 0.3s ease;
-  transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease, margin-left 0.3s ease;
+  -o-transition: color 0.3s ease, margin-left 0.3s ease;
+  transition: color 0.3s ease, margin-left 0.3s ease;
 }
 
 .address__link:focus {
@@ -7252,6 +7258,7 @@ button {
 
   .address__link:hover {
     color: var(--accent-color);
+    margin-left: 3px;
   }
 
   .navigation__item:hover .submenu-list {

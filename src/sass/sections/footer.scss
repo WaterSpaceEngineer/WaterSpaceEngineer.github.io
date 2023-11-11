@@ -88,7 +88,7 @@
 .address__link {
     display: inline-flex;
     align-items: center;
-    transition: color .3s ease;
+    transition: color .3s ease, margin-left 0.3s ease;
 
     &:focus {
         color: var(--accent-color);
@@ -97,6 +97,7 @@
     @include any-hover {
         &:hover {
             color: var(--accent-color);
+            margin-left: 3px;
         }
     }
 
